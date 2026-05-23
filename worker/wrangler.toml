@@ -7,7 +7,7 @@ compatibility_date = "2024-09-01"
 # Then paste the returned id below.
 [[kv_namespaces]]
 binding = "FLIGHT_JOBS"
-id = "TBD-paste-after-wrangler-create"
+id = "6b68934535084e7f9039c72cda92408a"
 
 # Auth token for the Mac backend (set via: wrangler secret put BACKEND_TOKEN)
 # [vars]
