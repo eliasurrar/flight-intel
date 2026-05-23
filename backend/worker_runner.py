@@ -26,7 +26,8 @@ import sys
 import time
 import traceback
 from pathlib import Path
-from urllib import request as urlrequest, parse as urlparse, error as urlerr
+
+import httpx
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -41,16 +42,18 @@ POLL_INTERVAL_S = 5
 
 
 def _post(path: str, body: dict) -> dict | None:
-    req = urlrequest.Request(
-        f"{WORKER_URL}{path}",
-        data=json.dumps(body).encode(),
-        headers={"Content-Type": "application/json", "X-Backend-Auth": BACKEND_TOKEN},
-        method="POST",
-    )
     try:
-        with urlrequest.urlopen(req, timeout=15) as r:
-            return json.loads(r.read())
-    except urlerr.URLError as e:
+        r = httpx.post(
+            f"{WORKER_URL}{path}",
+            json=body,
+            headers={"X-Backend-Auth": BACKEND_TOKEN},
+            timeout=15,
+        )
+        if r.status_code != 200:
+            print(f"[worker_runner] POST {path} → {r.status_code}: {r.text[:200]}", file=sys.stderr)
+            return None
+        return r.json()
+    except Exception as e:
         print(f"[worker_runner] POST {path} failed: {e}", file=sys.stderr)
         return None
 
