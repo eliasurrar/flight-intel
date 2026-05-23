@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>flight-intel — multi-source flight search</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --surface: #141414;
+    --surface-2: #1e1e1e;
+    --border: #2a2a2a;
+    --ink: #f5f5f5;
+    --ink-muted: #888;
+    --ink-dim: #555;
+    --accent: #ff6b35;
+    --success: #4ade80;
+    --warning: #fbbf24;
+    --danger: #f87171;
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "SF Pro Display", "Inter", sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+    --radius: 4px;
+    --space: 8px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-family: var(--font-sans); color: var(--ink); background: var(--bg); }
+  body { min-height: 100vh; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 48px 24px; }
+
+  header {
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding-bottom: 32px; border-bottom: 1px solid var(--border); margin-bottom: 32px;
+  }
+  header h1 { font-size: 22px; font-weight: 600; letter-spacing: -0.02em; }
+  header h1 span { color: var(--accent); }
+  header .meta { font-family: var(--font-mono); font-size: 12px; color: var(--ink-dim); }
+
+  /* Form */
+  .search-form {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 24px; margin-bottom: 32px;
+  }
+  .form-row { display: grid; gap: 16px; grid-template-columns: 1fr 1fr 1fr 1fr; margin-bottom: 16px; }
+  .form-row.flex { display: flex; align-items: end; gap: 16px; }
+  label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-muted); margin-bottom: 6px; font-weight: 500; }
+  input[type="text"], input[type="date"], input[type="number"], select {
+    width: 100%; background: var(--surface-2); color: var(--ink); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 10px 12px; font-family: var(--font-mono); font-size: 13px;
+    transition: border-color 0.12s;
+  }
+  input:focus, select:focus { outline: none; border-color: var(--accent); }
+  input::placeholder { color: var(--ink-dim); }
+  .hint { font-size: 11px; color: var(--ink-dim); margin-top: 4px; font-family: var(--font-mono); }
+
+  button.primary {
+    background: var(--accent); color: #fff; border: none; border-radius: var(--radius);
+    padding: 12px 24px; font-size: 14px; font-weight: 600; cursor: pointer;
+    transition: background 0.12s, transform 0.06s; font-family: var(--font-sans);
+  }
+  button.primary:hover { background: #ff8155; }
+  button.primary:active { transform: translateY(1px); }
+  button.primary:disabled { background: var(--ink-dim); cursor: not-allowed; }
+
+  /* Progress */
+  .progress-panel {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 20px 24px; margin-bottom: 32px; display: none;
+  }
+  .progress-panel.active { display: block; }
+  .progress-stage { font-size: 13px; color: var(--ink); margin-bottom: 12px; font-family: var(--font-mono); }
+  .progress-stage .label { color: var(--ink-muted); }
+  .progress-bar { height: 4px; background: var(--surface-2); border-radius: 2px; overflow: hidden; }
+  .progress-bar .fill {
+    height: 100%; background: var(--accent); transition: width 0.4s ease-out;
+    width: 0%; box-shadow: 0 0 8px var(--accent);
+  }
+  .progress-log {
+    font-family: var(--font-mono); font-size: 11px; color: var(--ink-dim);
+    margin-top: 12px; max-height: 120px; overflow-y: auto; padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .progress-log .row { padding: 2px 0; }
+  .progress-log .row.done { color: var(--success); }
+  .progress-log .row.error { color: var(--danger); }
+
+  /* Results */
+  .results-panel { display: none; }
+  .results-panel.active { display: block; }
+  .results-header {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .results-header h2 { font-size: 16px; font-weight: 600; }
+  .results-header .count { font-family: var(--font-mono); font-size: 12px; color: var(--ink-muted); }
+
+  .sort-bar {
+    display: flex; gap: 4px; margin-bottom: 16px;
+    padding: 4px; background: var(--surface); border-radius: var(--radius); width: fit-content;
+  }
+  .sort-btn {
+    background: transparent; border: none; color: var(--ink-muted); padding: 6px 12px;
+    font-size: 12px; font-family: var(--font-sans); cursor: pointer; border-radius: 3px;
+    transition: all 0.12s;
+  }
+  .sort-btn:hover { color: var(--ink); }
+  .sort-btn.active { background: var(--surface-2); color: var(--accent); }
+
+  .result-list { display: grid; gap: 8px; }
+  .result-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 16px 20px; display: grid;
+    grid-template-columns: 1fr 100px 100px 100px 140px; gap: 16px; align-items: center;
+    transition: border-color 0.12s, transform 0.12s;
+  }
+  .result-card:hover { border-color: var(--accent); }
+  .result-card .route {
+    font-family: var(--font-mono); font-size: 13px; color: var(--ink);
+  }
+  .result-card .route .airline { color: var(--ink-muted); font-size: 11px; margin-top: 4px; }
+  .result-card .price { font-size: 18px; font-weight: 600; font-family: var(--font-mono); text-align: right; }
+  .result-card .price .currency { font-size: 11px; color: var(--ink-muted); margin-right: 2px; }
+  .result-card .duration, .result-card .stops { font-family: var(--font-mono); font-size: 12px; text-align: center; color: var(--ink-muted); }
+  .result-card .stops.nonstop { color: var(--success); }
+  .result-card .book-btn {
+    text-align: center; background: var(--surface-2); color: var(--ink);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 8px 16px; font-size: 12px; text-decoration: none;
+    transition: all 0.12s; display: inline-block;
+  }
+  .result-card .book-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .result-card .source-tag {
+    display: inline-block; font-size: 9px; padding: 2px 6px; border-radius: 2px;
+    background: var(--surface-2); color: var(--ink-muted); text-transform: uppercase;
+    letter-spacing: 0.05em; margin-left: 8px; vertical-align: middle;
+  }
+  .result-card.split { border-left: 3px solid var(--warning); }
+  .result-card.split .source-tag { background: var(--warning); color: var(--bg); }
+
+  /* Empty / error */
+  .empty {
+    text-align: center; padding: 64px 24px; color: var(--ink-muted);
+    font-size: 14px; font-family: var(--font-mono);
+  }
+  .empty .icon { font-size: 32px; opacity: 0.4; margin-bottom: 12px; }
+
+  footer { text-align: center; padding: 48px 24px; color: var(--ink-dim); font-size: 11px; font-family: var(--font-mono); }
+  footer a { color: var(--ink-muted); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+
+  @media (max-width: 768px) {
+    .form-row { grid-template-columns: 1fr 1fr; }
+    .result-card { grid-template-columns: 1fr; gap: 8px; }
+    .result-card .price { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>flight<span>·</span>intel</h1>
+  <div class="meta">multi-source · gratis · scrape-driven</div>
+</header>
+
+<form class="search-form" id="searchForm">
+  <div class="form-row">
+    <div>
+      <label for="origin">Origen</label>
+      <input type="text" id="origin" placeholder="GIG / SCL / etc" required maxlength="3" style="text-transform:uppercase">
+      <div class="hint">código IATA 3 letras</div>
+    </div>
+    <div>
+      <label for="dest">Destino</label>
+      <input type="text" id="dest" placeholder="ADZ / LIM / MIA" required maxlength="3" style="text-transform:uppercase">
+      <div class="hint">código IATA 3 letras</div>
+    </div>
+    <div>
+      <label for="dateOut">Ida</label>
+      <input type="date" id="dateOut" required>
+    </div>
+    <div>
+      <label for="dateBack">Vuelta (opcional)</label>
+      <input type="date" id="dateBack">
+    </div>
+  </div>
+  <div class="form-row">
+    <div>
+      <label for="flexDays">Flex (±días)</label>
+      <input type="number" id="flexDays" value="1" min="0" max="7">
+    </div>
+    <div>
+      <label for="maxStops">Máx escalas</label>
+      <select id="maxStops">
+        <option value="0">Solo directos</option>
+        <option value="1">≤ 1 escala</option>
+        <option value="2" selected>≤ 2 escalas</option>
+        <option value="99">Sin límite</option>
+      </select>
+    </div>
+    <div>
+      <label for="minConnect">Mín conexión (h)</label>
+      <input type="number" id="minConnect" value="1.5" min="0.5" max="6" step="0.5">
+    </div>
+    <div style="display:flex;align-items:end">
+      <button type="submit" class="primary" id="searchBtn">Buscar</button>
+    </div>
+  </div>
+</form>
+
+<div class="progress-panel" id="progressPanel">
+  <div class="progress-stage" id="progressStage">
+    <span class="label">stage:</span> <span id="stageText">queued</span>
+  </div>
+  <div class="progress-bar"><div class="fill" id="progressFill"></div></div>
+  <div class="progress-log" id="progressLog"></div>
+</div>
+
+<div class="results-panel" id="resultsPanel">
+  <div class="results-header">
+    <h2>Itinerarios encontrados</h2>
+    <div class="count" id="resultCount">0 itineraries</div>
+  </div>
+  <div class="sort-bar">
+    <button class="sort-btn active" data-sort="best">Mejor</button>
+    <button class="sort-btn" data-sort="cheapest">Más barato</button>
+    <button class="sort-btn" data-sort="fastest">Más rápido</button>
+    <button class="sort-btn" data-sort="stops">Menos escalas</button>
+  </div>
+  <div class="result-list" id="resultList"></div>
+</div>
+
+</div>
+
+<footer>
+  flight-intel · open source · <a href="https://github.com/eliasurrar/flight-intel" target="_blank">github.com/eliasurrar/flight-intel</a>
+</footer>
+
+<script>
+const API_BASE = "https://flight-intel-worker.<account>.workers.dev"; // TODO replace with deployed Worker URL
+
+const form = document.getElementById("searchForm");
+const progressPanel = document.getElementById("progressPanel");
+const progressFill = document.getElementById("progressFill");
+const progressLog = document.getElementById("progressLog");
+const stageText = document.getElementById("stageText");
+const resultsPanel = document.getElementById("resultsPanel");
+const resultList = document.getElementById("resultList");
+const resultCount = document.getElementById("resultCount");
+const searchBtn = document.getElementById("searchBtn");
+
+let currentResults = [];
+let currentSort = "best";
+
+// Set default dates: today + 1 month
+const today = new Date();
+const oneMonth = new Date(today.getTime() + 30*86400_000);
+const twoMonths = new Date(today.getTime() + 60*86400_000);
+document.getElementById("dateOut").valueAsDate = oneMonth;
+document.getElementById("dateBack").valueAsDate = twoMonths;
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  searchBtn.disabled = true;
+  searchBtn.textContent = "Buscando…";
+  progressPanel.classList.add("active");
+  resultsPanel.classList.remove("active");
+  resultList.innerHTML = "";
+  progressLog.innerHTML = "";
+  progressFill.style.width = "0%";
+  stageText.textContent = "queued";
+
+  const params = {
+    origin: document.getElementById("origin").value.toUpperCase(),
+    dest: document.getElementById("dest").value.toUpperCase(),
+    date_out: document.getElementById("dateOut").value,
+    date_back: document.getElementById("dateBack").value || null,
+    flex_days: parseInt(document.getElementById("flexDays").value),
+    max_stops: parseInt(document.getElementById("maxStops").value),
+    min_connect_hr: parseFloat(document.getElementById("minConnect").value),
+  };
+
+  try {
+    const enqueue = await fetch(`${API_BASE}/api/search`, {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(params),
+    });
+    const {job_id} = await enqueue.json();
+    appendLog(`job enqueued: ${job_id}`);
+
+    // Poll every 2s
+    while (true) {
+      await sleep(2000);
+      const status = await fetch(`${API_BASE}/api/status?job_id=${job_id}`).then(r => r.json());
+      stageText.textContent = status.stage;
+      progressFill.style.width = `${status.progress_pct || 0}%`;
+      if (status.log_entry) appendLog(status.log_entry);
+
+      if (status.stage === "done") {
+        currentResults = status.results || [];
+        renderResults();
+        break;
+      }
+      if (status.stage === "error") {
+        appendLog(`error: ${status.error}`, "error");
+        break;
+      }
+    }
+  } catch (err) {
+    appendLog(`network error: ${err.message}`, "error");
+  } finally {
+    searchBtn.disabled = false;
+    searchBtn.textContent = "Buscar";
+  }
+});
+
+function appendLog(text, cls = "") {
+  const row = document.createElement("div");
+  row.className = `row ${cls}`;
+  row.textContent = `[${new Date().toLocaleTimeString()}] ${text}`;
+  progressLog.appendChild(row);
+  progressLog.scrollTop = progressLog.scrollHeight;
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+document.querySelectorAll(".sort-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".sort-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentSort = btn.dataset.sort;
+    renderResults();
+  });
+});
+
+function renderResults() {
+  resultsPanel.classList.add("active");
+  resultCount.textContent = `${currentResults.length} itineraries`;
+
+  const sorted = [...currentResults].sort((a, b) => {
+    if (currentSort === "cheapest") return a.total_price_usd - b.total_price_usd;
+    if (currentSort === "fastest") return a.total_duration_min - b.total_duration_min;
+    if (currentSort === "stops") return a.n_stops - b.n_stops || a.total_price_usd - b.total_price_usd;
+    // "best" = composite score (price + duration penalty + stop penalty)
+    const score = it => it.total_price_usd + 0.3*(it.total_duration_min/60) + 50*it.n_stops;
+    return score(a) - score(b);
+  });
+
+  resultList.innerHTML = "";
+  if (sorted.length === 0) {
+    resultList.innerHTML = `<div class="empty"><div class="icon">·</div>No se encontraron itinerarios.</div>`;
+    return;
+  }
+
+  for (const it of sorted) {
+    const card = document.createElement("div");
+    card.className = `result-card ${it.composition_type === "split_2_legs" ? "split" : ""}`;
+    const route = it.legs.map(l => l.origin).concat([it.legs[it.legs.length-1].dest]).join(" → ");
+    const dur = `${Math.floor(it.total_duration_min/60)}h ${it.total_duration_min%60}m`;
+    const stopsLabel = it.n_stops === 0 ? "Nonstop" : `${it.n_stops} stop${it.n_stops>1?"s":""}`;
+    const sources = (it.sources || [it.source]).map(s => `<span class="source-tag">${s}</span>`).join(" ");
+    const urls = it.booking_urls || [it.booking_url];
+
+    card.innerHTML = `
+      <div class="route">
+        ${route}${sources}
+        <div class="airline">${it.legs[0].airline || "—"} ${it.n_tickets > 1 ? `· ${it.n_tickets} tickets independientes` : ""}</div>
+      </div>
+      <div class="price"><span class="currency">USD</span>${Math.round(it.total_price_usd).toLocaleString()}</div>
+      <div class="duration">${dur}</div>
+      <div class="stops ${it.n_stops===0?"nonstop":""}">${stopsLabel}</div>
+      <a class="book-btn" href="${urls[0]}" target="_blank" rel="noopener">Reservar →</a>
+    `;
+    resultList.appendChild(card);
+  }
+}
+</script>
+</body>
+</html>

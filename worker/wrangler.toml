@@ -1,0 +1,14 @@
+name = "flight-intel-worker"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+# KV namespace for job queue + state
+# Run: wrangler kv:namespace create FLIGHT_JOBS
+# Then paste the returned id below.
+[[kv_namespaces]]
+binding = "FLIGHT_JOBS"
+id = "TBD-paste-after-wrangler-create"
+
+# Auth token for the Mac backend (set via: wrangler secret put BACKEND_TOKEN)
+# [vars]
+# BACKEND_TOKEN injected as secret, not committed

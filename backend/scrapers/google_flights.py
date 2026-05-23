@@ -126,9 +126,12 @@ _AIRPORT_NAME_TO_IATA_CACHE: dict[str, str] = {}
 def _layover_iata(airport_phrase: str) -> str | None:
     """Best-effort: map 'El Dorado International Airport in Bogotá' → 'BOG'.
 
-    We lazily build a fragment→IATA index from data/airports.json on first call.
+    Strategy (priority order):
+      1. Exact city match: 'in Bogotá' → city = 'Bogotá' → lookup
+      2. Distinctive name fragment match (≥10 chars overlap, large_airport preferred)
+      3. Generic substring fallback (least reliable)
     """
-    global _AIRPORT_NAME_TO_IATA_CACHE
+    global _AIRPORT_NAME_TO_IATA_CACHE, _AIRPORT_CITY_INDEX, _AIRPORT_TYPE_INDEX
     if not _AIRPORT_NAME_TO_IATA_CACHE:
         try:
             registry = Path(__file__).resolve().parents[2] / "data" / "airports.json"
@@ -137,18 +140,45 @@ def _layover_iata(airport_phrase: str) -> str | None:
                 for iata, info in airports.items():
                     name = (info.get("name") or "").lower()
                     city = (info.get("city") or "").lower()
+                    atype = info.get("type", "")
+                    _AIRPORT_TYPE_INDEX[iata] = atype
                     if name:
                         _AIRPORT_NAME_TO_IATA_CACHE[name] = iata
-                    if city and city not in _AIRPORT_NAME_TO_IATA_CACHE:
-                        _AIRPORT_NAME_TO_IATA_CACHE[city] = iata
+                    if city:
+                        _AIRPORT_CITY_INDEX.setdefault(city, []).append(iata)
         except Exception:
             return None
+
     phrase = airport_phrase.lower()
-    # Try exact known name
+
+    # 1. City extraction: "... in CITY" pattern
+    city_match = re.search(r"\s+in\s+([\w\s'\-áéíóúñ]+?)(?:\.|$)", airport_phrase, re.I)
+    if city_match:
+        city = city_match.group(1).strip().lower()
+        if city in _AIRPORT_CITY_INDEX:
+            candidates = _AIRPORT_CITY_INDEX[city]
+            # Prefer large_airport
+            large = [c for c in candidates if _AIRPORT_TYPE_INDEX.get(c) == "large_airport"]
+            if large:
+                return large[0]
+            return candidates[0]
+
+    # 2. Distinctive name fragment (look for airport names that appear *in* the phrase
+    # AND have a length ≥ 10 to avoid spurious "Arturo" matches)
+    best_iata = None
+    best_overlap = 0
     for name, iata in _AIRPORT_NAME_TO_IATA_CACHE.items():
-        if name and name in phrase:
-            return iata
-    return None
+        if len(name) < 10:
+            continue
+        if name in phrase and len(name) > best_overlap:
+            best_iata = iata
+            best_overlap = len(name)
+    return best_iata
+
+
+# State for the cache
+_AIRPORT_CITY_INDEX: dict[str, list[str]] = {}
+_AIRPORT_TYPE_INDEX: dict[str, str] = {}
 
 
 def _parse_aria_label(aria: str, origin: str, dest: str, page_url: str) -> Itinerary | None:
