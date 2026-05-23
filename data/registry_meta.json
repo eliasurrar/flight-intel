@@ -1,0 +1,39 @@
+{
+  "SA": {
+    "added": 103,
+    "last_refresh": "2026-05-23T16:25:35.275359+00:00",
+    "n_airports_in_region": 103,
+    "source": "wikidata-sparql",
+    "updated": 0
+  },
+  "_global": {
+    "by_region": {
+      "??": 74,
+      "AF": 1055,
+      "AS": 1462,
+      "CA": 146,
+      "CB": 145,
+      "EU": 1131,
+      "ME": 206,
+      "NA": 2591,
+      "OC": 1235,
+      "SA": 913
+    },
+    "by_type": {
+      "large_airport": 1176,
+      "medium_airport": 3388,
+      "seaplane_base": 153,
+      "small_airport": 4241
+    },
+    "last_refresh": "2026-05-23T16:27:04.011204+00:00",
+    "n_airlines": 992,
+    "n_airports": 8958,
+    "skipped_closed": 100,
+    "skipped_no_iata": 76393,
+    "skipped_not_wanted": 0,
+    "sources": [
+      "ourairports.csv",
+      "openflights/airlines.dat"
+    ]
+  }
+}

@@ -1,0 +1,7938 @@
+{
+  "&T": {
+    "callsign": "T&",
+    "country": "France",
+    "iata": "&T",
+    "icao": "T&O",
+    "name": "Tom\\\\'s & co airliners",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "-+": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "-+",
+    "icao": "--+",
+    "name": "U.S. Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "--": {
+    "callsign": "",
+    "country": "Estonia",
+    "iata": "--",
+    "icao": "ELK",
+    "name": "ELK Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "..": {
+    "callsign": "",
+    "country": "Switzerland",
+    "iata": "..",
+    "icao": "...",
+    "name": "Avilu",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "01": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "01",
+    "icao": "\\N",
+    "name": "Bobb Air Freight",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "0B": {
+    "callsign": "BLUE TRANSPORT",
+    "country": "Romania",
+    "iata": "0B",
+    "icao": "JOR",
+    "name": "Blue Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "0D": {
+    "callsign": "DARWIN",
+    "country": "Switzerland",
+    "iata": "0D",
+    "icao": "DWT",
+    "name": "Darwin Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "0G": {
+    "callsign": "",
+    "country": "Argentina",
+    "iata": "0G",
+    "icao": "GA0",
+    "name": "Global Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "0M": {
+    "callsign": "",
+    "country": "Mexico",
+    "iata": "0M",
+    "icao": "0MM",
+    "name": "All America MX",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "0P": {
+    "callsign": "BOPY",
+    "country": "Paraguay",
+    "iata": "0P",
+    "icao": "PYB",
+    "name": "All America BOPY",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "0X": {
+    "callsign": "Copex",
+    "country": "Denmark",
+    "iata": "0X",
+    "icao": "CX0",
+    "name": "Copenhagen Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "0Y": {
+    "callsign": "",
+    "country": "Colombia",
+    "iata": "0Y",
+    "icao": "7ZC",
+    "name": "All America CO",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "11": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "11",
+    "icao": "\\N",
+    "name": "TUIfly (X3)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "12": {
+    "callsign": "12N",
+    "country": "India",
+    "iata": "12",
+    "icao": "N12",
+    "name": "12 North",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "13": {
+    "callsign": "EAVA",
+    "country": "United States",
+    "iata": "13",
+    "icao": "EAV",
+    "name": "Eastern Atlantic Virtual Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1B": {
+    "callsign": "",
+    "country": "Singapore",
+    "iata": "1B",
+    "icao": "",
+    "name": "Abacus International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1C": {
+    "callsign": "",
+    "country": "China",
+    "iata": "1C",
+    "icao": "1CH",
+    "name": "OneChina",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1E": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "1E",
+    "icao": "RGG",
+    "name": "TransRussiaAirlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1F": {
+    "callsign": "",
+    "country": "United Kingdom",
+    "iata": "1F",
+    "icao": "CIF",
+    "name": "CB Airways UK ( Interliging Flights )",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1I": {
+    "callsign": "NAVIGATOR",
+    "country": "Sweden",
+    "iata": "1I",
+    "icao": "NVR",
+    "name": "Novair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1K": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "1K",
+    "icao": "BG1",
+    "name": "BudgetAir",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1R": {
+    "callsign": "",
+    "country": "Chile",
+    "iata": "1R",
+    "icao": "R1R",
+    "name": "All America CL",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1T": {
+    "callsign": "NEXTIME",
+    "country": "South Africa",
+    "iata": "1T",
+    "icao": "RNX",
+    "name": "1Time Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1X": {
+    "callsign": "Abby Air",
+    "country": "Canada",
+    "iata": "1X",
+    "icao": "\\N",
+    "name": "Island Express Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "1Y": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "1Y",
+    "icao": "A9B",
+    "name": "All America BR",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "20": {
+    "callsign": "AIR SALONE",
+    "country": "Sierra Leone",
+    "iata": "20",
+    "icao": "RNE",
+    "name": "Air Salone",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "24": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "24",
+    "icao": "\\N",
+    "name": "Euro Jet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2A": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "2A",
+    "icao": "",
+    "name": "Deutsche Bahn",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2B": {
+    "callsign": "AEROCONDOR",
+    "country": "Portugal",
+    "iata": "2B",
+    "icao": "ARD",
+    "name": "Aerocondor",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2D": {
+    "callsign": "",
+    "country": "Portugal",
+    "iata": "2D",
+    "icao": "\\N",
+    "name": "Aero VIP (2D)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2F": {
+    "callsign": "FRONTIER-AIR",
+    "country": "United States",
+    "iata": "2F",
+    "icao": "FTA",
+    "name": "Frontier Flying Service",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2I": {
+    "callsign": "",
+    "country": "Peru",
+    "iata": "2I",
+    "icao": "\\N",
+    "name": "Star Peru (2I)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2J": {
+    "callsign": "BURKINA",
+    "country": "Burkina Faso",
+    "iata": "2J",
+    "icao": "VBW",
+    "name": "Air Burkina",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2K": {
+    "callsign": "AEROGAL",
+    "country": "Ecuador",
+    "iata": "2K",
+    "icao": "GLG",
+    "name": "Aerolineas Galapagos (Aerogal)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2L": {
+    "callsign": "HELVETIC",
+    "country": "Switzerland",
+    "iata": "2L",
+    "icao": "OAW",
+    "name": "Helvetic Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2M": {
+    "callsign": "MOLDAVIAN",
+    "country": "Moldova",
+    "iata": "2M",
+    "icao": "MDV",
+    "name": "Moldavian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2N": {
+    "callsign": "NEXTJET",
+    "country": "Sweden",
+    "iata": "2N",
+    "icao": "NTJ",
+    "name": "NextJet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2O": {
+    "callsign": "",
+    "country": "Sierra Leone",
+    "iata": "2O",
+    "icao": "",
+    "name": "Air Salone",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2P": {
+    "callsign": "ORIENT PACIFIC",
+    "country": "Philippines",
+    "iata": "2P",
+    "icao": "GAP",
+    "name": "Air Philippines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2Q": {
+    "callsign": "NIGHT CARGO",
+    "country": "United States",
+    "iata": "2Q",
+    "icao": "SNC",
+    "name": "Air Cargo Carriers",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2R": {
+    "callsign": "",
+    "country": "Argentina",
+    "iata": "2R",
+    "icao": "M7A",
+    "name": "All America AR",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2S": {
+    "callsign": "",
+    "country": "India",
+    "iata": "2S",
+    "icao": "\\N",
+    "name": "Air Carnival",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2T": {
+    "callsign": "",
+    "country": "Haiti",
+    "iata": "2T",
+    "icao": "HAM",
+    "name": "Haiti Ambassador Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2U": {
+    "callsign": "FUTURE EXPRESS",
+    "country": "Guinea",
+    "iata": "2U",
+    "icao": "GIP",
+    "name": "Air Guinee Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2W": {
+    "callsign": "WELCOMEAIR",
+    "country": "Austria",
+    "iata": "2W",
+    "icao": "WLC",
+    "name": "Welcome Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "2X": {
+    "callsign": "",
+    "country": "Uruguay",
+    "iata": "2X",
+    "icao": "2K2",
+    "name": "Regionalia Uruguay",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3B": {
+    "callsign": "",
+    "country": "Czech Republic",
+    "iata": "3B",
+    "icao": "\\N",
+    "name": "JobAir",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3E": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "3E",
+    "icao": "\\N",
+    "name": "Air Choice One",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3F": {
+    "callsign": "",
+    "country": "Colombia",
+    "iata": "3F",
+    "icao": "3FF",
+    "name": "Fly Colombia ( Interliging Flights )",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3G": {
+    "callsign": "ATLANT-SOYUZ",
+    "country": "Russia",
+    "iata": "3G",
+    "icao": "AYZ",
+    "name": "Atlant-Soyuz Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3I": {
+    "callsign": "",
+    "country": "Chile",
+    "iata": "3I",
+    "icao": "\\N",
+    "name": "Air Comet Chile",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3K": {
+    "callsign": "JETSTAR ASIA",
+    "country": "Singapore",
+    "iata": "3K",
+    "icao": "JSA",
+    "name": "Jetstar Asia Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3L": {
+    "callsign": "INTERSKY",
+    "country": "Austria",
+    "iata": "3L",
+    "icao": "ISK",
+    "name": "Intersky",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3M": {
+    "callsign": "Silver Wings",
+    "country": "United States",
+    "iata": "3M",
+    "icao": "\\N",
+    "name": "Silver Airways (3M)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3O": {
+    "callsign": "Air Arabia",
+    "country": "Morocco",
+    "iata": "3O",
+    "icao": "\\N",
+    "name": "Air Arabia Maroc",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3P": {
+    "callsign": "TIARA",
+    "country": "Aruba",
+    "iata": "3P",
+    "icao": "TNM",
+    "name": "Tiara Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3Q": {
+    "callsign": "YUNNAN",
+    "country": "China",
+    "iata": "3Q",
+    "icao": "CYH",
+    "name": "Yunnan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3R": {
+    "callsign": "GROMOV AIRLINE",
+    "country": "Russia",
+    "iata": "3R",
+    "icao": "GAI",
+    "name": "Moskovia Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3S": {
+    "callsign": "GREEN BIRD",
+    "country": "Guadeloupe",
+    "iata": "3S",
+    "icao": "\\N",
+    "name": "Air Antilles Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3T": {
+    "callsign": "TURAN",
+    "country": "Azerbaijan",
+    "iata": "3T",
+    "icao": "URN",
+    "name": "Turan Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3U": {
+    "callsign": "SI CHUAN",
+    "country": "China",
+    "iata": "3U",
+    "icao": "CSC",
+    "name": "Sichuan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "3W": {
+    "callsign": "",
+    "country": "Malawi",
+    "iata": "3W",
+    "icao": "\\N",
+    "name": "Malawian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "47": {
+    "callsign": "",
+    "country": "Cyprus",
+    "iata": "47",
+    "icao": "VVN",
+    "name": "88",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4A": {
+    "callsign": "",
+    "country": "Kiribati",
+    "iata": "4A",
+    "icao": "AKL",
+    "name": "Air Kiribati",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4B": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "4B",
+    "icao": "BTQ",
+    "name": "Boutique Air (Priv)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4C": {
+    "callsign": "Aerovias de Integracion Regional",
+    "country": "S.A.",
+    "iata": "4C",
+    "icao": "ARE",
+    "name": "Aires",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4D": {
+    "callsign": "AIR SINAI",
+    "country": "Egypt",
+    "iata": "4D",
+    "icao": "ASD",
+    "name": "Air Sinai",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4G": {
+    "callsign": "GAZPROMAVIA",
+    "country": "Russia",
+    "iata": "4G",
+    "icao": "GZP",
+    "name": "Gazpromavia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4H": {
+    "callsign": "UNITED BANGLADESH",
+    "country": "Bangladesh",
+    "iata": "4H",
+    "icao": "UBD",
+    "name": "United Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4K": {
+    "callsign": "AL-AAS",
+    "country": "Pakistan",
+    "iata": "4K",
+    "icao": "AAS",
+    "name": "Askari Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4L": {
+    "callsign": "GEO-LINE",
+    "country": "Georgia",
+    "iata": "4L",
+    "icao": "MJX",
+    "name": "Euroline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4M": {
+    "callsign": "LAN AR",
+    "country": "Argentina",
+    "iata": "4M",
+    "icao": "DSM",
+    "name": "LAN Argentina",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4N": {
+    "callsign": "AIR NORTH",
+    "country": "Canada",
+    "iata": "4N",
+    "icao": "ANT",
+    "name": "Air North Charter - Canada",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4O": {
+    "callsign": "INTERJET",
+    "country": "Mexico",
+    "iata": "4O",
+    "icao": "\\N",
+    "name": "Interjet (ABC Aerolineas)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4P": {
+    "callsign": "AFRICAN BUSINESS",
+    "country": "Congo (Kinshasa)",
+    "iata": "4P",
+    "icao": "\\N",
+    "name": "Business Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4Q": {
+    "callsign": "",
+    "country": "Afghanistan",
+    "iata": "4Q",
+    "icao": "\\N",
+    "name": "Safi Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4R": {
+    "callsign": "HAMBURG JET",
+    "country": "Germany",
+    "iata": "4R",
+    "icao": "HHI",
+    "name": "Hamburg International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4S": {
+    "callsign": "",
+    "country": "Italy",
+    "iata": "4S",
+    "icao": "VI4",
+    "name": "Vuola Italia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4T": {
+    "callsign": "BELAIR",
+    "country": "Switzerland",
+    "iata": "4T",
+    "icao": "BHP",
+    "name": "Belair Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4U": {
+    "callsign": "GERMAN WINGS",
+    "country": "Germany",
+    "iata": "4U",
+    "icao": "GWI",
+    "name": "Germanwings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4X": {
+    "callsign": "",
+    "country": "Mexico",
+    "iata": "4X",
+    "icao": "\\N",
+    "name": "Red Jet Mexico",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "4Z": {
+    "callsign": "",
+    "country": "South Africa",
+    "iata": "4Z",
+    "icao": "\\N",
+    "name": "Airlink (SAA)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5B": {
+    "callsign": "5B",
+    "country": "Cambodia",
+    "iata": "5B",
+    "icao": "BSX",
+    "name": "Bassaka airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5C": {
+    "callsign": "CAL",
+    "country": "Israel",
+    "iata": "5C",
+    "icao": "ICL",
+    "name": "CAL Cargo Air Lines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5D": {
+    "callsign": "DONBASS AERO",
+    "country": "Ukraine",
+    "iata": "5D",
+    "icao": "UDC",
+    "name": "DonbassAero",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5E": {
+    "callsign": "SIAM",
+    "country": "Thailand",
+    "iata": "5E",
+    "icao": "\\N",
+    "name": "SGA Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5G": {
+    "callsign": "SKYTOUR",
+    "country": "Canada",
+    "iata": "5G",
+    "icao": "SSV",
+    "name": "Skyservice Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5H": {
+    "callsign": "SWIFT TANGO",
+    "country": "Kenya",
+    "iata": "5H",
+    "icao": "FFV",
+    "name": "Fly540",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5J": {
+    "callsign": "CEBU AIR",
+    "country": "Philippines",
+    "iata": "5J",
+    "icao": "CEB",
+    "name": "Cebu Pacific",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5K": {
+    "callsign": "",
+    "country": "Portugal",
+    "iata": "5K",
+    "icao": "\\N",
+    "name": "Hi Fly (5K)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5L": {
+    "callsign": "AEROSUR",
+    "country": "Bolivia",
+    "iata": "5L",
+    "icao": "RSU",
+    "name": "Aerosur",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5M": {
+    "callsign": "SIBAVIA",
+    "country": "Russia",
+    "iata": "5M",
+    "icao": "SIB",
+    "name": "Sibaviatrans",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5N": {
+    "callsign": "DVINA",
+    "country": "Russia",
+    "iata": "5N",
+    "icao": "AUL",
+    "name": "Aeroflot-Nord",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5P": {
+    "callsign": "",
+    "country": "Chile",
+    "iata": "5P",
+    "icao": "\\N",
+    "name": "Pal airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5Q": {
+    "callsign": "",
+    "country": "Uruguay",
+    "iata": "5Q",
+    "icao": "\\N",
+    "name": "BQB Lineas Aereas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5T": {
+    "callsign": "EMPRESS",
+    "country": "Canada",
+    "iata": "5T",
+    "icao": "MPE",
+    "name": "Canadian North",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5W": {
+    "callsign": "FLYSTAR",
+    "country": "United Kingdom",
+    "iata": "5W",
+    "icao": "AEU",
+    "name": "Astraeus",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5Y": {
+    "callsign": "GIANT",
+    "country": "United States",
+    "iata": "5Y",
+    "icao": "GTI",
+    "name": "Atlas Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "5Z": {
+    "callsign": "",
+    "country": "Colombia",
+    "iata": "5Z",
+    "icao": "VVC",
+    "name": "VivaColombia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "69": {
+    "callsign": "",
+    "country": "United Kingdom",
+    "iata": "69",
+    "icao": "\\N",
+    "name": "Royal European Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6A": {
+    "callsign": "AVIACSA",
+    "country": "Mexico",
+    "iata": "6A",
+    "icao": "CHP",
+    "name": "Consorcio Aviaxsa",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6B": {
+    "callsign": "BLUESCAN",
+    "country": "Sweden",
+    "iata": "6B",
+    "icao": "BLX",
+    "name": "TUIfly Nordic",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6C": {
+    "callsign": "",
+    "country": "Cuba",
+    "iata": "6C",
+    "icao": "6CC",
+    "name": "Vuela Cuba",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6D": {
+    "callsign": "",
+    "country": "Indonesia",
+    "iata": "6D",
+    "icao": "\\N",
+    "name": "Pelita",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6E": {
+    "callsign": "IFLY",
+    "country": "India",
+    "iata": "6E",
+    "icao": "IGO",
+    "name": "IndiGo Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6F": {
+    "callsign": "",
+    "country": "Macedonia",
+    "iata": "6F",
+    "icao": "MKD",
+    "name": "MAT Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6G": {
+    "callsign": "RED DRAGON",
+    "country": "United Kingdom",
+    "iata": "6G",
+    "icao": "AWW",
+    "name": "Air Wales",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6H": {
+    "callsign": "ISRAIR",
+    "country": "Israel",
+    "iata": "6H",
+    "icao": "ISR",
+    "name": "Israir",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6I": {
+    "callsign": "",
+    "country": "Sierra Leone",
+    "iata": "6I",
+    "icao": "\\N",
+    "name": "Fly 6ix",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6J": {
+    "callsign": "NEWSKY",
+    "country": "Japan",
+    "iata": "6J",
+    "icao": "SNJ",
+    "name": "Skynet Asia Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6K": {
+    "callsign": "ASIAN SPIRIT",
+    "country": "Philippines",
+    "iata": "6K",
+    "icao": "RIT",
+    "name": "Asian Spirit",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6P": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "6P",
+    "icao": "\\N",
+    "name": "Gryphon Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6R": {
+    "callsign": "MIRNY",
+    "country": "Russia",
+    "iata": "6R",
+    "icao": "DRU",
+    "name": "Alrosa Mirny Air Enterprise",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6T": {
+    "callsign": "Six Tango",
+    "country": "Burma",
+    "iata": "6T",
+    "icao": "\\N",
+    "name": "Air Mandalay",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6U": {
+    "callsign": "Loadmaster",
+    "country": "Germany",
+    "iata": "6U",
+    "icao": "\\N",
+    "name": "Air Cargo Germany",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6V": {
+    "callsign": "",
+    "country": "Uruguay",
+    "iata": "6V",
+    "icao": "CZV",
+    "name": "Via Conectia Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6W": {
+    "callsign": "SARATOV AIR",
+    "country": "Russia",
+    "iata": "6W",
+    "icao": "SOV",
+    "name": "Saratov Aviation Division",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "6Y": {
+    "callsign": "",
+    "country": "Latvia",
+    "iata": "6Y",
+    "icao": "\\N",
+    "name": "SmartLynx Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "76": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "76",
+    "icao": "SJS",
+    "name": "Southjet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "77": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "77",
+    "icao": "ZCS",
+    "name": "Southjet connect",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "78": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "78",
+    "icao": "XAN",
+    "name": "Southjet cargo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7B": {
+    "callsign": "KRASNOJARSKY AIR",
+    "country": "Russia",
+    "iata": "7B",
+    "icao": "KJC",
+    "name": "Krasnojarsky Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7C": {
+    "callsign": "JEJU AIR",
+    "country": "Republic of Korea",
+    "iata": "7C",
+    "icao": "JJA",
+    "name": "Jeju Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7E": {
+    "callsign": "SYLT-AIR",
+    "country": "Germany",
+    "iata": "7E",
+    "icao": "AWU",
+    "name": "Aeroline GmbH",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7F": {
+    "callsign": "",
+    "country": "Canada",
+    "iata": "7F",
+    "icao": "FAB",
+    "name": "First Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7G": {
+    "callsign": "STARFLYER",
+    "country": "Japan",
+    "iata": "7G",
+    "icao": "SFJ",
+    "name": "Star Flyer",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7H": {
+    "callsign": "ERAH",
+    "country": "United States",
+    "iata": "7H",
+    "icao": "ERR",
+    "name": "Era Alaska",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7I": {
+    "callsign": "",
+    "country": "Netherlands Antilles",
+    "iata": "7I",
+    "icao": "\\N",
+    "name": "Insel Air (7I/INC) (Priv)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7J": {
+    "callsign": "",
+    "country": "Tajikistan",
+    "iata": "7J",
+    "icao": "\\N",
+    "name": "Tajik Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7K": {
+    "callsign": "KOGALYM",
+    "country": "Russia",
+    "iata": "7K",
+    "icao": "KGL",
+    "name": "Kogalymavia Air Company",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7L": {
+    "callsign": "ECHO ROMEO",
+    "country": "Israel",
+    "iata": "7L",
+    "icao": "ERO",
+    "name": "Sun D'Or",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7M": {
+    "callsign": "Mongol_AIr",
+    "country": "Mongolia",
+    "iata": "7M",
+    "icao": "ZTF",
+    "name": "Mongolian International Air Lines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7O": {
+    "callsign": "",
+    "country": "Colombia",
+    "iata": "7O",
+    "icao": "7KK",
+    "name": "All Colombia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7P": {
+    "callsign": "BATAVIA",
+    "country": "Indonesia",
+    "iata": "7P",
+    "icao": "BTV",
+    "name": "Metro Batavia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7Q": {
+    "callsign": "PAWA",
+    "country": "Dominican Republic",
+    "iata": "7Q",
+    "icao": "\\N",
+    "name": "Pan Am World Airways Dominicana",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7R": {
+    "callsign": "RussianConnecty",
+    "country": "Russia",
+    "iata": "7R",
+    "icao": "SJM",
+    "name": "Svyaz Rossiya",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7T": {
+    "callsign": "AIR GLACIERS",
+    "country": "Switzerland",
+    "iata": "7T",
+    "icao": "AGV",
+    "name": "Air Glaciers",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7W": {
+    "callsign": "WAYRAPER",
+    "country": "Peru",
+    "iata": "7W",
+    "icao": "",
+    "name": "Wayraper",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7Y": {
+    "callsign": "FLYING CARPET",
+    "country": "Lebanon",
+    "iata": "7Y",
+    "icao": "\\N",
+    "name": "Med Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "7Z": {
+    "callsign": "CREOLE",
+    "country": "Cape Verde",
+    "iata": "7Z",
+    "icao": "\\N",
+    "name": "Halcyonair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "88": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "88",
+    "icao": "8K8",
+    "name": "All Australia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8A": {
+    "callsign": "ATLAS BLUE",
+    "country": "Morocco",
+    "iata": "8A",
+    "icao": "BMM",
+    "name": "Atlas Blue",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8B": {
+    "callsign": "",
+    "country": "Thailand",
+    "iata": "8B",
+    "icao": "BCC",
+    "name": "BusinessAir",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8D": {
+    "callsign": "",
+    "country": "Russian Federation",
+    "iata": "8D",
+    "icao": "",
+    "name": "Astair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8E": {
+    "callsign": "BERING AIR",
+    "country": "United States",
+    "iata": "8E",
+    "icao": "BRG",
+    "name": "Bering Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8F": {
+    "callsign": "SAOTOME AIRWAYS",
+    "country": "Sao Tome and Principe",
+    "iata": "8F",
+    "icao": "STP",
+    "name": "STP Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8H": {
+    "callsign": "HELIFRANCE",
+    "country": "France",
+    "iata": "8H",
+    "icao": "HFR",
+    "name": "Heli France",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8I": {
+    "callsign": "",
+    "country": "Italy",
+    "iata": "8I",
+    "icao": "",
+    "name": "Myway Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8J": {
+    "callsign": "ARGAN",
+    "country": "Morocco",
+    "iata": "8J",
+    "icao": "JFU",
+    "name": "Jet4You",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8K": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "8K",
+    "icao": "K88",
+    "name": "Voestar",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8L": {
+    "callsign": "",
+    "country": "United Arab Emirates",
+    "iata": "8L",
+    "icao": "CGP",
+    "name": "Cargo Plus Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8M": {
+    "callsign": "assignment postponed",
+    "country": "Myanmar",
+    "iata": "8M",
+    "icao": "MMM",
+    "name": "Myanmar Airways International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8N": {
+    "callsign": "NORDFLIGHT",
+    "country": "Sweden",
+    "iata": "8N",
+    "icao": "NKF",
+    "name": "Barents AirLink",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8O": {
+    "callsign": "",
+    "country": "Canada",
+    "iata": "8O",
+    "icao": "",
+    "name": "West Coast Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8P": {
+    "callsign": "PASCO",
+    "country": "Canada",
+    "iata": "8P",
+    "icao": "PCO",
+    "name": "Pacific Coastal Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8Q": {
+    "callsign": "\\N",
+    "country": "Maldives",
+    "iata": "8Q",
+    "icao": "\\N",
+    "name": "Maldivian Air Taxi",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8R": {
+    "callsign": "TRIP",
+    "country": "Brazil",
+    "iata": "8R",
+    "icao": "TIB",
+    "name": "TRIP Linhas A",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8T": {
+    "callsign": "",
+    "country": "Canadian Territories",
+    "iata": "8T",
+    "icao": "",
+    "name": "Air Tindi",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8U": {
+    "callsign": "AFRIQIYAH",
+    "country": "Libya",
+    "iata": "8U",
+    "icao": "AAW",
+    "name": "Afriqiyah Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8V": {
+    "callsign": "ASTRAL CARGO",
+    "country": "Kenya",
+    "iata": "8V",
+    "icao": "ACP",
+    "name": "Astral Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "8Z": {
+    "callsign": "WIZZBUL",
+    "country": "Bulgaria",
+    "iata": "8Z",
+    "icao": "WVL",
+    "name": "Wizz Air Hungary",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "99": {
+    "callsign": "",
+    "country": "Italy",
+    "iata": "99",
+    "icao": "\\N",
+    "name": "Ciao Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9A": {
+    "callsign": "",
+    "country": "South Africa",
+    "iata": "9A",
+    "icao": "99F",
+    "name": "All Africa",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9C": {
+    "callsign": "",
+    "country": "China",
+    "iata": "9C",
+    "icao": "\\N",
+    "name": "China SSS",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9E": {
+    "callsign": "FLAGSHIP",
+    "country": "United States",
+    "iata": "9E",
+    "icao": "FLG",
+    "name": "Pinnacle Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9H": {
+    "callsign": "MDLR",
+    "country": "India",
+    "iata": "9H",
+    "icao": "\\N",
+    "name": "MDLR Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9I": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "9I",
+    "icao": "INE",
+    "name": "International Europe",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9J": {
+    "callsign": "",
+    "country": "Chile",
+    "iata": "9J",
+    "icao": "CR1",
+    "name": "Regionalia Chile",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9K": {
+    "callsign": "CAIR",
+    "country": "United States",
+    "iata": "9K",
+    "icao": "KAP",
+    "name": "Cape Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9L": {
+    "callsign": "COLGAN",
+    "country": "United States",
+    "iata": "9L",
+    "icao": "CJC",
+    "name": "Colgan Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9N": {
+    "callsign": "",
+    "country": "Iceland",
+    "iata": "9N",
+    "icao": "N78",
+    "name": "Regional Air Iceland",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9Q": {
+    "callsign": "PEEBEE AIR",
+    "country": "Thailand",
+    "iata": "9Q",
+    "icao": "PBA",
+    "name": "PB Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9R": {
+    "callsign": "SATENA",
+    "country": "Colombia",
+    "iata": "9R",
+    "icao": "NSE",
+    "name": "SATENA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9S": {
+    "callsign": "AIR SPRING",
+    "country": "China",
+    "iata": "9S",
+    "icao": "CQH",
+    "name": "Spring Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9T": {
+    "callsign": "ATHABASKA",
+    "country": "Canada",
+    "iata": "9T",
+    "icao": "ABS",
+    "name": "Transwest Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9U": {
+    "callsign": "AIR MOLDOVA",
+    "country": "Moldova",
+    "iata": "9U",
+    "icao": "MLD",
+    "name": "Air Moldova",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9V": {
+    "callsign": "",
+    "country": "Costa Rica",
+    "iata": "9V",
+    "icao": "VC9",
+    "name": "Volotea Costa Rica",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9W": {
+    "callsign": "JET AIRWAYS",
+    "country": "India",
+    "iata": "9W",
+    "icao": "JAI",
+    "name": "Jet Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9X": {
+    "callsign": "",
+    "country": "Venezuela",
+    "iata": "9X",
+    "icao": "9XX",
+    "name": "Regionalia Venezuela",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "9Y": {
+    "callsign": "Kazakh",
+    "country": "Kazakhstan",
+    "iata": "9Y",
+    "icao": "KZK",
+    "name": "Air Kazakhstan",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  ";;": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": ";;",
+    "icao": "\\N",
+    "name": "Wilderness Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A1": {
+    "callsign": "atifly",
+    "country": "United States",
+    "iata": "A1",
+    "icao": "A1F",
+    "name": "Atifly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A2": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "A2",
+    "icao": "AL2",
+    "name": "All America",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A3": {
+    "callsign": "AEGEAN",
+    "country": "Greece",
+    "iata": "A3",
+    "icao": "AEE",
+    "name": "Aegean Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A4": {
+    "callsign": "SOUTHERN WINDS",
+    "country": "Argentina",
+    "iata": "A4",
+    "icao": "SWD",
+    "name": "Southern Winds Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A5": {
+    "callsign": "AIRLINAIR",
+    "country": "France",
+    "iata": "A5",
+    "icao": "RLA",
+    "name": "Airlinair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A6": {
+    "callsign": "ALPAV",
+    "country": "Austria",
+    "iata": "A6",
+    "icao": "\\N",
+    "name": "Air Alps Aviation (A6)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A7": {
+    "callsign": "RED COMET",
+    "country": "Spain",
+    "iata": "A7",
+    "icao": "MPD",
+    "name": "Air Plus Comet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "A9": {
+    "callsign": "TAMAZI",
+    "country": "Georgia",
+    "iata": "A9",
+    "icao": "TGZ",
+    "name": "Georgian Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AA": {
+    "callsign": "AMERICAN",
+    "country": "United States",
+    "iata": "AA",
+    "icao": "AAL",
+    "name": "American Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AB": {
+    "callsign": "AIR BERLIN",
+    "country": "Germany",
+    "iata": "AB",
+    "icao": "BER",
+    "name": "Air Berlin",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AC": {
+    "callsign": "AIR CANADA",
+    "country": "Canada",
+    "iata": "AC",
+    "icao": "ACA",
+    "name": "Air Canada",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AD": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "AD",
+    "icao": "AZU",
+    "name": "Azul",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AE": {
+    "callsign": "Mandarin",
+    "country": "Taiwan",
+    "iata": "AE",
+    "icao": "MDA",
+    "name": "Mandarin Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AF": {
+    "callsign": "AIRFRANS",
+    "country": "France",
+    "iata": "AF",
+    "icao": "AFR",
+    "name": "Air France",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AG": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "AG",
+    "icao": "SSA",
+    "name": "All America US",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AH": {
+    "callsign": "AIR ALGERIE",
+    "country": "Algeria",
+    "iata": "AH",
+    "icao": "DAH",
+    "name": "Air Algerie",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AI": {
+    "callsign": "AIRINDIA",
+    "country": "India",
+    "iata": "AI",
+    "icao": "AIC",
+    "name": "Air India Limited",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AJ": {
+    "callsign": "AEROLINE",
+    "country": "Nigeria",
+    "iata": "AJ",
+    "icao": "NIG",
+    "name": "Aero Contractors",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AK": {
+    "callsign": "ASIAN EXPRESS",
+    "country": "Malaysia",
+    "iata": "AK",
+    "icao": "AXM",
+    "name": "AirAsia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AL": {
+    "callsign": "SKYWAY-EX",
+    "country": "United States",
+    "iata": "AL",
+    "icao": "SYX",
+    "name": "Skywalk Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AM": {
+    "callsign": "AEROMEXICO",
+    "country": "Mexico",
+    "iata": "AM",
+    "icao": "AMX",
+    "name": "AeroMéxico",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AN": {
+    "callsign": "ANSETT",
+    "country": "Australia",
+    "iata": "AN",
+    "icao": "AAA",
+    "name": "Ansett Australia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AO": {
+    "callsign": "Nova",
+    "country": "Russia",
+    "iata": "AO",
+    "icao": "\\N",
+    "name": "Avianova (Russia)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AP": {
+    "callsign": "HERON",
+    "country": "Italy",
+    "iata": "AP",
+    "icao": "ADH",
+    "name": "Air One",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AQ": {
+    "callsign": "ALOHA",
+    "country": "United States",
+    "iata": "AQ",
+    "icao": "AAH",
+    "name": "Aloha Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AR": {
+    "callsign": "ARGENTINA",
+    "country": "Argentina",
+    "iata": "AR",
+    "icao": "ARG",
+    "name": "Aerolineas Argentinas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AS": {
+    "callsign": "Inc.",
+    "country": "ALASKA",
+    "iata": "AS",
+    "icao": "ASA",
+    "name": "Alaska Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AT": {
+    "callsign": "ROYALAIR MAROC",
+    "country": "Morocco",
+    "iata": "AT",
+    "icao": "RAM",
+    "name": "Royal Air Maroc",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AU": {
+    "callsign": "AUSTRAL",
+    "country": "Argentina",
+    "iata": "AU",
+    "icao": "AUT",
+    "name": "Austral Lineas Aereas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AV": {
+    "callsign": "S.A.",
+    "country": "AVIANCA",
+    "iata": "AV",
+    "icao": "AVA",
+    "name": "Avianca - Aerovias Nacionales de Colombia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AW": {
+    "callsign": "Asian Star",
+    "country": "Burma",
+    "iata": "AW",
+    "icao": "AWM",
+    "name": "Asian Wings Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AX": {
+    "callsign": "WATERSKI",
+    "country": "United States",
+    "iata": "AX",
+    "icao": "LOF",
+    "name": "Trans States Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AY": {
+    "callsign": "FINNAIR",
+    "country": "Finland",
+    "iata": "AY",
+    "icao": "FIN",
+    "name": "Finnair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "AZ": {
+    "callsign": "ALITALIA",
+    "country": "Italy",
+    "iata": "AZ",
+    "icao": "AZA",
+    "name": "Alitalia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B0": {
+    "callsign": "aws",
+    "country": "United States",
+    "iata": "B0",
+    "icao": "666",
+    "name": "Aws express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B1": {
+    "callsign": "Baltic",
+    "country": "Latvia",
+    "iata": "B1",
+    "icao": "BA1",
+    "name": "Baltic Air lines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B2": {
+    "callsign": "BELARUS AVIA",
+    "country": "Belarus",
+    "iata": "B2",
+    "icao": "BRU",
+    "name": "Belavia Belarusian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B3": {
+    "callsign": "BELLVIEW AIRLINES",
+    "country": "Nigeria",
+    "iata": "B3",
+    "icao": "BLV",
+    "name": "Bellview Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B4": {
+    "callsign": "GLOBESPAN",
+    "country": "United Kingdom",
+    "iata": "B4",
+    "icao": "GSM",
+    "name": "Flyglobespan",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B5": {
+    "callsign": "FLIGHTLINE",
+    "country": "United Kingdom",
+    "iata": "B5",
+    "icao": "FLT",
+    "name": "Flightline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B6": {
+    "callsign": "JETBLUE",
+    "country": "United States",
+    "iata": "B6",
+    "icao": "JBU",
+    "name": "JetBlue Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B7": {
+    "callsign": "Glory",
+    "country": "Taiwan",
+    "iata": "B7",
+    "icao": "UIA",
+    "name": "Uni Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B8": {
+    "callsign": "ERITREAN",
+    "country": "Eritrea",
+    "iata": "B8",
+    "icao": "ERT",
+    "name": "Eritrean Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "B9": {
+    "callsign": "AIR BANGLA",
+    "country": "Bangladesh",
+    "iata": "B9",
+    "icao": "BGD",
+    "name": "Air Bangladesh",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BA": {
+    "callsign": "SPEEDBIRD",
+    "country": "United Kingdom",
+    "iata": "BA",
+    "icao": "BAW",
+    "name": "British Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BB": {
+    "callsign": "SEABORNE",
+    "country": "United States",
+    "iata": "BB",
+    "icao": "SBS",
+    "name": "Seaborne Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BC": {
+    "callsign": "SKYMARK",
+    "country": "Japan",
+    "iata": "BC",
+    "icao": "SKY",
+    "name": "Skymark Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BD": {
+    "callsign": "MIDLAND",
+    "country": "United Kingdom",
+    "iata": "BD",
+    "icao": "BMA",
+    "name": "bmi",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BE": {
+    "callsign": "JERSEY",
+    "country": "United Kingdom",
+    "iata": "BE",
+    "icao": "BEE",
+    "name": "Flybe",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BF": {
+    "callsign": "CONGOSERV",
+    "country": "Republic of the Congo",
+    "iata": "BF",
+    "icao": "RSR",
+    "name": "Aero-Service",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BG": {
+    "callsign": "BANGLADESH",
+    "country": "Bangladesh",
+    "iata": "BG",
+    "icao": "BBC",
+    "name": "Biman Bangladesh Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BH": {
+    "callsign": "",
+    "country": "Canada",
+    "iata": "BH",
+    "icao": "",
+    "name": "Hawkair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BI": {
+    "callsign": "BRUNEI",
+    "country": "Brunei",
+    "iata": "BI",
+    "icao": "RBA",
+    "name": "Royal Brunei Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BJ": {
+    "callsign": "NOUVELAIR",
+    "country": "Tunisia",
+    "iata": "BJ",
+    "icao": "LBT",
+    "name": "Nouvel Air Tunisie",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BK": {
+    "callsign": "DISTRICT",
+    "country": "United States",
+    "iata": "BK",
+    "icao": "PDC",
+    "name": "Potomac Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BL": {
+    "callsign": "PACIFIC AIRLINES",
+    "country": "Vietnam",
+    "iata": "BL",
+    "icao": "PIC",
+    "name": "Jetstar Pacific",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BM": {
+    "callsign": "",
+    "country": "Italy",
+    "iata": "BM",
+    "icao": "",
+    "name": "Air Sicilia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BN": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "BN",
+    "icao": "HZA",
+    "name": "Horizon Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BP": {
+    "callsign": "BOTSWANA",
+    "country": "Botswana",
+    "iata": "BP",
+    "icao": "BOT",
+    "name": "Air Botswana",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BQ": {
+    "callsign": "",
+    "country": "Uruguay",
+    "iata": "BQ",
+    "icao": "BQB",
+    "name": "Buquebus Líneas Aéreas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BR": {
+    "callsign": "EVA",
+    "country": "Taiwan",
+    "iata": "BR",
+    "icao": "EVA",
+    "name": "EVA Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BS": {
+    "callsign": "BRINTEL",
+    "country": "United Kingdom",
+    "iata": "BS",
+    "icao": "BIH",
+    "name": "British International Helicopters",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BT": {
+    "callsign": "AIRBALTIC",
+    "country": "Latvia",
+    "iata": "BT",
+    "icao": "BTI",
+    "name": "Air Baltic",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BU": {
+    "callsign": "",
+    "country": "American Samoa",
+    "iata": "BU",
+    "icao": "BUU",
+    "name": "Baikotovitchestrian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BV": {
+    "callsign": "BLUE PANOROMA",
+    "country": "Italy",
+    "iata": "BV",
+    "icao": "BPA",
+    "name": "Blue Panorama Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BW": {
+    "callsign": "CARIBBEAN AIRLINES",
+    "country": "Trinidad and Tobago",
+    "iata": "BW",
+    "icao": "BWA",
+    "name": "Caribbean Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BX": {
+    "callsign": "Air Busan",
+    "country": "Republic of Korea",
+    "iata": "BX",
+    "icao": "ABL",
+    "name": "Air Busan",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BY": {
+    "callsign": "TOMSON",
+    "country": "United Kingdom",
+    "iata": "BY",
+    "icao": "TOM",
+    "name": "Thomsonfly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "BZ": {
+    "callsign": "Stallion",
+    "country": "United States",
+    "iata": "BZ",
+    "icao": "BSA",
+    "name": "Black Stallion Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C0": {
+    "callsign": "CENTRALWINGS",
+    "country": "Poland",
+    "iata": "C0",
+    "icao": "CLW",
+    "name": "Centralwings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C1": {
+    "callsign": "CAX",
+    "country": "Canada",
+    "iata": "C1",
+    "icao": "CA1",
+    "name": "CanXpress",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C2": {
+    "callsign": "",
+    "country": "Canada",
+    "iata": "C2",
+    "icao": "CAP",
+    "name": "CanXplorer",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C3": {
+    "callsign": "",
+    "country": "Qatar",
+    "iata": "C3",
+    "icao": "QAX",
+    "name": "QatXpress",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C4": {
+    "callsign": "LIX",
+    "country": "Cameroon",
+    "iata": "C4",
+    "icao": "LIX",
+    "name": "LionXpress",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C5": {
+    "callsign": "COMMUTAIR",
+    "country": "United States",
+    "iata": "C5",
+    "icao": "UCA",
+    "name": "CommutAir",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C7": {
+    "callsign": "",
+    "country": "South Korea",
+    "iata": "C7",
+    "icao": "CR7",
+    "name": "Sky Wing Pacific",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "C9": {
+    "callsign": "CIRRUS AIR",
+    "country": "Germany",
+    "iata": "C9",
+    "icao": "RUS",
+    "name": "Cirrus Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CA": {
+    "callsign": "AIR CHINA",
+    "country": "China",
+    "iata": "CA",
+    "icao": "CCA",
+    "name": "Air China",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CB": {
+    "callsign": "",
+    "country": "Colombia",
+    "iata": "CB",
+    "icao": "CCC",
+    "name": "CCML Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CC": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "CC",
+    "icao": "MCK",
+    "name": "Macair Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CD": {
+    "callsign": "ALLIED",
+    "country": "India",
+    "iata": "CD",
+    "icao": "\\N",
+    "name": "Air India Regional",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CE": {
+    "callsign": "NATIONWIDE",
+    "country": "South Africa",
+    "iata": "CE",
+    "icao": "NTW",
+    "name": "Nationwide Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CF": {
+    "callsign": "SWEDESTAR",
+    "country": "Sweden",
+    "iata": "CF",
+    "icao": "SDR",
+    "name": "City Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CG": {
+    "callsign": "BALUS",
+    "country": "Papua New Guinea",
+    "iata": "CG",
+    "icao": "TOK",
+    "name": "Airlines PNG",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CH": {
+    "callsign": "BEMIDJI",
+    "country": "United States",
+    "iata": "CH",
+    "icao": "BMJ",
+    "name": "Bemidji Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CI": {
+    "callsign": "DYNASTY",
+    "country": "Taiwan",
+    "iata": "CI",
+    "icao": "CAL",
+    "name": "China Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CJ": {
+    "callsign": "FLYER",
+    "country": "United Kingdom",
+    "iata": "CJ",
+    "icao": "CFE",
+    "name": "BA CityFlyer",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CL": {
+    "callsign": "HANSALINE",
+    "country": "Germany",
+    "iata": "CL",
+    "icao": "CLH",
+    "name": "Lufthansa CityLine",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CM": {
+    "callsign": "COPA",
+    "country": "Panama",
+    "iata": "CM",
+    "icao": "CMP",
+    "name": "Copa Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CN": {
+    "callsign": "CaNational",
+    "country": "Canada",
+    "iata": "CN",
+    "icao": "YCP",
+    "name": "Canadian National Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CO": {
+    "callsign": "JETLINK",
+    "country": "United States",
+    "iata": "CO",
+    "icao": "",
+    "name": "Continental Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CP": {
+    "callsign": "Compass Rose",
+    "country": "United States",
+    "iata": "CP",
+    "icao": "CPZ",
+    "name": "Compass Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CQ": {
+    "callsign": "SLOW FROG",
+    "country": "Russia",
+    "iata": "CQ",
+    "icao": "KOL",
+    "name": "SOCHI AIR",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CS": {
+    "callsign": "AIR MIKE",
+    "country": "United States",
+    "iata": "CS",
+    "icao": "CMI",
+    "name": "Continental Micronesia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CT": {
+    "callsign": "",
+    "country": "Italy",
+    "iata": "CT",
+    "icao": "\\N",
+    "name": "Alitalia Cityliner",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CU": {
+    "callsign": "CUBANA",
+    "country": "Cuba",
+    "iata": "CU",
+    "icao": "CUB",
+    "name": "Cubana de Aviación",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CV": {
+    "callsign": "CHATHAM",
+    "country": "New Zealand",
+    "iata": "CV",
+    "icao": "CVA",
+    "name": "Air Chathams",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CW": {
+    "callsign": "AIR MARSHALLS",
+    "country": "Marshall Islands",
+    "iata": "CW",
+    "icao": "CWM",
+    "name": "Air Marshall Islands",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CX": {
+    "callsign": "CATHAY",
+    "country": "Hong Kong SAR of China",
+    "iata": "CX",
+    "icao": "CPA",
+    "name": "Cathay Pacific",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CY": {
+    "callsign": "CYPRUS",
+    "country": "Cyprus",
+    "iata": "CY",
+    "icao": "CYP",
+    "name": "Cyprus Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "CZ": {
+    "callsign": "CHINA SOUTHERN",
+    "country": "China",
+    "iata": "CZ",
+    "icao": "CSN",
+    "name": "China Southern Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "D1": {
+    "callsign": "Domenican",
+    "country": "Dominican Republic",
+    "iata": "D1",
+    "icao": "MDO",
+    "name": "Domenican Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "D2": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "D2",
+    "icao": "\\N",
+    "name": "Severstal Air Company",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "D3": {
+    "callsign": "DALO AIRLINES",
+    "country": "Djibouti",
+    "iata": "D3",
+    "icao": "DAO",
+    "name": "Daallo Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "D6": {
+    "callsign": "INLINE",
+    "country": "South Africa",
+    "iata": "D6",
+    "icao": "ILN",
+    "name": "Interair South Africa",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "D7": {
+    "callsign": "XANADU",
+    "country": "Malaysia",
+    "iata": "D7",
+    "icao": "XAX",
+    "name": "AirAsia X",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "D8": {
+    "callsign": "DJIBOUTI AIR",
+    "country": "Djibouti",
+    "iata": "D8",
+    "icao": "DJB",
+    "name": "Djibouti Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "D9": {
+    "callsign": "DONAVIA",
+    "country": "Russia",
+    "iata": "D9",
+    "icao": "DNV",
+    "name": "Aeroflot-Don",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DA": {
+    "callsign": "DANACO",
+    "country": "Nigeria",
+    "iata": "DA",
+    "icao": "\\N",
+    "name": "Dana Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DB": {
+    "callsign": "BRITAIR",
+    "country": "France",
+    "iata": "DB",
+    "icao": "BZH",
+    "name": "Brit Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DC": {
+    "callsign": "GOLDEN",
+    "country": "Sweden",
+    "iata": "DC",
+    "icao": "GAO",
+    "name": "Golden Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DD": {
+    "callsign": "NOK AIR",
+    "country": "Thailand",
+    "iata": "DD",
+    "icao": "NOK",
+    "name": "Nok Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DE": {
+    "callsign": "CONDOR",
+    "country": "Germany",
+    "iata": "DE",
+    "icao": "CFG",
+    "name": "Condor Flugdienst",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DF": {
+    "callsign": "MJG",
+    "country": "Puerto Rico",
+    "iata": "DF",
+    "icao": "MJG",
+    "name": "Michael Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DG": {
+    "callsign": "SEAIR",
+    "country": "Philippines",
+    "iata": "DG",
+    "icao": "SRQ",
+    "name": "South East Asian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DH": {
+    "callsign": "DSY",
+    "country": "Israel",
+    "iata": "DH",
+    "icao": "DSY",
+    "name": "Dennis Sky",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DI": {
+    "callsign": "SPEEDWAY",
+    "country": "Germany",
+    "iata": "DI",
+    "icao": "BAG",
+    "name": "dba",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DK": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "DK",
+    "icao": "ELA",
+    "name": "Eastland Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DL": {
+    "callsign": "DELTA",
+    "country": "United States",
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DM": {
+    "callsign": "",
+    "country": "Denmark",
+    "iata": "DM",
+    "icao": "",
+    "name": "Maersk",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DN": {
+    "callsign": "",
+    "country": "Senegal",
+    "iata": "DN",
+    "icao": "SGG",
+    "name": "Senegal Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DO": {
+    "callsign": "DOMINICANA",
+    "country": "Dominican Republic",
+    "iata": "DO",
+    "icao": "DOA",
+    "name": "Dominicana de Aviaci",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DP": {
+    "callsign": "JETSET",
+    "country": "United Kingdom",
+    "iata": "DP",
+    "icao": "FCA",
+    "name": "First Choice Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DQ": {
+    "callsign": "U.S. Virgin Islands",
+    "country": "United States",
+    "iata": "DQ",
+    "icao": "",
+    "name": "Coastal Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DR": {
+    "callsign": "MEDITERRANEE",
+    "country": "France",
+    "iata": "DR",
+    "icao": "BIE",
+    "name": "Air Mediterranee",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DS": {
+    "callsign": "",
+    "country": "Switzerland",
+    "iata": "DS",
+    "icao": "\\N",
+    "name": "EasyJet (DS)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DT": {
+    "callsign": "DTA",
+    "country": "Angola",
+    "iata": "DT",
+    "icao": "DTA",
+    "name": "TAAG Angola Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DU": {
+    "callsign": "NORSTAR",
+    "country": "Norway",
+    "iata": "DU",
+    "icao": "NLH",
+    "name": "Norwegian Long Haul AS",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DV": {
+    "callsign": "VLASTA",
+    "country": "Kazakhstan",
+    "iata": "DV",
+    "icao": "VSV",
+    "name": "Scat Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DX": {
+    "callsign": "DANISH",
+    "country": "Denmark",
+    "iata": "DX",
+    "icao": "DTR",
+    "name": "DAT Danish Air Transport",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DY": {
+    "callsign": "NOR SHUTTLE",
+    "country": "Norway",
+    "iata": "DY",
+    "icao": "NAX",
+    "name": "Norwegian Air Shuttle",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "DZ": {
+    "callsign": "ALUNK",
+    "country": "Kazakhstan",
+    "iata": "DZ",
+    "icao": "\\N",
+    "name": "Starline.kz",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "E1": {
+    "callsign": "USKY",
+    "country": "United States",
+    "iata": "E1",
+    "icao": "ES2",
+    "name": "Usa Sky Cargo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "E2": {
+    "callsign": "",
+    "country": "Ghana",
+    "iata": "E2",
+    "icao": "\\N",
+    "name": "Eagle Atlantic Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "E3": {
+    "callsign": "DOMODEDOVO",
+    "country": "Russia",
+    "iata": "E3",
+    "icao": "DMO",
+    "name": "Domodedovo Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "E4": {
+    "callsign": "",
+    "country": "Cameroon",
+    "iata": "E4",
+    "icao": "GIE",
+    "name": "Elysian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "E5": {
+    "callsign": "",
+    "country": "Egypt",
+    "iata": "E5",
+    "icao": "RBG",
+    "name": "Air Arabia Egypt",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "E8": {
+    "callsign": "CITY AIR",
+    "country": "Thailand",
+    "iata": "E8",
+    "icao": "GTA",
+    "name": "City Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "E9": {
+    "callsign": "AFRICOMPANY",
+    "country": "Congo (Kinshasa)",
+    "iata": "E9",
+    "icao": "\\N",
+    "name": "Compagnie Africaine d\\\\'Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EA": {
+    "callsign": "STAR WING",
+    "country": "Germany",
+    "iata": "EA",
+    "icao": "EAL",
+    "name": "European Air Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EC": {
+    "callsign": "TWINARROW",
+    "country": "Uzbekistan",
+    "iata": "EC",
+    "icao": "TWN",
+    "name": "Avialeasing Aviation Company",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ED": {
+    "callsign": "PAKBLUE",
+    "country": "Pakistan",
+    "iata": "ED",
+    "icao": "ABQ",
+    "name": "Airblue",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EE": {
+    "callsign": "REVAL",
+    "country": "Estonia",
+    "iata": "EE",
+    "icao": "\\N",
+    "name": "Nordica",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EF": {
+    "callsign": "Far Eastern",
+    "country": "Taiwan",
+    "iata": "EF",
+    "icao": "EFA",
+    "name": "Far Eastern Air Transport",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EG": {
+    "callsign": "ASIA",
+    "country": "Japan",
+    "iata": "EG",
+    "icao": "JAA",
+    "name": "Japan Asia Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EI": {
+    "callsign": "SHAMROCK",
+    "country": "Ireland",
+    "iata": "EI",
+    "icao": "EIN",
+    "name": "Aer Lingus",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EJ": {
+    "callsign": "NEW ENGLAND",
+    "country": "United States",
+    "iata": "EJ",
+    "icao": "NEA",
+    "name": "New England Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EK": {
+    "callsign": "EMIRATES",
+    "country": "United Arab Emirates",
+    "iata": "EK",
+    "icao": "UAE",
+    "name": "Emirates",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EL": {
+    "callsign": "ANK AIR",
+    "country": "Japan",
+    "iata": "EL",
+    "icao": "ANK",
+    "name": "Air Nippon",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EM": {
+    "callsign": "AEROBEN",
+    "country": "Benin",
+    "iata": "EM",
+    "icao": "AEB",
+    "name": "Aero Benin",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EN": {
+    "callsign": "DOLOMOTI",
+    "country": "Italy",
+    "iata": "EN",
+    "icao": "DLA",
+    "name": "Air Dolomiti",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EO": {
+    "callsign": "LONGHORN",
+    "country": "United States",
+    "iata": "EO",
+    "icao": "LHN",
+    "name": "Express One International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EP": {
+    "callsign": "",
+    "country": "Iran",
+    "iata": "EP",
+    "icao": "IRC",
+    "name": "Iran Aseman Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EQ": {
+    "callsign": "TAME",
+    "country": "Ecuador",
+    "iata": "EQ",
+    "icao": "TAE",
+    "name": "TAME",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ER": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "ER",
+    "icao": "RWW",
+    "name": "Fly Europa",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ES": {
+    "callsign": "EuropeSky",
+    "country": "Germany",
+    "iata": "ES",
+    "icao": "EUV",
+    "name": "EuropeSky",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ET": {
+    "callsign": "ETHIOPIAN",
+    "country": "Ethiopia",
+    "iata": "ET",
+    "icao": "ETH",
+    "name": "Ethiopian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EU": {
+    "callsign": "ECUATORIANA",
+    "country": "Ecuador",
+    "iata": "EU",
+    "icao": "EEA",
+    "name": "Empresa Ecuatoriana De Aviacion",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EV": {
+    "callsign": "ACEY",
+    "country": "United States",
+    "iata": "EV",
+    "icao": "ASQ",
+    "name": "Atlantic Southeast Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EW": {
+    "callsign": "EUROWINGS",
+    "country": "Germany",
+    "iata": "EW",
+    "icao": "EWG",
+    "name": "Eurowings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EX": {
+    "callsign": "",
+    "country": "France",
+    "iata": "EX",
+    "icao": "EU9",
+    "name": "Europe Jet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EY": {
+    "callsign": "ETIHAD",
+    "country": "United Arab Emirates",
+    "iata": "EY",
+    "icao": "ETD",
+    "name": "Etihad Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "EZ": {
+    "callsign": "EVERGREEN",
+    "country": "United States",
+    "iata": "EZ",
+    "icao": "EIA",
+    "name": "Evergreen International Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "F1": {
+    "callsign": "FBL",
+    "country": "Brazil",
+    "iata": "F1",
+    "icao": "FBL",
+    "name": "Fly Brasil",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "F5": {
+    "callsign": "",
+    "country": "Moldova",
+    "iata": "F5",
+    "icao": "FI5",
+    "name": "Fly One",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "F7": {
+    "callsign": "BABOO",
+    "country": "Switzerland",
+    "iata": "F7",
+    "icao": "BBO",
+    "name": "Flybaboo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "F8": {
+    "callsign": "",
+    "country": "New Zealand",
+    "iata": "F8",
+    "icao": "\\N",
+    "name": "Air2there",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "F9": {
+    "callsign": "FRONTIER FLIGHT",
+    "country": "United States",
+    "iata": "F9",
+    "icao": "FFT",
+    "name": "Frontier Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FA": {
+    "callsign": "Epic",
+    "country": "United States",
+    "iata": "FA",
+    "icao": "4AA",
+    "name": "Epic Holiday",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FB": {
+    "callsign": "FLYING BULGARIA",
+    "country": "Bulgaria",
+    "iata": "FB",
+    "icao": "LZB",
+    "name": "Bulgaria Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FC": {
+    "callsign": "WESTBIRD",
+    "country": "Finland",
+    "iata": "FC",
+    "icao": "WBA",
+    "name": "Finncomm Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FD": {
+    "callsign": "THAI ASIA",
+    "country": "Thailand",
+    "iata": "FD",
+    "icao": "AIQ",
+    "name": "Thai AirAsia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FF": {
+    "callsign": "",
+    "country": "France",
+    "iata": "FF",
+    "icao": "FRF",
+    "name": "Fly France",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FG": {
+    "callsign": "ARIANA",
+    "country": "Afghanistan",
+    "iata": "FG",
+    "icao": "AFG",
+    "name": "Ariana Afghan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FH": {
+    "callsign": "FLYHIRELAND",
+    "country": "Ireland",
+    "iata": "FH",
+    "icao": "FHI",
+    "name": "FlyHigh Airlines Ireland (FH)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FI": {
+    "callsign": "ICEAIR",
+    "country": "Iceland",
+    "iata": "FI",
+    "icao": "ICE",
+    "name": "Icelandair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FJ": {
+    "callsign": "PACIFIC",
+    "country": "Fiji",
+    "iata": "FJ",
+    "icao": "FJI",
+    "name": "Air Pacific",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FK": {
+    "callsign": "WEST TOGO",
+    "country": "Togo",
+    "iata": "FK",
+    "icao": "WTA",
+    "name": "Africa West",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FL": {
+    "callsign": "CITRUS",
+    "country": "United States",
+    "iata": "FL",
+    "icao": "TRS",
+    "name": "AirTran Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FM": {
+    "callsign": "SHANGHAI AIR",
+    "country": "China",
+    "iata": "FM",
+    "icao": "CSH",
+    "name": "Shanghai Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FN": {
+    "callsign": "",
+    "country": "Morocco",
+    "iata": "FN",
+    "icao": "",
+    "name": "Regional Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FO": {
+    "callsign": "AIRTAS",
+    "country": "Australia",
+    "iata": "FO",
+    "icao": "ATM",
+    "name": "Airlines Of Tasmania",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FP": {
+    "callsign": "FREEDOM",
+    "country": "United States",
+    "iata": "FP",
+    "icao": "FRE",
+    "name": "Freedom Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FQ": {
+    "callsign": "THOMAS COOK",
+    "country": "Belgium",
+    "iata": "FQ",
+    "icao": "TCW",
+    "name": "Thomas Cook Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FR": {
+    "callsign": "RYANAIR",
+    "country": "Ireland",
+    "iata": "FR",
+    "icao": "RYR",
+    "name": "Ryanair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FS": {
+    "callsign": "FUEGUINO",
+    "country": "Argentina",
+    "iata": "FS",
+    "icao": "STU",
+    "name": "Servicios de Transportes A",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FT": {
+    "callsign": "SIEMREAP AIR",
+    "country": "Cambodia",
+    "iata": "FT",
+    "icao": "SRH",
+    "name": "Siem Reap Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FU": {
+    "callsign": "",
+    "country": "Yemen",
+    "iata": "FU",
+    "icao": "FXX",
+    "name": "Felix Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FV": {
+    "callsign": "PULKOVO",
+    "country": "Russia",
+    "iata": "FV",
+    "icao": "SDM",
+    "name": "Rossiya-Russian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FW": {
+    "callsign": "IBEX",
+    "country": "Japan",
+    "iata": "FW",
+    "icao": "IBX",
+    "name": "Ibex Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FX": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "FX",
+    "icao": "FOX",
+    "name": "FOX Linhas Aereas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FY": {
+    "callsign": "FIREFLY",
+    "country": "Malaysia",
+    "iata": "FY",
+    "icao": "FFM",
+    "name": "Firefly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "FZ": {
+    "callsign": "",
+    "country": "United Arab Emirates",
+    "iata": "FZ",
+    "icao": "FDB",
+    "name": "Fly Dubai",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G0": {
+    "callsign": "GHANA AIRLINES",
+    "country": "Ghana",
+    "iata": "G0",
+    "icao": "GHB",
+    "name": "Ghana International Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G1": {
+    "callsign": "Indya1",
+    "country": "India",
+    "iata": "G1",
+    "icao": "IG1",
+    "name": "Indya Airline Group",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G3": {
+    "callsign": "AIR CRETE",
+    "country": "Greece",
+    "iata": "G3",
+    "icao": "SEH",
+    "name": "Sky Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G4": {
+    "callsign": "ALLEGIANT",
+    "country": "United States",
+    "iata": "G4",
+    "icao": "AAY",
+    "name": "Allegiant Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G5": {
+    "callsign": "",
+    "country": "China",
+    "iata": "G5",
+    "icao": "\\N",
+    "name": "Huaxia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G6": {
+    "callsign": "GOUMRAK",
+    "country": "Russia",
+    "iata": "G6",
+    "icao": "\\N",
+    "name": "Air Volga",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G7": {
+    "callsign": "GATEWAY",
+    "country": "United States",
+    "iata": "G7",
+    "icao": "GJS",
+    "name": "GoJet Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G8": {
+    "callsign": "GOAIR",
+    "country": "India",
+    "iata": "G8",
+    "icao": "GOW",
+    "name": "Go Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "G9": {
+    "callsign": "ARABIA",
+    "country": "United Arab Emirates",
+    "iata": "G9",
+    "icao": "ABY",
+    "name": "Air Arabia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GA": {
+    "callsign": "INDONESIA",
+    "country": "Indonesia",
+    "iata": "GA",
+    "icao": "GIA",
+    "name": "Garuda Indonesia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GB": {
+    "callsign": "BRAZIL AIR",
+    "country": "Brazil",
+    "iata": "GB",
+    "icao": "BZE",
+    "name": "BRAZIL AIR",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GE": {
+    "callsign": "TransAsia",
+    "country": "Taiwan",
+    "iata": "GE",
+    "icao": "TNA",
+    "name": "TransAsia Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GF": {
+    "callsign": "GULF BAHRAIN",
+    "country": "Bahrain",
+    "iata": "GF",
+    "icao": "GBA",
+    "name": "Gulf Air Bahrain",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GG": {
+    "callsign": "GREEN BIRD",
+    "country": "French Guiana",
+    "iata": "GG",
+    "icao": "GUY",
+    "name": "Air Guyane",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GH": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "GH",
+    "icao": "GLP",
+    "name": "Globus",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GI": {
+    "callsign": "ITEK-AIR",
+    "country": "Kyrgyzstan",
+    "iata": "GI",
+    "icao": "IKA",
+    "name": "Itek Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GJ": {
+    "callsign": "EUROFLY",
+    "country": "Italy",
+    "iata": "GJ",
+    "icao": "EEU",
+    "name": "Eurofly Service",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GK": {
+    "callsign": "",
+    "country": "Pakistan",
+    "iata": "GK",
+    "icao": "\\N",
+    "name": "Genesis",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GL": {
+    "callsign": "GREENLAND",
+    "country": "Denmark",
+    "iata": "GL",
+    "icao": "GRL",
+    "name": "Air Greenland",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GM": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "GM",
+    "icao": "GER",
+    "name": "German International Air Lines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GN": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "GN",
+    "icao": "\\N",
+    "name": "GNB Linhas Aereas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GO": {
+    "callsign": "KUZU CARGO",
+    "country": "Turkey",
+    "iata": "GO",
+    "icao": "KZU",
+    "name": "Kuzu Airlines Cargo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GP": {
+    "callsign": "GADAIR",
+    "country": "Spain",
+    "iata": "GP",
+    "icao": "GDR",
+    "name": "Gadair European Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GR": {
+    "callsign": "AYLINE",
+    "country": "United Kingdom",
+    "iata": "GR",
+    "icao": "AUR",
+    "name": "Aurigny Air Services",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GS": {
+    "callsign": "FOYLE",
+    "country": "United Kingdom",
+    "iata": "GS",
+    "icao": "UPA",
+    "name": "Air Foyle",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GT": {
+    "callsign": "GEEBEE AIRWAYS",
+    "country": "United Kingdom",
+    "iata": "GT",
+    "icao": "GBL",
+    "name": "GB Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GV": {
+    "callsign": "Aero Fox",
+    "country": "Germany",
+    "iata": "GV",
+    "icao": "ARF",
+    "name": "Aero Flight",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GW": {
+    "callsign": "AIR KUBAN",
+    "country": "Russia",
+    "iata": "GW",
+    "icao": "KIL",
+    "name": "Kuban Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GX": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "GX",
+    "icao": "GXG",
+    "name": "GermanXL",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GY": {
+    "callsign": "GABON AIRLINES",
+    "country": "Gabon",
+    "iata": "GY",
+    "icao": "GBK",
+    "name": "Gabon Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "GZ": {
+    "callsign": "",
+    "country": "Cook Islands",
+    "iata": "GZ",
+    "icao": "RAR",
+    "name": "Air Rarotonga",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H1": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "H1",
+    "icao": "HA1",
+    "name": "Hankook Air US",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H2": {
+    "callsign": "AEROSKY",
+    "country": "Chile",
+    "iata": "H2",
+    "icao": "SKU",
+    "name": "Sky Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H3": {
+    "callsign": "",
+    "country": "Canada",
+    "iata": "H3",
+    "icao": "\\N",
+    "name": "Harbour Air (Priv)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H5": {
+    "callsign": "RUSSIAN SKY",
+    "country": "Russia",
+    "iata": "H5",
+    "icao": "RSY",
+    "name": "I-Fly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H6": {
+    "callsign": "HAGELAND",
+    "country": "United States",
+    "iata": "H6",
+    "icao": "HAG",
+    "name": "Hageland Aviation Services",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H7": {
+    "callsign": "",
+    "country": "Uganda",
+    "iata": "H7",
+    "icao": "",
+    "name": "Eagle Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H8": {
+    "callsign": "DALAVIA",
+    "country": "Russia",
+    "iata": "H8",
+    "icao": "KHB",
+    "name": "Dalavia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "H9": {
+    "callsign": "",
+    "country": "Turkey",
+    "iata": "H9",
+    "icao": "\\N",
+    "name": "PEGASUS AIRLINES-",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HA": {
+    "callsign": "HAWAIIAN",
+    "country": "United States",
+    "iata": "HA",
+    "icao": "HAL",
+    "name": "Hawaiian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HC": {
+    "callsign": "Himalayan",
+    "country": "Nepal",
+    "iata": "HC",
+    "icao": "HYM",
+    "name": "Himalayan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HD": {
+    "callsign": "AIR DO",
+    "country": "Japan",
+    "iata": "HD",
+    "icao": "ADO",
+    "name": "Hokkaido International Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HE": {
+    "callsign": "WALTER",
+    "country": "Germany",
+    "iata": "HE",
+    "icao": "LGW",
+    "name": "Luftfahrtgesellschaft Walter",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HF": {
+    "callsign": "HAPAG LLOYD",
+    "country": "Germany",
+    "iata": "HF",
+    "icao": "HLF",
+    "name": "Hapagfly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HG": {
+    "callsign": "FLYNIKI",
+    "country": "Austria",
+    "iata": "HG",
+    "icao": "NLY",
+    "name": "Niki",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HH": {
+    "callsign": "Air Hamburg",
+    "country": "Germany",
+    "iata": "HH",
+    "icao": "AHO",
+    "name": "Air Hamburg (AHO)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HI": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "HI",
+    "icao": "\\N",
+    "name": "Papillon Grand Canyon Helicopters",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HK": {
+    "callsign": "Hotel Kilo",
+    "country": "Burma",
+    "iata": "HK",
+    "icao": "\\N",
+    "name": "Yangon Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HM": {
+    "callsign": "SEYCHELLES",
+    "country": "Seychelles",
+    "iata": "HM",
+    "icao": "SEY",
+    "name": "Air Seychelles",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HN": {
+    "callsign": "HNX",
+    "country": "South Korea",
+    "iata": "HN",
+    "icao": "HNX",
+    "name": "Hankook Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HO": {
+    "callsign": "JUNEYAO AIRLINES",
+    "country": "China",
+    "iata": "HO",
+    "icao": "DKH",
+    "name": "Juneyao Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HP": {
+    "callsign": "CACTUS",
+    "country": "United States",
+    "iata": "HP",
+    "icao": "AWE",
+    "name": "America West Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HR": {
+    "callsign": "LIANHANG",
+    "country": "China",
+    "iata": "HR",
+    "icao": "CUA",
+    "name": "China United Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HT": {
+    "callsign": "IMPERIAL",
+    "country": "Greece",
+    "iata": "HT",
+    "icao": "IMP",
+    "name": "Hellenic Imperial Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HU": {
+    "callsign": "HAINAN",
+    "country": "China",
+    "iata": "HU",
+    "icao": "CHH",
+    "name": "Hainan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HV": {
+    "callsign": "TRANSAVIA",
+    "country": "Netherlands",
+    "iata": "HV",
+    "icao": "TRA",
+    "name": "Transavia Holland",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HW": {
+    "callsign": "FLYHELLO",
+    "country": "Switzerland",
+    "iata": "HW",
+    "icao": "FHE",
+    "name": "Hello",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HX": {
+    "callsign": "BAUHINIA",
+    "country": "Hong Kong SAR of China",
+    "iata": "HX",
+    "icao": "CRK",
+    "name": "Hong Kong Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HY": {
+    "callsign": "UZBEK",
+    "country": "Uzbekistan",
+    "iata": "HY",
+    "icao": "UZB",
+    "name": "Uzbekistan Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "HZ": {
+    "callsign": "SATCO",
+    "country": "Kazakhstan",
+    "iata": "HZ",
+    "icao": "SOZ",
+    "name": "Sat Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I2": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "I2",
+    "icao": "IBS",
+    "name": "Iberia Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I3": {
+    "callsign": "ATALAR",
+    "country": "Iran",
+    "iata": "I3",
+    "icao": "\\N",
+    "name": "ATA Airlines (Iran)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I4": {
+    "callsign": "",
+    "country": "Jamaica",
+    "iata": "I4",
+    "icao": "\\N",
+    "name": "International AirLink",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I5": {
+    "callsign": "",
+    "country": "Indonesia",
+    "iata": "I5",
+    "icao": "IDS",
+    "name": "Indonesia Sky",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I6": {
+    "callsign": "LINK",
+    "country": "Mexico",
+    "iata": "I6",
+    "icao": "MXI",
+    "name": "MexicanaLink",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I7": {
+    "callsign": "PARAWAY",
+    "country": "India",
+    "iata": "I7",
+    "icao": "PMW",
+    "name": "Paramount Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I8": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "I8",
+    "icao": "\\N",
+    "name": "IzAvia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "I9": {
+    "callsign": "INDIGO BLUE",
+    "country": "United States",
+    "iata": "I9",
+    "icao": "IBU",
+    "name": "Indigo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IA": {
+    "callsign": "IRAQI",
+    "country": "Iraq",
+    "iata": "IA",
+    "icao": "IAW",
+    "name": "Iraqi Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IB": {
+    "callsign": "IBERIA",
+    "country": "Spain",
+    "iata": "IB",
+    "icao": "IBE",
+    "name": "Iberia Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IC": {
+    "callsign": "INDAIR",
+    "country": "India",
+    "iata": "IC",
+    "icao": "IAC",
+    "name": "Indian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ID": {
+    "callsign": "INTERLINK",
+    "country": "South Africa",
+    "iata": "ID",
+    "icao": "ITK",
+    "name": "Interlink Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IE": {
+    "callsign": "SOLOMON",
+    "country": "Solomon Islands",
+    "iata": "IE",
+    "icao": "SOL",
+    "name": "Solomon Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IF": {
+    "callsign": "PINTADERA",
+    "country": "Spain",
+    "iata": "IF",
+    "icao": "ISW",
+    "name": "Islas Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IG": {
+    "callsign": "MERAIR",
+    "country": "Italy",
+    "iata": "IG",
+    "icao": "ISS",
+    "name": "Meridiana",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "II": {
+    "callsign": "moose",
+    "country": "Russia",
+    "iata": "II",
+    "icao": "UWW",
+    "name": "LSM International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IJ": {
+    "callsign": "",
+    "country": "Japan",
+    "iata": "IJ",
+    "icao": "SJO",
+    "name": "Spring Airlines Japan",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IK": {
+    "callsign": "IMPROTEX",
+    "country": "Azerbaijan",
+    "iata": "IK",
+    "icao": "ITX",
+    "name": "Imair Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IN": {
+    "callsign": "MAKAVIO",
+    "country": "Macedonia",
+    "iata": "IN",
+    "icao": "MAK",
+    "name": "MAT Macedonian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IO": {
+    "callsign": "INDO LINES",
+    "country": "Indonesia",
+    "iata": "IO",
+    "icao": "IAA",
+    "name": "Indonesian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IP": {
+    "callsign": "",
+    "country": "Iceland",
+    "iata": "IP",
+    "icao": "ISX",
+    "name": "Island Spirit",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IQ": {
+    "callsign": "AUGSBURG-AIR",
+    "country": "Germany",
+    "iata": "IQ",
+    "icao": "AUB",
+    "name": "Augsburg Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IR": {
+    "callsign": "IRANAIR",
+    "country": "Iran",
+    "iata": "IR",
+    "icao": "IRA",
+    "name": "Iran Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IS": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "IS",
+    "icao": "",
+    "name": "Island Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IT": {
+    "callsign": "KINGFISHER",
+    "country": "India",
+    "iata": "IT",
+    "icao": "KFR",
+    "name": "Kingfisher Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IV": {
+    "callsign": "GHIBLI",
+    "country": "Italy",
+    "iata": "IV",
+    "icao": "JET",
+    "name": "Wind Jet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IW": {
+    "callsign": "WINGS ABADI",
+    "country": "Indonesia",
+    "iata": "IW",
+    "icao": "WON",
+    "name": "Wings Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IX": {
+    "callsign": "EXPRESS INDIA",
+    "country": "India",
+    "iata": "IX",
+    "icao": "AXB",
+    "name": "Air India Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IY": {
+    "callsign": "YEMENI",
+    "country": "Yemen",
+    "iata": "IY",
+    "icao": "IYE",
+    "name": "Yemenia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "IZ": {
+    "callsign": "ARKIA",
+    "country": "Israel",
+    "iata": "IZ",
+    "icao": "AIZ",
+    "name": "Arkia Israel Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J1": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "J1",
+    "icao": "\\N",
+    "name": "OneJet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J2": {
+    "callsign": "AZAL",
+    "country": "Azerbaijan",
+    "iata": "J2",
+    "icao": "AHY",
+    "name": "Azerbaijan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J3": {
+    "callsign": "POLARIS",
+    "country": "Canada",
+    "iata": "J3",
+    "icao": "PLR",
+    "name": "Northwestern Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J4": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "J4",
+    "icao": "\\N",
+    "name": "ALAK",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J5": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "J5",
+    "icao": "\\N",
+    "name": "Alaska Seaplane Service",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J7": {
+    "callsign": "DNM",
+    "country": "Norway",
+    "iata": "J7",
+    "icao": "\\N",
+    "name": "Denim Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J8": {
+    "callsign": "BERJAYA",
+    "country": "Malaysia",
+    "iata": "J8",
+    "icao": "BVT",
+    "name": "Berjaya Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "J9": {
+    "callsign": "JAZEERA",
+    "country": "Kuwait",
+    "iata": "J9",
+    "icao": "JZR",
+    "name": "Jazeera Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JA": {
+    "callsign": "AIR BOSNA",
+    "country": "Bosnia and Herzegovina",
+    "iata": "JA",
+    "icao": "BON",
+    "name": "Air Bosna",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JB": {
+    "callsign": "HELIJET",
+    "country": "Canada",
+    "iata": "JB",
+    "icao": "JBA",
+    "name": "Helijet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JC": {
+    "callsign": "JANEX",
+    "country": "Japan",
+    "iata": "JC",
+    "icao": "JEX",
+    "name": "JAL Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JD": {
+    "callsign": "Air System",
+    "country": "Japan",
+    "iata": "JD",
+    "icao": "JAS",
+    "name": "Japan Air System",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JE": {
+    "callsign": "TULCA",
+    "country": "South Africa",
+    "iata": "JE",
+    "icao": "MNO",
+    "name": "Mango",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JF": {
+    "callsign": "BEAUTY",
+    "country": "Belgium",
+    "iata": "JF",
+    "icao": "JAF",
+    "name": "Jetairfly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JG": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "JG",
+    "icao": "\\N",
+    "name": "Jetgo Australia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JH": {
+    "callsign": "FUJI DREAM",
+    "country": "Japan",
+    "iata": "JH",
+    "icao": "\\N",
+    "name": "Fuji Dream Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JI": {
+    "callsign": "MIDWAY",
+    "country": "United States",
+    "iata": "JI",
+    "icao": "MDW",
+    "name": "Midway Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JJ": {
+    "callsign": "TAM",
+    "country": "Brazil",
+    "iata": "JJ",
+    "icao": "TAM",
+    "name": "TAM Brazilian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JK": {
+    "callsign": "SPANAIR",
+    "country": "Spain",
+    "iata": "JK",
+    "icao": "JKK",
+    "name": "Spanair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JL": {
+    "callsign": "J-BIRD",
+    "country": "Japan",
+    "iata": "JL",
+    "icao": "JAL",
+    "name": "Japan Airlines Domestic",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JM": {
+    "callsign": "JAMAICA",
+    "country": "Jamaica",
+    "iata": "JM",
+    "icao": "AJM",
+    "name": "Air Jamaica",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JN": {
+    "callsign": "EXPO",
+    "country": "United Kingdom",
+    "iata": "JN",
+    "icao": "XLA",
+    "name": "Excel Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JO": {
+    "callsign": "JALWAYS",
+    "country": "Japan",
+    "iata": "JO",
+    "icao": "JAZ",
+    "name": "JALways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JP": {
+    "callsign": "ADRIA",
+    "country": "Slovenia",
+    "iata": "JP",
+    "icao": "ADR",
+    "name": "Adria Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JQ": {
+    "callsign": "JETSTAR",
+    "country": "Australia",
+    "iata": "JQ",
+    "icao": "JST",
+    "name": "Jetstar Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JR": {
+    "callsign": "JOY AIR",
+    "country": "China",
+    "iata": "JR",
+    "icao": "JOY",
+    "name": "Joy Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JS": {
+    "callsign": "AIR KORYO",
+    "country": "Democratic People's Republic of Korea",
+    "iata": "JS",
+    "icao": "KOR",
+    "name": "Air Koryo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JT": {
+    "callsign": "LION INTER",
+    "country": "Indonesia",
+    "iata": "JT",
+    "icao": "LNI",
+    "name": "Lion Mentari Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JU": {
+    "callsign": "AIR SERBIA",
+    "country": "Serbia",
+    "iata": "JU",
+    "icao": "ASL",
+    "name": "Air Serbia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JV": {
+    "callsign": "BEARSKIN",
+    "country": "Canada",
+    "iata": "JV",
+    "icao": "BLS",
+    "name": "Bearskin Lake Air Service",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JW": {
+    "callsign": "BIG A",
+    "country": "United States",
+    "iata": "JW",
+    "icao": "APW",
+    "name": "Arrow Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JX": {
+    "callsign": "",
+    "country": "Egypt",
+    "iata": "JX",
+    "icao": "JSR",
+    "name": "Jusur airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JY": {
+    "callsign": "",
+    "country": "Italy",
+    "iata": "JY",
+    "icao": "AXZ",
+    "name": "Aereonautica militare",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "JZ": {
+    "callsign": "SKY EXPRESS",
+    "country": "Sweden",
+    "iata": "JZ",
+    "icao": "SKX",
+    "name": "Skyways Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "K1": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "K1",
+    "icao": "KOQ",
+    "name": "Kostromskie avialinii",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "K2": {
+    "callsign": "EUROLOT",
+    "country": "Poland",
+    "iata": "K2",
+    "icao": "ELO",
+    "name": "Eurolot",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "K5": {
+    "callsign": "SASQUATCH",
+    "country": "United States",
+    "iata": "K5",
+    "icao": "SQH",
+    "name": "SeaPort Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "K6": {
+    "callsign": "",
+    "country": "Cambodia",
+    "iata": "K6",
+    "icao": "\\N",
+    "name": "Cambodia Angkor Air (K6)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "K7": {
+    "callsign": "KORAL BLUE",
+    "country": "Egypt",
+    "iata": "K7",
+    "icao": "KBR",
+    "name": "KoralBlue Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "K8": {
+    "callsign": "ZAMBIA SKIES",
+    "country": "Zambia",
+    "iata": "K8",
+    "icao": "\\N",
+    "name": "Zambia Skyways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KA": {
+    "callsign": "Hong Kong Dragon Airlines",
+    "country": "DRAGON",
+    "iata": "KA",
+    "icao": "HDA",
+    "name": "Dragonair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KB": {
+    "callsign": "ROYAL BHUTAN",
+    "country": "Bhutan",
+    "iata": "KB",
+    "icao": "DRK",
+    "name": "Druk Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KC": {
+    "callsign": "ASTANALINE",
+    "country": "Kazakhstan",
+    "iata": "KC",
+    "icao": "KZR",
+    "name": "Air Astana",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KD": {
+    "callsign": "KALININGRAD AIR",
+    "country": "Russia",
+    "iata": "KD",
+    "icao": "KNI",
+    "name": "KD Avia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KE": {
+    "callsign": "KOREANAIR",
+    "country": "Republic of Korea",
+    "iata": "KE",
+    "icao": "KAL",
+    "name": "Korean Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KF": {
+    "callsign": "BLUEFIN",
+    "country": "Finland",
+    "iata": "KF",
+    "icao": "BLF",
+    "name": "Blue1",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KG": {
+    "callsign": "RAW",
+    "country": "United States",
+    "iata": "KG",
+    "icao": "RAW",
+    "name": "Royal Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KH": {
+    "callsign": "",
+    "country": "Ukraine",
+    "iata": "KH",
+    "icao": "KHK",
+    "name": "Kharkiv Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KI": {
+    "callsign": "ADAM SKY",
+    "country": "Indonesia",
+    "iata": "KI",
+    "icao": "DHI",
+    "name": "Adam Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KJ": {
+    "callsign": "BEE MED",
+    "country": "United Kingdom",
+    "iata": "KJ",
+    "icao": "LAJ",
+    "name": "British Mediterranean Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KK": {
+    "callsign": "ATLASJET",
+    "country": "Turkey",
+    "iata": "KK",
+    "icao": "KKK",
+    "name": "Atlasjet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KL": {
+    "callsign": "KLM",
+    "country": "Netherlands",
+    "iata": "KL",
+    "icao": "KLM",
+    "name": "KLM Royal Dutch Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KM": {
+    "callsign": "AIR MALTA",
+    "country": "Malta",
+    "iata": "KM",
+    "icao": "AMC",
+    "name": "Air Malta",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KN": {
+    "callsign": "",
+    "country": "China",
+    "iata": "KN",
+    "icao": "\\N",
+    "name": "China United",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KO": {
+    "callsign": "ACE AIR",
+    "country": "United States",
+    "iata": "KO",
+    "icao": "AER",
+    "name": "Alaska Central Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KP": {
+    "callsign": "DENSE",
+    "country": "United States",
+    "iata": "KP",
+    "icao": "DWA",
+    "name": "Dense Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KQ": {
+    "callsign": "KENYA",
+    "country": "Kenya",
+    "iata": "KQ",
+    "icao": "KQA",
+    "name": "Kenya Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KR": {
+    "callsign": "CONTICOM",
+    "country": "Comoros",
+    "iata": "KR",
+    "icao": "CWK",
+    "name": "Comores Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KS": {
+    "callsign": "PENINSULA",
+    "country": "United States",
+    "iata": "KS",
+    "icao": "PEN",
+    "name": "Peninsula Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KT": {
+    "callsign": "Vickjet",
+    "country": "France",
+    "iata": "KT",
+    "icao": "VKJ",
+    "name": "VickJet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KU": {
+    "callsign": "KUWAITI",
+    "country": "Kuwait",
+    "iata": "KU",
+    "icao": "KAC",
+    "name": "Kuwait Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KV": {
+    "callsign": "AIR MINVODY",
+    "country": "Russia",
+    "iata": "KV",
+    "icao": "MVD",
+    "name": "Kavminvodyavia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KW": {
+    "callsign": "Carnival Air",
+    "country": "United States",
+    "iata": "KW",
+    "icao": "\\N",
+    "name": "Carnival Air Lines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KX": {
+    "callsign": "CAYMAN",
+    "country": "Cayman Islands",
+    "iata": "KX",
+    "icao": "CAY",
+    "name": "Cayman Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KY": {
+    "callsign": "KSY",
+    "country": "Greece",
+    "iata": "KY",
+    "icao": "KSY",
+    "name": "KSY",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "KZ": {
+    "callsign": "DC2",
+    "country": "United States",
+    "iata": "KZ",
+    "icao": "DC2",
+    "name": "Dense Connection",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L1": {
+    "callsign": "",
+    "country": "Argentina",
+    "iata": "L1",
+    "icao": "AL1",
+    "name": "All Argentina",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L3": {
+    "callsign": "BILLA TRANSPORT",
+    "country": "Austria",
+    "iata": "L3",
+    "icao": "LTO",
+    "name": "LTU Austria",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L4": {
+    "callsign": "russian sky",
+    "country": "Russia",
+    "iata": "L4",
+    "icao": "LJJ",
+    "name": "Luchsh Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L5": {
+    "callsign": "LUFT TRANSPORT",
+    "country": "Norway",
+    "iata": "L5",
+    "icao": "LTR",
+    "name": "Lufttransport",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L6": {
+    "callsign": "",
+    "country": "Mauritania",
+    "iata": "L6",
+    "icao": "MAI",
+    "name": "Mauritania Airlines International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L7": {
+    "callsign": "ENTERPRISE LUHANSK",
+    "country": "Ukraine",
+    "iata": "L7",
+    "icao": "\\N",
+    "name": "Lugansk Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L8": {
+    "callsign": "Bluebird",
+    "country": "Germany",
+    "iata": "L8",
+    "icao": "LBL",
+    "name": "Line Blue",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "L9": {
+    "callsign": "",
+    "country": "China",
+    "iata": "L9",
+    "icao": "AL3",
+    "name": "All Asia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LA": {
+    "callsign": "LAN",
+    "country": "Chile",
+    "iata": "LA",
+    "icao": "LAN",
+    "name": "LAN Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LB": {
+    "callsign": "",
+    "country": "India",
+    "iata": "LB",
+    "icao": "\\N",
+    "name": "Air Costa",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LC": {
+    "callsign": "VELOG",
+    "country": "Brazil",
+    "iata": "LC",
+    "icao": "VLO",
+    "name": "Varig Log",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LE": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "LE",
+    "icao": "LTY",
+    "name": "Liberty Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LF": {
+    "callsign": "NORDIC",
+    "country": "Sweden",
+    "iata": "LF",
+    "icao": "NDC",
+    "name": "FlyNordic",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LG": {
+    "callsign": "LUXAIR",
+    "country": "Luxembourg",
+    "iata": "LG",
+    "icao": "LGL",
+    "name": "Luxair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LH": {
+    "callsign": "LUFTHANSA CARGO",
+    "country": "Germany",
+    "iata": "LH",
+    "icao": "GEC",
+    "name": "Lufthansa Cargo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LI": {
+    "callsign": "LIAT",
+    "country": "Antigua and Barbuda",
+    "iata": "LI",
+    "icao": "LIA",
+    "name": "Leeward Islands Air Transport",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LJ": {
+    "callsign": "Jin Air",
+    "country": "South Korea",
+    "iata": "LJ",
+    "icao": "JNA",
+    "name": "Jin Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LK": {
+    "callsign": "AIRLUXOR",
+    "country": "Portugal",
+    "iata": "LK",
+    "icao": "LXR",
+    "name": "Air Luxor",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LM": {
+    "callsign": "MOZAMBIQUE",
+    "country": "Mozambique",
+    "iata": "LM",
+    "icao": "LAM",
+    "name": "Linhas A",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LN": {
+    "callsign": "LIBAIR",
+    "country": "Libya",
+    "iata": "LN",
+    "icao": "LAA",
+    "name": "Libyan Arab Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LO": {
+    "callsign": "POLLOT",
+    "country": "Poland",
+    "iata": "LO",
+    "icao": "LOT",
+    "name": "LOT Polish Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LP": {
+    "callsign": "LANPERU",
+    "country": "Peru",
+    "iata": "LP",
+    "icao": "LPE",
+    "name": "LAN Peru",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LQ": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "LQ",
+    "icao": "LMM",
+    "name": "LCM AIRLINES",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LR": {
+    "callsign": "LACSA",
+    "country": "Costa Rica",
+    "iata": "LR",
+    "icao": "LRC",
+    "name": "LACSA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LS": {
+    "callsign": "CHANNEX",
+    "country": "United Kingdom",
+    "iata": "LS",
+    "icao": "EXS",
+    "name": "Jet2.com",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LT": {
+    "callsign": "LITUANICA",
+    "country": "Lithuania",
+    "iata": "LT",
+    "icao": "LTU",
+    "name": "Air Lituanica",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LU": {
+    "callsign": "LANEX",
+    "country": "Chile",
+    "iata": "LU",
+    "icao": "LXP",
+    "name": "LAN Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LV": {
+    "callsign": "ALBANIAN",
+    "country": "Albania",
+    "iata": "LV",
+    "icao": "LBC",
+    "name": "Albanian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LW": {
+    "callsign": "TSUNAMI",
+    "country": "United States",
+    "iata": "LW",
+    "icao": "NMI",
+    "name": "Pacific Wings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LX": {
+    "callsign": "SWISS",
+    "country": "Switzerland",
+    "iata": "LX",
+    "icao": "SWR",
+    "name": "Swiss International Air Lines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LY": {
+    "callsign": "ELAL",
+    "country": "Israel",
+    "iata": "LY",
+    "icao": "ELY",
+    "name": "El Al Israel Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "LZ": {
+    "callsign": "",
+    "country": "",
+    "iata": "LZ",
+    "icao": "",
+    "name": "Balkan Bulgarian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M1": {
+    "callsign": "Maryland Flight",
+    "country": "United States",
+    "iata": "M1",
+    "icao": "M1F",
+    "name": "Maryland Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M2": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "M2",
+    "icao": "\\N",
+    "name": "MHS Aviation GmbH",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M3": {
+    "callsign": "ABSA Cargo",
+    "country": "Brazil",
+    "iata": "M3",
+    "icao": "TUS",
+    "name": "ABSA - Aerolinhas Brasileiras",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M4": {
+    "callsign": "MARSHAK AIR",
+    "country": "Russia",
+    "iata": "M4",
+    "icao": "1QA",
+    "name": "Marysya Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M5": {
+    "callsign": "KENMORE",
+    "country": "United States",
+    "iata": "M5",
+    "icao": "KEN",
+    "name": "Kenmore Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M7": {
+    "callsign": "MAS CARGA",
+    "country": "Mexico",
+    "iata": "M7",
+    "icao": "MAA",
+    "name": "MasAir",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M8": {
+    "callsign": "TRANSNUSA",
+    "country": "Indonesia",
+    "iata": "M8",
+    "icao": "TNU",
+    "name": "TransNusa Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "M9": {
+    "callsign": "MOTOR SICH",
+    "country": "Ukraine",
+    "iata": "M9",
+    "icao": "MSI",
+    "name": "Motor Sich",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MA": {
+    "callsign": "MALEV",
+    "country": "Hungary",
+    "iata": "MA",
+    "icao": "MAH",
+    "name": "Malév",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MB": {
+    "callsign": "BLACK SEA",
+    "country": "Turkey",
+    "iata": "MB",
+    "icao": "MNB",
+    "name": "MNG Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MD": {
+    "callsign": "AIR MADAGASCAR",
+    "country": "Madagascar",
+    "iata": "MD",
+    "icao": "MDG",
+    "name": "Air Madagascar",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ME": {
+    "callsign": "CEDAR JET",
+    "country": "Lebanon",
+    "iata": "ME",
+    "icao": "MEA",
+    "name": "Middle East Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MF": {
+    "callsign": "XIAMEN AIR",
+    "country": "China",
+    "iata": "MF",
+    "icao": "CXA",
+    "name": "Xiamen Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MH": {
+    "callsign": "MALAYSIAN",
+    "country": "Malaysia",
+    "iata": "MH",
+    "icao": "MAS",
+    "name": "Malaysia Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MI": {
+    "callsign": "SILKAIR",
+    "country": "Singapore",
+    "iata": "MI",
+    "icao": "SLK",
+    "name": "SilkAir",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MJ": {
+    "callsign": "LAPA",
+    "country": "Argentina",
+    "iata": "MJ",
+    "icao": "LPR",
+    "name": "L",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MK": {
+    "callsign": "AIRMAURITIUS",
+    "country": "Mauritius",
+    "iata": "MK",
+    "icao": "MAU",
+    "name": "Air Mauritius",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ML": {
+    "callsign": "Maldivo",
+    "country": "Maldives",
+    "iata": "ML",
+    "icao": "MAV",
+    "name": "Maldivo Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MM": {
+    "callsign": "Air Peach",
+    "country": "Japan",
+    "iata": "MM",
+    "icao": "\\N",
+    "name": "Peach Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MN": {
+    "callsign": "COMMERCIAL",
+    "country": "South Africa",
+    "iata": "MN",
+    "icao": "CAW",
+    "name": "Comair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MO": {
+    "callsign": "SULTAN",
+    "country": "United Arab Emirates",
+    "iata": "MO",
+    "icao": "AUH",
+    "name": "Abu Dhabi Amiri Flight",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MP": {
+    "callsign": "MARTINAIR",
+    "country": "Netherlands",
+    "iata": "MP",
+    "icao": "MPH",
+    "name": "Martinair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MQ": {
+    "callsign": "EAGLE FLIGHT",
+    "country": "United States",
+    "iata": "MQ",
+    "icao": "EGF",
+    "name": "American Eagle Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MR": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "MR",
+    "icao": "OME",
+    "name": "Homer Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MS": {
+    "callsign": "EGYPTAIR",
+    "country": "Egypt",
+    "iata": "MS",
+    "icao": "MSR",
+    "name": "Egyptair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MT": {
+    "callsign": "KESTREL",
+    "country": "United Kingdom",
+    "iata": "MT",
+    "icao": "TCX",
+    "name": "Thomas Cook Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MU": {
+    "callsign": "CHINA EASTERN",
+    "country": "China",
+    "iata": "MU",
+    "icao": "CES",
+    "name": "China Eastern Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MW": {
+    "callsign": "MYLAND",
+    "country": "Belize",
+    "iata": "MW",
+    "icao": "MYD",
+    "name": "Maya Island Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MX": {
+    "callsign": "MEXICANA",
+    "country": "Mexico",
+    "iata": "MX",
+    "icao": "MXA",
+    "name": "Mexicana de Aviaci",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MY": {
+    "callsign": "",
+    "country": "Egypt",
+    "iata": "MY",
+    "icao": "MWA",
+    "name": "Midwest Airlines (Egypt)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "MZ": {
+    "callsign": "MERPATI",
+    "country": "Indonesia",
+    "iata": "MZ",
+    "icao": "MNA",
+    "name": "Merpati Nusantara Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "N0": {
+    "callsign": "",
+    "country": "Argentina",
+    "iata": "N0",
+    "icao": "\\N",
+    "name": "Norte Lineas Aereas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "N1": {
+    "callsign": "",
+    "country": "Peru",
+    "iata": "N1",
+    "icao": "\\N",
+    "name": "N1",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "N4": {
+    "callsign": "",
+    "country": "Mexico",
+    "iata": "N4",
+    "icao": "J88",
+    "name": "Regionalia México",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "N5": {
+    "callsign": "SKAGWAY AIR",
+    "country": "United States",
+    "iata": "N5",
+    "icao": "SGY",
+    "name": "Skagway Air Service",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "N7": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "N7",
+    "icao": "N77",
+    "name": "All Spain",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "N8": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "N8",
+    "icao": "NCR",
+    "name": "National Air Cargo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "N9": {
+    "callsign": "",
+    "country": "United Kingdom",
+    "iata": "N9",
+    "icao": "N99",
+    "name": "All Europe",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NA": {
+    "callsign": "",
+    "country": "Iraq",
+    "iata": "NA",
+    "icao": "\\N",
+    "name": "Al-Naser Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NB": {
+    "callsign": "STERLING",
+    "country": "Denmark",
+    "iata": "NB",
+    "icao": "SNB",
+    "name": "Sterling Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NC": {
+    "callsign": "NATIONAL JET",
+    "country": "Australia",
+    "iata": "NC",
+    "icao": "NJS",
+    "name": "National Jet Systems",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NE": {
+    "callsign": "RELAX",
+    "country": "Slovakia",
+    "iata": "NE",
+    "icao": "ESK",
+    "name": "SkyEurope",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NF": {
+    "callsign": "AIR VAN",
+    "country": "Vanuatu",
+    "iata": "NF",
+    "icao": "AVN",
+    "name": "Air Vanuatu",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NG": {
+    "callsign": "LAUDA AIR",
+    "country": "Austria",
+    "iata": "NG",
+    "icao": "LDA",
+    "name": "Lauda Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NH": {
+    "callsign": "ALL NIPPON",
+    "country": "Japan",
+    "iata": "NH",
+    "icao": "ANA",
+    "name": "All Nippon Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NI": {
+    "callsign": "PORTUGALIA",
+    "country": "Portugal",
+    "iata": "NI",
+    "icao": "PGA",
+    "name": "Portugalia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NJ": {
+    "callsign": "Nordic Global",
+    "country": "Finland",
+    "iata": "NJ",
+    "icao": "NGB",
+    "name": "Nordic Global Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NK": {
+    "callsign": "SPIRIT WINGS",
+    "country": "United States",
+    "iata": "NK",
+    "icao": "NKS",
+    "name": "Spirit Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NL": {
+    "callsign": "SHAHEEN AIR",
+    "country": "Pakistan",
+    "iata": "NL",
+    "icao": "SAI",
+    "name": "Shaheen Air International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NM": {
+    "callsign": "ALADA AIR",
+    "country": "Spain",
+    "iata": "NM",
+    "icao": "DRD",
+    "name": "Air Madrid",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NN": {
+    "callsign": "MOV AIR",
+    "country": "Russia",
+    "iata": "NN",
+    "icao": "MOV",
+    "name": "VIM Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NP": {
+    "callsign": "NILEBIRD",
+    "country": "Egypt",
+    "iata": "NP",
+    "icao": "NIA",
+    "name": "Nile Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NQ": {
+    "callsign": "AIR JAPAN",
+    "country": "Japan",
+    "iata": "NQ",
+    "icao": "AJX",
+    "name": "Air Japan",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NR": {
+    "callsign": "JETHAPPY",
+    "country": "Hong Kong",
+    "iata": "NR",
+    "icao": "JTO",
+    "name": "Jettor Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NS": {
+    "callsign": "",
+    "country": "Georgia",
+    "iata": "NS",
+    "icao": "\\N",
+    "name": "Caucasus Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NT": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "NT",
+    "icao": "IBB",
+    "name": "Binter Canarias",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NU": {
+    "callsign": "JAI OCEAN",
+    "country": "Japan",
+    "iata": "NU",
+    "icao": "JTA",
+    "name": "Japan Transocean Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NW": {
+    "callsign": "NORTHWEST",
+    "country": "United States",
+    "iata": "NW",
+    "icao": "NWA",
+    "name": "Northwest Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NX": {
+    "callsign": "AIR MACAO",
+    "country": "Macao",
+    "iata": "NX",
+    "icao": "AMU",
+    "name": "Air Macau",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NY": {
+    "callsign": "FAXI",
+    "country": "Iceland",
+    "iata": "NY",
+    "icao": "FXI",
+    "name": "Air Iceland",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "NZ": {
+    "callsign": "NEW ZEALAND",
+    "country": "New Zealand",
+    "iata": "NZ",
+    "icao": "ANZ",
+    "name": "Air New Zealand",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "O1": {
+    "callsign": "Orbitaz",
+    "country": "Azerbaijan",
+    "iata": "O1",
+    "icao": "OAB",
+    "name": "Orbit Airlines Azerbaijan",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "O2": {
+    "callsign": "",
+    "country": "Guinea",
+    "iata": "O2",
+    "icao": "",
+    "name": "Oceanic Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "O6": {
+    "callsign": "OCEANAIR",
+    "country": "Brazil",
+    "iata": "O6",
+    "icao": "ONE",
+    "name": "Oceanair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "O7": {
+    "callsign": "AUSJET",
+    "country": "Australia",
+    "iata": "O7",
+    "icao": "OZJ",
+    "name": "Ozjet Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "O8": {
+    "callsign": "OASIS",
+    "country": "Hong Kong",
+    "iata": "O8",
+    "icao": "OHK",
+    "name": "Oasis Hong Kong Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OA": {
+    "callsign": "OLYMPIC",
+    "country": "Greece",
+    "iata": "OA",
+    "icao": "OAL",
+    "name": "Olympic Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OB": {
+    "callsign": "AIR ASTRAKHAN",
+    "country": "Russia",
+    "iata": "OB",
+    "icao": "ASZ",
+    "name": "Astrakhan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OC": {
+    "callsign": "CATOVAIR",
+    "country": "Mauritius",
+    "iata": "OC",
+    "icao": "\\N",
+    "name": "Catovair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OD": {
+    "callsign": "Malindo",
+    "country": "Malaysia",
+    "iata": "OD",
+    "icao": "MXD",
+    "name": "Malindo Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OF": {
+    "callsign": "AIR FINLAND",
+    "country": "Finland",
+    "iata": "OF",
+    "icao": "FIF",
+    "name": "Air Finland",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OG": {
+    "callsign": "",
+    "country": "Ukraine",
+    "iata": "OG",
+    "icao": "\\N",
+    "name": "AirOnix",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OH": {
+    "callsign": "COMAIR",
+    "country": "United States",
+    "iata": "OH",
+    "icao": "COM",
+    "name": "Comair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OI": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "OI",
+    "icao": "ORC",
+    "name": "Orchid Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OJ": {
+    "callsign": "OVERLAND",
+    "country": "Nigeria",
+    "iata": "OJ",
+    "icao": "OLA",
+    "name": "Overland Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OK": {
+    "callsign": "CSA-LINES",
+    "country": "Czech Republic",
+    "iata": "OK",
+    "icao": "CSA",
+    "name": "Czech Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OL": {
+    "callsign": "OLTRA",
+    "country": "Germany",
+    "iata": "OL",
+    "icao": "OLT",
+    "name": "Ostfriesische Lufttransport",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OM": {
+    "callsign": "MONGOL AIR",
+    "country": "Mongolia",
+    "iata": "OM",
+    "icao": "MGL",
+    "name": "MIAT Mongolian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ON": {
+    "callsign": "AIR NAURU",
+    "country": "Nauru",
+    "iata": "ON",
+    "icao": "RON",
+    "name": "Nauru Air Corporation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OO": {
+    "callsign": "SKYWEST",
+    "country": "United States",
+    "iata": "OO",
+    "icao": "SKW",
+    "name": "SkyWest",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OP": {
+    "callsign": "",
+    "country": "India",
+    "iata": "OP",
+    "icao": "PPL",
+    "name": "Air Pegasus",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OQ": {
+    "callsign": "CHONG QING",
+    "country": "China",
+    "iata": "OQ",
+    "icao": "CQN",
+    "name": "Chongqing Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OR": {
+    "callsign": "ARKEFLY",
+    "country": "Netherlands",
+    "iata": "OR",
+    "icao": "TFL",
+    "name": "Arkefly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OS": {
+    "callsign": "AUSTRIAN",
+    "country": "Austria",
+    "iata": "OS",
+    "icao": "AUA",
+    "name": "Austrian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OT": {
+    "callsign": "PELICAN",
+    "country": "Australia",
+    "iata": "OT",
+    "icao": "PEL",
+    "name": "Aeropelican Air Services",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OU": {
+    "callsign": "CROATIA",
+    "country": "Croatia",
+    "iata": "OU",
+    "icao": "CTN",
+    "name": "Croatia Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OV": {
+    "callsign": "ESTONIAN",
+    "country": "Estonia",
+    "iata": "OV",
+    "icao": "ELL",
+    "name": "Estonian Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OX": {
+    "callsign": "ORIENT THAI",
+    "country": "Thailand",
+    "iata": "OX",
+    "icao": "OEA",
+    "name": "Orient Thai Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OY": {
+    "callsign": "OMNI-EXPRESS",
+    "country": "United States",
+    "iata": "OY",
+    "icao": "OAE",
+    "name": "Omni Air International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "OZ": {
+    "callsign": "ASIANA",
+    "country": "Republic of Korea",
+    "iata": "OZ",
+    "icao": "AAR",
+    "name": "Asiana Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "P0": {
+    "callsign": "",
+    "country": "Zambia",
+    "iata": "P0",
+    "icao": "",
+    "name": "Proflight Commuter Services",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "P4": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "P4",
+    "icao": "\\N",
+    "name": "Patriot Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "P5": {
+    "callsign": "AEROREPUBLICA",
+    "country": "Colombia",
+    "iata": "P5",
+    "icao": "RPB",
+    "name": "AeroRep",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "P7": {
+    "callsign": "REGIOPAR",
+    "country": "Paraguay",
+    "iata": "P7",
+    "icao": "REP",
+    "name": "Regional Paraguaya",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "P8": {
+    "callsign": "Air Mekong",
+    "country": "Vietnam",
+    "iata": "P8",
+    "icao": "MKG",
+    "name": "Air Mekong",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "P9": {
+    "callsign": "",
+    "country": "Peru",
+    "iata": "P9",
+    "icao": "\\N",
+    "name": "Peruvian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PA": {
+    "callsign": "IPV",
+    "country": "Iran",
+    "iata": "PA",
+    "icao": "IPV",
+    "name": "Parmiss Airlines (IPV)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PC": {
+    "callsign": "SUNTURK",
+    "country": "Turkey",
+    "iata": "PC",
+    "icao": "PGT",
+    "name": "Pegasus Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PD": {
+    "callsign": "PORTER AIR",
+    "country": "Canada",
+    "iata": "PD",
+    "icao": "POE",
+    "name": "Porter Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PE": {
+    "callsign": "AIR EUROPE",
+    "country": "Italy",
+    "iata": "PE",
+    "icao": "AEL",
+    "name": "Air Europe",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PF": {
+    "callsign": "PRIMERA",
+    "country": "Iceland",
+    "iata": "PF",
+    "icao": "\\N",
+    "name": "Primera Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PG": {
+    "callsign": "BANGKOK AIR",
+    "country": "Thailand",
+    "iata": "PG",
+    "icao": "BKP",
+    "name": "Bangkok Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PH": {
+    "callsign": "POLYNESIAN",
+    "country": "Samoa",
+    "iata": "PH",
+    "icao": "PAO",
+    "name": "Polynesian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PI": {
+    "callsign": "PIEDMONT",
+    "country": "United States",
+    "iata": "PI",
+    "icao": "PDT",
+    "name": "Piedmont Airlines (1948-1989)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PJ": {
+    "callsign": "",
+    "country": "France",
+    "iata": "PJ",
+    "icao": "SPM",
+    "name": "Air Saint Pierre",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PK": {
+    "callsign": "PAKISTAN",
+    "country": "Pakistan",
+    "iata": "PK",
+    "icao": "PIA",
+    "name": "Pakistan International Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PL": {
+    "callsign": "Aeroperu",
+    "country": "Peru",
+    "iata": "PL",
+    "icao": "PLI",
+    "name": "Aeroper",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PM": {
+    "callsign": "TROPISER",
+    "country": "Belize",
+    "iata": "PM",
+    "icao": "TOS",
+    "name": "Tropic Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PN": {
+    "callsign": "WEST CHINA",
+    "country": "China",
+    "iata": "PN",
+    "icao": "CHB",
+    "name": "West Air China",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PO": {
+    "callsign": "FlyPortugal",
+    "country": "Portugal",
+    "iata": "PO",
+    "icao": "FPT",
+    "name": "FlyPortugal",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PP": {
+    "callsign": "AIPL",
+    "country": "Pakistan",
+    "iata": "PP",
+    "icao": "AI0",
+    "name": "Air Indus",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PQ": {
+    "callsign": "slowbird",
+    "country": "Russia",
+    "iata": "PQ",
+    "icao": "LOO",
+    "name": "LSM Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PR": {
+    "callsign": "PHILIPPINE",
+    "country": "Philippines",
+    "iata": "PR",
+    "icao": "PAL",
+    "name": "Philippine Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PS": {
+    "callsign": "UKRAINE INTERNATIONAL",
+    "country": "Ukraine",
+    "iata": "PS",
+    "icao": "AUI",
+    "name": "Ukraine International Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PT": {
+    "callsign": "",
+    "country": "Peru",
+    "iata": "PT",
+    "icao": "\\N",
+    "name": "Red Jet Andes",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PU": {
+    "callsign": "PLUNA",
+    "country": "Uruguay",
+    "iata": "PU",
+    "icao": "PUA",
+    "name": "PLUNA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PV": {
+    "callsign": "SKYJET",
+    "country": "Spain",
+    "iata": "PV",
+    "icao": "PNR",
+    "name": "PAN Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PW": {
+    "callsign": "PRECISION AIR",
+    "country": "Tanzania",
+    "iata": "PW",
+    "icao": "PRF",
+    "name": "Precision Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PX": {
+    "callsign": "NUIGINI",
+    "country": "Papua New Guinea",
+    "iata": "PX",
+    "icao": "ANG",
+    "name": "Air Niugini",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PY": {
+    "callsign": "SURINAM",
+    "country": "Suriname",
+    "iata": "PY",
+    "icao": "SLM",
+    "name": "Surinam Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "PZ": {
+    "callsign": "PARAGUAYA",
+    "country": "Paraguay",
+    "iata": "PZ",
+    "icao": "LAP",
+    "name": "TAM Mercosur",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q2": {
+    "callsign": "ISLAND AVIATION",
+    "country": "Maldives",
+    "iata": "Q2",
+    "icao": "\\N",
+    "name": "Maldivian",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q3": {
+    "callsign": "russian doll",
+    "country": "Russia",
+    "iata": "Q3",
+    "icao": "QER",
+    "name": "SOCHI AIR CHATER",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q4": {
+    "callsign": "ADLER EXPRESS",
+    "country": "Russia",
+    "iata": "Q4",
+    "icao": "SAE",
+    "name": "SOCHI AIR EXPRESS",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q5": {
+    "callsign": "MILE-AIR",
+    "country": "United States",
+    "iata": "Q5",
+    "icao": "MLA",
+    "name": "40-Mile Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q6": {
+    "callsign": "CONDOR-PERU",
+    "country": "Peru",
+    "iata": "Q6",
+    "icao": "CDP",
+    "name": "Aero Condor Peru",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q7": {
+    "callsign": "TROPICAL SKY",
+    "country": "Bahamas",
+    "iata": "Q7",
+    "icao": "\\N",
+    "name": "SkyBahamas Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q8": {
+    "callsign": "PAC-EAST CARGO",
+    "country": "Philippines",
+    "iata": "Q8",
+    "icao": "PEC",
+    "name": "Pacific East Asia Cargo Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Q9": {
+    "callsign": "",
+    "country": "Niger",
+    "iata": "Q9",
+    "icao": "NAK",
+    "name": "Arik Niger",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QA": {
+    "callsign": "",
+    "country": "Mexico",
+    "iata": "QA",
+    "icao": "\\N",
+    "name": "Click (Mexicana)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QB": {
+    "callsign": "NATIONAL",
+    "country": "Georgia",
+    "iata": "QB",
+    "icao": "GFG",
+    "name": "Georgian National Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QC": {
+    "callsign": "",
+    "country": "Cameroon",
+    "iata": "QC",
+    "icao": "\\N",
+    "name": "Camair-co",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QD": {
+    "callsign": "DOBROLET",
+    "country": "Russia",
+    "iata": "QD",
+    "icao": "DOB",
+    "name": "Dobrolet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QF": {
+    "callsign": "QANTAS",
+    "country": "Australia",
+    "iata": "QF",
+    "icao": "QFA",
+    "name": "Qantas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QG": {
+    "callsign": "SUPERGREEN",
+    "country": "Indonesia",
+    "iata": "QG",
+    "icao": "\\N",
+    "name": "Citilink Indonesia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QH": {
+    "callsign": "AIR FLORIDA",
+    "country": "United States",
+    "iata": "QH",
+    "icao": "FLZ",
+    "name": "Air Florida",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QI": {
+    "callsign": "CIMBER",
+    "country": "Denmark",
+    "iata": "QI",
+    "icao": "CIM",
+    "name": "Cimber Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QJ": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "QJ",
+    "icao": "",
+    "name": "Jet Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QK": {
+    "callsign": "JAZZ",
+    "country": "Canada",
+    "iata": "QK",
+    "icao": "JZA",
+    "name": "Air Canada Jazz",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QL": {
+    "callsign": "AERO LANKA",
+    "country": "Sri Lanka",
+    "iata": "QL",
+    "icao": "RLN",
+    "name": "Aero Lanka",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QM": {
+    "callsign": "MALAWI",
+    "country": "Malawi",
+    "iata": "QM",
+    "icao": "AML",
+    "name": "Air Malawi",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QO": {
+    "callsign": "ORIGIN",
+    "country": "New Zealand",
+    "iata": "QO",
+    "icao": "OGN",
+    "name": "Origin Pacific Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QP": {
+    "callsign": "",
+    "country": "Kenya",
+    "iata": "QP",
+    "icao": "\\N",
+    "name": "Air Kenya (Priv)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QQ": {
+    "callsign": "UNITY",
+    "country": "Australia",
+    "iata": "QQ",
+    "icao": "UTY",
+    "name": "Alliance Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QR": {
+    "callsign": "QATARI",
+    "country": "Qatar",
+    "iata": "QR",
+    "icao": "QTR",
+    "name": "Qatar Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QS": {
+    "callsign": "SKYTRAVEL",
+    "country": "Czech Republic",
+    "iata": "QS",
+    "icao": "TVS",
+    "name": "Travel Service",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QT": {
+    "callsign": "TAMPA",
+    "country": "Colombia",
+    "iata": "QT",
+    "icao": "TPA",
+    "name": "TAMPA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QU": {
+    "callsign": "CRANE",
+    "country": "Uganda",
+    "iata": "QU",
+    "icao": "UGX",
+    "name": "East African",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QV": {
+    "callsign": "LAO",
+    "country": "Lao Peoples Democratic Republic",
+    "iata": "QV",
+    "icao": "LAO",
+    "name": "Lao Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QW": {
+    "callsign": "BLUE WINGS",
+    "country": "Germany",
+    "iata": "QW",
+    "icao": "BWG",
+    "name": "Blue Wings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QX": {
+    "callsign": "HORIZON AIR",
+    "country": "United States",
+    "iata": "QX",
+    "icao": "QXE",
+    "name": "Horizon Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QY": {
+    "callsign": "",
+    "country": "Canada",
+    "iata": "QY",
+    "icao": "\\N",
+    "name": "Red Jet Canada",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "QZ": {
+    "callsign": "WAGON AIR",
+    "country": "Indonesia",
+    "iata": "QZ",
+    "icao": "AWQ",
+    "name": "Indonesia AirAsia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "R2": {
+    "callsign": "ORENBURG",
+    "country": "Russia",
+    "iata": "R2",
+    "icao": "ORB",
+    "name": "Orenburg Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "R3": {
+    "callsign": "AIR YAKUTIA",
+    "country": "Russia",
+    "iata": "R3",
+    "icao": "SYL",
+    "name": "Aircompany Yakutia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "R4": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "R4",
+    "icao": "",
+    "name": "Rossiya",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "R5": {
+    "callsign": "MALTA CHARTER",
+    "country": "Malta",
+    "iata": "R5",
+    "icao": "MAC",
+    "name": "Malta Air Charter",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "R6": {
+    "callsign": "",
+    "country": "Guatemala",
+    "iata": "R6",
+    "icao": "",
+    "name": "RACSA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "R7": {
+    "callsign": "AROSCA",
+    "country": "Venezuela",
+    "iata": "R7",
+    "icao": "OCA",
+    "name": "Aserca Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "R8": {
+    "callsign": "russiancloud",
+    "country": "Russia",
+    "iata": "R8",
+    "icao": "RRJ",
+    "name": "AirRussia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RA": {
+    "callsign": "ROYAL NEPAL",
+    "country": "Nepal",
+    "iata": "RA",
+    "icao": "RNA",
+    "name": "Royal Nepal Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RB": {
+    "callsign": "SYRIANAIR",
+    "country": "Syrian Arab Republic",
+    "iata": "RB",
+    "icao": "SYR",
+    "name": "Syrian Arab Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RC": {
+    "callsign": "FAROELINE",
+    "country": "Faroe Islands",
+    "iata": "RC",
+    "icao": "FLI",
+    "name": "Atlantic Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RD": {
+    "callsign": "RYAN INTERNATIONAL",
+    "country": "United States",
+    "iata": "RD",
+    "icao": "RYN",
+    "name": "Ryan International Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RE": {
+    "callsign": "AER ARANN",
+    "country": "Ireland",
+    "iata": "RE",
+    "icao": "REA",
+    "name": "Aer Arann",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RF": {
+    "callsign": "FLO WEST",
+    "country": "United States",
+    "iata": "RF",
+    "icao": "FWL",
+    "name": "Florida West International Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RG": {
+    "callsign": "VARIG",
+    "country": "Brazil",
+    "iata": "RG",
+    "icao": "VRN",
+    "name": "VRG Linhas Aereas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RH": {
+    "callsign": "PUBLIC EXPRESS",
+    "country": "Indonesia",
+    "iata": "RH",
+    "icao": "RPH",
+    "name": "Republic Express Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RI": {
+    "callsign": "MANDALA",
+    "country": "Indonesia",
+    "iata": "RI",
+    "icao": "MDL",
+    "name": "Mandala Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RJ": {
+    "callsign": "JORDANIAN",
+    "country": "Jordan",
+    "iata": "RJ",
+    "icao": "RJA",
+    "name": "Royal Jordanian",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RK": {
+    "callsign": "AIRAFRIC",
+    "country": "Ivory Coast",
+    "iata": "RK",
+    "icao": "RKA",
+    "name": "Air Afrique",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RL": {
+    "callsign": "",
+    "country": "Jordan",
+    "iata": "RL",
+    "icao": "RFJ",
+    "name": "Royal Falcon",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RM": {
+    "callsign": "Rainbow Air",
+    "country": "United States",
+    "iata": "RM",
+    "icao": "RNY",
+    "name": "Rainbow Air US",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RN": {
+    "callsign": "Rainbow",
+    "country": "United States",
+    "iata": "RN",
+    "icao": "RAB",
+    "name": "Rainbow Air (RAI)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RO": {
+    "callsign": "TAROM",
+    "country": "Romania",
+    "iata": "RO",
+    "icao": "ROT",
+    "name": "Tarom",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RP": {
+    "callsign": "CHAUTAUQUA",
+    "country": "United States",
+    "iata": "RP",
+    "icao": "CHQ",
+    "name": "Chautauqua Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RQ": {
+    "callsign": "KAMGAR",
+    "country": "Afghanistan",
+    "iata": "RQ",
+    "icao": "KMF",
+    "name": "Kam Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RR": {
+    "callsign": "Rexair",
+    "country": "France",
+    "iata": "RR",
+    "icao": "RXR",
+    "name": "REXAIR VIRTUEL",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RS": {
+    "callsign": "Sky Regional",
+    "country": "Canada",
+    "iata": "RS",
+    "icao": "SKV",
+    "name": "Sky Regional",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RT": {
+    "callsign": "",
+    "country": "Tonga",
+    "iata": "RT",
+    "icao": "\\N",
+    "name": "Real Tonga",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RU": {
+    "callsign": "Rainbow Air",
+    "country": "United Kingdom",
+    "iata": "RU",
+    "icao": "RUE",
+    "name": "Rainbow Air Euro",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RV": {
+    "callsign": "CASPIAN",
+    "country": "Iran",
+    "iata": "RV",
+    "icao": "CPN",
+    "name": "Caspian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RW": {
+    "callsign": "BRICKYARD",
+    "country": "United States",
+    "iata": "RW",
+    "icao": "RPA",
+    "name": "Republic Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RX": {
+    "callsign": "Rainbow Air",
+    "country": "United States",
+    "iata": "RX",
+    "icao": "RPO",
+    "name": "Rainbow Air Polynesia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RY": {
+    "callsign": "Rainbow CAN",
+    "country": "Canada",
+    "iata": "RY",
+    "icao": "RAY",
+    "name": "Rainbow Air Canada",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "RZ": {
+    "callsign": "",
+    "country": "Sweden",
+    "iata": "RZ",
+    "icao": "",
+    "name": "Euro Exec Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S0": {
+    "callsign": "Spike Air",
+    "country": "United States",
+    "iata": "S0",
+    "icao": "SAL",
+    "name": "Spike Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S1": {
+    "callsign": "",
+    "country": "Serbia",
+    "iata": "S1",
+    "icao": "SA1",
+    "name": "Serbian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S2": {
+    "callsign": "SAHARA",
+    "country": "India",
+    "iata": "S2",
+    "icao": "RSH",
+    "name": "Air Sahara",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S3": {
+    "callsign": "SANTA BARBARA",
+    "country": "Venezuela",
+    "iata": "S3",
+    "icao": "BBR",
+    "name": "Santa Barbara Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S4": {
+    "callsign": "AIR AZORES",
+    "country": "Portugal",
+    "iata": "S4",
+    "icao": "RZO",
+    "name": "SATA International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S5": {
+    "callsign": "MERCURY",
+    "country": "United States",
+    "iata": "S5",
+    "icao": "TCF",
+    "name": "Shuttle America",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S6": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "S6",
+    "icao": "\\N",
+    "name": "Salmon Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S7": {
+    "callsign": "SIBERIAN AIRLINES",
+    "country": "Russia",
+    "iata": "S7",
+    "icao": "SBI",
+    "name": "S7 Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S8": {
+    "callsign": "",
+    "country": "Finland",
+    "iata": "S8",
+    "icao": "SBD",
+    "name": "Snowbird Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "S9": {
+    "callsign": "",
+    "country": "Ghana",
+    "iata": "S9",
+    "icao": "\\N",
+    "name": "Starbow Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SA": {
+    "callsign": "SPRINGBOK",
+    "country": "South Africa",
+    "iata": "SA",
+    "icao": "SAA",
+    "name": "South African Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SB": {
+    "callsign": "AIRCALIN",
+    "country": "France",
+    "iata": "SB",
+    "icao": "ACI",
+    "name": "Air Caledonie International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SC": {
+    "callsign": "SHANDONG",
+    "country": "China",
+    "iata": "SC",
+    "icao": "CDG",
+    "name": "Shandong Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SD": {
+    "callsign": "SUDANAIR",
+    "country": "Sudan",
+    "iata": "SD",
+    "icao": "SUD",
+    "name": "Sudan Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SE": {
+    "callsign": "STARWAY",
+    "country": "France",
+    "iata": "SE",
+    "icao": "SEU",
+    "name": "XL Airways France",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SG": {
+    "callsign": "SPICEJET",
+    "country": "India",
+    "iata": "SG",
+    "icao": "SEJ",
+    "name": "Spicejet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SH": {
+    "callsign": "SHARP",
+    "country": "Australia",
+    "iata": "SH",
+    "icao": "SHA",
+    "name": "Sharp Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SI": {
+    "callsign": "BLUEJET",
+    "country": "Ireland",
+    "iata": "SI",
+    "icao": "SIH",
+    "name": "Skynet Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SJ": {
+    "callsign": "SRIWIJAYA",
+    "country": "Indonesia",
+    "iata": "SJ",
+    "icao": "SJY",
+    "name": "Sriwijaya Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SK": {
+    "callsign": "SCANDINAVIAN",
+    "country": "Sweden",
+    "iata": "SK",
+    "icao": "SAS",
+    "name": "Scandinavian Airlines System",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SL": {
+    "callsign": "",
+    "country": "Thailand",
+    "iata": "SL",
+    "icao": "\\N",
+    "name": "Thai Lion Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SM": {
+    "callsign": "MANILA SKY",
+    "country": "Philippines",
+    "iata": "SM",
+    "icao": "MNP",
+    "name": "Spirit of Manila Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SN": {
+    "callsign": "BEE-LINE",
+    "country": "Belgium",
+    "iata": "SN",
+    "icao": "DAT",
+    "name": "Brussels Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SO": {
+    "callsign": "SALSA",
+    "country": "Haiti",
+    "iata": "SO",
+    "icao": "SLC",
+    "name": "Salsa d\\\\'Haiti",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SP": {
+    "callsign": "SATA",
+    "country": "Portugal",
+    "iata": "SP",
+    "icao": "SAT",
+    "name": "SATA Air Acores",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SQ": {
+    "callsign": "SINGCARGO",
+    "country": "Singapore",
+    "iata": "SQ",
+    "icao": "SQC",
+    "name": "Singapore Airlines Cargo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SR": {
+    "callsign": "Swissair",
+    "country": "Switzerland",
+    "iata": "SR",
+    "icao": "SWR",
+    "name": "Swissair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SS": {
+    "callsign": "CORSAIR",
+    "country": "France",
+    "iata": "SS",
+    "icao": "CRL",
+    "name": "Corsairfly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ST": {
+    "callsign": "GERMANIA",
+    "country": "Germany",
+    "iata": "ST",
+    "icao": "GMI",
+    "name": "Germania",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SU": {
+    "callsign": "AEROFLOT",
+    "country": "Russia",
+    "iata": "SU",
+    "icao": "AFL",
+    "name": "Aeroflot Russian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SV": {
+    "callsign": "SAUDIA",
+    "country": "Saudi Arabia",
+    "iata": "SV",
+    "icao": "SVA",
+    "name": "Saudi Arabian Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SW": {
+    "callsign": "NAMIBIA",
+    "country": "Namibia",
+    "iata": "SW",
+    "icao": "NMB",
+    "name": "Air Namibia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SX": {
+    "callsign": "SKYFOX",
+    "country": "Switzerland",
+    "iata": "SX",
+    "icao": "\\N",
+    "name": "SkyWork Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SY": {
+    "callsign": "SUN COUNTRY",
+    "country": "United States",
+    "iata": "SY",
+    "icao": "SCX",
+    "name": "Sun Country Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "SZ": {
+    "callsign": "SZA",
+    "country": "Austria",
+    "iata": "SZ",
+    "icao": "\\N",
+    "name": "Salzburg arrows",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "T0": {
+    "callsign": "TACA PERU",
+    "country": "Peru",
+    "iata": "T0",
+    "icao": "\\N",
+    "name": "TACA Peru",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "T2": {
+    "callsign": "THAI CARGO",
+    "country": "Thailand",
+    "iata": "T2",
+    "icao": "TCG",
+    "name": "Thai Air Cargo",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "T3": {
+    "callsign": "EASTFLIGHT",
+    "country": "United Kingdom",
+    "iata": "T3",
+    "icao": "EZE",
+    "name": "Eastern Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "T4": {
+    "callsign": "HELLAS JET",
+    "country": "Greece",
+    "iata": "T4",
+    "icao": "HEJ",
+    "name": "Hellas Jet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "T5": {
+    "callsign": "TURKMENISTAN",
+    "country": "Turkmenistan",
+    "iata": "T5",
+    "icao": "TUA",
+    "name": "Turkmenistan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "T6": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "T6",
+    "icao": "TP6",
+    "name": "Trans Pas Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "T7": {
+    "callsign": "TWINJET",
+    "country": "France",
+    "iata": "T7",
+    "icao": "TJT",
+    "name": "Twin Jet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TA": {
+    "callsign": "TACA-COSTARICA",
+    "country": "Costa Rica",
+    "iata": "TA",
+    "icao": "TAT",
+    "name": "Grupo TACA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TB": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "TB",
+    "icao": "TBZ",
+    "name": "TrasBrasil",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TC": {
+    "callsign": "TANZANIA",
+    "country": "Tanzania",
+    "iata": "TC",
+    "icao": "ATC",
+    "name": "Air Tanzania",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TD": {
+    "callsign": "",
+    "country": "Armenia",
+    "iata": "TD",
+    "icao": "LUR",
+    "name": "Atlantis European Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TE": {
+    "callsign": "LITHUANIA AIR",
+    "country": "Lithuania",
+    "iata": "TE",
+    "icao": "LIL",
+    "name": "FlyLal",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TF": {
+    "callsign": "Scanwings",
+    "country": "Sweden",
+    "iata": "TF",
+    "icao": "SCW",
+    "name": "Malmö Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TG": {
+    "callsign": "THAI",
+    "country": "Thailand",
+    "iata": "TG",
+    "icao": "THA",
+    "name": "Thai Airways International",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TH": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "TH",
+    "icao": "THS",
+    "name": "TransBrasil Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TI": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "TI",
+    "icao": "THI",
+    "name": "TransHolding",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TJ": {
+    "callsign": "T.J. Air",
+    "country": "United States",
+    "iata": "TJ",
+    "icao": "TJA",
+    "name": "T.J. Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TK": {
+    "callsign": "TURKAIR",
+    "country": "Turkey",
+    "iata": "TK",
+    "icao": "THY",
+    "name": "Turkish Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TL": {
+    "callsign": "TANGO LIMA",
+    "country": "Lebanon",
+    "iata": "TL",
+    "icao": "TMA",
+    "name": "Trans Mediterranean Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TM": {
+    "callsign": "",
+    "country": "Mozambique",
+    "iata": "TM",
+    "icao": "\\N",
+    "name": "Air Mozambique",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TN": {
+    "callsign": "TAHITI AIRLINES",
+    "country": "France",
+    "iata": "TN",
+    "icao": "THT",
+    "name": "Air Tahiti Nui",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TO": {
+    "callsign": "FRENCH SUN",
+    "country": "France",
+    "iata": "TO",
+    "icao": "TVF",
+    "name": "Transavia France",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TP": {
+    "callsign": "AIR PORTUGAL",
+    "country": "Portugal",
+    "iata": "TP",
+    "icao": "TAP",
+    "name": "TAP Portugal",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TQ": {
+    "callsign": "TXW",
+    "country": "United States",
+    "iata": "TQ",
+    "icao": "TXW",
+    "name": "Texas Wings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TR": {
+    "callsign": "GO CAT",
+    "country": "Singapore",
+    "iata": "TR",
+    "icao": "TGW",
+    "name": "Tiger Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TS": {
+    "callsign": "TRANSAT",
+    "country": "Canada",
+    "iata": "TS",
+    "icao": "TSC",
+    "name": "Air Transat",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TT": {
+    "callsign": "GO CAT",
+    "country": "Australia",
+    "iata": "TT",
+    "icao": "TGW",
+    "name": "Tiger Airways Australia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TU": {
+    "callsign": "TUNAIR",
+    "country": "Tunisia",
+    "iata": "TU",
+    "icao": "TAR",
+    "name": "Tunisair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TV": {
+    "callsign": "VIRGIN EXPRESS",
+    "country": "Belgium",
+    "iata": "TV",
+    "icao": "VEX",
+    "name": "Virgin Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TW": {
+    "callsign": "TWAY AIR",
+    "country": "South Korea",
+    "iata": "TW",
+    "icao": "TWB",
+    "name": "Tway Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TX": {
+    "callsign": "FRENCH WEST",
+    "country": "France",
+    "iata": "TX",
+    "icao": "FWI",
+    "name": "Air Caraïbes",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TY": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "TY",
+    "icao": "IWD",
+    "name": "Iberworld",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "TZ": {
+    "callsign": "",
+    "country": "Singapore",
+    "iata": "TZ",
+    "icao": "SCO",
+    "name": "Scoot",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U1": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "U1",
+    "icao": "ABI",
+    "name": "Aviabus",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U2": {
+    "callsign": "EASY",
+    "country": "United Kingdom",
+    "iata": "U2",
+    "icao": "EZY",
+    "name": "easyJet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U3": {
+    "callsign": "AVIES",
+    "country": "Estonia",
+    "iata": "U3",
+    "icao": "AIA",
+    "name": "Avies",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U4": {
+    "callsign": "MULTITRADE",
+    "country": "Cambodia",
+    "iata": "U4",
+    "icao": "PMT",
+    "name": "PMTair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U5": {
+    "callsign": "GETAWAY",
+    "country": "United States",
+    "iata": "U5",
+    "icao": "GWY",
+    "name": "USA3000 Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U6": {
+    "callsign": "SVERDLOVSK AIR",
+    "country": "Russia",
+    "iata": "U6",
+    "icao": "SVR",
+    "name": "Ural Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U7": {
+    "callsign": "",
+    "country": "Canada",
+    "iata": "U7",
+    "icao": "",
+    "name": "Northern Dene Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U8": {
+    "callsign": "ARMAVIA",
+    "country": "Armenia",
+    "iata": "U8",
+    "icao": "RNV",
+    "name": "Armavia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "U9": {
+    "callsign": "TATARSTAN",
+    "country": "Russia",
+    "iata": "U9",
+    "icao": "TAK",
+    "name": "Tatarstan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UA": {
+    "callsign": "UNITED",
+    "country": "United States",
+    "iata": "UA",
+    "icao": "UAL",
+    "name": "United Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UB": {
+    "callsign": "UNIONAIR",
+    "country": "Myanmar",
+    "iata": "UB",
+    "icao": "UBA",
+    "name": "Myanma Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UD": {
+    "callsign": "HEX AIRLINE",
+    "country": "France",
+    "iata": "UD",
+    "icao": "HER",
+    "name": "Hex'Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UE": {
+    "callsign": "NASAIRWAYS",
+    "country": "Eritrea",
+    "iata": "UE",
+    "icao": "NAS",
+    "name": "Nasair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UF": {
+    "callsign": "UKRAINE MEDITERRANEE",
+    "country": "Ukraine",
+    "iata": "UF",
+    "icao": "UKM",
+    "name": "UM Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UG": {
+    "callsign": "",
+    "country": "Tunisia",
+    "iata": "UG",
+    "icao": "TUI",
+    "name": "Tuninter",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UH": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "UH",
+    "icao": "",
+    "name": "US Helicopter Corporation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UI": {
+    "callsign": "EUROCYPRIA",
+    "country": "Cyprus",
+    "iata": "UI",
+    "icao": "ECA",
+    "name": "Eurocypria Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UJ": {
+    "callsign": "ALMASRIA",
+    "country": "Egypt",
+    "iata": "UJ",
+    "icao": "LMU",
+    "name": "AlMasria Universal Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UK": {
+    "callsign": "",
+    "country": "India",
+    "iata": "UK",
+    "icao": "VTI",
+    "name": "Air Vistara",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UL": {
+    "callsign": "SRILANKAN",
+    "country": "Sri Lanka",
+    "iata": "UL",
+    "icao": "ALK",
+    "name": "SriLankan Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UM": {
+    "callsign": "AIR ZIMBABWE",
+    "country": "Zimbabwe",
+    "iata": "UM",
+    "icao": "AZW",
+    "name": "Air Zimbabwe",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UN": {
+    "callsign": "TRANSOVIET",
+    "country": "Russia",
+    "iata": "UN",
+    "icao": "TSO",
+    "name": "Transaero Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UO": {
+    "callsign": "HONGKONG SHUTTLE",
+    "country": "Hong Kong SAR of China",
+    "iata": "UO",
+    "icao": "HKE",
+    "name": "Hong Kong Express Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UP": {
+    "callsign": "BAHAMAS",
+    "country": "Bahamas",
+    "iata": "UP",
+    "icao": "BHS",
+    "name": "Bahamasair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UQ": {
+    "callsign": "SKYJET",
+    "country": "Uganda",
+    "iata": "UQ",
+    "icao": "SJU",
+    "name": "Skyjet Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UR": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "UR",
+    "icao": "\\N",
+    "name": "UTair-Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "US": {
+    "callsign": "U S AIR",
+    "country": "United States",
+    "iata": "US",
+    "icao": "USA",
+    "name": "US Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UT": {
+    "callsign": "UTAIR",
+    "country": "Russia",
+    "iata": "UT",
+    "icao": "UTA",
+    "name": "UTair Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UU": {
+    "callsign": "REUNION",
+    "country": "France",
+    "iata": "UU",
+    "icao": "REU",
+    "name": "Air Austral",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UW": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "UW",
+    "icao": "\\N",
+    "name": "UVT Aero",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UX": {
+    "callsign": "EUROPA",
+    "country": "Spain",
+    "iata": "UX",
+    "icao": "AEA",
+    "name": "Air Europa",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "UZ": {
+    "callsign": "BURAQAIR",
+    "country": "Libya",
+    "iata": "UZ",
+    "icao": "BRQ",
+    "name": "El-Buraq Air Transport",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V0": {
+    "callsign": "CONVIASA",
+    "country": "Venezuela",
+    "iata": "V0",
+    "icao": "VCV",
+    "name": "Conviasa",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V1": {
+    "callsign": "",
+    "country": "Argentina",
+    "iata": "V1",
+    "icao": "VIA",
+    "name": "VIA Líneas Aéreas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V2": {
+    "callsign": "RUBY",
+    "country": "United States",
+    "iata": "V2",
+    "icao": "RBY",
+    "name": "Vision Airlines (V2)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V3": {
+    "callsign": "CARPATAIR",
+    "country": "Romania",
+    "iata": "V3",
+    "icao": "KRP",
+    "name": "Carpatair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V5": {
+    "callsign": "",
+    "country": "Slovakia",
+    "iata": "V5",
+    "icao": "\\N",
+    "name": "Danube Wings (V5)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V6": {
+    "callsign": "",
+    "country": "Ecuador",
+    "iata": "V6",
+    "icao": "\\N",
+    "name": "VIP Ecuador",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V7": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "V7",
+    "icao": "VOE",
+    "name": "VOLOTEA Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V8": {
+    "callsign": "ATRAN",
+    "country": "Russian Federation",
+    "iata": "V8",
+    "icao": "VAS",
+    "name": "ATRAN Cargo Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "V9": {
+    "callsign": "",
+    "country": "Lithuania",
+    "iata": "V9",
+    "icao": "HCW",
+    "name": "Star1 Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VA": {
+    "callsign": "VIRGIN",
+    "country": "Australia",
+    "iata": "VA",
+    "icao": "VOZ",
+    "name": "Virgin Australia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VC": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "VC",
+    "icao": "\\N",
+    "name": "Strategic Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VD": {
+    "callsign": "",
+    "country": "France",
+    "iata": "VD",
+    "icao": "",
+    "name": "Air Libert",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VE": {
+    "callsign": "VOLA",
+    "country": "Italy",
+    "iata": "VE",
+    "icao": "VLE",
+    "name": "Volare Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VF": {
+    "callsign": "VALUAIR",
+    "country": "Singapore",
+    "iata": "VF",
+    "icao": "VLU",
+    "name": "Valuair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VG": {
+    "callsign": "RUBENS",
+    "country": "Belgium",
+    "iata": "VG",
+    "icao": "VLM",
+    "name": "VLM Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VH": {
+    "callsign": "",
+    "country": "Fiji",
+    "iata": "VH",
+    "icao": "VNP",
+    "name": "Virgin Pacific",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VI": {
+    "callsign": "VOLGA-DNEPR",
+    "country": "Russia",
+    "iata": "VI",
+    "icao": "VDA",
+    "name": "Volga-Dnepr Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VJ": {
+    "callsign": "",
+    "country": "Cambodia",
+    "iata": "VJ",
+    "icao": "RAC",
+    "name": "Royal Air Cambodge",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VK": {
+    "callsign": "VIRGIN NIGERIA",
+    "country": "Nigeria",
+    "iata": "VK",
+    "icao": "VGN",
+    "name": "Virgin Nigeria Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VL": {
+    "callsign": "",
+    "country": "Bulgaria",
+    "iata": "VL",
+    "icao": "VIM",
+    "name": "Air VIA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VN": {
+    "callsign": "VIET NAM AIRLINES",
+    "country": "Vietnam",
+    "iata": "VN",
+    "icao": "HVN",
+    "name": "Vietnam Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VO": {
+    "callsign": "TYROLEAN",
+    "country": "Austria",
+    "iata": "VO",
+    "icao": "TYR",
+    "name": "Tyrolean Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VP": {
+    "callsign": "VASP",
+    "country": "Brazil",
+    "iata": "VP",
+    "icao": "VSP",
+    "name": "VASP",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VQ": {
+    "callsign": "DELPHI",
+    "country": "Greece",
+    "iata": "VQ",
+    "icao": "VKH",
+    "name": "Viking Hellas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VR": {
+    "callsign": "CABOVERDE",
+    "country": "Portugal",
+    "iata": "VR",
+    "icao": "TCV",
+    "name": "TACV",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VS": {
+    "callsign": "VIRGIN",
+    "country": "United Kingdom",
+    "iata": "VS",
+    "icao": "VIR",
+    "name": "Virgin Atlantic Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VT": {
+    "callsign": "AIR TAHITI",
+    "country": "French Polynesia",
+    "iata": "VT",
+    "icao": "VTA",
+    "name": "Air Tahiti",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VU": {
+    "callsign": "AIRIVOIRE",
+    "country": "Ivory Coast",
+    "iata": "VU",
+    "icao": "VUN",
+    "name": "Air Ivoire",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VV": {
+    "callsign": "AEROSVIT",
+    "country": "Ukraine",
+    "iata": "VV",
+    "icao": "AEW",
+    "name": "Aerosvit Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VW": {
+    "callsign": "TRANS-AEROMAR",
+    "country": "Mexico",
+    "iata": "VW",
+    "icao": "TAO",
+    "name": "Aeromar",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VX": {
+    "callsign": "REDWOOD",
+    "country": "United States",
+    "iata": "VX",
+    "icao": "VRD",
+    "name": "Virgin America",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VY": {
+    "callsign": "VUELING",
+    "country": "Spain",
+    "iata": "VY",
+    "icao": "VLG",
+    "name": "Vueling Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "VZ": {
+    "callsign": "KESTREL",
+    "country": "United Kingdom",
+    "iata": "VZ",
+    "icao": "MYT",
+    "name": "MyTravel Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W1": {
+    "callsign": "WEA",
+    "country": "Canada",
+    "iata": "W1",
+    "icao": "WE1",
+    "name": "World Experience Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W2": {
+    "callsign": "",
+    "country": "Netherlands",
+    "iata": "W2",
+    "icao": "\\N",
+    "name": "Maastricht Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W3": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "W3",
+    "icao": "WSS",
+    "name": "World Scale Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W4": {
+    "callsign": "sovet",
+    "country": "Russia",
+    "iata": "W4",
+    "icao": "WER",
+    "name": "AeroWorld",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W5": {
+    "callsign": "MAHAN AIR",
+    "country": "Iran",
+    "iata": "W5",
+    "icao": "IRM",
+    "name": "Mahan Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W6": {
+    "callsign": "WIZZ AIR",
+    "country": "Hungary",
+    "iata": "W6",
+    "icao": "WZZ",
+    "name": "Wizz Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W7": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "W7",
+    "icao": "\\N",
+    "name": "Austral Brasil",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "W9": {
+    "callsign": "AIR BAGAN",
+    "country": "Myanmar",
+    "iata": "W9",
+    "icao": "JAB",
+    "name": "Air Bagan",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WA": {
+    "callsign": "WESTERN",
+    "country": "United States",
+    "iata": "WA",
+    "icao": "WAL",
+    "name": "Western Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WB": {
+    "callsign": "RWANDAIR",
+    "country": "Rwanda",
+    "iata": "WB",
+    "icao": "RWD",
+    "name": "Rwandair Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WC": {
+    "callsign": "",
+    "country": "Honduras",
+    "iata": "WC",
+    "icao": "ISV",
+    "name": "Islena De Inversiones",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WD": {
+    "callsign": "AMSTEL",
+    "country": "Netherlands",
+    "iata": "WD",
+    "icao": "AAN",
+    "name": "Amsterdam Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WE": {
+    "callsign": "THAI SMILE",
+    "country": "Thailand",
+    "iata": "WE",
+    "icao": "\\N",
+    "name": "Thai Smile Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WF": {
+    "callsign": "WIDEROE",
+    "country": "Norway",
+    "iata": "WF",
+    "icao": "WIF",
+    "name": "Widerøe",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WG": {
+    "callsign": "sunwing",
+    "country": "Canada",
+    "iata": "WG",
+    "icao": "\\N",
+    "name": "Sunwing",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WH": {
+    "callsign": "",
+    "country": "China",
+    "iata": "WH",
+    "icao": "\\N",
+    "name": "China Northwest Airlines (WH)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WJ": {
+    "callsign": "WEB-BRASIL",
+    "country": "Brazil",
+    "iata": "WJ",
+    "icao": "WEB",
+    "name": "WebJet Linhas A",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WK": {
+    "callsign": "EDELWEISS",
+    "country": "Switzerland",
+    "iata": "WK",
+    "icao": "EDW",
+    "name": "Edelweiss Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WM": {
+    "callsign": "Winair",
+    "country": "Netherlands Antilles",
+    "iata": "WM",
+    "icao": "\\N",
+    "name": "Windward Islands Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WN": {
+    "callsign": "SOUTHWEST",
+    "country": "United States",
+    "iata": "WN",
+    "icao": "SWA",
+    "name": "Southwest Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WO": {
+    "callsign": "WORLD",
+    "country": "United States",
+    "iata": "WO",
+    "icao": "WOA",
+    "name": "World Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WP": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "WP",
+    "icao": "MKU",
+    "name": "Island Air (WP)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WQ": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "WQ",
+    "icao": "PQW",
+    "name": "PanAm World Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WR": {
+    "callsign": "Encore",
+    "country": "Canada",
+    "iata": "WR",
+    "icao": "WEN",
+    "name": "WestJet Encore",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WS": {
+    "callsign": "WESTJET",
+    "country": "Canada",
+    "iata": "WS",
+    "icao": "WJA",
+    "name": "WestJet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WU": {
+    "callsign": "WIZZAIR UKRAINE",
+    "country": "Ukraine",
+    "iata": "WU",
+    "icao": "WAU",
+    "name": "Wizz Air Ukraine",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WV": {
+    "callsign": "FLYING SWEDE",
+    "country": "Sweden",
+    "iata": "WV",
+    "icao": "SWV",
+    "name": "Swe Fly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WW": {
+    "callsign": "BABY",
+    "country": "United Kingdom",
+    "iata": "WW",
+    "icao": "BMI",
+    "name": "bmibaby",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WX": {
+    "callsign": "CITY-IRELAND",
+    "country": "Ireland",
+    "iata": "WX",
+    "icao": "BCY",
+    "name": "CityJet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WY": {
+    "callsign": "OMAN AIR",
+    "country": "Oman",
+    "iata": "WY",
+    "icao": "OMA",
+    "name": "Oman Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "WZ": {
+    "callsign": "AIR RED",
+    "country": "Russia",
+    "iata": "WZ",
+    "icao": "RWZ",
+    "name": "Red Wings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "X3": {
+    "callsign": "YELLOW CAB",
+    "country": "Germany",
+    "iata": "X3",
+    "icao": "HLX",
+    "name": "TUIfly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "X5": {
+    "callsign": "TENDER AIR",
+    "country": "Romania",
+    "iata": "X5",
+    "icao": "OTJ",
+    "name": "Fly Romania",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XA": {
+    "callsign": "XAIR",
+    "country": "United States",
+    "iata": "XA",
+    "icao": "XAU",
+    "name": "XAIR USA",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XB": {
+    "callsign": "XB",
+    "country": "Brazil",
+    "iata": "XB",
+    "icao": "NXB",
+    "name": "NEXT Brasil",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XE": {
+    "callsign": "JET LINK",
+    "country": "United States",
+    "iata": "XE",
+    "icao": "BTA",
+    "name": "ExpressJet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XF": {
+    "callsign": "VLADAIR",
+    "country": "Russia",
+    "iata": "XF",
+    "icao": "VLK",
+    "name": "Vladivostok Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XG": {
+    "callsign": "CALIMA",
+    "country": "Spain",
+    "iata": "XG",
+    "icao": "CLI",
+    "name": "Calima Aviacion",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XJ": {
+    "callsign": "MESABA",
+    "country": "United States",
+    "iata": "XJ",
+    "icao": "MES",
+    "name": "Mesaba Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XK": {
+    "callsign": "CORSICA",
+    "country": "France",
+    "iata": "XK",
+    "icao": "CCM",
+    "name": "Corse-Mediterranee",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XL": {
+    "callsign": "LAN ECUADOR",
+    "country": "Ecuador",
+    "iata": "XL",
+    "icao": "LNE",
+    "name": "Aerolane",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XM": {
+    "callsign": "ALIEXPRESS",
+    "country": "Italy",
+    "iata": "XM",
+    "icao": "SMX",
+    "name": "Alitalia Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XN": {
+    "callsign": "",
+    "country": "Indonesia",
+    "iata": "XN",
+    "icao": "\\N",
+    "name": "Xpressair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XO": {
+    "callsign": "FUN JET",
+    "country": "Spain",
+    "iata": "XO",
+    "icao": "LTE",
+    "name": "LTE International Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XP": {
+    "callsign": "XPTO",
+    "country": "Portugal",
+    "iata": "XP",
+    "icao": "XPT",
+    "name": "XPTO",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XQ": {
+    "callsign": "SUNEXPRESS",
+    "country": "Turkey",
+    "iata": "XQ",
+    "icao": "SXS",
+    "name": "SunExpress",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XR": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "XR",
+    "icao": "\\N",
+    "name": "Skywest Australia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XT": {
+    "callsign": "EXEL COMMUTER",
+    "country": "Netherlands",
+    "iata": "XT",
+    "icao": "AXL",
+    "name": "Air Exel",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XV": {
+    "callsign": "",
+    "country": "British Virgin Islands",
+    "iata": "XV",
+    "icao": "\\N",
+    "name": "BVI Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XW": {
+    "callsign": "SKYSTORM",
+    "country": "Russia",
+    "iata": "XW",
+    "icao": "SXR",
+    "name": "Sky Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XX": {
+    "callsign": "",
+    "country": "Spain",
+    "iata": "XX",
+    "icao": "GFY",
+    "name": "Greenfly",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XY": {
+    "callsign": "NAS EXPRESS",
+    "country": "Saudi Arabia",
+    "iata": "XY",
+    "icao": "KNE",
+    "name": "Nas Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "XZ": {
+    "callsign": "EXPRESSWAYS",
+    "country": "Congo (Kinshasa)",
+    "iata": "XZ",
+    "icao": "\\N",
+    "name": "Congo Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Y1": {
+    "callsign": "YCS",
+    "country": "United States",
+    "iata": "Y1",
+    "icao": "\\N",
+    "name": "Yellowstone Club Private Shuttle",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Y4": {
+    "callsign": "VOLARIS",
+    "country": "Mexico",
+    "iata": "Y4",
+    "icao": "VOI",
+    "name": "Volaris",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Y5": {
+    "callsign": "",
+    "country": "Kazakhstan",
+    "iata": "Y5",
+    "icao": "AWA",
+    "name": "Asia Wings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Y7": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "Y7",
+    "icao": "\\N",
+    "name": "NordStar Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Y8": {
+    "callsign": "snowball",
+    "country": "Russia",
+    "iata": "Y8",
+    "icao": "MRS",
+    "name": "Marusya Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Y9": {
+    "callsign": "KISHAIR",
+    "country": "Iran",
+    "iata": "Y9",
+    "icao": "IRK",
+    "name": "Kish Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YC": {
+    "callsign": "Ciel",
+    "country": "Canada",
+    "iata": "YC",
+    "icao": "YCC",
+    "name": "Ciel Canadien",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YD": {
+    "callsign": "",
+    "country": "Belarus",
+    "iata": "YD",
+    "icao": "\\N",
+    "name": "Gomelavia",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YE": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "YE",
+    "icao": "YEL",
+    "name": "Yellowtail",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YH": {
+    "callsign": "",
+    "country": "Burma",
+    "iata": "YH",
+    "icao": "\\N",
+    "name": "Yangon Airways Ltd.",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YK": {
+    "callsign": "",
+    "country": "Turkey",
+    "iata": "YK",
+    "icao": "",
+    "name": "Cyprus Turkish Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YL": {
+    "callsign": "YAMAL",
+    "country": "Russia",
+    "iata": "YL",
+    "icao": "LLM",
+    "name": "Yamal Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YM": {
+    "callsign": "MONTAIR",
+    "country": "Montenegro",
+    "iata": "YM",
+    "icao": "MGX",
+    "name": "Montenegro Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YO": {
+    "callsign": "",
+    "country": "Brazil",
+    "iata": "YO",
+    "icao": "TYS",
+    "name": "TransHolding System",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YQ": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "YQ",
+    "icao": "\\N",
+    "name": "Polet Airlines (Priv)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YR": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "YR",
+    "icao": "\\N",
+    "name": "SENIC AIRLINES",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YS": {
+    "callsign": "REGIONAL EUROPE",
+    "country": "France",
+    "iata": "YS",
+    "icao": "RAE",
+    "name": "Régional",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YT": {
+    "callsign": "",
+    "country": "Nepal",
+    "iata": "YT",
+    "icao": "\\N",
+    "name": "Yeti Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YV": {
+    "callsign": "AIR SHUTTLE",
+    "country": "United States",
+    "iata": "YV",
+    "icao": "ASH",
+    "name": "Mesa Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YW": {
+    "callsign": "AIR NOSTRUM",
+    "country": "Spain",
+    "iata": "YW",
+    "icao": "ANE",
+    "name": "Air Nostrum",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YX": {
+    "callsign": "",
+    "country": "United States",
+    "iata": "YX",
+    "icao": "MEP",
+    "name": "Midwest Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YY": {
+    "callsign": "",
+    "country": "Germany",
+    "iata": "YY",
+    "icao": "VWA",
+    "name": "Virginwings",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "YZ": {
+    "callsign": "Moscow frog",
+    "country": "Russia",
+    "iata": "YZ",
+    "icao": "YZZ",
+    "name": "LSM AIRLINES",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z0": {
+    "callsign": "",
+    "country": "Argentina",
+    "iata": "Z0",
+    "icao": "Z9H",
+    "name": "All Argentina Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z2": {
+    "callsign": "",
+    "country": "Philippines",
+    "iata": "Z2",
+    "icao": "\\N",
+    "name": "Zest Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z3": {
+    "callsign": "AVAVIA",
+    "country": "Zimbabwe",
+    "iata": "Z3",
+    "icao": "SMJ",
+    "name": "Avient Aviation",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z4": {
+    "callsign": "ZOOM",
+    "country": "Canada",
+    "iata": "Z4",
+    "icao": "OOM",
+    "name": "Zoom Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z5": {
+    "callsign": "",
+    "country": "Argentina",
+    "iata": "Z5",
+    "icao": "IIR",
+    "name": "INAVIA Internacional",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z6": {
+    "callsign": "BAIKAL",
+    "country": "Russia",
+    "iata": "Z6",
+    "icao": "ZTT",
+    "name": "ZABAIKAL AIRLINES",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z7": {
+    "callsign": "",
+    "country": "Barbados",
+    "iata": "Z7",
+    "icao": "\\N",
+    "name": "REDjet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z8": {
+    "callsign": "",
+    "country": "Bolivia",
+    "iata": "Z8",
+    "icao": "AZN",
+    "name": "Amaszonas",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "Z9": {
+    "callsign": "",
+    "country": "Tanzania",
+    "iata": "Z9",
+    "icao": "\\N",
+    "name": "Flightlink Tanzania",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZA": {
+    "callsign": "ASTAIR",
+    "country": "Russia",
+    "iata": "ZA",
+    "icao": "SUW",
+    "name": "Interavia Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZB": {
+    "callsign": "MONARCH",
+    "country": "United Kingdom",
+    "iata": "ZB",
+    "icao": "MON",
+    "name": "Monarch Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZC": {
+    "callsign": "KORONGO",
+    "country": "Congo (Kinshasa)",
+    "iata": "ZC",
+    "icao": "KGO",
+    "name": "Korongo Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZE": {
+    "callsign": "Eastar",
+    "country": "South Korea",
+    "iata": "ZE",
+    "icao": "ESR",
+    "name": "Eastar Jet",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZF": {
+    "callsign": "ATHENSAIR",
+    "country": "Greece",
+    "iata": "ZF",
+    "icao": "\\N",
+    "name": "Athens Airways",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZG": {
+    "callsign": "JACKPOT",
+    "country": "Macao",
+    "iata": "ZG",
+    "icao": "VVM",
+    "name": "Viva Macau",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZH": {
+    "callsign": "SHENZHEN AIR",
+    "country": "China",
+    "iata": "ZH",
+    "icao": "CSZ",
+    "name": "Shenzhen Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZI": {
+    "callsign": "AIGLE AZUR",
+    "country": "France",
+    "iata": "ZI",
+    "icao": "AAF",
+    "name": "Aigle Azur",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZJ": {
+    "callsign": "",
+    "country": "Zambia",
+    "iata": "ZJ",
+    "icao": "\\N",
+    "name": "Zambezi Airlines (ZMA)",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZK": {
+    "callsign": "LAKES AIR",
+    "country": "United States",
+    "iata": "ZK",
+    "icao": "GLA",
+    "name": "Great Lakes Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZL": {
+    "callsign": "REX",
+    "country": "Australia",
+    "iata": "ZL",
+    "icao": "RXA",
+    "name": "Regional Express",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZM": {
+    "callsign": "APACHE",
+    "country": "United States",
+    "iata": "ZM",
+    "icao": "IWA",
+    "name": "Apache Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZN": {
+    "callsign": "ZENITH",
+    "country": "Thailand",
+    "iata": "ZN",
+    "icao": "ZNA",
+    "name": "Zenith International Airline",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZP": {
+    "callsign": "Lakeair",
+    "country": "Russia",
+    "iata": "ZP",
+    "icao": "ZZZ",
+    "name": "Zabaykalskii Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZQ": {
+    "callsign": "LOCAIR",
+    "country": "United States",
+    "iata": "ZQ",
+    "icao": "LOC",
+    "name": "Locair",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZS": {
+    "callsign": "NAJIM",
+    "country": "Saudi Arabia",
+    "iata": "ZS",
+    "icao": "SMY",
+    "name": "Sama Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZT": {
+    "callsign": "",
+    "country": "Chile",
+    "iata": "ZT",
+    "icao": "T9P",
+    "name": "Tomp Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZV": {
+    "callsign": "",
+    "country": "Taiwan",
+    "iata": "ZV",
+    "icao": "VAX",
+    "name": "V Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZW": {
+    "callsign": "AIR WISCONSIN",
+    "country": "United States",
+    "iata": "ZW",
+    "icao": "AWI",
+    "name": "Air Wisconsin",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZX": {
+    "callsign": "",
+    "country": "Japan",
+    "iata": "ZX",
+    "icao": "ZXY",
+    "name": "Japan Regio",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZY": {
+    "callsign": "ADA AIR",
+    "country": "Albania",
+    "iata": "ZY",
+    "icao": "ADE",
+    "name": "Ada Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ZZ": {
+    "callsign": "",
+    "country": "Belgium",
+    "iata": "ZZ",
+    "icao": "\\N",
+    "name": "Zz",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "^^": {
+    "callsign": "",
+    "country": "Australia",
+    "iata": "^^",
+    "icao": "\\N",
+    "name": "Whitaker Air",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "АЯ": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "АЯ",
+    "icao": "\\N",
+    "name": "Аэросервис",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "МИ": {
+    "callsign": "Air Minvody",
+    "country": "Russia",
+    "iata": "МИ",
+    "icao": "\\N",
+    "name": "KMV",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  },
+  "ЯП": {
+    "callsign": "",
+    "country": "Russia",
+    "iata": "ЯП",
+    "icao": "\\N",
+    "name": "Polar Airlines",
+    "updated_at": "2026-05-23T16:27:04.011204+00:00"
+  }
+}
