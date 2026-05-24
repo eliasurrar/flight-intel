@@ -59,6 +59,8 @@ export default {
         progress_pct: job.progress_pct || 0,
         log_entry,
         results: job.results,
+        route_candidates: job.route_candidates || [],
+        fx_rates_brl_per: job.fx_rates_brl_per || null,
         error: job.error,
       }), {headers: {"Content-Type": "application/json", ...cors}});
     }
