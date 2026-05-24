@@ -33,7 +33,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from backend.scrapers import google_flights, kayak
-from backend.composer import compose_split_two, candidate_hubs, rank, CombinedItinerary, MIN_CONNECT_HR
+from backend.composer import compose_split_two, rank, CombinedItinerary, MIN_CONNECT_HR
+from backend.route_optimizer import find_routes_json
+from backend import fx
 from dataclasses import asdict
 
 WORKER_URL = os.environ.get("FLIGHT_INTEL_WORKER_URL", "https://flight-intel-worker.example.workers.dev")
@@ -97,20 +99,32 @@ def run_pipeline(job: dict) -> None:
 
         all_single = list(gf_results) + list(kayak_results)
 
-        # ── 3. Composer: split tickets via hubs ──────────────────
-        hubs = candidate_hubs(origin, dest, max_hubs=4)
-        _stage(jid, "composing_independent_legs", 60, f"trying {len(hubs)} hub(s): {','.join(hubs)}")
+        # ── 3. Route-first optimizer: pick top-N candidate routes via graph,
+        #     THEN scrape prices only for those routes (cheap & focused). ──
+        _stage(jid, "optimizing_routes", 58, "computing top routes via OurAirports+OpenFlights graph…")
+        candidates = find_routes_json(origin, dest, max_hops=2, top_n=8)
+        _stage(jid, "optimizing_routes", 62,
+               f"{len(candidates)} candidate routes: " +
+               ", ".join("→".join(c["path"]) for c in candidates[:6]))
+
+        # Extract unique single-hop hubs (skip direct, which we already scraped)
+        hubs_seen: list[str] = []
+        for c in candidates:
+            if c["hops"] == 2 and c["path"][1] not in hubs_seen and c["path"][1] not in (origin, dest):
+                hubs_seen.append(c["path"][1])
+        hubs_seen = hubs_seen[:3]  # cap to 3 to keep runtime manageable
+
+        _stage(jid, "composing_independent_legs", 65,
+               f"trying {len(hubs_seen)} optimized hub(s): {','.join(hubs_seen) or 'none'}")
         split_combos: list[CombinedItinerary] = []
-        # For each hub: scrape origin→hub and hub→dest, compose pairs.
-        # Limit hubs for runtime; v1 just does top 2.
-        for i, hub in enumerate(hubs[:2]):
+        for i, hub in enumerate(hubs_seen):
             try:
-                _stage(jid, "composing_independent_legs", 65 + i*10,
+                _stage(jid, "composing_independent_legs", 66 + i*8,
                        f"hub {hub}: origin leg…")
                 leg_a = google_flights.search(origin, hub, date_out, None, headless=True)
                 if not leg_a:
                     continue
-                _stage(jid, "composing_independent_legs", 70 + i*10,
+                _stage(jid, "composing_independent_legs", 70 + i*8,
                        f"hub {hub}: dest leg…")
                 leg_b = google_flights.search(hub, dest, date_out, None, headless=True)
                 if not leg_b:
@@ -118,7 +132,7 @@ def run_pipeline(job: dict) -> None:
                 combos = compose_split_two(leg_a[:5], leg_b[:5], min_connect_hr=min_connect)
                 split_combos.extend(combos[:10])
             except Exception as e:
-                _stage(jid, "composing_independent_legs", 70 + i*10,
+                _stage(jid, "composing_independent_legs", 70 + i*8,
                        f"hub {hub} error: {type(e).__name__}: {e}")
                 continue
 
@@ -145,10 +159,20 @@ def run_pipeline(job: dict) -> None:
             all_options = [o for o in all_options if o.n_stops <= max_stops]
         ranked = rank(all_options)[:50]
 
-        results_json = [asdict(r) for r in ranked]
+        # Attach BRL price (canonical base) + assume scrapers emit USD
+        fx_rates = fx.get_rates()
+        results_json = []
+        for r in ranked:
+            d = asdict(r)
+            d["total_price_brl"] = round(fx.to_brl(r.total_price_usd, "USD"), 2)
+            d["currency_source"] = "USD"
+            results_json.append(d)
+
         _update(jid, stage="done", progress_pct=100,
                 results=results_json,
-                log_append=f"done: {len(ranked)} ranked itineraries")
+                route_candidates=candidates,
+                fx_rates_brl_per=fx_rates,
+                log_append=f"done: {len(ranked)} ranked itineraries (route-first via {len(candidates)} candidates)")
 
     except Exception as e:
         traceback.print_exc(file=sys.stderr)

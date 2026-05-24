@@ -1,0 +1,92 @@
+{
+  "_doc": "Edit routes_overrides.json to fix 2026 reality. add=new routes, remove=defunct ones.",
+  "add": [
+    {
+      "src": "SCL",
+      "dst": "GRU",
+      "airlines": [
+        "LA",
+        "G3",
+        "JA"
+      ]
+    },
+    {
+      "src": "GRU",
+      "dst": "SCL",
+      "airlines": [
+        "LA",
+        "G3",
+        "JA"
+      ]
+    },
+    {
+      "src": "SCL",
+      "dst": "GIG",
+      "airlines": [
+        "LA"
+      ]
+    },
+    {
+      "src": "GIG",
+      "dst": "SCL",
+      "airlines": [
+        "LA"
+      ]
+    },
+    {
+      "src": "SCL",
+      "dst": "EZE",
+      "airlines": [
+        "LA",
+        "AR",
+        "JA",
+        "H2"
+      ]
+    },
+    {
+      "src": "EZE",
+      "dst": "SCL",
+      "airlines": [
+        "LA",
+        "AR",
+        "JA",
+        "H2"
+      ]
+    },
+    {
+      "src": "GIG",
+      "dst": "ADZ",
+      "airlines": [
+        "AV",
+        "LA",
+        "CM"
+      ]
+    },
+    {
+      "src": "ADZ",
+      "dst": "GIG",
+      "airlines": [
+        "AV",
+        "LA",
+        "CM"
+      ]
+    },
+    {
+      "src": "GRU",
+      "dst": "ADZ",
+      "airlines": [
+        "AV",
+        "CM"
+      ]
+    },
+    {
+      "src": "ADZ",
+      "dst": "GRU",
+      "airlines": [
+        "AV",
+        "CM"
+      ]
+    }
+  ],
+  "remove": []
+}

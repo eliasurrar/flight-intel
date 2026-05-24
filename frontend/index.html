@@ -227,6 +227,16 @@
     <button class="sort-btn" data-sort="cheapest">Más barato</button>
     <button class="sort-btn" data-sort="fastest">Más rápido</button>
     <button class="sort-btn" data-sort="stops">Menos escalas</button>
+    <select id="currencySel" class="sort-btn" style="margin-left:auto; padding:6px 10px;">
+      <option value="BRL" selected>BRL</option>
+      <option value="USD">USD</option>
+      <option value="CLP">CLP</option>
+      <option value="EUR">EUR</option>
+      <option value="ARS">ARS</option>
+      <option value="COP">COP</option>
+      <option value="PEN">PEN</option>
+      <option value="GBP">GBP</option>
+    </select>
   </div>
   <div class="result-list" id="resultList"></div>
 </div>
@@ -252,6 +262,25 @@ const searchBtn = document.getElementById("searchBtn");
 
 let currentResults = [];
 let currentSort = "best";
+let currentCurrency = "BRL";
+let fxRates = {BRL: 1.0, USD: 5.20, CLP: 0.0055, EUR: 5.65, ARS: 0.005, COP: 0.0012, PEN: 1.40, GBP: 6.55};
+const CURRENCY_LOCALE = {BRL: "pt-BR", USD: "en-US", CLP: "es-CL", EUR: "es-ES", ARS: "es-AR", COP: "es-CO", PEN: "es-PE", GBP: "en-GB"};
+
+function priceInCurrency(brlAmount, ccy) {
+  const rate = fxRates[ccy] || 1.0;
+  if (rate === 0) return brlAmount;
+  return brlAmount / rate;
+}
+
+function formatPrice(brlAmount, ccy) {
+  const v = priceInCurrency(brlAmount, ccy);
+  const locale = CURRENCY_LOCALE[ccy] || "en-US";
+  try {
+    return new Intl.NumberFormat(locale, {style: "currency", currency: ccy, maximumFractionDigits: 0}).format(v);
+  } catch (e) {
+    return `${ccy} ${Math.round(v).toLocaleString()}`;
+  }
+}
 
 // Set default dates: today + 1 month
 const today = new Date();
@@ -300,6 +329,9 @@ form.addEventListener("submit", async (e) => {
 
       if (status.stage === "done") {
         currentResults = status.results || [];
+        if (status.fx_rates_brl_per) {
+          fxRates = {...fxRates, ...status.fx_rates_brl_per};
+        }
         renderResults();
         break;
       }
@@ -327,24 +359,33 @@ function appendLog(text, cls = "") {
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 document.querySelectorAll(".sort-btn").forEach(btn => {
+  if (btn.tagName === "SELECT") return;
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".sort-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".sort-btn").forEach(b => { if (b.tagName !== "SELECT") b.classList.remove("active"); });
     btn.classList.add("active");
     currentSort = btn.dataset.sort;
     renderResults();
   });
 });
 
+document.getElementById("currencySel").addEventListener("change", (e) => {
+  currentCurrency = e.target.value;
+  renderResults();
+});
+
 function renderResults() {
   resultsPanel.classList.add("active");
   resultCount.textContent = `${currentResults.length} itineraries`;
 
+  // All sort keys reference total_price_brl when present, otherwise total_price_usd as fallback
+  const priceOf = it => (it.total_price_brl != null ? it.total_price_brl : (it.total_price_usd || 0) * (fxRates.USD || 5.2));
+
   const sorted = [...currentResults].sort((a, b) => {
-    if (currentSort === "cheapest") return a.total_price_usd - b.total_price_usd;
+    if (currentSort === "cheapest") return priceOf(a) - priceOf(b);
     if (currentSort === "fastest") return a.total_duration_min - b.total_duration_min;
-    if (currentSort === "stops") return a.n_stops - b.n_stops || a.total_price_usd - b.total_price_usd;
-    // "best" = composite score (price + duration penalty + stop penalty)
-    const score = it => it.total_price_usd + 0.3*(it.total_duration_min/60) + 50*it.n_stops;
+    if (currentSort === "stops") return a.n_stops - b.n_stops || priceOf(a) - priceOf(b);
+    // "best" = composite score (price-BRL + duration penalty + stop penalty)
+    const score = it => priceOf(it) + 1.5*(it.total_duration_min/60) + 250*it.n_stops;
     return score(a) - score(b);
   });
 
@@ -362,13 +403,14 @@ function renderResults() {
     const stopsLabel = it.n_stops === 0 ? "Nonstop" : `${it.n_stops} stop${it.n_stops>1?"s":""}`;
     const sources = (it.sources || [it.source]).map(s => `<span class="source-tag">${s}</span>`).join(" ");
     const urls = it.booking_urls || [it.booking_url];
+    const priceFormatted = formatPrice(priceOf(it), currentCurrency);
 
     card.innerHTML = `
       <div class="route">
         ${route}${sources}
         <div class="airline">${it.legs[0].airline || "—"} ${it.n_tickets > 1 ? `· ${it.n_tickets} tickets independientes` : ""}</div>
       </div>
-      <div class="price"><span class="currency">USD</span>${Math.round(it.total_price_usd).toLocaleString()}</div>
+      <div class="price">${priceFormatted}</div>
       <div class="duration">${dur}</div>
       <div class="stops ${it.n_stops===0?"nonstop":""}">${stopsLabel}</div>
       <a class="book-btn" href="${urls[0]}" target="_blank" rel="noopener">Reservar →</a>

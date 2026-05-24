@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-05-24T00:41:43.671195+00:00",
+  "base": "BRL",
+  "source": "fallback_hardcoded",
+  "rates_brl_per": {
+    "BRL": 1.0,
+    "USD": 5.2,
+    "EUR": 5.65,
+    "CLP": 0.0055,
+    "ARS": 0.005,
+    "COP": 0.0012,
+    "PEN": 1.4,
+    "MXN": 0.26,
+    "GBP": 6.55
+  }
+}
