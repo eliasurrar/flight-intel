@@ -1,35 +1,35 @@
-"""scrapers/kayak.py — Scrape Kayak multi-city for flight options.
+"""scrapers/kayak.py — Kayak flights scraper with multi-city support.
 
-Kayak supports multi-leg search via direct URL:
-  https://www.kayak.com/flights/{ORIG}-{DEST}/{DATE_OUT}/{DEST}-{ORIG}/{DATE_BACK}?sort=bestflight_a
+URL patterns:
+  one-way:     https://www.kayak.com/flights/{O}-{D}/{DATE}
+  round-trip:  https://www.kayak.com/flights/{O}-{D}/{DATE_OUT}/{DATE_BACK}
+  multi-city:  https://www.kayak.com/flights/{O1}-{D1}/{DATE1}/{O2}-{D2}/{DATE2}/...
 
-For multi-city (independent legs):
-  https://www.kayak.com/flights/{LEG1_ORIG}-{LEG1_DEST}/{LEG1_DATE},{LEG2_ORIG}-{LEG2_DEST}/{LEG2_DATE}?sort=bestflight_a
+All append `?sort=price_a` for cheapest-first.
 
-Strategy:
-  1. Build URL based on round-trip or multi-city.
-  2. Playwright opens, waits for results.
-  3. Click "Show more results" loop.
-  4. Parse each result card: price, airlines, duration, stops, deep link.
-  5. Return normalized Itinerary list.
+Returns the *combo* price Kayak displays for the whole itinerary (Kayak IS an
+aggregator with combined pricing for multi-city when carriers offer it).
+Deep-links to OTAs/airline pages are in each result card.
 
 Anti-bot:
-  - Kayak heavily rate-limits. We use stealth-ish user-agent and random delays.
-  - If "Are you human?" page appears → raise KayakBlocked.
+  Kayak is aggressive. We use UA + locale + viewport tuning and **retry with
+  headful** if headless yields zero cards (Elias spec: try aggressively).
 """
 from __future__ import annotations
 
-import json
 import re
 import sys
 import time
 from dataclasses import dataclass, asdict
 from pathlib import Path
+from typing import Sequence
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout, Page
 
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
+UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+)
 
 
 class KayakBlocked(RuntimeError):
@@ -37,7 +37,7 @@ class KayakBlocked(RuntimeError):
 
 
 @dataclass
-class Leg:
+class KYLeg:
     origin: str
     dest: str
     depart_dt: str
@@ -48,181 +48,271 @@ class Leg:
 
 
 @dataclass
-class Itinerary:
-    legs: list[Leg]
-    price_usd: float
+class KYItinerary:
+    legs: list[KYLeg]
+    price_value: float
+    price_display: str
+    price_currency: str
     total_duration_min: int
     n_stops: int
     booking_url: str
     source: str = "kayak"
+    raw_text: str = ""
 
 
-def _build_url(origin: str, dest: str, date_out: str, date_back: str | None = None) -> str:
-    if date_back:
-        return f"https://www.kayak.com/flights/{origin}-{dest}/{date_out}/{dest}-{origin}/{date_back}?sort=bestflight_a"
-    return f"https://www.kayak.com/flights/{origin}-{dest}/{date_out}?sort=bestflight_a"
+# ──────────────────────────────────────────────────────────────────────────
 
 
-def _build_multicity_url(legs: list[tuple[str, str, str]]) -> str:
-    """legs = [(orig, dest, date), ...]"""
-    parts = [f"{o}-{d}/{date}" for o, d, date in legs]
-    return f"https://www.kayak.com/flights/{','.join(parts)}?sort=bestflight_a"
+def build_url(legs: Sequence[tuple[str, str, str]]) -> str:
+    if not legs:
+        raise ValueError("at least one leg required")
+    segs = [f"{o}-{d}/{date}" for o, d, date in legs]
+    return f"https://www.kayak.com/flights/{'/'.join(segs)}?sort=price_a"
+
+
+# ──────────────────────────────────────────────────────────────────────────
+
+
+_PRICE_RE = re.compile(
+    r"(?P<sym>US\$|R\$|CLP|BRL|USD|\$|€|£)\s*(?P<num>[\d.,]+)"
+)
+
+
+def _parse_price(text: str) -> tuple[float | None, str, str]:
+    m = _PRICE_RE.search(text or "")
+    if not m:
+        return None, "", "USD"
+    sym, num = m.group("sym"), m.group("num")
+    if "," in num and "." in num:
+        if num.rfind(",") > num.rfind("."):
+            num = num.replace(".", "").replace(",", ".")
+        else:
+            num = num.replace(",", "")
+    elif "," in num:
+        num = num.replace(",", "") if len(num.split(",")[-1]) == 3 else num.replace(",", ".")
+    try:
+        val = float(num)
+    except Exception:
+        return None, m.group(0), "USD"
+    cur_map = {"$": "USD", "US$": "USD", "USD": "USD", "R$": "BRL",
+               "BRL": "BRL", "CLP": "CLP", "€": "EUR", "£": "GBP"}
+    return val, m.group(0), cur_map.get(sym, sym)
+
+
+_DUR_RE = re.compile(r"(?:(\d+)\s*h)\s*(?:(\d+)\s*m)?", re.I)
+
+
+def _parse_duration(text: str) -> int:
+    m = _DUR_RE.search(text or "")
+    if not m:
+        return 0
+    return int(m.group(1) or 0) * 60 + int(m.group(2) or 0)
+
+
+# ──────────────────────────────────────────────────────────────────────────
 
 
 def _detect_block(page: Page) -> bool:
     try:
-        body = page.locator("body").inner_text(timeout=3000).lower()
+        body = page.locator("body").inner_text(timeout=2_500).lower()
     except Exception:
         return False
-    return ("are you human" in body or "verify you are human" in body
-            or "automated traffic" in body or "captcha" in body)
+    if "are you a robot" in body or "are you human" in body:
+        return True
+    if "before you continue" in body and len(body) < 500:
+        return True
+    if "access denied" in body and "kayak" in body:
+        return True
+    return False
 
 
-def _parse_duration(text: str) -> int:
-    h = re.search(r"(\d+)\s*h", text)
-    m = re.search(r"(\d+)\s*m", text)
-    return int(h.group(1) if h else 0) * 60 + int(m.group(1) if m else 0)
+def _wait_for_results(page: Page, timeout_ms: int = 35_000) -> None:
+    selectors = [
+        'div[class*="resultWrapper"]',
+        'div[class*="result-card"]',
+        'div[id*="flight-result"]',
+        '[data-resultid]',
+        'div.nrc6',  # current main result class
+        'div.Fxw9-result-item-container',
+    ]
+    deadline = time.time() + timeout_ms / 1000
+    while time.time() < deadline:
+        for sel in selectors:
+            try:
+                if page.locator(sel).first.is_visible(timeout=500):
+                    return
+            except Exception:
+                pass
+        # also accept presence of any "$ NNNN" inline
+        try:
+            body = page.locator("body").inner_text(timeout=1_500)
+            if _PRICE_RE.search(body):
+                return
+        except Exception:
+            pass
+        page.wait_for_timeout(750)
+    raise PWTimeout("kayak: results never appeared")
 
 
-def _parse_price(text: str) -> float | None:
-    m = re.search(r"\$?\s*([\d,]+)", text.replace(" ", ""))
-    return float(m.group(1).replace(",", "")) if m else None
+def _find_cards(page: Page):
+    for sel in (
+        '[data-resultid]',
+        'div.nrc6',
+        'div.Fxw9-result-item-container',
+        'div[class*="resultWrapper"]',
+    ):
+        cards = page.locator(sel).all()
+        if cards:
+            return cards
+    return []
 
 
-def search(
-    origin: str, dest: str, date_out: str, date_back: str | None = None,
-    *, headless: bool = True, timeout_ms: int = 40_000, debug_dir: Path | None = None,
-) -> list[Itinerary]:
-    url = _build_url(origin, dest, date_out, date_back)
-    return _search_url(url, [(origin, dest)], headless=headless,
-                       timeout_ms=timeout_ms, debug_dir=debug_dir)
+def _extract_card(card, default_legs: Sequence[tuple[str, str, str]]) -> KYItinerary | None:
+    try:
+        txt = card.inner_text(timeout=2500)
+    except Exception:
+        return None
+    val, raw, cur = _parse_price(txt)
+    if val is None:
+        return None
+
+    # stops
+    if re.search(r"\bnonstop\b|\bdirect\b|\bdirecto\b", txt, re.I):
+        n_stops = 0
+    else:
+        m = re.search(r"(\d+)\s+stops?", txt, re.I)
+        n_stops = int(m.group(1)) if m else 0
+
+    duration = _parse_duration(txt)
+
+    # try to find a click-through link
+    booking_url = ""
+    try:
+        a = card.locator("a[href]").first
+        if a.count():
+            href = a.get_attribute("href")
+            if href:
+                booking_url = href if href.startswith("http") else f"https://www.kayak.com{href}"
+    except Exception:
+        pass
+
+    # build leg shells from the planned legs (Kayak text parsing is brittle)
+    legs = [KYLeg(
+        origin=o, dest=d, depart_dt=date, arrive_dt="",
+        airline="", flight_no="", duration_min=0,
+    ) for o, d, date in default_legs]
+
+    return KYItinerary(
+        legs=legs,
+        price_value=val,
+        price_display=raw,
+        price_currency=cur,
+        total_duration_min=duration,
+        n_stops=n_stops,
+        booking_url=booking_url,
+        raw_text=txt[:500],
+    )
 
 
-def search_multicity(
-    legs: list[tuple[str, str, str]],
-    *, headless: bool = True, timeout_ms: int = 40_000, debug_dir: Path | None = None,
-) -> list[Itinerary]:
-    """legs = [(origin, dest, date_iso), ...]"""
-    url = _build_multicity_url(legs)
-    return _search_url(url, [(o, d) for o, d, _ in legs], headless=headless,
-                       timeout_ms=timeout_ms, debug_dir=debug_dir)
+# ──────────────────────────────────────────────────────────────────────────
 
 
-def _search_url(
-    url: str, od_pairs: list[tuple[str, str]],
-    *, headless: bool, timeout_ms: int, debug_dir: Path | None,
-) -> list[Itinerary]:
-    itineraries: list[Itinerary] = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=headless,
-            args=["--disable-blink-features=AutomationControlled"],
-        )
+def _run(legs: Sequence[tuple[str, str, str]], headless: bool, debug_dir: Path | None,
+         timeout_ms: int) -> list[KYItinerary]:
+    url = build_url(legs)
+    if debug_dir:
+        print(f"[kayak] URL: {url}", file=sys.stderr)
+    results: list[KYItinerary] = []
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=headless)
         ctx = browser.new_context(
-            user_agent=UA, viewport={"width": 1440, "height": 900},
-            locale="en-US", timezone_id="America/Santiago",
+            user_agent=UA,
+            viewport={"width": 1440, "height": 900},
+            locale="en-US",
+            timezone_id="America/Santiago",
         )
         page = ctx.new_page()
-
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
-            page.wait_for_timeout(3000)
-
+            page.wait_for_timeout(2_000)
             if _detect_block(page):
                 if debug_dir:
                     debug_dir.mkdir(parents=True, exist_ok=True)
-                    page.screenshot(path=str(debug_dir / f"kayak_blocked_{int(time.time())}.png"))
-                raise KayakBlocked(f"Anti-bot detected on {page.url}")
-
-            # Wait for results
-            try:
-                page.wait_for_selector("[class*='resultWrapper'], [class*='result-list']", timeout=20_000)
-            except PWTimeout:
-                if debug_dir:
-                    debug_dir.mkdir(parents=True, exist_ok=True)
-                    page.screenshot(path=str(debug_dir / f"kayak_no_results_{int(time.time())}.png"))
-                return []
-
-            # Click "Show more results" up to 3x
-            for _ in range(3):
-                try:
-                    btn = page.get_by_text(re.compile("Show more results|Show more|Ver más", re.I)).first
-                    if btn.is_visible(timeout=1500):
-                        btn.click()
-                        page.wait_for_timeout(2500)
-                    else:
-                        break
-                except Exception:
-                    break
-
-            cards = page.locator("[class*='resultWrapper']").all()
-            for i, card in enumerate(cards):
-                try:
-                    txt = card.inner_text()
-                    price = _parse_price(txt)
-                    if price is None:
-                        continue
-                    dur_min = _parse_duration(txt)
-                    stops_match = re.search(r"(\d+)\s+stop|nonstop|direct", txt, re.I)
-                    if stops_match and stops_match.lastindex:
-                        n_stops = int(stops_match.group(1))
-                    else:
-                        n_stops = 0
-
-                    # Extract airline (heuristic: capitalized word(s) near top)
-                    airline = ""
-                    for line in txt.splitlines()[:10]:
-                        line = line.strip()
-                        if line and not any(ch.isdigit() for ch in line) and len(line) > 3:
-                            airline = line
-                            break
-
-                    # Booking deep link: look for an anchor inside the card
-                    try:
-                        href = card.locator("a").first.get_attribute("href", timeout=1000)
-                        if href and href.startswith("/"):
-                            href = "https://www.kayak.com" + href
-                    except Exception:
-                        href = page.url
-
-                    o, d = od_pairs[0]  # for now main leg
-                    itin = Itinerary(
-                        legs=[Leg(origin=o, dest=d, depart_dt="", arrive_dt="",
-                                  airline=airline, flight_no="", duration_min=dur_min)],
-                        price_usd=price,
-                        total_duration_min=dur_min,
-                        n_stops=n_stops,
-                        booking_url=href or page.url,
-                    )
-                    itineraries.append(itin)
-                except Exception as e:
-                    if debug_dir:
-                        print(f"kayak parse error {i}: {e}", file=sys.stderr)
-                    continue
+                    page.screenshot(path=str(debug_dir / f"blocked-{int(time.time())}.png"))
+                raise KayakBlocked("captcha/anti-bot wall")
+            _wait_for_results(page, timeout_ms=timeout_ms)
+            page.wait_for_timeout(2_500)
+            cards = _find_cards(page)
+            if debug_dir:
+                print(f"[kayak] {len(cards)} card elements", file=sys.stderr)
+            for c in cards[:30]:
+                it = _extract_card(c, legs)
+                if it:
+                    if not it.booking_url:
+                        it.booking_url = page.url
+                    results.append(it)
         finally:
             if debug_dir:
                 debug_dir.mkdir(parents=True, exist_ok=True)
                 try:
-                    page.screenshot(path=str(debug_dir / f"kayak_final_{int(time.time())}.png"))
+                    page.screenshot(path=str(debug_dir / f"final-{int(time.time())}.png"))
                 except Exception:
                     pass
             browser.close()
-    return itineraries
+    return results
+
+
+def search(
+    legs: Sequence[tuple[str, str, str]],
+    headless: bool = True,
+    debug_dir: Path | None = None,
+    timeout_ms: int = 45_000,
+    retries: int = 2,
+) -> list[KYItinerary]:
+    """Multi-city Kayak search with retry. If headless yields nothing or blocks,
+    retry headful once."""
+    last_err: Exception | None = None
+    for attempt in range(retries + 1):
+        try:
+            res = _run(legs, headless=headless and attempt == 0, debug_dir=debug_dir,
+                       timeout_ms=timeout_ms)
+            if res:
+                return res
+            if debug_dir:
+                print(f"[kayak] attempt {attempt + 1}: empty, retrying", file=sys.stderr)
+        except KayakBlocked as e:
+            last_err = e
+            if debug_dir:
+                print(f"[kayak] attempt {attempt + 1}: blocked → {e}", file=sys.stderr)
+        except Exception as e:
+            last_err = e
+            if debug_dir:
+                print(f"[kayak] attempt {attempt + 1}: error → {e}", file=sys.stderr)
+        time.sleep(2 + attempt * 3)
+    if last_err and isinstance(last_err, KayakBlocked):
+        raise last_err
+    return []
+
+
+# ──────────────────────────────────────────────────────────────────────────
 
 
 if __name__ == "__main__":
-    import argparse
+    import argparse, json
     ap = argparse.ArgumentParser()
-    ap.add_argument("--origin", required=True)
-    ap.add_argument("--dest", required=True)
-    ap.add_argument("--date-out", required=True)
-    ap.add_argument("--date-back")
     ap.add_argument("--show", action="store_true")
-    ap.add_argument("--debug-dir", default="/tmp/flight-intel-debug")
+    ap.add_argument("--debug-dir", default="/tmp/flight-intel-debug-kayak")
     args = ap.parse_args()
-
-    res = search(args.origin, args.dest, args.date_out, args.date_back,
-                 headless=not args.show, debug_dir=Path(args.debug_dir))
-    print(f"{len(res)} itineraries:")
-    for i, it in enumerate(res, 1):
-        print(f"  [{i}] USD {it.price_usd:.0f}  {it.total_duration_min}min  stops={it.n_stops}  {it.legs[0].airline}")
+    smoke = [
+        ("SCL", "GRU", "2026-06-18"),
+        ("GRU", "SCL", "2026-06-29"),
+    ]
+    print(f"Kayak smoke (multi-city / round-trip): {smoke}")
+    print(f"URL: {build_url(smoke)}")
+    t0 = time.time()
+    res = search(smoke, headless=not args.show, debug_dir=Path(args.debug_dir))
+    print(f"\nFinished {time.time()-t0:.1f}s — {len(res)} itineraries")
+    for i, it in enumerate(res[:8], 1):
+        print(f"  [{i}] {it.price_display}  stops={it.n_stops} dur={it.total_duration_min}min")
+    if res:
+        print(json.dumps(asdict(res[0]), indent=2, default=str))

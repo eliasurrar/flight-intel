@@ -1,0 +1,22 @@
+{
+  "snapshot_at": "2026-05-25T22:41:13.080976Z",
+  "trips": [
+    {
+      "key": "GRU-2026-06",
+      "name": "SCL\u2194GRU 18\u219229 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-18"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-29"
+        }
+      ],
+      "file": "GRU-2026-06.json"
+    }
+  ]
+}

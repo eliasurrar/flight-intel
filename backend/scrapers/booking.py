@@ -79,46 +79,66 @@ class BKItinerary:
 
 
 def build_url(legs: Sequence[tuple[str, str, str]]) -> str:
-    """legs = [(orig, dest, date_iso), ...]. Returns Booking multi-city URL.
+    """Builds a Booking Flights search URL.
 
-    For 1 leg → ONEWAY. For 2 legs with same airports reversed → ROUNDTRIP.
-    Otherwise → MULTISTOP.
+    Booking's multi-city URL is fragile — its form often doesn't accept the
+    pre-filled params and lands on an empty results page. For round-trip we use
+    the canonical 2-airport URL which loads results reliably. For multi-city
+    we still emit the URL but expect manual interaction.
     """
     if not legs:
         raise ValueError("at least one leg required")
 
     n = len(legs)
-    trip_type = "ONEWAY" if n == 1 else (
-        "ROUNDTRIP"
-        if n == 2 and legs[0][0] == legs[1][1] and legs[0][1] == legs[1][0]
-        else "MULTISTOP"
-    )
+    # Detect round-trip pattern (2 reverse legs) — Booking handles these best.
+    if (
+        n == 2
+        and legs[0][0] == legs[1][1]
+        and legs[0][1] == legs[1][0]
+    ):
+        o, d, dep = legs[0]
+        ret = legs[1][2]
+        params = urllib.parse.urlencode([
+            ("type", "ROUNDTRIP"),
+            ("adults", "1"),
+            ("cabinClass", "ECONOMY"),
+            ("sort", "BEST"),
+            ("from", f"{o}.AIRPORT"),
+            ("to", f"{d}.AIRPORT"),
+            ("depart", dep),
+            ("return", ret),
+        ])
+        return f"https://flights.booking.com/flights/{o}.AIRPORT-{d}.AIRPORT/?{params}"
 
+    # One-way
+    if n == 1:
+        o, d, dep = legs[0]
+        params = urllib.parse.urlencode([
+            ("type", "ONEWAY"),
+            ("adults", "1"),
+            ("cabinClass", "ECONOMY"),
+            ("sort", "BEST"),
+            ("from", f"{o}.AIRPORT"),
+            ("to", f"{d}.AIRPORT"),
+            ("depart", dep),
+        ])
+        return f"https://flights.booking.com/flights/{o}.AIRPORT-{d}.AIRPORT/?{params}"
+
+    # Multi-city fallback (URL exists but may land on empty form)
     path_segs = [f"{o}.AIRPORT-{d}.AIRPORT" for o, d, _ in legs]
     path = "/".join(path_segs)
-
     params: list[tuple[str, str]] = [
-        ("type", trip_type),
+        ("type", "MULTISTOP"),
         ("adults", "1"),
         ("cabinClass", "ECONOMY"),
         ("sort", "BEST"),
     ]
-    if trip_type == "ROUNDTRIP":
-        o, d, dep_d = legs[0]
-        _, _, ret_d = legs[1]
+    for o, d, dep_d in legs:
         params += [
             ("from", f"{o}.AIRPORT"),
             ("to", f"{d}.AIRPORT"),
             ("depart", dep_d),
-            ("return", ret_d),
         ]
-    else:
-        for o, d, dep_d in legs:
-            params += [
-                ("from", f"{o}.AIRPORT"),
-                ("to", f"{d}.AIRPORT"),
-                ("depart", dep_d),
-            ]
     qs = urllib.parse.urlencode(params)
     return f"https://flights.booking.com/flights/{path}/?{qs}"
 
@@ -304,8 +324,13 @@ def search_multicity(
     legs: Sequence[tuple[str, str, str]],
     headless: bool = True,
     debug_dir: Path | None = None,
-    timeout_ms: int = 30_000,
+    timeout_ms: int = 45_000,
 ) -> list[BKItinerary]:
+    """Try to scrape Booking. Honest behaviour: Booking's SPA frequently hangs
+    on `search_loading_overlay` for 30+ seconds and yields no cards. If we
+    can't find prices in time, return [] — the dashboard still shows the
+    URL so the user can click through manually.
+    """
     url = build_url(legs)
     if debug_dir:
         print(f"[booking] URL: {url}", file=sys.stderr)
@@ -323,7 +348,7 @@ def search_multicity(
         page = ctx.new_page()
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
-            page.wait_for_timeout(1500)
+            page.wait_for_timeout(2000)
 
             if _detect_block(page):
                 if debug_dir:
@@ -331,17 +356,22 @@ def search_multicity(
                     page.screenshot(path=str(debug_dir / f"blocked-{int(time.time())}.png"))
                 raise BookingBlocked("captcha or access denied")
 
-            _wait_for_results(page, timeout_ms)
-            # let the SPA settle
-            page.wait_for_timeout(2_000)
+            # Booking sometimes shows results, sometimes hangs on overlay.
+            # Try to wait, but don't let it block us forever.
+            try:
+                _wait_for_results(page, timeout_ms=timeout_ms)
+                page.wait_for_timeout(1_500)
+            except (PWTimeout, Exception) as e:
+                if debug_dir:
+                    print(f"[booking] no results panel: {e}", file=sys.stderr)
+                return results
 
             cards = _find_cards(page)
             if debug_dir:
-                print(f"[booking] found {len(cards)} cards", file=sys.stderr)
+                print(f"[booking] {len(cards)} cards", file=sys.stderr)
             for c in cards[:30]:
                 it = _extract_card(c)
                 if it:
-                    # If no per-card link, use current URL as the booking entry
                     if not it.booking_url:
                         it.booking_url = page.url
                     results.append(it)
