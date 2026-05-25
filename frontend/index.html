@@ -406,6 +406,7 @@ function renderResults(trip) {
       ${renderSourceCol("ky", "kayak", trip.sources?.kayak)}
     </div>
     ${renderAirlines(trip.per_leg_airlines, best?.usd)}
+    ${renderSegments(trip.unique_segments)}
   `;
   resultCard.classList.add("active");
 }
@@ -473,6 +474,79 @@ function renderAirlines(perLeg, bestUSD) {
     <h3>links directos por tramo (aerolíneas)</h3>
     ${blocks}
     ${totalizer}
+  </div>`;
+}
+
+function renderSegments(segments) {
+  if (!segments || !segments.length) return "";
+  // Group by leg key (origin-dest-date) so user sees options per tramo
+  const groups = {};
+  for (const s of segments) {
+    const k = `${s.origin}-${s.dest}-${s.date}`;
+    (groups[k] ||= []).push(s);
+  }
+  // Sort: scraped+price first, then pending/no_url
+  const statusOrder = { scraped: 0, ocr_failed: 1, pending: 2, blocked: 3, failed: 4, no_flights: 5, no_url: 6 };
+  const groupHtml = Object.entries(groups).map(([k, segs]) => {
+    segs.sort((a, b) => {
+      if (a.price_value && !b.price_value) return -1;
+      if (!a.price_value && b.price_value) return 1;
+      if (a.price_value && b.price_value) return a.price_value - b.price_value;
+      return (statusOrder[a.scrape_status] ?? 9) - (statusOrder[b.scrape_status] ?? 9);
+    });
+    const rows = segs.map(s => {
+      const price = s.price_value != null
+        ? `<span style="color:var(--success);font-weight:600">${fmt(s.price_value, s.price_currency)}</span>`
+        : `<span style="color:var(--ink-dim)">—</span>`;
+      const statusBadge = (() => {
+        const map = {
+          scraped: ['✓ scraped', 'var(--success)'],
+          ocr_failed: ['👁 ocr fallback', 'var(--warning)'],
+          pending: ['…', 'var(--ink-dim)'],
+          blocked: ['⚠ bloqueado', 'var(--danger)'],
+          failed: ['✗ falló', 'var(--danger)'],
+          no_flights: ['sin vuelos', 'var(--ink-dim)'],
+          no_url: ['sin url aerolínea', 'var(--ink-dim)'],
+        };
+        const [label, color] = map[s.scrape_status] || [s.scrape_status, 'var(--ink-dim)'];
+        return `<span style="font-size:10px;color:${color};font-family:var(--font-mono)">${label}</span>`;
+      })();
+      const timeStr = s.dep_time ? `${s.dep_time}${s.arr_time ? '→' + s.arr_time : ''}` : '';
+      const srcTag = `<span style="font-size:9px;padding:1px 4px;background:var(--surface-2);border-radius:2px;color:var(--ink-muted)">${s.source.replace('google_flights', 'GF').replace('kayak', 'KY')}</span>`;
+      const link = s.url
+        ? `<a href="${s.url}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">comprar ↗</a>`
+        : `<span style="color:var(--ink-dim)">—</span>`;
+      return `<tr style="border-top:1px solid var(--border)">
+        <td style="padding:6px 8px">${s.airline || '—'} ${srcTag}</td>
+        <td style="padding:6px 8px;font-family:var(--font-mono);font-size:11px;color:var(--ink-muted)">${timeStr}</td>
+        <td style="padding:6px 8px;text-align:right;font-family:var(--font-mono)">${price}</td>
+        <td style="padding:6px 8px;text-align:center">${statusBadge}</td>
+        <td style="padding:6px 8px;text-align:right">${link}</td>
+      </tr>`;
+    }).join("");
+    const [o, d, dt] = k.split("-").length >= 3 ? [k.split("-")[0], k.split("-")[1], k.split("-").slice(2).join("-")] : [k, "", ""];
+    return `<div style="margin-bottom:14px">
+      <div style="font-family:var(--font-mono);font-size:12px;color:var(--ink);margin-bottom:6px">
+        ${o} → ${d} · ${dt}  <span style="color:var(--ink-dim);font-size:10px">${segs.length} opción${segs.length===1?'':'es'}</span>
+      </div>
+      <table style="width:100%;border-collapse:collapse;font-size:12px;background:var(--surface-3);border-radius:var(--radius);overflow:hidden">
+        <thead style="background:var(--surface-2)">
+          <tr>
+            <th style="text-align:left;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">aerolínea</th>
+            <th style="text-align:left;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">horario</th>
+            <th style="text-align:right;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">precio</th>
+            <th style="text-align:center;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">status</th>
+            <th style="text-align:right;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">link</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+  }).join("");
+  const totalScraped = segments.filter(s => s.scrape_status === "scraped").length;
+  return `<div class="airlines-section">
+    <h3>vuelos individuales descubiertos por tramo (${segments.length} segmentos · ${totalScraped} con precio)</h3>
+    ${groupHtml}
   </div>`;
 }
 

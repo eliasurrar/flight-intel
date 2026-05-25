@@ -91,15 +91,50 @@ AIRLINE_URLS: dict[str, str] = {
         "https://www.skyairline.com/booking/select"
         "?o={origin}&d={destination}&dep={dep}&ret={ret}&adults=1"
     ),
+    "turkishairlines": (
+        "https://www.turkishairlines.com/en-int/flights/booking/"
+        "?ow=true&isOneWay=true&numberOfAdults=1"
+        "&from={origin}&to={destination}&departureDate={dep}"
+    ),
+    "americanairlines": (
+        "https://www.aa.com/booking/find-flights"
+        "?tripType=oneWay&from={origin}&to={destination}&departDate={dep}&adult=1"
+    ),
+    "united": (
+        "https://www.united.com/en/us/fsr/choose-flights"
+        "?f={origin}&t={destination}&d={dep}&tt=1&px=1&taxng=1&newHP=True&clm=7&st=bestmatches"
+    ),
+    "delta": (
+        "https://www.delta.com/flight-search/book-a-flight"
+        "?tripType=ONE_WAY&fromCity={origin}&toCity={destination}&departureDate={dep}&paxCount=1"
+    ),
+    "iberia": (
+        "https://www.iberia.com/cl/?language=es&market=cl"
+        "#/booking?adults=1&origin={origin}&destination={destination}&departureDate={dep}"
+    ),
+    "aeromexico": (
+        "https://www.aeromexico.com/es-mx/booking"
+        "?from={origin}&to={destination}&departure={dep}&adults=1"
+    ),
+    "aerolineasargentinas": (
+        "https://www.aerolineas.com.ar/es-ar/Booking/SearchAvailability"
+        "?origin={origin}&destination={destination}&departureDate={dep}&adults=1"
+    ),
+    "airfrance": (
+        "https://wwws.airfrance.cl/search/offers"
+        "?bookingFlow=LEISURE&pax=1.0.0.0.0.0.0&cabin=ECONOMY&trip=OW"
+        "&itinerary={origin}:{destination}:{dep}"
+    ),
+    "klm": (
+        "https://www.klm.com/search/offers"
+        "?bookingFlow=LEISURE&pax=1.0.0.0.0.0.0&cabin=ECONOMY&trip=OW"
+        "&itinerary={origin}:{destination}:{dep}"
+    ),
+    "tapportugal": (
+        "https://www.flytap.com/en-us/book-a-flight"
+        "?origin={origin}&destination={destination}&dateFrom={dep}&adults=1"
+    ),
 }
-
-
-def url_for(airline: str, origin: str, dest: str, dep: str, ret: str | None = None) -> str:
-    key = f"{airline.lower()}_rt" if ret else airline.lower()
-    tmpl = AIRLINE_URLS.get(key) or AIRLINE_URLS.get(airline.lower())
-    if not tmpl:
-        return ""
-    return tmpl.format(origin=origin, destination=dest, dep=dep, ret=ret or "")
 
 
 # Heuristic mapping carrier name (as GF/Kayak shows it) → airline key
@@ -111,7 +146,25 @@ NAME_TO_KEY: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\bjet\s*smart\b", re.I), "jetsmart"),
     (re.compile(r"\bcopa\b", re.I), "copa"),
     (re.compile(r"\bsky\b", re.I), "skyairline"),
+    (re.compile(r"\bturkish\b", re.I), "turkishairlines"),
+    (re.compile(r"\bamerican\s+airlines?\b|\baa\b", re.I), "americanairlines"),
+    (re.compile(r"\bunited\b", re.I), "united"),
+    (re.compile(r"\bdelta\b", re.I), "delta"),
+    (re.compile(r"\biberia\b", re.I), "iberia"),
+    (re.compile(r"\baeromexico|aerom[ée]xico\b", re.I), "aeromexico"),
+    (re.compile(r"\baerol[íi]neas\s+argentinas\b", re.I), "aerolineasargentinas"),
+    (re.compile(r"\bair\s+france\b", re.I), "airfrance"),
+    (re.compile(r"\bklm\b", re.I), "klm"),
+    (re.compile(r"\btap\s+(air\s+)?portugal\b", re.I), "tapportugal"),
 ]
+
+
+def url_for(airline: str, origin: str, dest: str, dep: str, ret: str | None = None) -> str:
+    key = f"{airline.lower()}_rt" if ret else airline.lower()
+    tmpl = AIRLINE_URLS.get(key) or AIRLINE_URLS.get(airline.lower())
+    if not tmpl:
+        return ""
+    return tmpl.format(origin=origin, destination=dest, dep=dep, ret=ret or "")
 
 
 def name_to_key(name: str) -> str | None:
@@ -167,38 +220,139 @@ def _parse_price(text: str) -> tuple[float | None, str, str]:
     return val, m.group(0), cur_map.get(sym, sym)
 
 
+import os
+import subprocess
+import tempfile
+
+TESSERACT = "/Users/openclaw/homebrew/bin/tesseract"
+SCREENSHOT_DIR = "/tmp/flight-intel-airline-shots"
+
+
+def _ocr_screenshot(png_path: str) -> str:
+    """Run tesseract on a screenshot, return extracted text. Fall back to ''
+    if tesseract missing or fails."""
+    if not os.path.exists(TESSERACT):
+        return ""
+    try:
+        out = subprocess.run(
+            [TESSERACT, png_path, "stdout", "-l", "eng+spa+por"],
+            capture_output=True, text=True, timeout=30,
+        )
+        return out.stdout or ""
+    except Exception:
+        return ""
+
+
 def fetch_price(
     airline: str, origin: str, dest: str, dep: str, ret: str | None = None,
-    headless: bool = True, timeout_ms: int = 25_000,
+    headless: bool = False, timeout_ms: int = 35_000,
+    vision_fallback: bool = True,
 ) -> AirlineLegQuote:
+    """Fetch price from airline site.
+
+    Strategy:
+      1. Open URL headful (LATAM/Avianca/etc detect headless).
+      2. Wait up to timeout_ms for any price string to appear in body text.
+      3. If no price in text → take screenshot → OCR with tesseract.
+      4. Parse price from OCR text.
+
+    Returns AirlineLegQuote. `error` indicates failure cause; `price_display`
+    has the screenshot path when OCR was attempted but failed.
+    """
     url = url_for(airline, origin, dest, dep, ret)
     if not url:
         return AirlineLegQuote(airline, origin, dest, dep, ret, "",
                                None, "", "USD", ok=False, error="no_url_template")
+
+    os.makedirs(SCREENSHOT_DIR, exist_ok=True)
+    screenshot_path = os.path.join(
+        SCREENSHOT_DIR,
+        f"{airline}-{origin}-{dest}-{dep}-{int(time.time())}.png"
+    )
+
     try:
         with sync_playwright() as pw:
-            browser = pw.chromium.launch(headless=headless)
-            ctx = browser.new_context(user_agent=UA, viewport={"width": 1280, "height": 900})
+            browser = pw.chromium.launch(
+                headless=headless,
+                args=["--disable-blink-features=AutomationControlled"],
+            )
+            ctx = browser.new_context(
+                user_agent=UA,
+                viewport={"width": 1440, "height": 900},
+                locale="es-CL",
+            )
             page = ctx.new_page()
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+
+                # Poll for price string up to timeout
+                deadline = time.time() + timeout_ms / 1000
+                price_val = None
+                raw = ""
+                cur = "USD"
+                body = ""
+                while time.time() < deadline:
+                    try:
+                        body = page.locator("body").inner_text(timeout=2000)
+                    except Exception:
+                        time.sleep(0.5)
+                        continue
+                    price_val, raw, cur = _parse_price(body)
+                    if price_val is not None:
+                        break
+                    # Detect explicit "no flights" messages
+                    low = body.lower()
+                    if "no encontramos" in low or "no se encontraron" in low \
+                       or "tardando más" in low or "tardando mas" in low \
+                       or "access denied" in low:
+                        # No point waiting further; capture screenshot for evidence
+                        break
+                    time.sleep(1.5)
+
+                # Always take a screenshot — even if price was found, for receipts
                 try:
-                    page.wait_for_load_state("networkidle", timeout=min(timeout_ms, 12_000))
+                    page.screenshot(path=screenshot_path, full_page=False)
                 except Exception:
-                    pass
-                body = page.locator("body").inner_text(timeout=5_000)
-                val, raw, cur = _parse_price(body)
+                    screenshot_path = ""
+
+                if price_val is not None:
+                    return AirlineLegQuote(
+                        airline=airline, origin=origin, dest=dest, dep=dep, ret=ret,
+                        url=url, price_value=price_val, price_display=raw,
+                        price_currency=cur, ok=True, error="",
+                    )
+
+                # Vision/OCR fallback
+                if vision_fallback and screenshot_path and os.path.exists(screenshot_path):
+                    ocr_text = _ocr_screenshot(screenshot_path)
+                    if ocr_text:
+                        price_val, raw, cur = _parse_price(ocr_text)
+                        if price_val is not None:
+                            return AirlineLegQuote(
+                                airline=airline, origin=origin, dest=dest, dep=dep, ret=ret,
+                                url=url, price_value=price_val, price_display=raw,
+                                price_currency=cur, ok=True,
+                                error=f"ocr_fallback (screenshot: {screenshot_path})",
+                            )
+
+                # Last resort: return failure with screenshot for manual review
+                err = "price_not_visible"
+                low = (body or "").lower()
+                if "no encontramos" in low or "tardando más" in low or "tardando mas" in low:
+                    err = "airline_no_flights"
+                elif "access denied" in low:
+                    err = "blocked"
                 return AirlineLegQuote(
                     airline=airline, origin=origin, dest=dest, dep=dep, ret=ret,
-                    url=url, price_value=val, price_display=raw, price_currency=cur,
-                    ok=val is not None,
-                    error="" if val is not None else "price_not_visible",
+                    url=url, price_value=None,
+                    price_display=f"screenshot:{screenshot_path}" if screenshot_path else "",
+                    price_currency="USD", ok=False, error=err,
                 )
             finally:
                 browser.close()
     except Exception as e:
         return AirlineLegQuote(airline, origin, dest, dep, ret, url, None, "", "USD",
-                               ok=False, error=f"{type(e).__name__}:{e}")
+                               ok=False, error=f"{type(e).__name__}:{e}"[:200])
 
 
 # ──────────────────────────────────────────────────────────────────────────

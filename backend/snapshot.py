@@ -15,6 +15,7 @@ The output JSON is consumed by frontend/trips.html to render the dashboard.
 from __future__ import annotations
 
 import json
+import re
 import sys
 import time
 import traceback
@@ -27,6 +28,7 @@ sys.path.insert(0, str(ROOT))
 
 from trips import all_trips, Trip  # noqa: E402
 from backend.scrapers import google_flights, booking, kayak, airlines  # noqa: E402
+from backend import segments as seg_extractor  # noqa: E402
 
 OUT_DIR = ROOT / "data" / "snapshots"
 
@@ -102,7 +104,8 @@ def _carrier_candidates(origin: str, dest: str) -> list[str]:
 # ──────────────────────────────────────────────────────────────────────────
 
 
-def snapshot_trip(trip: Trip, fetch_airline_prices: bool = False) -> dict:
+def snapshot_trip(trip: Trip, fetch_airline_prices: bool = False,
+                  scrape_segment_limit: int = 8) -> dict:
     """Run all sources for one trip and return a serializable dict."""
     print(f"\n=== {trip.key}: {trip.name} ===", file=sys.stderr)
     legs_tuples = [(l.origin, l.destination, l.leg_date.isoformat()) for l in trip.legs]
@@ -214,7 +217,87 @@ def snapshot_trip(trip: Trip, fetch_airline_prices: bool = False) -> dict:
         per_leg_airlines.append(leg_block)
     result["per_leg_airlines"] = per_leg_airlines
 
+    # --- Unique directo segments discovered across all sources ---
+    # Each entry: { origin, dest, date, airline, dep_time, arr_time, source,
+    #               url (if we have an airline URL template),
+    #               price_*, ok, error, scrape_status }
+    try:
+        unique_segs = seg_extractor.collect_all_segments(result)
+        seg_rows = []
+        for s in unique_segs:
+            airline_key = _airline_key(s.airline)
+            url = airlines.url_for(airline_key, s.origin, s.dest, s.date) if airline_key else ""
+            seg_rows.append({
+                "origin": s.origin, "dest": s.dest, "date": s.date,
+                "airline": s.airline, "airline_key": airline_key,
+                "dep_time": s.dep_time, "arr_time": s.arr_time,
+                "source": s.source, "url": url,
+                "price_value": None, "price_currency": "", "price_display": "",
+                "scrape_status": "pending" if (url and airline_key) else "no_url",
+                "screenshot_path": "",
+                "error": "",
+            })
+
+        # Scrape per-segment prices when requested (headful + OCR fallback)
+        if fetch_airline_prices:
+            scrapeable = [r for r in seg_rows if r["scrape_status"] == "pending"][:scrape_segment_limit]
+            print(f"  [segments] scraping {len(scrapeable)}/{len(seg_rows)} segments per-airline",
+                  file=sys.stderr)
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+            def _scrape_one(row):
+                t0 = time.time()
+                q = airlines.fetch_price(
+                    row["airline_key"], row["origin"], row["dest"], row["date"],
+                    headless=False, timeout_ms=30_000, vision_fallback=True,
+                )
+                row["price_value"] = q.price_value
+                row["price_currency"] = q.price_currency
+                row["price_display"] = q.price_display
+                row["error"] = q.error
+                row["scrape_status"] = "scraped" if q.ok else (
+                    "blocked" if "block" in (q.error or "").lower()
+                    else "no_flights" if q.error == "airline_no_flights"
+                    else "ocr_failed" if "screenshot:" in (q.price_display or "")
+                    else "failed"
+                )
+                if "screenshot:" in (q.price_display or ""):
+                    row["screenshot_path"] = q.price_display.replace("screenshot:", "")
+                print(f"    {row['airline_key']:10s} {row['origin']}→{row['dest']} {row['date']}: "
+                      f"{row['scrape_status']} ({time.time()-t0:.1f}s) "
+                      f"{row.get('price_display','')}", file=sys.stderr)
+                return row
+            with ThreadPoolExecutor(max_workers=2) as ex:
+                # Browser launching is heavy; limit concurrency to avoid OOM
+                futs = [ex.submit(_scrape_one, r) for r in scrapeable]
+                for _ in as_completed(futs):
+                    pass
+
+        result["unique_segments"] = seg_rows
+        n_scraped = sum(1 for r in seg_rows if r["scrape_status"] == "scraped")
+        print(f"  [segments] {len(seg_rows)} unique · {n_scraped} with price", file=sys.stderr)
+    except Exception as e:
+        result["unique_segments"] = []
+        print(f"  [segments] error: {e}", file=sys.stderr)
+
     return result
+
+
+_AIRLINE_NAME_TO_KEY = [
+    (re.compile(r"\blatam\b", re.I), "latam"),
+    (re.compile(r"\bgol\b", re.I), "gol"),
+    (re.compile(r"\bazul\b", re.I), "azul"),
+    (re.compile(r"\bavianca\b", re.I), "avianca"),
+    (re.compile(r"\bjet\s*smart\b", re.I), "jetsmart"),
+    (re.compile(r"\bcopa\b", re.I), "copa"),
+    (re.compile(r"\bsky\b", re.I), "skyairline"),
+]
+
+
+def _airline_key(name: str) -> str:
+    for pat, key in _AIRLINE_NAME_TO_KEY:
+        if pat.search(name or ""):
+            return key
+    return ""
 
 
 # ──────────────────────────────────────────────────────────────────────────

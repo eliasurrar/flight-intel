@@ -110,7 +110,7 @@ def run_pipeline(job: dict) -> None:
         # do coarse-grained stage emits here.
         _stage(jid, "scraping", 15, "running google flights, kayak, booking, airlines in sequence…")
 
-        result = snap.snapshot_trip(trip, fetch_airline_prices=False)
+        result = snap.snapshot_trip(trip, fetch_airline_prices=True, scrape_segment_limit=6)
 
         # If multi-leg (3+) and no source returned a usable pack, surface that
         # split-by-stopover hint is the way.
@@ -137,6 +137,7 @@ def run_pipeline(job: dict) -> None:
             "legs": result["legs"],
             "sources": result["sources"],
             "per_leg_airlines": result["per_leg_airlines"],
+            "unique_segments": result.get("unique_segments", []),
             "composition_note": result.get("composition_note", ""),
             "snapshot_at": result["snapshot_at"],
             "snapshot_path": f"snapshots/adhoc/{jid}.json",

@@ -90,3 +90,7 @@ Impersonate 'chrome_126' does not exist, using 'random'
 
 === adhoc-b9dabd9c: AJU↔ADZ post-fix ===
 Impersonate 'chrome_126' does not exist, using 'random'
+  [GF] 5 quotes
+  [Booking] 0 quotes in 27.1s
+  [Kayak] 30 quotes in 7.1s
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
