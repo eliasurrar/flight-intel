@@ -1,0 +1,263 @@
+{
+  "trip_key": "PAT-B-2026-06-03",
+  "trip_name": "Mi\u00e9\u2192Lun (12 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-03\u21922026-06-15",
+  "legs": [
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-03"
+    },
+    {
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-15"
+    }
+  ],
+  "snapshot_at": "2026-05-25T22:54:45.895343Z",
+  "sources": {
+    "google_flights": {
+      "ok": true,
+      "duration_s": 0.0,
+      "search_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDMoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMTUoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-03",
+              "airline": "JetSMART",
+              "departure": "4:52 AM on Wed, Jun 3",
+              "arrival": "10:00 AM on Wed, Jun 3",
+              "duration_min": 248,
+              "stops": 0,
+              "price_value": 272429.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 272429",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 272429.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDMoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMTUoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-03",
+              "airline": "JetSMART",
+              "departure": "5:57 AM on Wed, Jun 3",
+              "arrival": "11:05 AM on Wed, Jun 3",
+              "duration_min": 248,
+              "stops": 0,
+              "price_value": 272429.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 272429",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 272429.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDMoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMTUoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-03",
+              "airline": "LATAM",
+              "departure": "7:35 AM on Wed, Jun 3",
+              "arrival": "12:50 PM on Wed, Jun 3",
+              "duration_min": 255,
+              "stops": 0,
+              "price_value": 333057.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 333057",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 333057.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDMoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMTUoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-03",
+              "airline": "LATAM",
+              "departure": "8:30 AM on Wed, Jun 3",
+              "arrival": "5:45 PM on Wed, Jun 3",
+              "duration_min": 495,
+              "stops": 1,
+              "price_value": 334317.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 334317",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 334317.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDMoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMTUoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-03",
+              "airline": "JetSMART",
+              "departure": "8:12 AM on Wed, Jun 3",
+              "arrival": "6:50 PM on Wed, Jun 3",
+              "duration_min": 578,
+              "stops": 1,
+              "price_value": 337589.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 337589",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 337589.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDMoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMTUoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        }
+      ]
+    },
+    "booking": {
+      "ok": true,
+      "duration_s": 27.2,
+      "search_url": "https://flights.booking.com/flights/SCL.AIRPORT-GIG.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=SCL.AIRPORT&to=GIG.AIRPORT&depart=2026-06-03&return=2026-06-15",
+      "quotes": [],
+      "note": "no_results_use_link"
+    },
+    "kayak": {
+      "ok": true,
+      "duration_s": 6.7,
+      "search_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-03/GIG-SCL/2026-06-15?sort=price_a",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-03",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1173.0,
+          "price_display": "$1,173",
+          "price_currency": "USD",
+          "total_duration_min": 80,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlBiKvVJg1.9pG4ziNgho3BDARZyLA7ng.117270.4cf279285965e674e03bd2362851c806&h=3cac915b3731&sub=F-6628546066563875655E0896aaf49d6&viewId=fa444c5e-412f-478e-801c-af5666c7c5f7&bucket=LIGHT&pageOrigin=F..RP.FE.M1",
+          "source": "kayak",
+          "raw_text": "3:20 pm \u2013 6:15 am+1\nAvianca\n1 stop\nBOG\n\u00a01h 20m layover, Bogot\u00e1 El Dorado\n13h 55m\nSCL\n-\nGIG\n7:20 am \u2013 11:20 pm\nAvianca\n1 stop\nBOG\n\u00a04h 35m layover, Bogot\u00e1 El Dorado\n17h 00m\nGIG\n-\nSCL\n1\n$1,173\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-03",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1531.0,
+          "price_display": "$1,531",
+          "price_currency": "USD",
+          "total_duration_min": 275,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlBiKvVJg1.9pG4ziNgho3BDARZyLA7ng.153070.3ba7a4226bbdf532ffbcbdfdff20a675&h=a26161fdd94b&sub=F-6628546069720086261E02ccd1fb634&viewId=fa444c5e-412f-478e-801c-af5666c7c5f7&bucket=CLASSIC_LIGHT&pageOrigin=F..RP.FE.M2",
+          "source": "kayak",
+          "raw_text": "6:40 am \u2013 12:30 am+1\nAvianca\n1 stop\nBOG\n\u00a04h 35m layover, Bogot\u00e1 El Dorado\n16h 50m\nSCL\n-\nGIG\n7:20 am \u2013 11:20 pm\nAvianca\n1 stop\nBOG\n\u00a04h 35m layover, Bogot\u00e1 El Dorado\n17h 00m\nGIG\n-\nSCL\n1\n$1,531\nClassic + Light\nSelect"
+        }
+      ]
+    }
+  },
+  "per_leg_airlines": [
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-03",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-06-03&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=SCL&para=GIG&ida=2026-06-03&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=SCL&Destination=GIG&DepartureDate=2026-06-03&Cabin=Y&Adults=1"
+        },
+        {
+          "airline": "jetsmart",
+          "url": "https://jetsmart.com/cl/es/?from=SCL&to=GIG&departure=2026-06-03&adults=1"
+        }
+      ]
+    },
+    {
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-15",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-15&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GIG&para=SCL&ida=2026-06-15&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=GIG&Destination=SCL&DepartureDate=2026-06-15&Cabin=Y&Adults=1"
+        },
+        {
+          "airline": "jetsmart",
+          "url": "https://jetsmart.com/cl/es/?from=GIG&to=SCL&departure=2026-06-15&adults=1"
+        }
+      ]
+    }
+  ]
+}

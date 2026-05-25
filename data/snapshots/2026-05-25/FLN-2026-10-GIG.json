@@ -1,0 +1,194 @@
+{
+  "trip_key": "FLN-2026-10-GIG",
+  "trip_name": "GIG\u2194FLN 29-oct\u21922-nov 2026",
+  "legs": [
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-10-29"
+    },
+    {
+      "origin": "FLN",
+      "dest": "GIG",
+      "date": "2026-11-02"
+    }
+  ],
+  "snapshot_at": "2026-05-25T22:43:28.381584Z",
+  "sources": {
+    "google_flights": {
+      "ok": true,
+      "duration_s": 0.0,
+      "search_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 344321.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 344321",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 344321.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 344321.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 344321",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 344321.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 344321.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 344321",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 344321.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 323442.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 323442",
+              "is_best": false
+            }
+          ],
+          "total_price_value": 323442.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 331321.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 331321",
+              "is_best": false
+            }
+          ],
+          "total_price_value": 331321.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        }
+      ]
+    },
+    "booking": {
+      "ok": true,
+      "duration_s": 27.4,
+      "search_url": "https://flights.booking.com/flights/GIG.AIRPORT-FLN.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=GIG.AIRPORT&to=FLN.AIRPORT&depart=2026-10-29&return=2026-11-02",
+      "quotes": [],
+      "note": "no_results_use_link"
+    },
+    "kayak": {
+      "ok": true,
+      "duration_s": 43.9,
+      "search_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+      "quotes": []
+    }
+  },
+  "per_leg_airlines": [
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-10-29",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=FLN&outbound=2026-10-29&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GIG&para=FLN&ida=2026-10-29&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=GIG&Destination=FLN&DepartureDate=2026-10-29&Cabin=Y&Adults=1"
+        }
+      ]
+    },
+    {
+      "origin": "FLN",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=GIG&outbound=2026-11-02&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=FLN&para=GIG&ida=2026-11-02&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=FLN&Destination=GIG&DepartureDate=2026-11-02&Cabin=Y&Adults=1"
+        }
+      ]
+    }
+  ]
+}

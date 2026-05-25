@@ -1,0 +1,503 @@
+{
+  "trip_key": "GRU-0605-0608",
+  "trip_name": "SCL\u2194GRU 5\u21928 jun 2026",
+  "legs": [
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-05"
+    },
+    {
+      "origin": "GRU",
+      "dest": "SCL",
+      "date": "2026-06-08"
+    }
+  ],
+  "snapshot_at": "2026-05-25T22:50:10.139688Z",
+  "sources": {
+    "google_flights": {
+      "ok": true,
+      "duration_s": 0.0,
+      "search_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDgoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "leg_date": "2026-06-05",
+              "airline": "LATAM",
+              "departure": "12:30 AM on Fri, Jun 5",
+              "arrival": "5:40 AM on Fri, Jun 5",
+              "duration_min": 250,
+              "stops": 0,
+              "price_value": 301663.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 301663",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 301663.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDgoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "leg_date": "2026-06-05",
+              "airline": "Turkish Airlines",
+              "departure": "10:15 AM on Fri, Jun 5",
+              "arrival": "3:00 PM on Fri, Jun 5",
+              "duration_min": 225,
+              "stops": 0,
+              "price_value": 321203.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 321203",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 321203.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDgoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "leg_date": "2026-06-05",
+              "airline": "JetSMART",
+              "departure": "1:00 PM on Fri, Jun 5",
+              "arrival": "5:55 PM on Fri, Jun 5",
+              "duration_min": 235,
+              "stops": 0,
+              "price_value": 356303.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 356303",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 356303.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDgoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "leg_date": "2026-06-05",
+              "airline": "LATAM",
+              "departure": "5:00 AM on Fri, Jun 5",
+              "arrival": "10:10 AM on Fri, Jun 5",
+              "duration_min": 250,
+              "stops": 0,
+              "price_value": 301663.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 301663",
+              "is_best": false
+            }
+          ],
+          "total_price_value": 301663.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDgoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "leg_date": "2026-06-05",
+              "airline": "LATAM",
+              "departure": "8:15 PM on Fri, Jun 5",
+              "arrival": "1:10 AM on Sat, Jun 6",
+              "duration_min": 235,
+              "stops": 0,
+              "price_value": 301663.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 301663",
+              "is_best": false
+            }
+          ],
+          "total_price_value": 301663.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDgoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights"
+        }
+      ]
+    },
+    "booking": {
+      "ok": true,
+      "duration_s": 26.9,
+      "search_url": "https://flights.booking.com/flights/SCL.AIRPORT-GRU.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=SCL.AIRPORT&to=GRU.AIRPORT&depart=2026-06-05&return=2026-06-08",
+      "quotes": [],
+      "note": "no_results_use_link"
+    },
+    "kayak": {
+      "ok": true,
+      "duration_s": 6.4,
+      "search_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-08?sort=price_a",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 357.0,
+          "price_display": "$357",
+          "price_currency": "USD",
+          "total_duration_min": 225,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.Sb-OdK9m08HBDARZyLA7ng.35690.2fa9c111d4f2c484817ccf2c152a30c6&h=9c97bc81f3ce&sub=F8350231633764392066E01c6c7ebb32&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=e&pageOrigin=F..RP.FE.M1",
+          "source": "kayak",
+          "raw_text": "10:15 am \u2013 3:00 pm\nTurkish Airlines\nnonstop\n3h 45m\nSCL\n-\nGRU\n5:05 am \u2013 8:30 am\nTurkish Airlines\nnonstop\n4h 25m\nGRU\n-\nSCL\n1\n2\n$357\nEconomy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 538.0,
+          "price_display": "$538",
+          "price_currency": "USD",
+          "total_duration_min": 170,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.xEETTtCPj_8.53800.f8f28b8c2761f23dae9f4275b008ff9c&h=382d7157090a&sub=F-4638588420365088565E05c6da4855d&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M2",
+          "source": "kayak",
+          "raw_text": "6:40 am \u2013 10:30 pm\nAvianca\n1 stop\nBOG\n\u00a02h 50m layover, Bogot\u00e1 El Dorado\n14h 50m\nSCL\n-\nGRU\n1:20 am \u2013 2:15 pm\nAvianca\n1 stop\nBOG\n\u00a01h 50m layover, Bogot\u00e1 El Dorado\n13h 55m\nGRU\n-\nSCL\n1\n$538\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 597.0,
+          "price_display": "$597",
+          "price_currency": "USD",
+          "total_duration_min": 135,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.xEETTtCPj_8.59700.f921d51548c730a4f5962fb1461e11a6&h=5eeb0053b072&sub=F-4638588420686824650E0f3a5f2f27a&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M3",
+          "source": "kayak",
+          "raw_text": "12:30 am \u2013 4:05 pm\nAvianca\n1 stop\nBOG\n\u00a02h 15m layover, Bogot\u00e1 El Dorado\n14h 35m\nSCL\n-\nGRU\n1:20 am \u2013 2:15 pm\nAvianca\n1 stop\nBOG\n\u00a01h 50m layover, Bogot\u00e1 El Dorado\n13h 55m\nGRU\n-\nSCL\n1\n$597\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 634.0,
+          "price_display": "$634",
+          "price_currency": "USD",
+          "total_duration_min": 70,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.xEETTtCPj_8.63400.2d043fe0c6650a6cf58fffc61db72813&h=4090a4fa6af9&sub=F-4638588419016371876E03143b1eebe&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M4",
+          "source": "kayak",
+          "raw_text": "3:20 pm \u2013 5:25 am+1\nAvianca\n1 stop\nBOG\n\u00a01h 10m layover, Bogot\u00e1 El Dorado\n13h 05m\nSCL\n-\nGRU\n1:20 am \u2013 2:15 pm\nAvianca\n1 stop\nBOG\n\u00a01h 50m layover, Bogot\u00e1 El Dorado\n13h 55m\nGRU\n-\nSCL\n1\n$634\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 677.0,
+          "price_display": "$677",
+          "price_currency": "USD",
+          "total_duration_min": 330,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.xEETTtCPj_8.67700.2578af82c27160e131c5a9fa252211f8&h=32aeb7b18c2d&sub=F-4638588419701045255E085c2ee85dd&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M7",
+          "source": "kayak",
+          "raw_text": "6:40 am \u2013 1:10 am+1\nAvianca\n1 stop\nBOG\n\u00a05h 30m layover, Bogot\u00e1 El Dorado\n17h 30m\nSCL\n-\nGRU\n1:20 am \u2013 2:15 pm\nAvianca\n1 stop\nBOG\n\u00a01h 50m layover, Bogot\u00e1 El Dorado\n13h 55m\nGRU\n-\nSCL\n1\n$677\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1071.0,
+          "price_display": "$1,071",
+          "price_currency": "USD",
+          "total_duration_min": 170,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.xEETTtCPj_8.107050.ed1abd5a982a3fb674e8bb1aae9cb21d&h=e47db48a2a7e&sub=F-4638588422089267071E05e1d7e5119&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M8",
+          "source": "kayak",
+          "raw_text": "6:40 am \u2013 10:30 pm\nAvianca\n1 stop\nBOG\n\u00a02h 50m layover, Bogot\u00e1 El Dorado\n14h 50m\nSCL\n-\nGRU\n10:40 pm \u2013 2:15 pm+1\nAvianca\n2 stops\nMAO\n\u00a02h 40m layover, Manaus Eduardo Gomes Intl\n, BOG\n\u00a01h 15m layover, Bogot\u00e1 El Dorado\n16h 35m\nGRU\n-\nSCL\n1\n$1,071\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1071.0,
+          "price_display": "$1,071",
+          "price_currency": "USD",
+          "total_duration_min": 170,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.9pG4ziNgho3BDARZyLA7ng.107020.7cb64ec86155ab3739caa1022feb4c12&h=39d44795da37&sub=F-1927032843088475106E055c174b648&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M9",
+          "source": "kayak",
+          "raw_text": "6:40 am \u2013 10:30 pm\nAvianca\n1 stop\nBOG\n\u00a02h 50m layover, Bogot\u00e1 El Dorado\n14h 50m\nSCL\n-\nGRU\n10:40 pm \u2013 2:15 pm+1\nGOL, Avianca\n2 stops\nMAO\n\u00a02h 40m layover, Manaus Eduardo Gomes Intl\n, BOG\n\u00a01h 15m layover, Bogot\u00e1 El Dorado\n16h 35m\nGRU\n-\nSCL\n1\n$1,071\nLight + Economy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1130.0,
+          "price_display": "$1,130",
+          "price_currency": "USD",
+          "total_duration_min": 135,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.xEETTtCPj_8.112950.a2f8d1e2941aedaa8d185cf96048bba3&h=c0da76b26861&sub=F-4638588418244199398E038c12a368d&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M10",
+          "source": "kayak",
+          "raw_text": "12:30 am \u2013 4:05 pm\nAvianca\n1 stop\nBOG\n\u00a02h 15m layover, Bogot\u00e1 El Dorado\n14h 35m\nSCL\n-\nGRU\n10:40 pm \u2013 2:15 pm+1\nAvianca\n2 stops\nMAO\n\u00a02h 40m layover, Manaus Eduardo Gomes Intl\n, BOG\n\u00a01h 15m layover, Bogot\u00e1 El Dorado\n16h 35m\nGRU\n-\nSCL\n1\n$1,130\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1130.0,
+          "price_display": "$1,130",
+          "price_currency": "USD",
+          "total_duration_min": 135,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.9pG4ziNgho3BDARZyLA7ng.112920.eff2e2226f8fe3985243b18454cdccea&h=91ad6e0f1f74&sub=F-1927032843555775874E0d52530831d&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M12",
+          "source": "kayak",
+          "raw_text": "12:30 am \u2013 4:05 pm\nAvianca\n1 stop\nBOG\n\u00a02h 15m layover, Bogot\u00e1 El Dorado\n14h 35m\nSCL\n-\nGRU\n10:40 pm \u2013 2:15 pm+1\nGOL, Avianca\n2 stops\nMAO\n\u00a02h 40m layover, Manaus Eduardo Gomes Intl\n, BOG\n\u00a01h 15m layover, Bogot\u00e1 El Dorado\n16h 35m\nGRU\n-\nSCL\n1\n$1,130\nLight + Economy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-08",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1167.0,
+          "price_display": "$1,167",
+          "price_currency": "USD",
+          "total_duration_min": 70,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/book/flight?code=zlACGO3QNN.xEETTtCPj_8.116650.2cef64f156de5b9981cd7e794c3ead97&h=910c7ecbd9cc&sub=F-4638588419760065764E0ad7dc2092f&viewId=0b9dfa08-3a3a-4da3-8c49-6b350f31db9a&bucket=LIGHT&pageOrigin=F..RP.FE.M13",
+          "source": "kayak",
+          "raw_text": "3:20 pm \u2013 5:25 am+1\nAvianca\n1 stop\nBOG\n\u00a01h 10m layover, Bogot\u00e1 El Dorado\n13h 05m\nSCL\n-\nGRU\n10:40 pm \u2013 2:15 pm+1\nAvianca\n2 stops\nMAO\n\u00a02h 40m layover, Manaus Eduardo Gomes Intl\n, BOG\n\u00a01h 15m layover, Bogot\u00e1 El Dorado\n16h 35m\nGRU\n-\nSCL\n1\n$1,167\nLight\nSelect"
+        }
+      ]
+    }
+  },
+  "per_leg_airlines": [
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-05",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GRU&outbound=2026-06-05&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=SCL&para=GRU&ida=2026-06-05&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=SCL&Destination=GRU&DepartureDate=2026-06-05&Cabin=Y&Adults=1"
+        },
+        {
+          "airline": "jetsmart",
+          "url": "https://jetsmart.com/cl/es/?from=SCL&to=GRU&departure=2026-06-05&adults=1"
+        }
+      ]
+    },
+    {
+      "origin": "GRU",
+      "dest": "SCL",
+      "date": "2026-06-08",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=SCL&outbound=2026-06-08&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=SCL&ida=2026-06-08&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=GRU&Destination=SCL&DepartureDate=2026-06-08&Cabin=Y&Adults=1"
+        },
+        {
+          "airline": "jetsmart",
+          "url": "https://jetsmart.com/cl/es/?from=GRU&to=SCL&departure=2026-06-08&adults=1"
+        }
+      ]
+    }
+  ]
+}
