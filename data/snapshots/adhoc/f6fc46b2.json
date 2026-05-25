@@ -1,0 +1,757 @@
+{
+  "trip_key": "adhoc-f6fc46b2",
+  "trip_name": "smoke stopover SCL-GIG-FLN-SCL",
+  "legs": [
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-07-15"
+    },
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-07-18"
+    },
+    {
+      "origin": "FLN",
+      "dest": "SCL",
+      "date": "2026-07-25"
+    }
+  ],
+  "snapshot_at": "2026-05-25T23:13:29.790964Z",
+  "sources": {
+    "google_flights": {
+      "ok": true,
+      "duration_s": 0.0,
+      "search_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDctMTUoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDctMTgoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMDctMjUoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQM=&hl=en&curr=USD",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-07-15",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 171000.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 171000",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-07-18",
+              "airline": "LATAM",
+              "departure": "7:40 AM on Sat, Jul 18",
+              "arrival": "10:50 AM on Sat, Jul 18",
+              "duration_min": 190,
+              "stops": 1,
+              "price_value": 97953.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 97953",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "leg_date": "2026-07-25",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 168115.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 168115",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 437068.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDctMTUoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDctMTgoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMDctMjUoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQM=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-07-15",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 171000.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 171000",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-07-18",
+              "airline": "LATAM",
+              "departure": "7:40 AM on Sat, Jul 18",
+              "arrival": "10:50 AM on Sat, Jul 18",
+              "duration_min": 190,
+              "stops": 1,
+              "price_value": 97953.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 97953",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "leg_date": "2026-07-25",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 168115.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 168115",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 437068.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDctMTUoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDctMTgoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMDctMjUoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQM=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-07-15",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 171000.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 171000",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-07-18",
+              "airline": "Gol",
+              "departure": "10:15 PM on Sat, Jul 18",
+              "arrival": "11:50 PM on Sat, Jul 18",
+              "duration_min": 95,
+              "stops": 0,
+              "price_value": 97954.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 97954",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "leg_date": "2026-07-25",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 168115.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 168115",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 437069.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDctMTUoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDctMTgoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMDctMjUoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQM=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-07-15",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 171000.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 171000",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-07-18",
+              "airline": "Gol",
+              "departure": "10:15 PM on Sat, Jul 18",
+              "arrival": "11:50 PM on Sat, Jul 18",
+              "duration_min": 95,
+              "stops": 0,
+              "price_value": 97954.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 97954",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "leg_date": "2026-07-25",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 168115.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 168115",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 437069.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDctMTUoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDctMTgoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMDctMjUoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQM=&hl=en&curr=USD",
+          "source": "google_flights"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-07-15",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 171000.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 171000",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-07-18",
+              "airline": "LATAM",
+              "departure": "7:40 AM on Sat, Jul 18",
+              "arrival": "10:50 AM on Sat, Jul 18",
+              "duration_min": 190,
+              "stops": 1,
+              "price_value": 97953.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 97953",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "leg_date": "2026-07-25",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 181515.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 181515",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 450468.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDctMTUoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDctMTgoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMDctMjUoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQM=&hl=en&curr=USD",
+          "source": "google_flights"
+        }
+      ]
+    },
+    "booking": {
+      "ok": true,
+      "duration_s": 27.0,
+      "search_url": "https://flights.booking.com/flights/SCL.AIRPORT-GIG.AIRPORT/GIG.AIRPORT-FLN.AIRPORT/FLN.AIRPORT-SCL.AIRPORT/?type=MULTISTOP&adults=1&cabinClass=ECONOMY&sort=BEST&from=SCL.AIRPORT&to=GIG.AIRPORT&depart=2026-07-15&from=GIG.AIRPORT&to=FLN.AIRPORT&depart=2026-07-18&from=FLN.AIRPORT&to=SCL.AIRPORT&depart=2026-07-25",
+      "quotes": [],
+      "note": "no_results_use_link"
+    },
+    "kayak": {
+      "ok": true,
+      "duration_s": 7.2,
+      "search_url": "https://www.kayak.com/flights/SCL-GIG/2026-07-15/GIG-FLN/2026-07-18/FLN-SCL/2026-07-25?sort=price_a",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 498.0,
+          "price_display": "$498",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.UwQrSnW3-tbTYwQ_VUUUMA.49800.3d277d62b0b616fed4976a5c573d5050&h=bb8b1274098b&sub=F-6946994671453167433E0342abd9cae&viewId=a41124cb-0141-4566-ae3a-d4fab89b7be7&bucket=_ECONOMY&pageOrigin=F..RP.FE.M0",
+          "source": "kayak",
+          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n1:20 am \u2013 5:05 am\nAzul\n1 stop\nVCP\n\u00a01h 15m layover, Sao Paulo Viracopos\n3h 45m\nGIG\n-\nFLN\n9:00 pm \u2013 11:50 pm\nSky Airline\nnonstop\n3h 50m\nFLN\n-\nSCL\n$498\nEconomy Cabin + Economy\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 498.0,
+          "price_display": "$498",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.UwQrSnW3-tbTYwQ_VUUUMA.49800.66ccdbafe31c36471735fb7515aebf41&h=a80f38649e49&sub=F-6946994668706500830E0342abd9cae&viewId=a41124cb-0141-4566-ae3a-d4fab89b7be7&bucket=_ECONOMY&pageOrigin=F..RP.FE.M1",
+          "source": "kayak",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n1:20 am \u2013 5:05 am\nAzul\n1 stop\nVCP\n\u00a01h 15m layover, Sao Paulo Viracopos\n3h 45m\nGIG\n-\nFLN\n9:00 pm \u2013 11:50 pm\nSky Airline\nnonstop\n3h 50m\nFLN\n-\nSCL\n$498\nEconomy Cabin + Economy\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 510.0,
+          "price_display": "$510",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.49997.18e872c9a40833675b3a9fb9ea8a1eff&h=a08d5791ef5f&sub=F8023453289499298311E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M2",
+          "source": "kayak",
+          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n1:20 am \u2013 5:05 am\nAzul\n1 stop\nVCP\n\u00a01h 15m layover, Sao Paulo Viracopos\n3h 45m\nGIG\n-\nFLN\n7:10 pm \u2013 9:55 pm\nLATAM Airlines\nnonstop\n3h 45m\nFLN\n-\nSCL\n$510\nEconomy Cabin + Economy\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 500.0,
+          "price_display": "$500",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.49997.39595e967d8cba172fe81c430a022ae3&h=5b3c8d426a20&sub=F8023453290598807513E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M3",
+          "source": "kayak",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n4:15 pm \u2013 5:50 pm\nGOL\nnonstop\n1h 35m\nGIG\n-\nFLN\n9:00 pm \u2013 11:50 pm\nSky Airline\nnonstop\n3h 50m\nFLN\n-\nSCL\n$500\nEconomy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 500.0,
+          "price_display": "$500",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.49997.3115a530428c970dac5a09ca772a28f4&h=fefe0c756737&sub=F8023453289978781642E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M4",
+          "source": "kayak",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n12:45 pm \u2013 2:20 pm\nGOL\nnonstop\n1h 35m\nGIG\n-\nFLN\n9:00 pm \u2013 11:50 pm\nSky Airline\nnonstop\n3h 50m\nFLN\n-\nSCL\n$500\nEconomy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 500.0,
+          "price_display": "$500",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.49997.86fcdb22ee282140c73efa32dbbd6862&h=6a73457d4cc8&sub=F8023453288510108218E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M5",
+          "source": "kayak",
+          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n10:15 pm \u2013 11:50 pm\nGOL\nnonstop\n1h 35m\nGIG\n-\nFLN\n9:00 pm \u2013 11:50 pm\nSky Airline\nnonstop\n3h 50m\nFLN\n-\nSCL\n$500\nEconomy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 500.0,
+          "price_display": "$500",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.49997.91403ecbcf55fdc61116e8ffa03cf83e&h=faec710df5de&sub=F8023453286626916043E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M6",
+          "source": "kayak",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n10:15 pm \u2013 11:50 pm\nGOL\nnonstop\n1h 35m\nGIG\n-\nFLN\n9:00 pm \u2013 11:50 pm\nSky Airline\nnonstop\n3h 50m\nFLN\n-\nSCL\n$500\nEconomy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 500.0,
+          "price_display": "$500",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.49997.61c200458259d45aa67f86245fad0a3a&h=e81afed61a34&sub=F8023453288492384842E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M7",
+          "source": "kayak",
+          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n4:15 pm \u2013 5:50 pm\nGOL\nnonstop\n1h 35m\nGIG\n-\nFLN\n9:00 pm \u2013 11:50 pm\nSky Airline\nnonstop\n3h 50m\nFLN\n-\nSCL\n$500\nEconomy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 501.0,
+          "price_display": "$501",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.50097.83134d4228bc1a660b402f05d5f95fb0&h=a0e4b2b39a13&sub=F8023453287610126708E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M8",
+          "source": "kayak",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n10:15 pm \u2013 11:50 pm\nGOL\nnonstop\n1h 35m\nGIG\n-\nFLN\n11:15 pm \u2013 1:55 am+1\nLATAM Airlines\nnonstop\n3h 40m\nFLN\n-\nSCL\n$501\nEconomy Cabin\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-07-15",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-07-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-07-25",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 501.0,
+          "price_display": "$501",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/book/flight?code=zmACGdSncL.6We7wBYoN-cNUvH8T-y68A.50097.2431d2be5fe3a51d7cdc8c750c5bfa68&h=fc1e52d63e84&sub=F8023453290262800322E07fa5ad28a2&viewId=56ca1db4-453f-40fd-8599-9750d8cf8717&bucket=e&pageOrigin=F..RP.FE.M9",
+          "source": "kayak",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n12:45 pm \u2013 2:20 pm\nGOL\nnonstop\n1h 35m\nGIG\n-\nFLN\n11:15 pm \u2013 1:55 am+1\nLATAM Airlines\nnonstop\n3h 40m\nFLN\n-\nSCL\n$501\nEconomy Cabin\nSelect"
+        }
+      ]
+    }
+  },
+  "per_leg_airlines": [
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-07-15",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-07-15&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=SCL&para=GIG&ida=2026-07-15&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=SCL&Destination=GIG&DepartureDate=2026-07-15&Cabin=Y&Adults=1"
+        },
+        {
+          "airline": "jetsmart",
+          "url": "https://jetsmart.com/cl/es/?from=SCL&to=GIG&departure=2026-07-15&adults=1"
+        }
+      ]
+    },
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-07-18",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=FLN&outbound=2026-07-18&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GIG&para=FLN&ida=2026-07-18&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=GIG&Destination=FLN&DepartureDate=2026-07-18&Cabin=Y&Adults=1"
+        }
+      ]
+    },
+    {
+      "origin": "FLN",
+      "dest": "SCL",
+      "date": "2026-07-25",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=SCL&outbound=2026-07-25&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=FLN&para=SCL&ida=2026-07-25&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=FLN&Destination=SCL&DepartureDate=2026-07-25&Cabin=Y&Adults=1"
+        },
+        {
+          "airline": "jetsmart",
+          "url": "https://jetsmart.com/cl/es/?from=FLN&to=SCL&departure=2026-07-25&adults=1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "trip_key": "adhoc-4868dbc9",
+  "trip_name": "AJU\u2194ADZ retest",
+  "legs": [
+    {
+      "origin": "AJU",
+      "dest": "ADZ",
+      "date": "2026-10-10"
+    },
+    {
+      "origin": "ADZ",
+      "dest": "AJU",
+      "date": "2026-10-18"
+    }
+  ],
+  "snapshot_at": "2026-05-25T23:29:24.334911Z",
+  "sources": {
+    "google_flights": {
+      "ok": false,
+      "search_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMTAoAmoFEgNBSlVyBRIDQURaGhwSCjIwMjYtMTAtMTgoAmoFEgNBRFpyBRIDQUpVQgEBSAGYAQE=&hl=en&curr=USD",
+      "error": "No flights found:\nSkip to main contentAccessibility feedback\nTravel\nExplore\nFlights\nHotels\nVacation rentals\nChange appearance\n[Sign in][1]\nTravel\nExplore\nFlights\nHotels\nVacation rentals\nFlight Deals\nT"
+    },
+    "booking": {
+      "ok": true,
+      "duration_s": 26.9,
+      "search_url": "https://flights.booking.com/flights/AJU.AIRPORT-ADZ.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=AJU.AIRPORT&to=ADZ.AIRPORT&depart=2026-10-10&return=2026-10-18",
+      "quotes": [],
+      "note": "no_results_use_link"
+    },
+    "kayak": {
+      "ok": true,
+      "duration_s": 6.6,
+      "search_url": "https://www.kayak.com/flights/AJU-ADZ/2026-10-10/ADZ-AJU/2026-10-18?sort=price_a",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1169.0,
+          "price_display": "$1,169",
+          "price_currency": "USD",
+          "total_duration_min": 425,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.hg85AeheiYc.116900.aa190eeb6d0e94a999383a1136864f5c&h=ebe38637d8e7&sub=F-3508089904357381478E05ff8db6d32&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=EC&pageOrigin=F..RP.FE.M1",
+          "source": "kayak",
+          "raw_text": "6:50 pm \u2013 11:42 am+1\nCopa Airlines\n2 stops\nGRU\n\u00a07h 05m layover, Sao Paulo Guarulhos Intl\n, PTY\n\u00a00h 42m layover, Panama City Tocumen Intl\n18h 52m\nAJU\n-\nADZ\n12:41 pm \u2013 12:25 pm+1\nCopa Airlines\n2 stops\nPTY\n\u00a01h 13m layover, Panama City Tocumen Intl\n, GIG\n\u00a09h 40m layover, Rio de Janeiro\u2013Gale\u00e3o Intl\n21h 44m\nADZ\n-\nAJU\n1\n1\n$1,169\nEconomy Classic\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1169.0,
+          "price_display": "$1,169",
+          "price_currency": "USD",
+          "total_duration_min": 805,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.hg85AeheiYc.116900.ee575e4166adffae1ac8e7ba0e79f7a8&h=765ae5157228&sub=F-3508089903860214564E05ff8db6d32&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=EC&pageOrigin=F..RP.FE.M2",
+          "source": "kayak",
+          "raw_text": "12:35 pm \u2013 11:42 am+1\nCopa Airlines\n2 stops\nGRU\n\u00a013h 25m layover, Sao Paulo Guarulhos Intl\n, PTY\n\u00a00h 42m layover, Panama City Tocumen Intl\n25h 07m\nAJU\n-\nADZ\n12:41 pm \u2013 12:25 pm+1\nCopa Airlines\n2 stops\nPTY\n\u00a01h 13m layover, Panama City Tocumen Intl\n, GIG\n\u00a09h 40m layover, Rio de Janeiro\u2013Gale\u00e3o Intl\n21h 44m\nADZ\n-\nAJU\n1\n1\n$1,169\nEconomy Classic\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1176.0,
+          "price_display": "$1,176",
+          "price_currency": "USD",
+          "total_duration_min": 955,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.ZpbE3-UY8hoNUvH8T-y68A.117513.f29ab977ff2d6385a68802b4e0ef95bb&h=fad2b16ba83f&sub=F7476094919081720879E0524fd6c6e4&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=SL_LIGHT_LT&pageOrigin=F..RP.FE.M3",
+          "source": "kayak",
+          "raw_text": "1:30 pm \u2013 6:15 pm+1\nLATAM Airlines\n2 stops\nGRU\n\u00a015h 55m layover, Sao Paulo Guarulhos Intl\n, BOG\n\u00a03h 40m layover, Bogot\u00e1 El Dorado\n30h 45m\nAJU\n-\nADZ\n9:05 am \u2013 11:55 am+1\nAvianca, GOL\n2 stops\nBOG\n\u00a03h 10m layover, Bogot\u00e1 El Dorado\n, GRU\n\u00a010h 45m layover, Sao Paulo Guarulhos Intl\n24h 50m\nADZ\n-\nAJU\n1\n$1,176\nLight\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1250.0,
+          "price_display": "$1,250",
+          "price_currency": "USD",
+          "total_duration_min": 220,
+          "n_stops": 3,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.eNCwACMVOeJpd4CyPwn0EI6M4XD8KcmF.124997.bff2a9aa533a3f9a101b1d5e6f5e6a6c&h=95bb432bfb78&sub=F407987013160195236E07c04599511&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=PO_LIGHT_SL&pageOrigin=F..RP.FE.M4",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n6:50 pm \u2013 7:11 pm+1\nGOL, JetSMART\n3 stops\nGRU\n\u00a03h 40m layover, self-transfer at Sao Paulo Guarulhos Intl (GRU)\n, BOG\n\u00a03h 55m layover, Bogot\u00e1 El Dorado\n, \n...\n\u00a07h 00m layover, self-transfer at Medell\u00edn Jose Maria Cordova Intl (MDE)\n26h 21m\nAJU\n-\nADZ\n9:05 am \u2013 10:45 am+1\nAvianca, LATAM Airlines\n3 stops\nBOG\n\u00a03h 10m layover, Bogot\u00e1 El Dorado\n, \nGRU-CGH\n\u00a07h 30m layover, self-transfer from Sao Paulo Guarulhos Intl (GRU) to Sao Paulo Congonhas (CGH)\n, ...\n\u00a00h 45m layover, Brasilia\n23"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1250.0,
+          "price_display": "$1,250",
+          "price_currency": "USD",
+          "total_duration_min": 220,
+          "n_stops": 3,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.eNCwACMVOeJpd4CyPwn0EI6M4XD8KcmF.124997.38d76eefbe1652e1eabbcc421537cfa6&h=de8b483fcb8f&sub=F407987012346821469E07c04599511&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=PO_LIGHT_SL&pageOrigin=F..RP.FE.M7",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n6:50 pm \u2013 7:11 pm+1\nGOL, JetSMART\n3 stops\nGRU\n\u00a03h 40m layover, self-transfer at Sao Paulo Guarulhos Intl (GRU)\n, BOG\n\u00a01h 10m layover, Bogot\u00e1 El Dorado\n, \n...\n\u00a09h 45m layover, self-transfer at Medell\u00edn Jose Maria Cordova Intl (MDE)\n26h 21m\nAJU\n-\nADZ\n9:05 am \u2013 10:45 am+1\nAvianca, LATAM Airlines\n3 stops\nBOG\n\u00a03h 10m layover, Bogot\u00e1 El Dorado\n, \nGRU-CGH\n\u00a07h 30m layover, self-transfer from Sao Paulo Guarulhos Intl (GRU) to Sao Paulo Congonhas (CGH)\n, ...\n\u00a00h 45m layover, Brasilia\n23"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1269.0,
+          "price_display": "$1,269",
+          "price_currency": "USD",
+          "total_duration_min": 220,
+          "n_stops": 3,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.eNCwACMVOeJpd4CyPwn0EI6M4XD8KcmF.126897.da0e927d4368c7c7f3ed8fea3112ea3d&h=a8632de4b186&sub=F407987011797416055E07c04599511&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=PO_LIGHT_SL&pageOrigin=F..RP.FE.M8",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n6:50 pm \u2013 7:11 pm+1\nGOL, JetSMART\n3 stops\nGRU\n\u00a03h 40m layover, self-transfer at Sao Paulo Guarulhos Intl (GRU)\n, BOG\n\u00a03h 55m layover, Bogot\u00e1 El Dorado\n, \n...\n\u00a07h 00m layover, self-transfer at Medell\u00edn Jose Maria Cordova Intl (MDE)\n26h 21m\nAJU\n-\nADZ\n9:05 am \u2013 10:45 am+1\nAvianca, LATAM Airlines\n3 stops\nBOG\n\u00a03h 10m layover, Bogot\u00e1 El Dorado\n, \nGRU-VCP\n\u00a07h 10m layover, self-transfer from Sao Paulo Guarulhos Intl (GRU) to Sao Paulo Viracopos (VCP)\n, ...\n\u00a01h 15m layover, Brasilia\n23"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1269.0,
+          "price_display": "$1,269",
+          "price_currency": "USD",
+          "total_duration_min": 220,
+          "n_stops": 3,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.eNCwACMVOeJpd4CyPwn0EI6M4XD8KcmF.126897.44674656f40bbfba85f3249ecfd3eb5e&h=6b1f41106153&sub=F407987012397784415E07c04599511&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=PO_LIGHT_SL&pageOrigin=F..RP.FE.M9",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n6:50 pm \u2013 7:11 pm+1\nGOL, JetSMART\n3 stops\nGRU\n\u00a03h 40m layover, self-transfer at Sao Paulo Guarulhos Intl (GRU)\n, BOG\n\u00a01h 10m layover, Bogot\u00e1 El Dorado\n, \n...\n\u00a09h 45m layover, self-transfer at Medell\u00edn Jose Maria Cordova Intl (MDE)\n26h 21m\nAJU\n-\nADZ\n9:05 am \u2013 10:45 am+1\nAvianca, LATAM Airlines\n3 stops\nBOG\n\u00a03h 10m layover, Bogot\u00e1 El Dorado\n, \nGRU-VCP\n\u00a07h 10m layover, self-transfer from Sao Paulo Guarulhos Intl (GRU) to Sao Paulo Viracopos (VCP)\n, ...\n\u00a01h 15m layover, Brasilia\n23"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1314.0,
+          "price_display": "$1,314",
+          "price_currency": "USD",
+          "total_duration_min": 425,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.hg85AeheiYc.131350.f9d035cf4a89df9c73f08ad8e39052b8&h=71d0b32e498d&sub=F-3508089906502355788E016ccb80ae1&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=EC&pageOrigin=F..RP.FE.M10",
+          "source": "kayak",
+          "raw_text": "6:50 pm \u2013 11:42 am+1\nCopa Airlines\n2 stops\nGRU\n\u00a07h 05m layover, Sao Paulo Guarulhos Intl\n, PTY\n\u00a00h 42m layover, Panama City Tocumen Intl\n18h 52m\nAJU\n-\nADZ\n12:41 pm \u2013 11:55 am+1\nCopa Airlines\n2 stops\nPTY\n\u00a01h 10m layover, Panama City Tocumen Intl\n, GRU\n\u00a09h 05m layover, Sao Paulo Guarulhos Intl\n21h 14m\nADZ\n-\nAJU\n1\n1\n$1,314\nEconomy Classic\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1314.0,
+          "price_display": "$1,314",
+          "price_currency": "USD",
+          "total_duration_min": 425,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.hg85AeheiYc.131350.054d3df38cbbafd13e4326c4b301e2c8&h=80e51854e2d7&sub=F-3508089903916327436E016ccb80ae1&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=EC&pageOrigin=F..RP.FE.M11",
+          "source": "kayak",
+          "raw_text": "6:50 pm \u2013 11:42 am+1\nCopa Airlines\n2 stops\nGRU\n\u00a07h 05m layover, Sao Paulo Guarulhos Intl\n, PTY\n\u00a00h 42m layover, Panama City Tocumen Intl\n18h 52m\nAJU\n-\nADZ\n12:41 pm \u2013 11:55 am+1\nCopa Airlines\n2 stops\nPTY\n\u00a07h 32m layover, Panama City Tocumen Intl\n, GRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n21h 14m\nADZ\n-\nAJU\n1\n1\n$1,314\nEconomy Classic\nSelect"
+        },
+        {
+          "legs": [
+            {
+              "origin": "AJU",
+              "dest": "ADZ",
+              "depart_dt": "2026-10-10",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "ADZ",
+              "dest": "AJU",
+              "depart_dt": "2026-10-18",
+              "arrive_dt": "",
+              "airline": "",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 1314.0,
+          "price_display": "$1,314",
+          "price_currency": "USD",
+          "total_duration_min": 335,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/book/flight?code=znCiTrHqrs.hg85AeheiYc.131400.773d1ac61d39b46ca357ab72e45c33d5&h=75029a0aa17a&sub=F-3508089905888568230E06b8dbc3694&viewId=fc17d60c-86c0-460b-a282-73970acf2994&bucket=EC&pageOrigin=F..RP.FE.M12",
+          "source": "kayak",
+          "raw_text": "6:50 pm \u2013 11:42 am+1\nCopa Airlines\n2 stops\nGRU\n\u00a05h 35m layover, Sao Paulo Guarulhos Intl\n, PTY\n\u00a02h 14m layover, Panama City Tocumen Intl\n18h 52m\nAJU\n-\nADZ\n12:41 pm \u2013 12:25 pm+1\nCopa Airlines\n2 stops\nPTY\n\u00a01h 13m layover, Panama City Tocumen Intl\n, GIG\n\u00a09h 40m layover, Rio de Janeiro\u2013Gale\u00e3o Intl\n21h 44m\nADZ\n-\nAJU\n1\n1\n$1,314\nEconomy Classic\nSelect"
+        }
+      ]
+    }
+  },
+  "per_leg_airlines": [
+    {
+      "origin": "AJU",
+      "dest": "ADZ",
+      "date": "2026-10-10",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=AJU&destination=ADZ&outbound=2026-10-10&adt=1&trip=OW"
+        }
+      ]
+    },
+    {
+      "origin": "ADZ",
+      "dest": "AJU",
+      "date": "2026-10-18",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=ADZ&destination=AJU&outbound=2026-10-18&adt=1&trip=OW"
+        }
+      ]
+    }
+  ]
+}

@@ -45,3 +45,48 @@
 [worker_runner] POST /api/_internal/dequeue failed: [Errno 8] nodename nor servname provided, or not known
 [worker_runner] POST /api/_internal/dequeue failed: [Errno 8] nodename nor servname provided, or not known
 [worker_runner] POST /api/_internal/dequeue failed: [Errno 54] Connection reset by peer
+[worker_runner] polling https://flight-intel-worker.eliasurrar.workers.dev every 5s …
+[worker_runner] picked up f6fc46b2
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+
+=== adhoc-f6fc46b2: smoke stopover SCL-GIG-FLN-SCL ===
+Impersonate 'chrome_126' does not exist, using 'random'
+  [GF] 5 quotes
+  [Booking] 0 quotes in 27.0s
+  [Kayak] 20 quotes in 7.2s
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] picked up f2afb2ac
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+
+=== adhoc-f2afb2ac: SCL→GRU · GRU→SCL ===
+  [GF] 5 quotes
+  [Booking] 0 quotes in 27.4s
+  [Kayak] 30 quotes in 7.5s
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] picked up 1eb7feb8
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+
+=== adhoc-1eb7feb8: AJU→ADZ · ADZ→AJU ===
+  [GF] empty after retries
+  [Booking] 0 quotes in 26.9s
+  [Kayak] 30 quotes in 7.2s
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] picked up 4868dbc9
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+
+=== adhoc-4868dbc9: AJU↔ADZ retest ===
+  [GF] empty after retries
+  [Booking] 0 quotes in 26.9s
+  [Kayak] 30 quotes in 6.6s
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] polling https://flight-intel-worker.eliasurrar.workers.dev every 5s …
+[worker_runner] picked up b9dabd9c
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+
+=== adhoc-b9dabd9c: AJU↔ADZ post-fix ===
+Impersonate 'chrome_126' does not exist, using 'random'

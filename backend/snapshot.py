@@ -40,20 +40,63 @@ REGION_CARRIERS = {
     ("BR", "BR"): ["latam", "gol", "azul"],
     ("CL", "CO"): ["latam", "avianca", "copa"],
     ("CO", "CL"): ["latam", "avianca", "copa"],
+    ("BR", "CO"): ["latam", "avianca", "gol", "copa"],
+    ("CO", "BR"): ["latam", "avianca", "gol", "copa"],
+    ("CO", "CO"): ["avianca", "latam", "satena"],
+    ("CL", "AR"): ["latam", "jetsmart", "skyairline"],
+    ("AR", "CL"): ["latam", "jetsmart", "skyairline"],
+    ("BR", "AR"): ["latam", "gol", "azul"],
+    ("AR", "BR"): ["latam", "gol", "azul"],
+    ("CL", "PE"): ["latam", "skyairline", "jetsmart"],
+    ("PE", "CL"): ["latam", "skyairline", "jetsmart"],
+    ("CL", "PA"): ["copa", "latam"],
+    ("PA", "CL"): ["copa", "latam"],
+    ("CL", "US"): ["latam", "american", "united", "delta"],
+    ("US", "CL"): ["latam", "american", "united", "delta"],
 }
 
-# IATA → country (minimal, covers the trips we care about)
+# IATA → country (cover the trips we care about + common hubs/stops)
 IATA_COUNTRY = {
-    "SCL": "CL", "GRU": "BR", "GIG": "BR", "FLN": "BR",
-    "BOG": "CO", "MDE": "CO", "EZE": "AR", "AEP": "AR",
-    "LIM": "PE", "PTY": "PA", "MIA": "US",
+    # Chile
+    "SCL": "CL", "IPC": "CL", "ANF": "CL", "PMC": "CL", "CCP": "CL",
+    # Brasil
+    "GRU": "BR", "GIG": "BR", "FLN": "BR", "AJU": "BR", "SSA": "BR",
+    "BSB": "BR", "VCP": "BR", "CWB": "BR", "POA": "BR", "REC": "BR",
+    "MAO": "BR", "FOR": "BR", "BEL": "BR", "GYN": "BR", "CGB": "BR",
+    "NAT": "BR", "MCZ": "BR",
+    # Colombia
+    "BOG": "CO", "MDE": "CO", "ADZ": "CO", "CTG": "CO", "CLO": "CO", "BAQ": "CO",
+    # Argentina
+    "EZE": "AR", "AEP": "AR", "MDZ": "AR", "COR": "AR", "BRC": "AR",
+    # Perú
+    "LIM": "PE", "CUZ": "PE", "AQP": "PE",
+    # Panamá
+    "PTY": "PA",
+    # USA
+    "MIA": "US", "JFK": "US", "LAX": "US", "ORD": "US", "DFW": "US", "ATL": "US",
+    # Uruguay
+    "MVD": "UY",
+    # Paraguay
+    "ASU": "PY",
+    # Bolivia
+    "VVI": "BO", "LPB": "BO",
+    # Ecuador
+    "UIO": "EC", "GYE": "EC",
+    # México
+    "MEX": "MX", "CUN": "MX",
 }
 
 
 def _carrier_candidates(origin: str, dest: str) -> list[str]:
     co = IATA_COUNTRY.get(origin, "??")
     cd = IATA_COUNTRY.get(dest, "??")
-    return REGION_CARRIERS.get((co, cd), ["latam"])
+    if (co, cd) in REGION_CARRIERS:
+        return REGION_CARRIERS[(co, cd)]
+    # Generic LATAM region fallback
+    LATAM_REGION = {"CL", "BR", "CO", "AR", "PE", "PA", "UY", "PY", "BO", "EC", "MX"}
+    if co in LATAM_REGION and cd in LATAM_REGION:
+        return ["latam", "avianca", "gol", "copa"]
+    return ["latam"]
 
 
 # ──────────────────────────────────────────────────────────────────────────

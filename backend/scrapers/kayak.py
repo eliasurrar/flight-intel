@@ -185,6 +185,22 @@ def _extract_card(card, default_legs: Sequence[tuple[str, str, str]]) -> KYItine
 
     duration = _parse_duration(txt)
 
+    # Parse airline(s) from the card text. Kayak shows them as lines like
+    # "Turkish Airlines" or "LATAM, Gol" between the time and stops markers.
+    airlines_seen: list[str] = []
+    AIRLINE_HINTS = re.compile(
+        r"\b(Turkish Airlines|LATAM|Latam|Gol|Azul|Avianca|JetSMART|JetSmart|"
+        r"Copa|Sky|Aerom[ée]xico|United|American|Delta|Iberia|Air Europa|"
+        r"KLM|Air France|Lufthansa|Aerol[íi]neas Argentinas|Plus Ultra|"
+        r"Tap Air Portugal|Boliviana de Aviaci[óo]n|Paranair|Amaszonas)\b",
+        re.I,
+    )
+    for m in AIRLINE_HINTS.finditer(txt):
+        name = m.group(1).strip()
+        if name not in airlines_seen:
+            airlines_seen.append(name)
+    airline_str = " / ".join(airlines_seen[:3])
+
     # try to find a click-through link
     booking_url = ""
     try:
@@ -199,7 +215,7 @@ def _extract_card(card, default_legs: Sequence[tuple[str, str, str]]) -> KYItine
     # build leg shells from the planned legs (Kayak text parsing is brittle)
     legs = [KYLeg(
         origin=o, dest=d, depart_dt=date, arrive_dt="",
-        airline="", flight_no="", duration_min=0,
+        airline=airline_str, flight_no="", duration_min=0,
     ) for o, d, date in default_legs]
 
     return KYItinerary(

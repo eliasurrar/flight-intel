@@ -165,35 +165,101 @@ def build_search_url(legs: Sequence[tuple[str, str, str]], trip: str | None = No
 
 
 def _search_one_leg(origin: str, dest: str, date_iso: str, max_stops: int = 2) -> list[LegOffer]:
-    """One-way query for a single leg."""
-    res = get_flights(
-        flight_data=[FlightData(date=date_iso, from_airport=origin, to_airport=dest)],
-        trip="one-way",
-        passengers=Passengers(adults=1),
-        seat="economy",
-        max_stops=max_stops,
-    )
-    return [_to_leg_offer(f, origin, dest, date_iso) for f in (res.flights or [])]
+    """One-way query for a single leg. fast_flights raises 'No flights found'
+    when GF doesn't return direct results; we catch and return []."""
+    try:
+        res = get_flights(
+            flight_data=[FlightData(date=date_iso, from_airport=origin, to_airport=dest)],
+            trip="one-way",
+            passengers=Passengers(adults=1),
+            seat="economy",
+            max_stops=max_stops,
+        )
+        return [_to_leg_offer(f, origin, dest, date_iso) for f in (res.flights or [])]
+    except RuntimeError as e:
+        # "No flights found" — GF didn't return any itinerary for this O&D
+        if "No flights found" in str(e):
+            return []
+        raise
+
+
+# Common regional hubs for split-by-hub when GF fails to find direct routes.
+HUB_CANDIDATES = ["BOG", "GRU", "GIG", "LIM", "PTY", "MIA", "EZE", "SCL", "MDE"]
+
+
+def _search_via_hubs(
+    origin: str, dest: str, date_iso: str, max_stops: int = 1,
+    hubs: list[str] | None = None, top_n: int = 5,
+) -> list[LegOffer]:
+    """Fallback: try AJU→[hub]→ADZ via common hubs when direct query fails.
+    Returns synthetic LegOffer entries with composition info in `airline`.
+    Same-day connections only (no overnight handling yet)."""
+    hubs = hubs or HUB_CANDIDATES
+    composed: list[LegOffer] = []
+    for hub in hubs:
+        if hub in (origin, dest):
+            continue
+        try:
+            leg_a = get_flights(
+                flight_data=[FlightData(date=date_iso, from_airport=origin, to_airport=hub)],
+                trip="one-way", passengers=Passengers(adults=1), seat="economy",
+                max_stops=max_stops,
+            )
+            leg_b = get_flights(
+                flight_data=[FlightData(date=date_iso, from_airport=hub, to_airport=dest)],
+                trip="one-way", passengers=Passengers(adults=1), seat="economy",
+                max_stops=max_stops,
+            )
+        except RuntimeError:
+            continue
+        if not leg_a.flights or not leg_b.flights:
+            continue
+        a = leg_a.flights[0]
+        b = leg_b.flights[0]
+        a_off = _to_leg_offer(a, origin, hub, date_iso)
+        b_off = _to_leg_offer(b, hub, dest, date_iso)
+        # combine into one synthetic entry showing the hub composition
+        total = None
+        if a_off.price_value is not None and b_off.price_value is not None:
+            total = a_off.price_value + b_off.price_value
+        combined = LegOffer(
+            origin=origin, dest=dest, leg_date=date_iso,
+            airline=f"{a_off.airline} → {b_off.airline} (vía {hub})",
+            departure=a_off.departure,
+            arrival=b_off.arrival,
+            duration_min=(a_off.duration_min or 0) + (b_off.duration_min or 0),
+            stops=(a_off.stops or 0) + 1 + (b_off.stops or 0),
+            price_value=total,
+            price_currency=a_off.price_currency,
+            price_display=f"~{a_off.price_currency} {int(total) if total else '?'} (via {hub})",
+            is_best=False,
+        )
+        composed.append(combined)
+    composed.sort(key=lambda x: x.price_value or 1e12)
+    return composed[:top_n]
 
 
 def _search_roundtrip(legs: Sequence[tuple[str, str, str]], max_stops: int = 2) -> list[LegOffer]:
-    """Round-trip query → returns the per-leg fragments (best combo first)."""
+    """Round-trip query → returns the per-leg fragments (best combo first).
+    Catches 'No flights found'."""
     o1, d1, dep1 = legs[0]
     o2, d2, dep2 = legs[1]
-    res = get_flights(
-        flight_data=[
-            FlightData(date=dep1, from_airport=o1, to_airport=d1),
-            FlightData(date=dep2, from_airport=o2, to_airport=d2),
-        ],
-        trip="round-trip",
-        passengers=Passengers(adults=1),
-        seat="economy",
-        max_stops=max_stops,
-    )
-    # Round-trip mode: fast_flights returns flights for the first leg only,
-    # with prices reflecting the combined RT cost. Second leg is implicit;
-    # to get its details, the dashboard can re-query one-way.
-    return [_to_leg_offer(f, o1, d1, dep1) for f in (res.flights or [])]
+    try:
+        res = get_flights(
+            flight_data=[
+                FlightData(date=dep1, from_airport=o1, to_airport=d1),
+                FlightData(date=dep2, from_airport=o2, to_airport=d2),
+            ],
+            trip="round-trip",
+            passengers=Passengers(adults=1),
+            seat="economy",
+            max_stops=max_stops,
+        )
+        return [_to_leg_offer(f, o1, d1, dep1) for f in (res.flights or [])]
+    except RuntimeError as e:
+        if "No flights found" in str(e):
+            return []
+        raise
 
 
 def quote_trip(
@@ -215,12 +281,15 @@ def quote_trip(
     if len(legs) == 1:
         o, d, dep = legs[0]
         offers = _search_one_leg(o, d, dep, max_stops=max_stops)[:top_n]
+        if not offers:
+            # Direct query failed → try via common hubs
+            offers = _search_via_hubs(o, d, dep, max_stops=max_stops, top_n=top_n)
         return [
             TripQuote(
                 legs=[off],
                 total_price_value=off.price_value,
                 total_price_currency=off.price_currency,
-                composition="one-way",
+                composition="one-way-via-hub" if "vía" in off.airline else "one-way",
                 booking_url=booking_url,
             )
             for off in offers
@@ -233,21 +302,33 @@ def quote_trip(
     ):
         # round-trip combo price
         rt_offers = _search_roundtrip(legs, max_stops=max_stops)[:top_n]
-        quotes: list[TripQuote] = []
-        for rt in rt_offers:
-            quotes.append(TripQuote(
-                legs=[rt],  # only outbound has detail; price is combo
-                total_price_value=rt.price_value,
-                total_price_currency=rt.price_currency,
-                composition="round-trip",
-                booking_url=booking_url,
-            ))
-        return quotes
+        if rt_offers:
+            quotes: list[TripQuote] = []
+            for rt in rt_offers:
+                quotes.append(TripQuote(
+                    legs=[rt],
+                    total_price_value=rt.price_value,
+                    total_price_currency=rt.price_currency,
+                    composition="round-trip",
+                    booking_url=booking_url,
+                ))
+            return quotes
+        # Round-trip failed → fall through to per-leg multi-city sum below
+        # (this auto-handles cases like AJU↔ADZ where no carrier has the
+        # RT product but each leg can be composed via hubs)
 
-    # Multi-city: query each leg one-way and combine cheapest
+    # Multi-city OR round-trip fallback: query each leg one-way; if direct
+    # fails, try via hubs for that leg.
     per_leg_offers: list[list[LegOffer]] = []
     for o, d, dep in legs:
-        per_leg_offers.append(_search_one_leg(o, d, dep, max_stops=max_stops))
+        direct = _search_one_leg(o, d, dep, max_stops=max_stops)
+        if not direct:
+            direct = _search_via_hubs(o, d, dep, max_stops=max_stops, top_n=3)
+        per_leg_offers.append(direct)
+
+    # If ALL legs are empty, return [] so the caller can mark the source as failed.
+    if not any(per_leg_offers):
+        return []
 
     # Cartesian product with limit (top 3 per leg)
     def combine(idx: int, current: list[LegOffer], price_sum: float | None) -> list[TripQuote]:
@@ -260,7 +341,11 @@ def quote_trip(
                 booking_url=booking_url,
             )]
         out = []
-        for off in per_leg_offers[idx][:3]:
+        leg_opts = per_leg_offers[idx][:3] or [None]  # allow gaps
+        for off in leg_opts:
+            if off is None:
+                # leg has no offers — skip this branch
+                continue
             new_sum = (price_sum or 0.0) + (off.price_value or 0.0) if off.price_value else None
             out += combine(idx + 1, current + [off], new_sum)
         return out
