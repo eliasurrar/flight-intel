@@ -13,7 +13,7 @@
       "date": "2026-11-02"
     }
   ],
-  "snapshot_at": "2026-05-26T00:11:34.812222Z",
+  "snapshot_at": "2026-05-26T01:15:03.991011Z",
   "sources": {
     "google_flights": {
       "ok": true,
@@ -26,10 +26,10 @@
               "origin": "SCL",
               "dest": "FLN",
               "leg_date": "2026-10-29",
-              "airline": "LATAM",
-              "departure": "4:35 AM on Thu, Oct 29",
-              "arrival": "8:50 AM on Thu, Oct 29",
-              "duration_min": 255,
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
               "stops": 0,
               "price_value": 420503.0,
               "price_currency": "CLP",
@@ -57,11 +57,11 @@
               "origin": "SCL",
               "dest": "FLN",
               "leg_date": "2026-10-29",
-              "airline": "LATAM",
-              "departure": "5:00 AM on Thu, Oct 29",
-              "arrival": "2:30 PM on Thu, Oct 29",
-              "duration_min": 570,
-              "stops": 1,
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
               "price_value": 426549.0,
               "price_currency": "CLP",
               "price_display": "CLP 426549",
@@ -74,8 +74,10 @@
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNTQ0xyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
           "source": "google_flights",
           "sanity": {
-            "suspect": false,
-            "reasons": [],
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
             "distance_km": 2217,
             "min_nonstop_minutes": 192
           }
@@ -86,11 +88,11 @@
               "origin": "SCL",
               "dest": "FLN",
               "leg_date": "2026-10-29",
-              "airline": "LATAM",
-              "departure": "8:15 AM on Thu, Oct 29",
-              "arrival": "4:50 PM on Thu, Oct 29",
-              "duration_min": 515,
-              "stops": 1,
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
               "price_value": 426549.0,
               "price_currency": "CLP",
               "price_display": "CLP 426549",
@@ -103,8 +105,10 @@
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNTQ0xyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
           "source": "google_flights",
           "sanity": {
-            "suspect": false,
-            "reasons": [],
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
             "distance_km": 2217,
             "min_nonstop_minutes": 192
           }
@@ -115,11 +119,11 @@
               "origin": "SCL",
               "dest": "FLN",
               "leg_date": "2026-10-29",
-              "airline": "LATAM",
-              "departure": "3:55 PM on Thu, Oct 29",
-              "arrival": "11:55 PM on Thu, Oct 29",
-              "duration_min": 480,
-              "stops": 1,
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
               "price_value": 426549.0,
               "price_currency": "CLP",
               "price_display": "CLP 426549",
@@ -132,8 +136,10 @@
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNTQ0xyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
           "source": "google_flights",
           "sanity": {
-            "suspect": false,
-            "reasons": [],
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
             "distance_km": 2217,
             "min_nonstop_minutes": 192
           }
@@ -144,14 +150,14 @@
               "origin": "SCL",
               "dest": "FLN",
               "leg_date": "2026-10-29",
-              "airline": "Sky Airline",
-              "departure": "4:45 PM on Thu, Oct 29",
-              "arrival": "8:00 PM on Thu, Oct 29",
-              "duration_min": 195,
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
               "stops": 0,
               "price_value": null,
               "price_currency": "USD",
-              "price_display": "Price unavailable",
+              "price_display": "Check price",
               "is_best": true
             }
           ],
@@ -163,8 +169,7 @@
           "sanity": {
             "suspect": true,
             "reasons": [
-              "no carrier operates this route nonstop",
-              "Sky Airline does not serve BR (FLN)"
+              "no carrier operates this route nonstop"
             ],
             "distance_km": 2217,
             "min_nonstop_minutes": 192
@@ -174,7 +179,7 @@
     },
     "booking": {
       "ok": true,
-      "duration_s": 27.0,
+      "duration_s": 26.9,
       "search_url": "https://flights.booking.com/flights/SCL.AIRPORT-FLN.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=SCL.AIRPORT&to=FLN.AIRPORT&depart=2026-10-29&return=2026-11-02",
       "quotes": [],
       "note": "no_results_use_link"
@@ -206,14 +211,14 @@
               "duration_min": 0
             }
           ],
-          "price_value": 342.0,
-          "price_display": "$342",
+          "price_value": 346.0,
+          "price_display": "$346",
           "price_currency": "USD",
-          "total_duration_min": 1330,
+          "total_duration_min": 1170,
           "n_stops": 1,
           "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "4:35 pm \u2013 6:55 pm+1\nJetSMART\n1 stop\nAEP\n\u00a022h 10m layover, Buenos Aires Jorge Newbery\n26h 20m\nSCL\n-\nFLN\n11:15 am \u2013 8:05 am+1\nGOL\n2 stops\nGRU\n\u00a04h 50m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a010h 10m layover, Buenos Aires Jorge Newbery\n20h 50m\nFLN\n-\nSCL\n$342\nEconomy Cabin + Promo\nSelect",
+          "raw_text": "7:15 pm \u2013 6:55 pm+1\nJetSMART\n1 stop\nAEP\n\u00a019h 30m layover, Buenos Aires Jorge Newbery\n23h 40m\nSCL\n-\nFLN\n11:15 am \u2013 8:05 am+1\nGOL\n2 stops\nGRU\n\u00a04h 50m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a010h 10m layover, Buenos Aires Jorge Newbery\n20h 50m\nFLN\n-\nSCL\n$346\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": false,
@@ -243,14 +248,14 @@
               "duration_min": 0
             }
           ],
-          "price_value": 351.0,
-          "price_display": "$351",
+          "price_value": 352.0,
+          "price_display": "$352",
           "price_currency": "USD",
           "total_duration_min": 195,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "4:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n3h 15m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$351\nEconomy Basic\nSelect",
+          "raw_text": "4:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n3h 15m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$352\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
@@ -258,6 +263,43 @@
               "no carrier operates this route nonstop",
               "Sky does not serve BR (FLN)"
             ],
+            "distance_km": 2217,
+            "min_nonstop_minutes": 192
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "JetSMART / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "JetSMART / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 363.0,
+          "price_display": "$363",
+          "price_currency": "USD",
+          "total_duration_min": 1170,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "7:15 pm \u2013 6:55 pm+1\nJetSMART\n1 stop\nAEP\n\u00a019h 30m layover, Buenos Aires Jorge Newbery\n23h 40m\nSCL\n-\nFLN\n6:55 pm \u2013 1:45 pm+1\nGOL\n2 stops\nGRU\n\u00a010h 20m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a02h 30m layover, Buenos Aires Jorge Newbery\n18h 50m\nFLN\n-\nSCL\n$363\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
             "distance_km": 2217,
             "min_nonstop_minutes": 192
           }
@@ -290,7 +332,7 @@
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n2h 15m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$364\nEconomy Basic\nSelect",
+          "raw_text": "5:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n2h 15m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$364\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
@@ -332,7 +374,7 @@
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "4:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n3h 15m\nSCL\n-\nFLN\n6:10 am \u2013 8:00 pm\nGOL\n2 stops\nGRU\n\u00a02h 40m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a05h 15m layover, Buenos Aires Jorge Newbery\n13h 50m\nFLN\n-\nSCL\n$365\nEconomy Basic + Promo\nSelect",
+          "raw_text": "4:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n3h 15m\nSCL\n-\nFLN\n6:55 pm \u2013 1:45 pm+1\nGOL\n2 stops\nGRU\n\u00a010h 20m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a02h 30m layover, Buenos Aires Jorge Newbery\n18h 50m\nFLN\n-\nSCL\n$365\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
@@ -351,7 +393,7 @@
               "dest": "FLN",
               "depart_dt": "2026-10-29",
               "arrive_dt": "",
-              "airline": "Sky / GOL",
+              "airline": "GOL",
               "flight_no": "",
               "duration_min": 0
             },
@@ -360,7 +402,7 @@
               "dest": "SCL",
               "depart_dt": "2026-11-02",
               "arrive_dt": "",
-              "airline": "Sky / GOL",
+              "airline": "GOL",
               "flight_no": "",
               "duration_min": 0
             }
@@ -368,19 +410,128 @@
           "price_value": 378.0,
           "price_display": "$378",
           "price_currency": "USD",
-          "total_duration_min": 135,
+          "total_duration_min": 385,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "8:50 pm \u2013 6:15 pm+1\nGOL\n2 stops\nAEP\n\u00a06h 25m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a07h 50m layover, Sao Paulo Guarulhos Intl\n21h 25m\nSCL\n-\nFLN\n6:55 pm \u2013 1:45 pm+1\nGOL\n2 stops\nGRU\n\u00a010h 20m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a02h 30m layover, Buenos Aires Jorge Newbery\n18h 50m\nFLN\n-\nSCL\n1\n$378\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2217,
+            "min_nonstop_minutes": 192
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 415.0,
+          "price_display": "$415",
+          "price_currency": "USD",
+          "total_duration_min": 85,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "10:15 am \u2013 11:55 pm\nGOL\n2 stops\nAEP\n\u00a01h 25m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a06h 05m layover, Sao Paulo Guarulhos Intl\n13h 40m\nSCL\n-\nFLN\n6:10 am \u2013 9:00 pm\nGOL\n2 stops\nGRU\n\u00a02h 40m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a05h 15m layover, Buenos Aires Jorge Newbery\n14h 50m\nFLN\n-\nSCL\n1\n$415\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2217,
+            "min_nonstop_minutes": 192
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "Aerolineas Argentinas / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "Aerolineas Argentinas / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 415.0,
+          "price_display": "$415",
+          "price_currency": "USD",
+          "total_duration_min": 85,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "10:15 am \u2013 11:55 pm\nAerolineas Argentinas, GOL\n2 stops\nAEP\n\u00a01h 25m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a06h 05m layover, Sao Paulo Guarulhos Intl\n13h 40m\nSCL\n-\nFLN\n6:55 pm \u2013 1:45 pm+1\nGOL\n2 stops\nGRU\n\u00a010h 20m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a02h 30m layover, Buenos Aires Jorge Newbery\n18h 50m\nFLN\n-\nSCL\n$415\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2217,
+            "min_nonstop_minutes": 192
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "Sky / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "SCL",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "Sky / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 428.0,
+          "price_display": "$428",
+          "price_currency": "USD",
+          "total_duration_min": 195,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n2h 15m\nSCL\n-\nFLN\n6:10 am \u2013 8:00 pm\nGOL\n2 stops\nGRU\n\u00a02h 40m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a05h 15m layover, Buenos Aires Jorge Newbery\n13h 50m\nFLN\n-\nSCL\n0\n$378\nEconomy Basic + Light\nSelect",
+          "raw_text": "4:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n3h 15m\nSCL\n-\nFLN\n11:15 pm \u2013 1:55 am+1\nLATAM Airlines\nnonstop\n2h 40m\nFLN\n-\nSCL\n$428\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
             "reasons": [
-              "speed 986km/h exceeds jet cruise (route 2218km in 135min)",
-              "duration 135min < physical min 192min",
               "no carrier operates this route nonstop",
-              "Sky / GOL does not serve BR (FLN)"
+              "Sky / LATAM does not serve BR (FLN)"
             ],
             "distance_km": 2217,
             "min_nonstop_minutes": 192
@@ -393,7 +544,7 @@
               "dest": "FLN",
               "depart_dt": "2026-10-29",
               "arrive_dt": "",
-              "airline": "GOL / Sky",
+              "airline": "Sky / LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -402,186 +553,25 @@
               "dest": "SCL",
               "depart_dt": "2026-11-02",
               "arrive_dt": "",
-              "airline": "GOL / Sky",
+              "airline": "Sky / LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 381.0,
-          "price_display": "$381",
+          "price_value": 428.0,
+          "price_display": "$428",
           "price_currency": "USD",
-          "total_duration_min": 85,
+          "total_duration_min": 195,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "9:15 am \u2013 11:55 pm\nGOL\n2 stops\nAEP\n\u00a01h 25m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a06h 05m layover, Sao Paulo Guarulhos Intl\n14h 40m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n$381\nPromo + Economy Basic\nSelect",
+          "raw_text": "4:45 pm \u2013 8:00 pm\nSky Airline\nnonstop\n3h 15m\nSCL\n-\nFLN\n11:30 am \u2013 2:15 pm\nLATAM Airlines\nnonstop\n2h 45m\nFLN\n-\nSCL\n$428\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
             "reasons": [
-              "speed 1566km/h exceeds jet cruise (route 2218km in 85min)",
-              "duration 85min < physical min 192min",
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 2217,
-            "min_nonstop_minutes": 192
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Aerolineas Argentinas / GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "SCL",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Aerolineas Argentinas / GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 401.0,
-          "price_display": "$401",
-          "price_currency": "USD",
-          "total_duration_min": 85,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 11:55 pm\nAerolineas Argentinas, GOL\n2 stops\nAEP\n\u00a01h 25m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a06h 05m layover, Sao Paulo Guarulhos Intl\n13h 40m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$401\nEconomy Cabin + Light + Economy Basic\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "speed 1566km/h exceeds jet cruise (route 2218km in 85min)",
-              "duration 85min < physical min 192min",
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 2217,
-            "min_nonstop_minutes": 192
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "SCL",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 401.0,
-          "price_display": "$401",
-          "price_currency": "USD",
-          "total_duration_min": 260,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 11:55 pm\nGOL\n2 stops\nAEP\n\u00a04h 20m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a03h 10m layover, Sao Paulo Guarulhos Intl\n13h 40m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$401\nLight + Economy Basic\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 2217,
-            "min_nonstop_minutes": 192
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "SCL",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 401.0,
-          "price_display": "$401",
-          "price_currency": "USD",
-          "total_duration_min": 85,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 11:55 pm\nGOL\n2 stops\nAEP\n\u00a01h 25m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a06h 05m layover, Sao Paulo Guarulhos Intl\n13h 40m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$401\nLight + Economy Basic\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "speed 1566km/h exceeds jet cruise (route 2218km in 85min)",
-              "duration 85min < physical min 192min",
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 2217,
-            "min_nonstop_minutes": 192
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Aerolineas Argentinas / GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "SCL",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Aerolineas Argentinas / GOL / Sky",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 401.0,
-          "price_display": "$401",
-          "price_currency": "USD",
-          "total_duration_min": 260,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/SCL-FLN/2026-10-29/FLN-SCL/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 11:55 pm\nAerolineas Argentinas, GOL\n2 stops\nAEP\n\u00a04h 20m layover, Buenos Aires Jorge Newbery\n, GRU\n\u00a03h 10m layover, Sao Paulo Guarulhos Intl\n13h 40m\nSCL\n-\nFLN\n9:00 pm \u2013 12:55 am+1\nSky Airline\nnonstop\n3h 55m\nFLN\n-\nSCL\n0\n$401\nEconomy Cabin + Economy Basic\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
+              "no carrier operates this route nonstop",
+              "Sky / LATAM does not serve BR (FLN)"
             ],
             "distance_km": 2217,
             "min_nonstop_minutes": 192
@@ -643,50 +633,16 @@
       "origin": "SCL",
       "dest": "FLN",
       "date": "2026-10-29",
-      "airline": "LATAM",
-      "airline_key": "latam",
+      "airline": "",
+      "airline_key": "",
       "dep_time": "",
       "arr_time": "",
       "source": "google_flights",
-      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
+      "url": "",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
-      "scrape_status": "pending",
-      "screenshot_path": "",
-      "error": ""
-    },
-    {
-      "origin": "SCL",
-      "dest": "FLN",
-      "date": "2026-10-29",
-      "airline": "LATAM (1 esc)",
-      "airline_key": "latam",
-      "dep_time": "",
-      "arr_time": "",
-      "source": "google_flights",
-      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
-      "price_value": null,
-      "price_currency": "",
-      "price_display": "",
-      "scrape_status": "pending",
-      "screenshot_path": "",
-      "error": ""
-    },
-    {
-      "origin": "SCL",
-      "dest": "FLN",
-      "date": "2026-10-29",
-      "airline": "Sky Airline",
-      "airline_key": "skyairline",
-      "dep_time": "",
-      "arr_time": "",
-      "source": "google_flights",
-      "url": "https://www.skyairline.com/booking/select?o=SCL&d=FLN&dep=2026-10-29&adults=1",
-      "price_value": null,
-      "price_currency": "",
-      "price_display": "",
-      "scrape_status": "pending",
+      "scrape_status": "no_url",
       "screenshot_path": "",
       "error": ""
     },
@@ -696,7 +652,7 @@
       "date": "2026-10-29",
       "airline": "JetSMART",
       "airline_key": "jetsmart",
-      "dep_time": "16:35",
+      "dep_time": "19:15",
       "arr_time": "",
       "source": "kayak",
       "url": "https://jetsmart.com/cl/es/?from=SCL&to=AEP&departure=2026-10-29&adults=1",
@@ -776,6 +732,23 @@
       "error": ""
     },
     {
+      "origin": "SCL",
+      "dest": "FLN",
+      "date": "2026-10-29",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "16:45",
+      "arr_time": "20:00",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=SCL&d=FLN&dep=2026-10-29&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
       "origin": "FLN",
       "dest": "SCL",
       "date": "2026-11-02",
@@ -798,7 +771,7 @@
       "date": "2026-10-29",
       "airline": "GOL",
       "airline_key": "gol",
-      "dep_time": "09:15",
+      "dep_time": "20:50",
       "arr_time": "",
       "source": "kayak",
       "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=SCL&para=AEP&ida=2026-10-29&adultos=1",
@@ -833,7 +806,7 @@
       "airline": "GOL",
       "airline_key": "gol",
       "dep_time": "",
-      "arr_time": "23:55",
+      "arr_time": "18:15",
       "source": "kayak",
       "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=FLN&ida=2026-10-29&adultos=1",
       "price_value": null,
@@ -887,6 +860,23 @@
       "arr_time": "23:55",
       "source": "kayak",
       "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=FLN&ida=2026-10-29&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "FLN",
+      "dest": "SCL",
+      "date": "2026-11-02",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "23:15",
+      "arr_time": "01:55",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=SCL&outbound=2026-11-02&adt=1&trip=OW",
       "price_value": null,
       "price_currency": "",
       "price_display": "",

@@ -120,9 +120,6 @@
   .source-col.bk h3 { color: var(--bk); }
   .source-col.ky h3 { color: var(--ky); }
   .quote { padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 13px; }
-  .quote.suspect { background: rgba(255, 180, 0, 0.06); border-left: 2px solid #f0b400; padding-left: 6px; }
-  .warn { color: #f0b400; cursor: help; }
-  .warn-msg { font-size: 11px; color: #f0b400; margin: 2px 0; opacity: 0.8; }
   .quote:last-child { border-bottom: none; }
   .quote .price { font-family: var(--font-mono); font-size: 14px; font-weight: 600; color: var(--ink); }
   .quote .price.cheapest { color: var(--success); }
@@ -410,7 +407,6 @@ function renderResults(trip) {
     </div>
     ${renderAirlines(trip.per_leg_airlines, best?.usd)}
     ${renderSegments(trip.unique_segments)}
-    ${renderSynthesized(trip.synthesized_per_leg)}
   `;
   resultCard.classList.add("active");
 }
@@ -425,8 +421,8 @@ function renderSourceCol(klass, label, src) {
   const quotes = src.quotes || [];
   if (quotes.length === 0) {
     return `<div class="source-col ${klass}"><h3>${label}</h3>
-      <div class="empty-src">${klass==='bk' ? 'sin scrape (SPA bloquea automation) — usá el link' : 'sin resultados'}</div>
-      <a class="book" href="${src.search_url}" target="_blank" rel="noopener">${klass==='bk'?'ver en Booking ↗':'abrir búsqueda ↗'}</a>
+      <div class="empty-src">0 resultados</div>
+      <a class="book" href="${src.search_url}" target="_blank" rel="noopener">abrir búsqueda ↗</a>
     </div>`;
   }
   const items = quotes.slice(0, 4).map((q, i) => {
@@ -436,13 +432,10 @@ function renderSourceCol(klass, label, src) {
     const dur = q.total_duration_min ?? q.legs?.[0]?.duration_min ?? 0;
     const airline = q.legs?.[0]?.airline || "—";
     const url = q.booking_url || src.search_url;
-    const hasPack = !!q.booking_url && !q.booking_url_note;
-    const suspect = q.sanity?.suspect;
-    const suspectTip = suspect ? (q.sanity.reasons || []).join(" · ") : "";
-    return `<div class="quote${suspect?' suspect':''}">
-      <div class="price ${i===0?'cheapest':''}">${fmt(p, c)}${suspect?' <span class="warn" title="'+suspectTip.replace(/"/g,"'")+'">⚠</span>':''}</div>
+    const hasPack = !!q.booking_url;
+    return `<div class="quote">
+      <div class="price ${i===0?'cheapest':''}">${fmt(p, c)}</div>
       <div class="detail">${airline} · ${stops===0?'directo':stops+(stops===1?' escala':' escalas')} · ${durStr(dur)}</div>
-      ${suspect?`<div class="warn-msg">⚠ ${suspectTip}</div>`:''}
       <a class="book ${hasPack?'pack':''}" href="${url}" target="_blank" rel="noopener">
         ${hasPack ? "comprar pack ↗" : "ver búsqueda ↗"}
       </a>
@@ -554,67 +547,6 @@ function renderSegments(segments) {
   return `<div class="airlines-section">
     <h3>vuelos individuales descubiertos por tramo (${segments.length} segmentos · ${totalScraped} con precio)</h3>
     ${groupHtml}
-  </div>`;
-}
-
-function renderSynthesized(perLeg) {
-  if (!perLeg || !perLeg.length) return "";
-  const blocks = perLeg.map(legGroup => {
-    const its = legGroup.itineraries || [];
-    if (!its.length) return "";
-    const rows = its.map(it => {
-      const tag = it.is_complete
-        ? `<span style="color:var(--success);font-weight:600">USD ${it.total_usd.toFixed(0)}</span>`
-        : `<span style="color:var(--ink-dim)">USD ${(it.total_usd||0).toFixed(0)} <span style="font-size:10px">(${it.n_legs_priced}/${it.legs.length})</span></span>`;
-      const path = it.path.join(" → ");
-      const legsHtml = it.legs.map(l => {
-        const price = l.price_usd != null
-          ? `<span style="color:var(--success)">$${l.price_usd.toFixed(0)}</span>`
-          : `<span style="color:var(--ink-dim)">—</span>`;
-        const linkHtml = l.url
-          ? `<a href="${l.url}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">ver ↗</a>`
-          : `<span style="color:var(--ink-dim)">sin URL</span>`;
-        return `<tr>
-          <td style="padding:4px 8px;font-family:var(--font-mono);font-size:11px">${l.chosen_airline||l.airline_candidates?.[0]||'?'}</td>
-          <td style="padding:4px 8px;font-family:var(--font-mono);font-size:11px">${l.origin} → ${l.dest}</td>
-          <td style="padding:4px 8px;text-align:right;font-family:var(--font-mono);font-size:11px">${price}</td>
-          <td style="padding:4px 8px;font-size:10px;color:var(--ink-muted)">${l.scrape_status}${l.cache_age_s?' ('+Math.round(l.cache_age_s/60)+'min)':''}</td>
-          <td style="padding:4px 8px;text-align:right">${linkHtml}</td>
-        </tr>`;
-      }).join("");
-      return `<details style="margin:6px 0;background:var(--surface-2);border-radius:6px;padding:8px">
-        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px">
-          <span style="font-family:var(--font-mono);font-size:12px">${path}</span>
-          <span style="font-size:11px">${it.n_stops} escala${it.n_stops!==1?'s':''} · detour ${it.detour_ratio}× · ${tag}</span>
-        </summary>
-        <table style="width:100%;margin-top:8px;border-collapse:collapse;background:var(--surface)">
-          <thead style="background:var(--surface)">
-            <tr>
-              <th style="text-align:left;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">aerolínea</th>
-              <th style="text-align:left;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">tramo</th>
-              <th style="text-align:right;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">USD</th>
-              <th style="text-align:left;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">status</th>
-              <th style="text-align:right;padding:6px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">link</th>
-            </tr>
-          </thead>
-          <tbody>${legsHtml}</tbody>
-        </table>
-      </details>`;
-    }).join("");
-    return `<div style="margin:12px 0">
-      <div style="font-family:var(--font-mono);font-size:13px;color:var(--ink-muted);margin-bottom:6px">
-        ${legGroup.origin} → ${legGroup.dest} · ${legGroup.date}
-      </div>
-      ${rows}
-    </div>`;
-  }).join("");
-  return `<div class="airlines-section">
-    <h3>🛠 itinerarios construidos por el sistema (red de hubs · scrape por tramo)</h3>
-    <div style="font-size:11px;color:var(--ink-muted);margin-bottom:8px">
-      Rutas sintetizadas a través de hubs operacionales (no extraídas de packs GF/Booking/Kayak).
-      Cada tramo va a la aerolínea operadora directamente. Verde = scraped, gris = sin precio (usá el link).
-    </div>
-    ${blocks}
   </div>`;
 }
 

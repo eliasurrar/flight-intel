@@ -13,7 +13,7 @@
       "date": "2026-06-22"
     }
   ],
-  "snapshot_at": "2026-05-26T00:22:54.175007Z",
+  "snapshot_at": "2026-05-26T01:25:20.225808Z",
   "sources": {
     "google_flights": {
       "ok": true,
@@ -26,20 +26,77 @@
               "origin": "SCL",
               "dest": "GIG",
               "leg_date": "2026-06-10",
+              "airline": "LATAM",
+              "departure": "8:30 AM on Wed, Jun 10",
+              "arrival": "5:45 PM on Wed, Jun 10",
+              "duration_min": 495,
+              "stops": 1,
+              "price_value": 154260.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 154260",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-22",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 159498.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 159498",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 313758.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTAoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjIoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-10",
               "airline": "JetSMART",
               "departure": "4:52 AM on Wed, Jun 10",
               "arrival": "10:00 AM on Wed, Jun 10",
               "duration_min": 248,
               "stops": 0,
-              "price_value": 322829.0,
+              "price_value": 162900.0,
               "price_currency": "CLP",
-              "price_display": "CLP 322829",
+              "price_display": "CLP 162900",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-22",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 159498.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 159498",
               "is_best": true
             }
           ],
-          "total_price_value": 322829.0,
+          "total_price_value": 322398.0,
           "total_price_currency": "CLP",
-          "composition": "round-trip",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTAoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjIoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
           "source": "google_flights",
           "sanity": {
@@ -60,80 +117,34 @@
               "arrival": "11:05 AM on Wed, Jun 10",
               "duration_min": 248,
               "stops": 0,
-              "price_value": 322829.0,
+              "price_value": 162900.0,
               "price_currency": "CLP",
-              "price_display": "CLP 322829",
+              "price_display": "CLP 162900",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-22",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 159498.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 159498",
               "is_best": true
             }
           ],
-          "total_price_value": 322829.0,
+          "total_price_value": 322398.0,
           "total_price_currency": "CLP",
-          "composition": "round-trip",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTAoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjIoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
           "source": "google_flights",
           "sanity": {
             "suspect": false,
             "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "leg_date": "2026-06-10",
-              "airline": "LATAM",
-              "departure": "5:00 PM on Wed, Jun 10",
-              "arrival": "10:00 PM on Wed, Jun 10",
-              "duration_min": 240,
-              "stops": 0,
-              "price_value": 355679.0,
-              "price_currency": "CLP",
-              "price_display": "CLP 355679",
-              "is_best": true
-            }
-          ],
-          "total_price_value": 355679.0,
-          "total_price_currency": "CLP",
-          "composition": "round-trip",
-          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTAoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjIoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "leg_date": "2026-06-10",
-              "airline": "Sky Airline",
-              "departure": "5:15 AM on Wed, Jun 10",
-              "arrival": "10:15 AM on Wed, Jun 10",
-              "duration_min": 240,
-              "stops": 0,
-              "price_value": null,
-              "price_currency": "USD",
-              "price_display": "Price unavailable",
-              "is_best": true
-            }
-          ],
-          "total_price_value": null,
-          "total_price_currency": "USD",
-          "composition": "round-trip",
-          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTAoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjIoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "Sky Airline does not serve BR (GIG)"
-            ],
             "distance_km": 2934,
             "min_nonstop_minutes": 245
           }
@@ -149,15 +160,72 @@
               "arrival": "5:45 PM on Wed, Jun 10",
               "duration_min": 495,
               "stops": 1,
-              "price_value": 313739.0,
+              "price_value": 154260.0,
               "price_currency": "CLP",
-              "price_display": "CLP 313739",
-              "is_best": false
+              "price_display": "CLP 154260",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-22",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 168475.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 168475",
+              "is_best": true
             }
           ],
-          "total_price_value": 313739.0,
+          "total_price_value": 322735.0,
           "total_price_currency": "CLP",
-          "composition": "round-trip",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTAoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjIoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-10",
+              "airline": "LATAM",
+              "departure": "8:30 AM on Wed, Jun 10",
+              "arrival": "5:45 PM on Wed, Jun 10",
+              "duration_min": 495,
+              "stops": 1,
+              "price_value": 154260.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 154260",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-22",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 172963.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 172963",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 327223.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTAoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjIoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
           "source": "google_flights",
           "sanity": {
@@ -171,14 +239,14 @@
     },
     "booking": {
       "ok": true,
-      "duration_s": 26.9,
+      "duration_s": 26.8,
       "search_url": "https://flights.booking.com/flights/SCL.AIRPORT-GIG.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=SCL.AIRPORT&to=GIG.AIRPORT&depart=2026-06-10&return=2026-06-22",
       "quotes": [],
       "note": "no_results_use_link"
     },
     "kayak": {
       "ok": true,
-      "duration_s": 7.0,
+      "duration_s": 6.8,
       "search_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
       "pack_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
       "quotes": [
@@ -210,7 +278,7 @@
           "n_stops": 1,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
           "source": "kayak",
-          "raw_text": "6:50 am \u2013 1:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 00m\nSCL\n-\nGIG\n11:10 am \u2013 8:25 am+1\nGOL\n2 stops\nGRU\n\u00a06h 20m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a09h 20m layover, Buenos Aires Jorge Newbery\n22h 15m\nGIG\n-\nSCL\n$351\nEconomy Cabin\nSelect",
+          "raw_text": "6:50 am \u2013 1:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 00m\nSCL\n-\nGIG\n11:10 am \u2013 8:25 am+1\nGOL\n2 stops\nGRU\n\u00a06h 20m layover, Sao Paulo Guarulhos Intl\n, AEP\n\u00a09h 20m layover, Buenos Aires Jorge Newbery\n22h 15m\nGIG\n-\nSCL\n0\n0\n$351\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": false,
@@ -247,7 +315,7 @@
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
           "source": "kayak",
-          "raw_text": "6:50 am \u2013 1:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 00m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n$356\nEconomy Cabin\nSelect",
+          "raw_text": "6:50 am \u2013 1:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 00m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$356\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
@@ -327,7 +395,7 @@
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
           "source": "kayak",
-          "raw_text": "6:50 am \u2013 1:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 00m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n$366\nEconomy Cabin\nSelect",
+          "raw_text": "6:50 am \u2013 1:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 00m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$366\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
@@ -347,80 +415,6 @@
               "dest": "GIG",
               "depart_dt": "2026-06-10",
               "arrive_dt": "",
-              "airline": "JetSMART",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-22",
-              "arrive_dt": "",
-              "airline": "JetSMART",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 367.0,
-          "price_display": "$367",
-          "price_currency": "USD",
-          "total_duration_min": 248,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
-          "source": "kayak",
-          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n$367\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-10",
-              "arrive_dt": "",
-              "airline": "JetSMART",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-22",
-              "arrive_dt": "",
-              "airline": "JetSMART",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 367.0,
-          "price_display": "$367",
-          "price_currency": "USD",
-          "total_duration_min": 248,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
-          "source": "kayak",
-          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n$367\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-10",
-              "arrive_dt": "",
               "airline": "Sky / JetSMART",
               "flight_no": "",
               "duration_min": 0
@@ -435,14 +429,14 @@
               "duration_min": 0
             }
           ],
-          "price_value": 368.0,
-          "price_display": "$368",
+          "price_value": 369.0,
+          "price_display": "$369",
           "price_currency": "USD",
           "total_duration_min": 240,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:15 am \u2013 10:15 am\nSky Airline\nnonstop\n4h 00m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n$368\nEconomy Cabin\nSelect",
+          "raw_text": "5:15 am \u2013 10:15 am\nSky Airline\nnonstop\n4h 00m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$369\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
@@ -474,14 +468,14 @@
               "duration_min": 0
             }
           ],
-          "price_value": 377.0,
-          "price_display": "$377",
+          "price_value": 370.0,
+          "price_display": "$370",
           "price_currency": "USD",
           "total_duration_min": 248,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n$377\nEconomy Cabin\nSelect",
+          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$370\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": false,
@@ -511,14 +505,14 @@
               "duration_min": 0
             }
           ],
-          "price_value": 377.0,
-          "price_display": "$377",
+          "price_value": 370.0,
+          "price_display": "$370",
           "price_currency": "USD",
           "total_duration_min": 248,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
           "source": "kayak",
-          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n$377\nEconomy Cabin\nSelect",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n12:05 pm \u2013 4:05 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$370\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": false,
@@ -548,20 +542,94 @@
               "duration_min": 0
             }
           ],
-          "price_value": 378.0,
-          "price_display": "$378",
+          "price_value": 379.0,
+          "price_display": "$379",
           "price_currency": "USD",
           "total_duration_min": 240,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:15 am \u2013 10:15 am\nSky Airline\nnonstop\n4h 00m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n$378\nEconomy Cabin\nSelect",
+          "raw_text": "5:15 am \u2013 10:15 am\nSky Airline\nnonstop\n4h 00m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$379\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
             "reasons": [
               "Sky / JetSMART does not serve BR (GIG)"
             ],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-10",
+              "arrive_dt": "",
+              "airline": "JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-22",
+              "arrive_dt": "",
+              "airline": "JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 380.0,
+          "price_display": "$380",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
+          "source": "kayak",
+          "raw_text": "5:57 am \u2013 11:05 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$380\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-10",
+              "arrive_dt": "",
+              "airline": "JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-22",
+              "arrive_dt": "",
+              "airline": "JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 380.0,
+          "price_display": "$380",
+          "price_currency": "USD",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-10/GIG-SCL/2026-06-22?sort=price_a",
+          "source": "kayak",
+          "raw_text": "4:52 am \u2013 10:00 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n6:50 pm \u2013 10:50 pm\nJetSMART\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$380\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
             "distance_km": 2934,
             "min_nonstop_minutes": 245
           }
@@ -622,63 +690,46 @@
       "origin": "SCL",
       "dest": "GIG",
       "date": "2026-06-10",
-      "airline": "JetSMART",
-      "airline_key": "jetsmart",
-      "dep_time": "",
-      "arr_time": "",
-      "source": "google_flights",
-      "url": "https://jetsmart.com/cl/es/?from=SCL&to=GIG&departure=2026-06-10&adults=1",
-      "price_value": null,
-      "price_currency": "",
-      "price_display": "",
-      "scrape_status": "pending",
-      "screenshot_path": "",
-      "error": ""
-    },
-    {
-      "origin": "SCL",
-      "dest": "GIG",
-      "date": "2026-06-10",
-      "airline": "LATAM",
-      "airline_key": "latam",
-      "dep_time": "",
-      "arr_time": "",
-      "source": "google_flights",
-      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-06-10&adt=1&trip=OW",
-      "price_value": null,
-      "price_currency": "",
-      "price_display": "",
-      "scrape_status": "pending",
-      "screenshot_path": "",
-      "error": ""
-    },
-    {
-      "origin": "SCL",
-      "dest": "GIG",
-      "date": "2026-06-10",
-      "airline": "Sky Airline",
-      "airline_key": "skyairline",
-      "dep_time": "",
-      "arr_time": "",
-      "source": "google_flights",
-      "url": "https://www.skyairline.com/booking/select?o=SCL&d=GIG&dep=2026-06-10&adults=1",
-      "price_value": null,
-      "price_currency": "",
-      "price_display": "",
-      "scrape_status": "pending",
-      "screenshot_path": "",
-      "error": ""
-    },
-    {
-      "origin": "SCL",
-      "dest": "GIG",
-      "date": "2026-06-10",
       "airline": "LATAM (1 esc)",
       "airline_key": "latam",
       "dep_time": "",
       "arr_time": "",
       "source": "google_flights",
       "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-06-10&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-22",
+      "airline": "",
+      "airline_key": "",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-10",
+      "airline": "JetSMART",
+      "airline_key": "jetsmart",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "https://jetsmart.com/cl/es/?from=SCL&to=GIG&departure=2026-06-10&adults=1",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
@@ -815,6 +866,23 @@
       "arr_time": "06:40",
       "source": "kayak",
       "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-22&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-10",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "05:15",
+      "arr_time": "10:15",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=SCL&d=GIG&dep=2026-06-10&adults=1",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
