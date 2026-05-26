@@ -113,3 +113,20 @@ Impersonate 'chrome_126' does not exist, using 'random'
     gol        AJU→GRU 2026-10-10: ocr_failed (34.4s) screenshot:/tmp/flight-intel-airline-shots/gol-AJU-GRU-2026-10-10-1779753288.png
   [segments] 27 unique · 2 with price
 [worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] picked up 7559ffe2
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+
+=== adhoc-7559ffe2: AJU→ADZ · ADZ→AJU ===
+  [GF] 5 quotes
+  [Booking] 0 quotes in 26.8s
+  [Kayak] 30 quotes in 6.9s
+  [segments] scraping 6/29 segments per-airline
+    latam      GIG→ADZ 2026-10-10: no_flights (6.6s) screenshot:/tmp/flight-intel-airline-shots/latam-GIG-ADZ-2026-10-10-1779755421.png
+    avianca    ADZ→GRU 2026-10-18: scraped (8.1s) USD 227
+    latam      AJU→SCL 2026-10-10: no_flights (6.1s) screenshot:/tmp/flight-intel-airline-shots/latam-AJU-SCL-2026-10-10-1779755436.png
+    jetsmart   SCL→ADZ 2026-10-10: scraped (1.7s) $23.900
+    avianca    ADZ→GIG 2026-10-18: scraped (6.7s) USD 227
+    gol        AJU→GIG 2026-10-10: ocr_failed (35.1s) screenshot:/tmp/flight-intel-airline-shots/gol-AJU-GIG-2026-10-10-1779755421.png
+  [segments] 29 unique · 3 with price
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)

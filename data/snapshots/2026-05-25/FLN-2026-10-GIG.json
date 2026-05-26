@@ -13,7 +13,7 @@
       "date": "2026-11-02"
     }
   ],
-  "snapshot_at": "2026-05-26T00:12:10.041428Z",
+  "snapshot_at": "2026-05-26T01:15:39.217964Z",
   "sources": {
     "google_flights": {
       "ok": true,
@@ -31,13 +31,13 @@
               "arrival": "10:10 AM on Thu, Oct 29",
               "duration_min": 100,
               "stops": 0,
-              "price_value": 344321.0,
+              "price_value": 345965.0,
               "price_currency": "CLP",
-              "price_display": "CLP 344321",
+              "price_display": "CLP 345965",
               "is_best": true
             }
           ],
-          "total_price_value": 344321.0,
+          "total_price_value": 345965.0,
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
@@ -62,13 +62,13 @@
               "arrival": "2:15 PM on Thu, Oct 29",
               "duration_min": 100,
               "stops": 0,
-              "price_value": 344321.0,
+              "price_value": 345965.0,
               "price_currency": "CLP",
-              "price_display": "CLP 344321",
+              "price_display": "CLP 345965",
               "is_best": true
             }
           ],
-          "total_price_value": 344321.0,
+          "total_price_value": 345965.0,
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
@@ -93,13 +93,13 @@
               "arrival": "6:25 PM on Thu, Oct 29",
               "duration_min": 100,
               "stops": 0,
-              "price_value": 344321.0,
+              "price_value": 345965.0,
               "price_currency": "CLP",
-              "price_display": "CLP 344321",
+              "price_display": "CLP 345965",
               "is_best": true
             }
           ],
-          "total_price_value": 344321.0,
+          "total_price_value": 345965.0,
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
@@ -124,13 +124,13 @@
               "arrival": "9:10 PM on Thu, Oct 29",
               "duration_min": 100,
               "stops": 0,
-              "price_value": 344321.0,
+              "price_value": 345965.0,
               "price_currency": "CLP",
-              "price_display": "CLP 344321",
+              "price_display": "CLP 345965",
               "is_best": true
             }
           ],
-          "total_price_value": 344321.0,
+          "total_price_value": 345965.0,
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
@@ -155,13 +155,13 @@
               "arrival": "11:55 PM on Thu, Oct 29",
               "duration_min": 100,
               "stops": 0,
-              "price_value": 344321.0,
+              "price_value": 345965.0,
               "price_currency": "CLP",
-              "price_display": "CLP 344321",
+              "price_display": "CLP 345965",
               "is_best": true
             }
           ],
-          "total_price_value": 344321.0,
+          "total_price_value": 345965.0,
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
@@ -179,14 +179,14 @@
     },
     "booking": {
       "ok": true,
-      "duration_s": 26.9,
+      "duration_s": 26.8,
       "search_url": "https://flights.booking.com/flights/GIG.AIRPORT-FLN.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=GIG.AIRPORT&to=FLN.AIRPORT&depart=2026-10-29&return=2026-11-02",
       "quotes": [],
       "note": "no_results_use_link"
     },
     "kayak": {
       "ok": true,
-      "duration_s": 6.1,
+      "duration_s": 16.3,
       "search_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
       "pack_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
       "quotes": [
@@ -197,7 +197,7 @@
               "dest": "FLN",
               "depart_dt": "2026-10-29",
               "arrive_dt": "",
-              "airline": "Azul / GOL",
+              "airline": "GOL",
               "flight_no": "",
               "duration_min": 0
             },
@@ -206,25 +206,23 @@
               "dest": "GIG",
               "depart_dt": "2026-11-02",
               "arrive_dt": "",
-              "airline": "Azul / GOL",
+              "airline": "GOL",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 380.0,
-          "price_display": "$380",
+          "price_value": 326.0,
+          "price_display": "$326",
           "price_currency": "USD",
-          "total_duration_min": 110,
-          "n_stops": 0,
+          "total_duration_min": 120,
+          "n_stops": 2,
           "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:45 am \u2013 10:05 am\nAzul\n1 stop\nVCP\n\u00a01h 50m layover, Sao Paulo Viracopos\n4h 20m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n6:10 am \u2013 4:45 pm\nGOL\n2 stops\nGRU\n\u00a01h 25m layover, Sao Paulo Guarulhos Intl\n, SSA\n\u00a03h 10m layover, Salvador Luis E. Magalhaes\n10h 35m\nFLN\n-\nGIG\n1\n0\n$326\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
+            "suspect": false,
+            "reasons": [],
             "distance_km": 758,
             "min_nonstop_minutes": 86
           }
@@ -236,7 +234,7 @@
               "dest": "FLN",
               "depart_dt": "2026-10-29",
               "arrive_dt": "",
-              "airline": "Azul / GOL",
+              "airline": "GOL",
               "flight_no": "",
               "duration_min": 0
             },
@@ -245,292 +243,19 @@
               "dest": "GIG",
               "depart_dt": "2026-11-02",
               "arrive_dt": "",
-              "airline": "Azul / GOL",
+              "airline": "GOL",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 380.0,
-          "price_display": "$380",
+          "price_value": 346.0,
+          "price_display": "$346",
           "price_currency": "USD",
-          "total_duration_min": 110,
+          "total_duration_min": 120,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:45 am \u2013 10:05 am\nAzul\n1 stop\nVCP\n\u00a01h 50m layover, Sao Paulo Viracopos\n4h 20m\nGIG\n-\nFLN\n3:00 pm \u2013 4:30 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 758,
-            "min_nonstop_minutes": 86
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "GIG",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "GIG",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 380.0,
-          "price_display": "$380",
-          "price_currency": "USD",
-          "total_duration_min": 110,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "5:45 am \u2013 10:05 am\nAzul\n1 stop\nVCP\n\u00a01h 50m layover, Sao Paulo Viracopos\n4h 20m\nGIG\n-\nFLN\n5:25 am \u2013 6:55 am\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 758,
-            "min_nonstop_minutes": 86
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "GIG",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "GIG",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 380.0,
-          "price_display": "$380",
-          "price_currency": "USD",
-          "total_duration_min": 85,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "6:10 am \u2013 10:35 am\nAzul\n1 stop\nCNF\n\u00a01h 25m layover, Belo Horizonte Tancredo Neves Intl\n4h 25m\nGIG\n-\nFLN\n3:00 pm \u2013 4:30 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 758,
-            "min_nonstop_minutes": 86
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "GIG",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "GIG",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 380.0,
-          "price_display": "$380",
-          "price_currency": "USD",
-          "total_duration_min": 110,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "5:45 am \u2013 10:05 am\nAzul\n1 stop\nVCP\n\u00a01h 50m layover, Sao Paulo Viracopos\n4h 20m\nGIG\n-\nFLN\n7:05 pm \u2013 8:40 pm\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 758,
-            "min_nonstop_minutes": 86
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "GIG",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "GIG",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 380.0,
-          "price_display": "$380",
-          "price_currency": "USD",
-          "total_duration_min": 85,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "6:10 am \u2013 10:35 am\nAzul\n1 stop\nCNF\n\u00a01h 25m layover, Belo Horizonte Tancredo Neves Intl\n4h 25m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 758,
-            "min_nonstop_minutes": 86
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "GIG",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "GIG",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 380.0,
-          "price_display": "$380",
-          "price_currency": "USD",
-          "total_duration_min": 110,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "5:45 am \u2013 10:05 am\nAzul\n1 stop\nVCP\n\u00a01h 50m layover, Sao Paulo Viracopos\n4h 20m\nGIG\n-\nFLN\n7:30 am \u2013 9:05 am\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 758,
-            "min_nonstop_minutes": 86
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "GIG",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "GIG",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 380.0,
-          "price_display": "$380",
-          "price_currency": "USD",
-          "total_duration_min": 85,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "6:10 am \u2013 10:35 am\nAzul\n1 stop\nCNF\n\u00a01h 25m layover, Belo Horizonte Tancredo Neves Intl\n4h 25m\nGIG\n-\nFLN\n7:05 pm \u2013 8:40 pm\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": true,
-            "reasons": [
-              "no carrier operates this route nonstop"
-            ],
-            "distance_km": 758,
-            "min_nonstop_minutes": 86
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "GIG",
-              "dest": "FLN",
-              "depart_dt": "2026-10-29",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "FLN",
-              "dest": "GIG",
-              "depart_dt": "2026-11-02",
-              "arrive_dt": "",
-              "airline": "Azul / GOL",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 380.0,
-          "price_display": "$380",
-          "price_currency": "USD",
-          "total_duration_min": 85,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
-          "source": "kayak",
-          "raw_text": "6:10 am \u2013 10:35 am\nAzul\n1 stop\nCNF\n\u00a01h 25m layover, Belo Horizonte Tancredo Neves Intl\n4h 25m\nGIG\n-\nFLN\n7:30 am \u2013 9:05 am\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n1\n0\n$380\nEconomy + Economy Cabin\nSelect",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n5:25 am \u2013 6:55 am\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$346\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
@@ -562,20 +287,285 @@
               "duration_min": 0
             }
           ],
-          "price_value": 385.0,
-          "price_display": "$385",
+          "price_value": 346.0,
+          "price_display": "$346",
           "price_currency": "USD",
-          "total_duration_min": 100,
+          "total_duration_min": 120,
           "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
           "source": "kayak",
-          "raw_text": "12:35 pm \u2013 2:15 pm\nGOL\nnonstop\n1h 40m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$385\nEconomy Cabin\nSelect",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n3:00 pm \u2013 4:30 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$346\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": true,
             "reasons": [
               "no carrier operates this route nonstop"
             ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 346.0,
+          "price_display": "$346",
+          "price_currency": "USD",
+          "total_duration_min": 120,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$346\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 346.0,
+          "price_display": "$346",
+          "price_currency": "USD",
+          "total_duration_min": 120,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n7:30 am \u2013 9:05 am\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n1\n0\n$346\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 346.0,
+          "price_display": "$346",
+          "price_currency": "USD",
+          "total_duration_min": 120,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n7:05 pm \u2013 8:40 pm\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n1\n0\n$346\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 356.0,
+          "price_display": "$356",
+          "price_currency": "USD",
+          "total_duration_min": 120,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n6:55 pm \u2013 6:50 am+1\nGOL\n2 stops\nGRU\n\u00a02h 15m layover, Sao Paulo Guarulhos Intl\n, IGU\n\u00a04h 25m layover, Foz do Igua\u00e7u Cataratas\n11h 55m\nFLN\n-\nGIG\n1\n0\n$356\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 357.0,
+          "price_display": "$357",
+          "price_currency": "USD",
+          "total_duration_min": 120,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n6:10 am \u2013 1:05 pm\nGOL\n2 stops\nGRU\n\u00a01h 20m layover, Sao Paulo Guarulhos Intl\n, VIX\n\u00a01h 25m layover, Vit\u00f3ria Eurico Sales\n6h 55m\nFLN\n-\nGIG\n1\n0\n$357\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 357.0,
+          "price_display": "$357",
+          "price_currency": "USD",
+          "total_duration_min": 120,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n6:10 am \u2013 4:05 pm\nGOL\n2 stops\nGRU\n\u00a01h 20m layover, Sao Paulo Guarulhos Intl\n, VIX\n\u00a04h 25m layover, Vit\u00f3ria Eurico Sales\n9h 55m\nFLN\n-\nGIG\n1\n0\n$357\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 357.0,
+          "price_display": "$357",
+          "price_currency": "USD",
+          "total_duration_min": 120,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "2:10 pm \u2013 11:55 pm\nGOL\n2 stops\nSSA\n\u00a02h 00m layover, Salvador Luis E. Magalhaes\n, GRU\n\u00a01h 40m layover, Sao Paulo Guarulhos Intl\n9h 45m\nGIG\n-\nFLN\n6:10 am \u2013 5:20 pm\nGOL\n2 stops\nGRU\n\u00a01h 15m layover, Sao Paulo Guarulhos Intl\n, BSB\n\u00a04h 50m layover, Brasilia\n11h 10m\nFLN\n-\nGIG\n1\n0\n$357\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
             "distance_km": 758,
             "min_nonstop_minutes": 86
           }
@@ -643,14 +633,14 @@
     },
     {
       "origin": "GIG",
-      "dest": "VCP",
+      "dest": "SSA",
       "date": "2026-10-29",
-      "airline": "Azul",
-      "airline_key": "azul",
-      "dep_time": "05:45",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "14:10",
       "arr_time": "",
       "source": "kayak",
-      "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=GIG&Destination=VCP&DepartureDate=2026-10-29&Cabin=Y&Adults=1",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GIG&para=SSA&ida=2026-10-29&adultos=1",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
@@ -659,15 +649,83 @@
       "error": ""
     },
     {
-      "origin": "VCP",
+      "origin": "SSA",
+      "dest": "GRU",
+      "date": "2026-10-29",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=SSA&para=GRU&ida=2026-10-29&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
       "dest": "FLN",
       "date": "2026-10-29",
-      "airline": "Azul",
-      "airline_key": "azul",
+      "airline": "GOL",
+      "airline_key": "gol",
       "dep_time": "",
-      "arr_time": "10:05",
+      "arr_time": "23:55",
       "source": "kayak",
-      "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=VCP&Destination=FLN&DepartureDate=2026-10-29&Cabin=Y&Adults=1",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=FLN&ida=2026-10-29&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "FLN",
+      "dest": "GRU",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "06:10",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=FLN&para=GRU&ida=2026-11-02&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "SSA",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=SSA&ida=2026-11-02&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SSA",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "16:45",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=SSA&para=GIG&ida=2026-11-02&adultos=1",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
@@ -681,8 +739,8 @@
       "date": "2026-11-02",
       "airline": "GOL",
       "airline_key": "gol",
-      "dep_time": "10:50",
-      "arr_time": "12:20",
+      "dep_time": "05:25",
+      "arr_time": "06:55",
       "source": "kayak",
       "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=FLN&para=GIG&ida=2026-11-02&adultos=1",
       "price_value": null,
@@ -693,15 +751,15 @@
       "error": ""
     },
     {
-      "origin": "GIG",
-      "dest": "CNF",
-      "date": "2026-10-29",
-      "airline": "Azul",
-      "airline_key": "azul",
-      "dep_time": "06:10",
+      "origin": "GRU",
+      "dest": "IGU",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
       "arr_time": "",
       "source": "kayak",
-      "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=GIG&Destination=CNF&DepartureDate=2026-10-29&Cabin=Y&Adults=1",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=IGU&ida=2026-11-02&adultos=1",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
@@ -710,15 +768,83 @@
       "error": ""
     },
     {
-      "origin": "CNF",
-      "dest": "FLN",
-      "date": "2026-10-29",
-      "airline": "Azul",
-      "airline_key": "azul",
+      "origin": "IGU",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
       "dep_time": "",
-      "arr_time": "10:35",
+      "arr_time": "06:50",
       "source": "kayak",
-      "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=CNF&Destination=FLN&DepartureDate=2026-10-29&Cabin=Y&Adults=1",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=IGU&para=GIG&ida=2026-11-02&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "VIX",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=VIX&ida=2026-11-02&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "VIX",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "13:05",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=VIX&para=GIG&ida=2026-11-02&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "BSB",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GRU&para=BSB&ida=2026-11-02&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "BSB",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "17:20",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=BSB&para=GIG&ida=2026-11-02&adultos=1",
       "price_value": null,
       "price_currency": "",
       "price_display": "",

@@ -41,6 +41,7 @@ sys.path.insert(0, str(ROOT))
 
 from trips import Trip, TripLeg  # noqa: E402
 from backend import snapshot as snap  # noqa: E402
+from backend import itinerary_builder  # noqa: E402
 
 WORKER_URL = os.environ.get("FLIGHT_INTEL_WORKER_URL", "")
 BACKEND_TOKEN = os.environ.get("FLIGHT_INTEL_BACKEND_TOKEN", "")
@@ -112,6 +113,31 @@ def run_pipeline(job: dict) -> None:
 
         result = snap.snapshot_trip(trip, fetch_airline_prices=True, scrape_segment_limit=6)
 
+        # ── Synthesized itineraries per leg (route synthesizer + per-segment scrape) ──
+        # This is the inversion Elias asked for: don't trust packs; build candidate
+        # itineraries from a curated hub network and price each leg independently.
+        _stage(jid, "synthesizing", 70, "building candidate itineraries from hub network…")
+        synth_per_leg = []
+        try:
+            for leg in trip.legs:
+                pr = itinerary_builder.build(
+                    leg.origin, leg.destination, leg.leg_date.isoformat(),
+                    max_stops=2, top_n_itineraries=8, max_workers=3, headless=False,
+                )
+                synth_per_leg.append({
+                    "origin": leg.origin,
+                    "dest": leg.destination,
+                    "date": leg.leg_date.isoformat(),
+                    "itineraries": [itinerary_builder.to_dict(it) for it in pr],
+                })
+                print(f"  [synth] {leg.origin}→{leg.destination}: "
+                      f"{sum(1 for it in pr if it.is_complete)} complete / "
+                      f"{len(pr)} candidates", file=sys.stderr)
+        except Exception as e:
+            print(f"  [synth] error: {e}", file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+        result["synthesized_per_leg"] = synth_per_leg
+
         # If multi-leg (3+) and no source returned a usable pack, surface that
         # split-by-stopover hint is the way.
         if is_stopover:
@@ -138,6 +164,7 @@ def run_pipeline(job: dict) -> None:
             "sources": result["sources"],
             "per_leg_airlines": result["per_leg_airlines"],
             "unique_segments": result.get("unique_segments", []),
+            "synthesized_per_leg": result.get("synthesized_per_leg", []),
             "composition_note": result.get("composition_note", ""),
             "snapshot_at": result["snapshot_at"],
             "snapshot_path": f"snapshots/adhoc/{jid}.json",
