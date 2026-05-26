@@ -405,10 +405,8 @@ function renderResults(trip) {
       ${renderSourceCol("bk", "booking flights", trip.sources?.booking)}
       ${renderSourceCol("ky", "kayak", trip.sources?.kayak)}
     </div>
-    ${renderGfDetail(trip.gf_detail_per_leg)}
     ${renderAirlines(trip.per_leg_airlines, best?.usd)}
     ${renderSegments(trip.unique_segments)}
-    ${renderSynthesized(trip.synthesized_per_leg)}
   `;
   resultCard.classList.add("active");
 }
@@ -550,86 +548,6 @@ function renderSegments(segments) {
     <h3>vuelos individuales descubiertos por tramo (${segments.length} segmentos · ${totalScraped} con precio)</h3>
     ${groupHtml}
   </div>`;
-}
-
-function renderGfDetail(perLeg) {
-  if (!perLeg || !perLeg.length) return "";
-  const blocks = perLeg.map(legGroup => {
-    const its = (legGroup.itineraries || []).slice().sort((a, b) => {
-      if (a.scraped_complete && !b.scraped_complete) return -1;
-      if (!a.scraped_complete && b.scraped_complete) return 1;
-      return (a.price_value || 9e9) - (b.price_value || 9e9);
-    });
-    if (!its.length) return `<div style="font-size:12px;color:var(--ink-dim)">sin itinerarios GF para ${legGroup.origin}→${legGroup.dest}</div>`;
-    const cards = its.map(it => {
-      const segs = it.segments || [];
-      const segRows = segs.map(s => {
-        const price = s.price_usd != null
-          ? `<span style="color:var(--success);font-weight:600">$${s.price_usd.toFixed(0)}</span>`
-          : `<span style="color:var(--ink-dim)">—</span>`;
-        const linkHtml = s.url
-          ? `<a href="${s.url}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-size:11px">${s.airline_key || 'link'} ↗</a>`
-          : `<span style="color:var(--ink-dim);font-size:11px">sin URL</span>`;
-        const statusColor = {scraped:'var(--success)',cached:'var(--success)',no_flights:'#a06000',blocked:'#a02020',failed:'#a02020',pending:'var(--ink-dim)',skipped:'var(--ink-dim)'}[s.scrape_status]||'var(--ink-dim)';
-        return `<tr>
-          <td style="padding:5px 8px;font-family:var(--font-mono);font-size:11px">${s.origin} <span style="color:var(--ink-dim)">→</span> ${s.dest}${s.depart_time?`<span style="color:var(--ink-dim);font-size:10px"> ${s.depart_time}</span>`:''}</td>
-          <td style="padding:5px 8px;font-size:11px">${s.airline||s.operated_by||'?'}</td>
-          <td style="padding:5px 8px;text-align:right;font-family:var(--font-mono);font-size:11px">${price}</td>
-          <td style="padding:5px 8px;font-size:10px;color:${statusColor}">${s.scrape_status}</td>
-          <td style="padding:5px 8px;text-align:right">${linkHtml}</td>
-          ${s.layover_min>0?`<td style="padding:5px 8px;font-size:10px;color:var(--ink-dim)">+${Math.floor(s.layover_min/60)}h${(s.layover_min%60).toString().padStart(2,'0')} layover</td>`:'<td></td>'}
-        </tr>`;
-      }).join("");
-      const gfPrice = it.price_display || (it.price_value?`${it.price_value} ${it.price_currency}`:"—");
-      const totalTag = it.scraped_complete
-        ? `<span style="color:var(--success);font-weight:600">Σ scrape: USD ${it.scraped_total_usd.toFixed(0)}</span>`
-        : it.scraped_total_usd!=null
-          ? `<span style="color:var(--ink-muted)">Σ parcial: USD ${it.scraped_total_usd.toFixed(0)} (${it.scraped_n_priced}/${segs.length})</span>`
-          : `<span style="color:var(--ink-dim)">sin scrape</span>`;
-      const path = [segs[0]?.origin, ...segs.map(s=>s.dest)].filter(Boolean).join(" → ");
-      return `<details style="margin:8px 0;background:var(--surface-2);border-radius:6px;padding:10px" open>
-        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-          <span style="font-family:var(--font-mono);font-size:12px">${path}</span>
-          <span style="font-size:11px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
-            <span>GF: <strong>${gfPrice}</strong></span>
-            <span>${it.n_stops||0} escala${it.n_stops!==1?'s':''}</span>
-            <span>${it.headline_airline||''}</span>
-            ${totalTag}
-          </span>
-        </summary>
-        <table style="width:100%;margin-top:10px;border-collapse:collapse;background:var(--surface)">
-          <thead><tr>
-            <th style="text-align:left;padding:5px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">tramo</th>
-            <th style="text-align:left;padding:5px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">aerolínea</th>
-            <th style="text-align:right;padding:5px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">USD scraped</th>
-            <th style="text-align:left;padding:5px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">status</th>
-            <th style="text-align:right;padding:5px 8px;font-size:10px;color:var(--ink-muted);text-transform:uppercase">link directo</th>
-            <th></th>
-          </tr></thead>
-          <tbody>${segRows}</tbody>
-        </table>
-      </details>`;
-    }).join("");
-    return `<div style="margin:14px 0">
-      <div style="font-family:var(--font-mono);font-size:13px;color:var(--ink-muted);margin-bottom:6px">
-        Leg ${legGroup.origin} → ${legGroup.dest} · ${legGroup.date} · ${its.length} itinerarios extraídos
-      </div>
-      ${cards}
-    </div>`;
-  }).join("");
-  return `<div class="airlines-section" style="border:1px solid var(--accent);padding:14px;border-radius:8px;background:rgba(80,140,200,0.03)">
-    <h3>🎯 itinerarios Google Flights con scrape per-tramo</h3>
-    <div style="font-size:11px;color:var(--ink-muted);margin-bottom:10px">
-      Extraídos directamente de la página de GF (con aeropuertos intermedios). Cada tramo físico es scrapeado en su aerolínea operadora; el totalizador suma los precios reales.
-    </div>
-    ${blocks}
-  </div>`;
-}
-
-function renderSynthesized(perLeg) {
-  if (!perLeg || !perLeg.length) return "";
-  // (kept light — gf_detail is now the primary surface for this view)
-  return "";
 }
 
 // Defaults: SCL→GRU→SCL ida en 1 mes, vuelta en 2 meses
