@@ -28,8 +28,10 @@ sys.path.insert(0, str(ROOT))
 
 from trips import all_trips, Trip  # noqa: E402
 from backend.scrapers import google_flights, booking, kayak, airlines  # noqa: E402
+from backend.scrapers import gf_detail  # noqa: E402
 from backend import segments as seg_extractor  # noqa: E402
 from backend import sanity  # noqa: E402
+from backend import price_cache  # noqa: E402
 
 OUT_DIR = ROOT / "data" / "snapshots"
 
@@ -303,6 +305,149 @@ def snapshot_trip(trip: Trip, fetch_airline_prices: bool = False,
         n_suspect += sum(1 for q in quotes if q.get("sanity", {}).get("suspect"))
     if n_suspect:
         print(f"  [sanity] {n_suspect} suspect quotes flagged", file=sys.stderr)
+
+    # --- GF detail per leg: extract physical segments + price each via airline scrape ---
+    # This is the core flow: per leg, fetch the actual GF result cards (with
+    # intermediate hubs), then for each unique physical segment go to the
+    # operating carrier's site and scrape the price. Sum and present.
+    gf_detail_per_leg = []
+    try:
+        for leg in trip.legs:
+            t0 = time.time()
+            itins = gf_detail.fetch_itineraries(
+                [(leg.origin, leg.destination, leg.leg_date.isoformat())],
+                headless=True, top_n=10,
+            )
+            # Build a set of unique (airline_key, O, D, date) jobs across all itineraries
+            jobs: dict[tuple, dict] = {}
+            for it in itins:
+                for s in it.segments:
+                    akey = _airline_key(s.airline)
+                    if not akey:
+                        continue
+                    key = (akey, s.origin, s.dest, leg.leg_date.isoformat())
+                    jobs.setdefault(key, {
+                        "airline_key": akey,
+                        "airline_name": s.airline,
+                        "origin": s.origin,
+                        "dest": s.dest,
+                        "date": leg.leg_date.isoformat(),
+                    })
+
+            # Price each unique segment (cache + headful + OCR fallback)
+            seg_prices: dict[tuple, dict] = {}
+            if fetch_airline_prices and jobs:
+                print(f"  [gf_detail {leg.origin}→{leg.destination}] "
+                      f"{len(itins)} itins, scraping {len(jobs)} unique segments",
+                      file=sys.stderr)
+                from concurrent.futures import ThreadPoolExecutor, as_completed
+
+                def _price_segment(key, params):
+                    cached = price_cache.get(
+                        params["airline_key"], params["origin"], params["dest"], params["date"]
+                    )
+                    if cached and cached.get("ok"):
+                        return key, {
+                            "ok": True,
+                            "price_value": cached.get("price_value"),
+                            "price_currency": cached.get("price_currency", ""),
+                            "price_display": cached.get("price_display", ""),
+                            "url": cached.get("url", ""),
+                            "from_cache": True,
+                            "cache_age_s": cached.get("_cache_age_s", 0),
+                        }
+                    try:
+                        q = airlines.fetch_price(
+                            params["airline_key"], params["origin"], params["dest"], params["date"],
+                            headless=False, timeout_ms=30_000, vision_fallback=True,
+                        )
+                        price_cache.put(
+                            params["airline_key"], params["origin"], params["dest"], params["date"], q
+                        )
+                        return key, {**asdict(q), "from_cache": False}
+                    except Exception as e:
+                        return key, {"ok": False, "error": str(e)[:200], "from_cache": False}
+
+                with ThreadPoolExecutor(max_workers=3) as ex:
+                    futs = [ex.submit(_price_segment, k, v) for k, v in jobs.items()]
+                    for fut in as_completed(futs):
+                        try:
+                            k, r = fut.result()
+                            seg_prices[k] = r
+                        except Exception:
+                            pass
+
+            # Attach per-segment price info to each itinerary's segments
+            itins_out = []
+            for it in itins:
+                segs_priced = []
+                total_usd = 0.0
+                n_priced = 0
+                for s in it.segments:
+                    akey = _airline_key(s.airline)
+                    url = airlines.url_for(akey, s.origin, s.dest, leg.leg_date.isoformat()) if akey else ""
+                    r = seg_prices.get((akey, s.origin, s.dest, leg.leg_date.isoformat()), {}) if akey else {}
+                    usd = None
+                    if r.get("ok") and r.get("price_value") is not None:
+                        from backend.fx import convert
+                        try:
+                            usd = convert(r["price_value"], r.get("price_currency", "USD"), "USD")
+                        except Exception:
+                            usd = None
+                    if usd is not None:
+                        total_usd += usd
+                        n_priced += 1
+                    segs_priced.append({
+                        "origin": s.origin,
+                        "dest": s.dest,
+                        "airline": s.airline,
+                        "airline_key": akey,
+                        "depart_time": s.depart_time,
+                        "arrive_time": s.arrive_time,
+                        "layover_min": s.layover_min,
+                        "operated_by": s.operated_by,
+                        "url": url or r.get("url", ""),
+                        "price_value": r.get("price_value"),
+                        "price_currency": r.get("price_currency", ""),
+                        "price_display": r.get("price_display", ""),
+                        "price_usd": round(usd, 2) if usd is not None else None,
+                        "scrape_status": (
+                            "cached" if r.get("from_cache") and r.get("ok")
+                            else "scraped" if r.get("ok") and r.get("price_value") is not None
+                            else "no_flights" if r.get("error") == "airline_no_flights"
+                            else "blocked" if "block" in (r.get("error") or "").lower()
+                            else "failed" if r
+                            else ("pending" if fetch_airline_prices else "skipped")
+                        ),
+                        "error": r.get("error", ""),
+                        "cache_age_s": r.get("cache_age_s", 0),
+                    })
+                itins_out.append({
+                    "price_value": it.price_value,
+                    "price_currency": it.price_currency,
+                    "price_display": it.price_display,
+                    "total_duration_min": it.total_duration_min,
+                    "n_stops": it.n_stops,
+                    "headline_airline": it.headline_airline,
+                    "operated_by": it.operated_by,
+                    "segments": segs_priced,
+                    "scraped_total_usd": round(total_usd, 2) if n_priced else None,
+                    "scraped_n_priced": n_priced,
+                    "scraped_complete": n_priced == len(segs_priced) and n_priced > 0,
+                })
+            gf_detail_per_leg.append({
+                "origin": leg.origin,
+                "dest": leg.destination,
+                "date": leg.leg_date.isoformat(),
+                "itineraries": itins_out,
+                "duration_s": round(time.time() - t0, 1),
+            })
+            print(f"  [gf_detail {leg.origin}→{leg.destination}] done in {time.time()-t0:.0f}s, "
+                  f"{len(itins_out)} itineraries", file=sys.stderr)
+    except Exception as e:
+        print(f"  [gf_detail] error: {e}", file=sys.stderr)
+        traceback.print_exc(file=sys.stderr)
+    result["gf_detail_per_leg"] = gf_detail_per_leg
 
     return result
 

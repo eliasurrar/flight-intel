@@ -130,3 +130,4 @@ Impersonate 'chrome_126' does not exist, using 'random'
     gol        AJU→GIG 2026-10-10: ocr_failed (35.1s) screenshot:/tmp/flight-intel-airline-shots/gol-AJU-GIG-2026-10-10-1779755421.png
   [segments] 29 unique · 3 with price
 [worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] polling https://flight-intel-worker.eliasurrar.workers.dev every 5s …

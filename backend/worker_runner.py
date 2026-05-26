@@ -165,6 +165,7 @@ def run_pipeline(job: dict) -> None:
             "per_leg_airlines": result["per_leg_airlines"],
             "unique_segments": result.get("unique_segments", []),
             "synthesized_per_leg": result.get("synthesized_per_leg", []),
+            "gf_detail_per_leg": result.get("gf_detail_per_leg", []),
             "composition_note": result.get("composition_note", ""),
             "snapshot_at": result["snapshot_at"],
             "snapshot_path": f"snapshots/adhoc/{jid}.json",
