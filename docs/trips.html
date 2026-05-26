@@ -59,6 +59,9 @@
   .source-col.bk h3 { color: var(--bk); }
   .source-col.ky h3 { color: var(--ky); }
   .quote { padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 13px; }
+  .quote.suspect { background: rgba(255, 180, 0, 0.06); border-left: 2px solid #f0b400; padding-left: 6px; }
+  .warn { color: #f0b400; cursor: help; }
+  .warn-msg { font-size: 11px; color: #f0b400; margin: 2px 0; opacity: 0.8; }
   .quote:last-child { border-bottom: none; }
   .quote .price { font-family: var(--font-mono); font-size: 14px; font-weight: 600;
     color: var(--ink); }
@@ -222,8 +225,8 @@ function renderSourceCol(klass, label, src) {
   const quotes = src.quotes || [];
   if (quotes.length === 0) {
     return `<div class="source-col ${klass}"><h3>${label}</h3>
-      <div class="empty-src">0 resultados</div>
-      <a class="book" href="${src.search_url}" target="_blank" rel="noopener">abrir búsqueda ↗</a>
+      <div class="empty-src">${klass==='bk' ? 'sin scrape (SPA bloquea automation) — usá el link' : 'sin resultados'}</div>
+      <a class="book" href="${src.search_url}" target="_blank" rel="noopener">${klass==='bk'?'ver en Booking ↗':'abrir búsqueda ↗'}</a>
     </div>`;
   }
   const items = quotes.slice(0, 4).map((q, i) => {
@@ -233,10 +236,13 @@ function renderSourceCol(klass, label, src) {
     const dur = q.total_duration_min ?? q.legs?.[0]?.duration_min ?? 0;
     const airline = q.legs?.[0]?.airline || "—";
     const url = q.booking_url || src.search_url;
-    const hasPack = !!q.booking_url;
-    return `<div class="quote">
-      <div class="price ${i===0?'cheapest':''}">${fmt(p, c)}</div>
+    const hasPack = !!q.booking_url && !q.booking_url_note;
+    const suspect = q.sanity?.suspect;
+    const suspectTip = suspect ? (q.sanity.reasons || []).join(" · ") : "";
+    return `<div class="quote${suspect?' suspect':''}">
+      <div class="price ${i===0?'cheapest':''}">${fmt(p, c)}${suspect?' <span class="warn" title="'+suspectTip.replace(/"/g,"'")+'">⚠</span>':''}</div>
       <div class="detail">${airline} · ${stops===0?'directo':stops+' escalas'} · ${durStr(dur)}</div>
+      ${suspect?`<div class="warn-msg">⚠ ${suspectTip}</div>`:''}
       <a class="book ${hasPack?'pack':''}" href="${url}" target="_blank" rel="noopener">
         ${hasPack ? "comprar pack ↗" : "ver búsqueda ↗"}
       </a>

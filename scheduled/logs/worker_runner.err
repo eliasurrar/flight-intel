@@ -94,3 +94,22 @@ Impersonate 'chrome_126' does not exist, using 'random'
   [Booking] 0 quotes in 27.1s
   [Kayak] 30 quotes in 7.1s
 [worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] polling https://flight-intel-worker.eliasurrar.workers.dev every 5s …
+[worker_runner] picked up 473e7da9
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)
+
+=== adhoc-473e7da9: AJU→ADZ · ADZ→AJU ===
+Impersonate 'chrome_126' does not exist, using 'random'
+  [GF] 5 quotes
+  [Booking] 0 quotes in 26.9s
+  [Kayak] 30 quotes in 7.2s
+  [segments] scraping 6/27 segments per-airline
+    latam      GRU→AJU 2026-10-18: no_flights (6.3s) screenshot:/tmp/flight-intel-airline-shots/latam-GRU-AJU-2026-10-18-1779753276.png
+    avianca    ADZ→GRU 2026-10-18: scraped (8.9s) USD 227
+    jetsmart   SCL→ADZ 2026-10-10: scraped (2.0s) $23.900
+    latam      AJU→SCL 2026-10-10: no_flights (6.1s) screenshot:/tmp/flight-intel-airline-shots/latam-AJU-SCL-2026-10-10-1779753282.png
+    latam      GIG→AJU 2026-10-18: no_flights (6.2s) screenshot:/tmp/flight-intel-airline-shots/latam-GIG-AJU-2026-10-18-1779753287.png
+    gol        AJU→GRU 2026-10-10: ocr_failed (34.4s) screenshot:/tmp/flight-intel-airline-shots/gol-AJU-GRU-2026-10-10-1779753288.png
+  [segments] 27 unique · 2 with price
+[worker_runner] POST /api/_internal/update failed: Expecting value: line 1 column 1 (char 0)

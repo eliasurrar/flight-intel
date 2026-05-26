@@ -176,7 +176,12 @@ def _extract_card(card, default_legs: Sequence[tuple[str, str, str]]) -> KYItine
     if val is None:
         return None
 
-    # stops
+    # stops — count "nonstop" occurrences in raw text to detect round-trip with
+    # 2 separate legs (each "nonstop"). For round-trip+2-leg-nonstop, this is fine;
+    # for *combos* (e.g. "Sky SCL→GRU + LATAM GRU→FLN" stored as one quote),
+    # Kayak sometimes still labels the whole combo "nonstop" if both legs are.
+    # That's correct per-leg; the dashboard's sanity layer catches impossible
+    # advertised "directo" routes (e.g. SCL→FLN nonstop). Keep parser simple here.
     if re.search(r"\bnonstop\b|\bdirect\b|\bdirecto\b", txt, re.I):
         n_stops = 0
     else:

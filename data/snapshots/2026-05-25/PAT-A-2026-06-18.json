@@ -13,7 +13,7 @@
       "date": "2026-06-28"
     }
   ],
-  "snapshot_at": "2026-05-25T22:53:21.125393Z",
+  "snapshot_at": "2026-05-26T00:21:02.079646Z",
   "sources": {
     "google_flights": {
       "ok": true,
@@ -31,17 +31,37 @@
               "arrival": "",
               "duration_min": 0,
               "stops": 0,
-              "price_value": 433155.0,
+              "price_value": 180000.0,
               "price_currency": "CLP",
-              "price_display": "CLP 433155",
+              "price_display": "CLP 180000",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-28",
+              "airline": "JetSMART",
+              "departure": "8:05 AM on Sun, Jun 28",
+              "arrival": "10:04 PM on Sun, Jun 28",
+              "duration_min": 899,
+              "stops": 2,
+              "price_value": 252447.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 252447",
               "is_best": true
             }
           ],
-          "total_price_value": 433155.0,
+          "total_price_value": 432447.0,
           "total_price_currency": "CLP",
-          "composition": "round-trip",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -54,17 +74,37 @@
               "arrival": "",
               "duration_min": 0,
               "stops": 0,
-              "price_value": 451963.0,
+              "price_value": 185760.0,
               "price_currency": "CLP",
-              "price_display": "CLP 451963",
+              "price_display": "CLP 185760",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-28",
+              "airline": "JetSMART",
+              "departure": "8:05 AM on Sun, Jun 28",
+              "arrival": "10:04 PM on Sun, Jun 28",
+              "duration_min": 899,
+              "stops": 2,
+              "price_value": 252447.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 252447",
               "is_best": true
             }
           ],
-          "total_price_value": 451963.0,
+          "total_price_value": 438207.0,
           "total_price_currency": "CLP",
-          "composition": "round-trip",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -77,17 +117,37 @@
               "arrival": "",
               "duration_min": 0,
               "stops": 0,
-              "price_value": 465717.0,
+              "price_value": 208260.0,
               "price_currency": "CLP",
-              "price_display": "CLP 465717",
+              "price_display": "CLP 208260",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-28",
+              "airline": "JetSMART",
+              "departure": "8:05 AM on Sun, Jun 28",
+              "arrival": "10:04 PM on Sun, Jun 28",
+              "duration_min": 899,
+              "stops": 2,
+              "price_value": 252447.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 252447",
               "is_best": true
             }
           ],
-          "total_price_value": 465717.0,
+          "total_price_value": 460707.0,
           "total_price_currency": "CLP",
-          "composition": "round-trip",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -100,17 +160,37 @@
               "arrival": "",
               "duration_min": 0,
               "stops": 0,
-              "price_value": 472017.0,
+              "price_value": 180000.0,
               "price_currency": "CLP",
-              "price_display": "CLP 472017",
+              "price_display": "CLP 180000",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-28",
+              "airline": "LATAM",
+              "departure": "2:50 AM on Sun, Jun 28",
+              "arrival": "6:40 AM on Sun, Jun 28",
+              "duration_min": 290,
+              "stops": 0,
+              "price_value": 301292.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 301292",
               "is_best": true
             }
           ],
-          "total_price_value": 472017.0,
+          "total_price_value": 481292.0,
           "total_price_currency": "CLP",
-          "composition": "round-trip",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -123,31 +203,52 @@
               "arrival": "",
               "duration_min": 0,
               "stops": 0,
-              "price_value": null,
-              "price_currency": "USD",
-              "price_display": "Check price",
+              "price_value": 185760.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 185760",
+              "is_best": true
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "leg_date": "2026-06-28",
+              "airline": "LATAM",
+              "departure": "2:50 AM on Sun, Jun 28",
+              "arrival": "6:40 AM on Sun, Jun 28",
+              "duration_min": 290,
+              "stops": 0,
+              "price_value": 301292.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 301292",
               "is_best": true
             }
           ],
-          "total_price_value": null,
-          "total_price_currency": "USD",
-          "composition": "round-trip",
+          "total_price_value": 487052.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         }
       ]
     },
     "booking": {
       "ok": true,
-      "duration_s": 26.9,
+      "duration_s": 27.1,
       "search_url": "https://flights.booking.com/flights/SCL.AIRPORT-GIG.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=SCL.AIRPORT&to=GIG.AIRPORT&depart=2026-06-18&return=2026-06-28",
       "quotes": [],
       "note": "no_results_use_link"
     },
     "kayak": {
       "ok": true,
-      "duration_s": 6.5,
+      "duration_s": 7.7,
       "search_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+      "pack_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
       "quotes": [
         {
           "legs": [
@@ -156,7 +257,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -165,19 +266,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 536.0,
-          "price_display": "$536",
+          "price_value": 491.0,
+          "price_display": "$491",
           "price_currency": "USD",
-          "total_duration_min": 295,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.53580.e1b2103711433b316f610ba2bff521df&h=026634f9a4a4&sub=F5936406485094830381E0b057935c37&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M1",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 pm\nTurkish Airlines\n1 stop\nGRU\n\u00a04h 55m layover, Sao Paulo Guarulhos Intl\n9h 40m\nSCL\n-\nGIG\n3:10 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a012h 45m layover, Sao Paulo Guarulhos Intl\n18h 20m\nGIG\n-\nSCL\n1\n2\n$536\nEconomy Cabin\nSelect"
+          "raw_text": "3:37 am \u2013 8:45 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n7:55 am \u2013 9:30 pm\nLATAM Airlines\n1 stop\nCWB\n\u00a09h 35m layover, Curitiba Afonso Pena\n14h 35m\nGIG\n-\nSCL\n0\n0\n$491\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -186,7 +294,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / Sky",
               "flight_no": "",
               "duration_min": 0
             },
@@ -195,19 +303,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / Sky",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 536.0,
-          "price_display": "$536",
+          "price_value": 528.0,
+          "price_display": "$528",
           "price_currency": "USD",
-          "total_duration_min": 295,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.53580.28ee065addaf1b21cc3ae7bcf83f5079&h=f60a5b48fdad&sub=F5936406481795349304E0b057935c37&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M2",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 pm\nTurkish Airlines\n1 stop\nGRU\n\u00a04h 55m layover, Sao Paulo Guarulhos Intl\n9h 40m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$536\nEconomy Cabin\nSelect"
+          "raw_text": "3:37 am \u2013 8:45 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n11:25 am \u2013 3:25 pm\nSky Airline\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$528\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -216,7 +331,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / Sky",
               "flight_no": "",
               "duration_min": 0
             },
@@ -225,19 +340,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / Sky",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 536.0,
-          "price_display": "$536",
+          "price_value": 538.0,
+          "price_display": "$538",
           "price_currency": "USD",
-          "total_duration_min": 1015,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.53580.3cfa2dae7662a9e70c7fec19467c3ef5&h=a7f93beda5f6&sub=F5936406484568147442E0b057935c37&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M3",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 55m layover, Sao Paulo Guarulhos Intl\n21h 40m\nSCL\n-\nGIG\n3:10 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a012h 45m layover, Sao Paulo Guarulhos Intl\n18h 20m\nGIG\n-\nSCL\n1\n2\n$536\nEconomy Cabin\nSelect"
+          "raw_text": "3:37 am \u2013 8:45 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n2:55 pm \u2013 8:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 55m\nGIG\n-\nSCL\n0\n0\n$538\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -246,7 +368,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -255,19 +377,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 536.0,
-          "price_display": "$536",
+          "price_value": 547.0,
+          "price_display": "$547",
           "price_currency": "USD",
-          "total_duration_min": 1015,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.53580.f9e3bb30f087556ed184049aa8c2ed72&h=ed8beff23b28&sub=F5936406481496803038E0b057935c37&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M4",
+          "total_duration_min": 248,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 55m layover, Sao Paulo Guarulhos Intl\n21h 40m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$536\nEconomy Cabin\nSelect"
+          "raw_text": "3:37 am \u2013 8:45 am\nJetSMART\nnonstop\n4h 08m\nSCL\n-\nGIG\n2:50 am \u2013 6:40 am\nLATAM Airlines\nnonstop\n4h 50m\nGIG\n-\nSCL\n0\n0\n$547\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -276,7 +405,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Sky",
               "flight_no": "",
               "duration_min": 0
             },
@@ -285,19 +414,28 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Sky",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 554.0,
-          "price_display": "$554",
+          "price_value": 548.0,
+          "price_display": "$548",
           "price_currency": "USD",
-          "total_duration_min": 295,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.55380.e6ad06f9e7ba99170d5cbde75ccde74f&h=cf02785ef265&sub=F5936406481695016106E0700878006b&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M7",
+          "total_duration_min": 240,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 pm\nTurkish Airlines\n1 stop\nGRU\n\u00a04h 55m layover, Sao Paulo Guarulhos Intl\n9h 40m\nSCL\n-\nGIG\n7:35 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a08h 20m layover, Sao Paulo Guarulhos Intl\n13h 55m\nGIG\n-\nSCL\n1\n2\n$554\nEconomy Cabin\nSelect"
+          "raw_text": "5:15 am \u2013 10:15 am\nSky Airline\nnonstop\n4h 00m\nSCL\n-\nGIG\n11:25 am \u2013 3:25 pm\nSky Airline\nnonstop\n5h 00m\nGIG\n-\nSCL\n0\n0\n$548\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "Sky does not serve BR (GIG)"
+            ],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -306,7 +444,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Aerolineas Argentinas / LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -315,19 +453,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Aerolineas Argentinas / LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 554.0,
-          "price_display": "$554",
+          "price_value": 552.0,
+          "price_display": "$552",
           "price_currency": "USD",
-          "total_duration_min": 1015,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.55380.6eaade45cf5fc98fb86766a1c4a42ec3&h=5f5c0a470d1c&sub=F5936406483827868225E0700878006b&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M8",
+          "total_duration_min": 310,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 55m layover, Sao Paulo Guarulhos Intl\n21h 40m\nSCL\n-\nGIG\n7:35 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a08h 20m layover, Sao Paulo Guarulhos Intl\n13h 55m\nGIG\n-\nSCL\n1\n2\n$554\nEconomy Cabin\nSelect"
+          "raw_text": "9:15 am \u2013 8:25 pm\nAerolineas Argentinas\n1 stop\nAEP\n\u00a05h 10m layover, Buenos Aires Jorge Newbery\n10h 10m\nSCL\n-\nGIG\n2:50 am \u2013 6:40 am\nLATAM Airlines\nnonstop\n4h 50m\nGIG\n-\nSCL\n0\n0\n$552\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -336,7 +481,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "LATAM / Sky",
               "flight_no": "",
               "duration_min": 0
             },
@@ -345,19 +490,63 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "LATAM / Sky",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 555.0,
-          "price_display": "$555",
+          "price_value": 552.0,
+          "price_display": "$552",
+          "price_currency": "USD",
+          "total_duration_min": 205,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "8:30 am \u2013 5:45 pm\nLATAM Airlines\n1 stop\nEZE-AEP\n\u00a03h 25m layover, Airport change EZE-AEP\n8h 15m\nSCL\n-\nGIG\n2:55 pm \u2013 8:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 55m\nGIG\n-\nSCL\n0\n0\n$552\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
+              "airline": "Turkish Airlines / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "Turkish Airlines / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 557.0,
+          "price_display": "$557",
           "price_currency": "USD",
           "total_duration_min": 165,
           "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.55430.6b5a30e976afff30dbf6a97b1b6fad02&h=b69a79d2cba3&sub=F5936406482514551147E0b057935c37&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M9",
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 6:45 pm\nTurkish Airlines, LATAM Airlines\n1 stop\nGRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n7h 30m\nSCL\n-\nGIG\n3:10 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a012h 45m layover, Sao Paulo Guarulhos Intl\n18h 20m\nGIG\n-\nSCL\n1\n2\n$555\nEconomy Cabin\nSelect"
+          "raw_text": "10:15 am \u2013 6:45 pm\nTurkish Airlines, LATAM Airlines\n1 stop\nGRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n7h 30m\nSCL\n-\nGIG\n5:15 pm \u2013 8:30 am+1\nLATAM Airlines, Turkish Airlines\n1 stop\nGRU\n\u00a010h 40m layover, Sao Paulo Guarulhos Intl\n16h 15m\nGIG\n-\nSCL\n1\n2\n$557\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -366,7 +555,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Sky",
               "flight_no": "",
               "duration_min": 0
             },
@@ -375,19 +564,28 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Sky",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 555.0,
-          "price_display": "$555",
+          "price_value": 558.0,
+          "price_display": "$558",
           "price_currency": "USD",
-          "total_duration_min": 165,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.55430.a7a962156edc314299805cf4e3620698&h=0dbd20bf2330&sub=F5936406483572961730E0b057935c37&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M10",
+          "total_duration_min": 240,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 6:45 pm\nTurkish Airlines, LATAM Airlines\n1 stop\nGRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n7h 30m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$555\nEconomy Cabin\nSelect"
+          "raw_text": "5:15 am \u2013 10:15 am\nSky Airline\nnonstop\n4h 00m\nSCL\n-\nGIG\n2:55 pm \u2013 8:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 55m\nGIG\n-\nSCL\n0\n0\n$558\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "Sky does not serve BR (GIG)"
+            ],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         },
         {
           "legs": [
@@ -396,7 +594,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Aerolineas Argentinas / LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -405,49 +603,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Aerolineas Argentinas / LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 573.0,
-          "price_display": "$573",
+          "price_value": 559.0,
+          "price_display": "$559",
           "price_currency": "USD",
-          "total_duration_min": 165,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.57230.610270f9aec0313f5af36024ec6b387b&h=1a27cc94c74d&sub=F5936406483460588668E0700878006b&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M12",
+          "total_duration_min": 365,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 6:45 pm\nTurkish Airlines, LATAM Airlines\n1 stop\nGRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n7h 30m\nSCL\n-\nGIG\n7:35 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a08h 20m layover, Sao Paulo Guarulhos Intl\n13h 55m\nGIG\n-\nSCL\n1\n2\n$573\nEconomy Cabin\nSelect"
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 592.0,
-          "price_display": "$592",
-          "price_currency": "USD",
-          "total_duration_min": 1095,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlDiG10T2a.Sb-OdK9m08HBDARZyLA7ng.59180.dd4d82af7ec0a3594ab2cdcf5886565b&h=beb1621c9d48&sub=F-3788921997085940981E0a908075e4e&viewId=20ac12eb-6c82-4215-b28f-ce16947cdc07&bucket=e&pageOrigin=F..RP.FE.M13",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 10:20 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a018h 15m layover, Sao Paulo Guarulhos Intl\n23h 05m\nSCL\n-\nGIG\n3:10 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a012h 45m layover, Sao Paulo Guarulhos Intl\n18h 20m\nGIG\n-\nSCL\n1\n2\n$592\nEconomy Cabin\nSelect"
+          "raw_text": "8:50 pm \u2013 8:55 am+1\nAerolineas Argentinas\n1 stop\nAEP\n\u00a06h 05m layover, Buenos Aires Jorge Newbery\n11h 05m\nSCL\n-\nGIG\n2:50 am \u2013 6:40 am\nLATAM Airlines\nnonstop\n4h 50m\nGIG\n-\nSCL\n1\n0\n$559\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
         }
       ]
     }
@@ -498,6 +673,314 @@
           "url": "https://jetsmart.com/cl/es/?from=GIG&to=SCL&departure=2026-06-28&adults=1"
         }
       ]
+    }
+  ],
+  "unique_segments": [
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "",
+      "airline_key": "",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "JetSMART (2 esc)",
+      "airline_key": "jetsmart",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "https://jetsmart.com/cl/es/?from=GIG&to=SCL&departure=2026-06-28&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "LATAM",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "JetSMART",
+      "airline_key": "jetsmart",
+      "dep_time": "03:37",
+      "arr_time": "08:45",
+      "source": "kayak",
+      "url": "https://jetsmart.com/cl/es/?from=SCL&to=GIG&departure=2026-06-18&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "CWB",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "07:55",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=CWB&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "CWB",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "21:30",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=CWB&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "11:25",
+      "arr_time": "15:25",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=GIG&d=SCL&dep=2026-06-28&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "MVD",
+      "date": "2026-06-28",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "14:55",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=GIG&d=MVD&dep=2026-06-28&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "MVD",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "",
+      "arr_time": "20:50",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=MVD&d=SCL&dep=2026-06-28&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "02:50",
+      "arr_time": "06:40",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "05:15",
+      "arr_time": "10:15",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=SCL&d=GIG&dep=2026-06-18&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "AEP",
+      "date": "2026-06-18",
+      "airline": "Aerolineas Argentinas",
+      "airline_key": "",
+      "dep_time": "09:15",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "AEP",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "Aerolineas Argentinas",
+      "airline_key": "",
+      "dep_time": "",
+      "arr_time": "20:25",
+      "source": "kayak",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "08:30",
+      "arr_time": "17:45",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-18",
+      "airline": "Turkish Airlines, LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "10:15",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GRU&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "Turkish Airlines, LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "18:45",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "GRU",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines, Turkish Airlines",
+      "airline_key": "latam",
+      "dep_time": "17:15",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines, Turkish Airlines",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "08:30",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
     }
   ]
 }

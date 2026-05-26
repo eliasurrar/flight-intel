@@ -13,7 +13,7 @@
       "date": "2026-06-07"
     }
   ],
-  "snapshot_at": "2026-05-25T22:49:26.408501Z",
+  "snapshot_at": "2026-05-26T00:17:19.964549Z",
   "sources": {
     "google_flights": {
       "ok": true,
@@ -41,7 +41,13 @@
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDcoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -64,7 +70,13 @@
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDcoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -87,7 +99,13 @@
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDcoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -110,7 +128,13 @@
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDcoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -133,7 +157,13 @@
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMDUoAmoFEgNTQ0xyBRIDR1JVGhwSCjIwMjYtMDYtMDcoAmoFEgNHUlVyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights"
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         }
       ]
     },
@@ -146,8 +176,9 @@
     },
     "kayak": {
       "ok": true,
-      "duration_s": 15.6,
+      "duration_s": 7.4,
       "search_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
+      "pack_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
       "quotes": [
         {
           "legs": [
@@ -156,7 +187,7 @@
               "dest": "GRU",
               "depart_dt": "2026-06-05",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART",
               "flight_no": "",
               "duration_min": 0
             },
@@ -165,19 +196,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-07",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 306.0,
-          "price_display": "$306",
+          "price_value": 313.0,
+          "price_display": "$313",
           "price_currency": "USD",
           "total_duration_min": 235,
           "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.UwQrSnW3-tbTYwQ_VUUUMA.30600.6871f6fdd7196fa53fc4814c94161d89&h=044a288fc399&sub=F4896233332119755966E05eee6541c2&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M1",
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
           "source": "kayak",
-          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$306\nEconomy Cabin\nSelect"
+          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$313\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -186,7 +224,7 @@
               "dest": "GRU",
               "depart_dt": "2026-06-05",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -195,19 +233,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-07",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 325.0,
-          "price_display": "$325",
+          "price_value": 338.0,
+          "price_display": "$338",
           "price_currency": "USD",
           "total_duration_min": 235,
           "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.32497.0d91700aa89052a00b5d504927d13c95&h=695af5eb7426&sub=F463603705389781367E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M2",
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
           "source": "kayak",
-          "raw_text": "8:15 pm \u2013 1:10 am+1\nLATAM Airlines\nnonstop\n3h 55m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$325\nEconomy Cabin\nSelect"
+          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n5:55 pm \u2013 9:15 pm\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$338\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -216,7 +261,7 @@
               "dest": "GRU",
               "depart_dt": "2026-06-05",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -225,19 +270,174 @@
               "dest": "SCL",
               "depart_dt": "2026-06-07",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "JetSMART / LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 325.0,
-          "price_display": "$325",
+          "price_value": 338.0,
+          "price_display": "$338",
+          "price_currency": "USD",
+          "total_duration_min": 235,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
+          "source": "kayak",
+          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n9:40 pm \u2013 1:00 am+1\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$338\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "JetSMART / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-07",
+              "arrive_dt": "",
+              "airline": "JetSMART / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 338.0,
+          "price_display": "$338",
+          "price_currency": "USD",
+          "total_duration_min": 235,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
+          "source": "kayak",
+          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n8:10 pm \u2013 11:30 pm\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$338\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "JetSMART / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-07",
+              "arrive_dt": "",
+              "airline": "JetSMART / LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 338.0,
+          "price_display": "$338",
+          "price_currency": "USD",
+          "total_duration_min": 235,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
+          "source": "kayak",
+          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n11:30 pm \u2013 2:50 am+1\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$338\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "LATAM / JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-07",
+              "arrive_dt": "",
+              "airline": "LATAM / JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 338.0,
+          "price_display": "$338",
+          "price_currency": "USD",
+          "total_duration_min": 235,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
+          "source": "kayak",
+          "raw_text": "8:15 pm \u2013 1:10 am+1\nLATAM Airlines\nnonstop\n3h 55m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$338\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GRU",
+              "depart_dt": "2026-06-05",
+              "arrive_dt": "",
+              "airline": "LATAM / JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "SCL",
+              "depart_dt": "2026-06-07",
+              "arrive_dt": "",
+              "airline": "LATAM / JetSMART",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 338.0,
+          "price_display": "$338",
           "price_currency": "USD",
           "total_duration_min": 250,
           "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.32497.23a8e591cfa6c01fd12ee99018e5fec1&h=c94cdb28022d&sub=F-6960774297711629308E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M3",
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
           "source": "kayak",
-          "raw_text": "5:00 am \u2013 10:10 am\nLATAM Airlines\nnonstop\n4h 10m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$325\nEconomy Cabin\nSelect"
+          "raw_text": "5:00 am \u2013 10:10 am\nLATAM Airlines\nnonstop\n4h 10m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$338\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -246,7 +446,7 @@
               "dest": "GRU",
               "depart_dt": "2026-06-05",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "LATAM / JetSMART",
               "flight_no": "",
               "duration_min": 0
             },
@@ -255,19 +455,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-07",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "LATAM / JetSMART",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 325.0,
-          "price_display": "$325",
+          "price_value": 338.0,
+          "price_display": "$338",
           "price_currency": "USD",
           "total_duration_min": 250,
           "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.32497.c32c607a7270d2b4e1afd5e63f52acf2&h=c27cf3cc7f28&sub=F-6960774298530559598E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M4",
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
           "source": "kayak",
-          "raw_text": "12:30 am \u2013 5:40 am\nLATAM Airlines\nnonstop\n4h 10m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$325\nEconomy Cabin\nSelect"
+          "raw_text": "12:30 am \u2013 5:40 am\nLATAM Airlines\nnonstop\n4h 10m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$338\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -276,7 +483,7 @@
               "dest": "GRU",
               "depart_dt": "2026-06-05",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "LATAM / JetSMART",
               "flight_no": "",
               "duration_min": 0
             },
@@ -285,19 +492,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-07",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "LATAM / JetSMART",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 326.0,
-          "price_display": "$326",
+          "price_value": 339.0,
+          "price_display": "$339",
           "price_currency": "USD",
           "total_duration_min": 235,
           "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.32597.2d1ef1b74d15765f62d228af8d095d1b&h=028144f2c8b9&sub=F463603706394798654E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M7",
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
           "source": "kayak",
-          "raw_text": "9:00 pm \u2013 1:55 am+1\nLATAM Airlines\nnonstop\n3h 55m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$326\nEconomy Cabin\nSelect"
+          "raw_text": "9:00 pm \u2013 1:55 am+1\nLATAM Airlines\nnonstop\n3h 55m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$339\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         },
         {
           "legs": [
@@ -306,7 +520,7 @@
               "dest": "GRU",
               "depart_dt": "2026-06-05",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Turkish Airlines / JetSMART",
               "flight_no": "",
               "duration_min": 0
             },
@@ -315,139 +529,26 @@
               "dest": "SCL",
               "depart_dt": "2026-06-07",
               "arrive_dt": "",
-              "airline": "",
+              "airline": "Turkish Airlines / JetSMART",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 333.0,
-          "price_display": "$333",
+          "price_value": 341.0,
+          "price_display": "$341",
           "price_currency": "USD",
-          "total_duration_min": 235,
+          "total_duration_min": 225,
           "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.33297.0557826597c4f595c41cef2753df75d3&h=2a410009da0c&sub=F463603706369373014E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M8",
+          "booking_url": "https://www.kayak.com/flights/SCL-GRU/2026-06-05/GRU-SCL/2026-06-07?sort=price_a",
           "source": "kayak",
-          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n5:55 pm \u2013 9:15 pm\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$333\nEconomy Cabin\nSelect"
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GRU",
-              "depart_dt": "2026-06-05",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GRU",
-              "dest": "SCL",
-              "depart_dt": "2026-06-07",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 333.0,
-          "price_display": "$333",
-          "price_currency": "USD",
-          "total_duration_min": 235,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.33297.bb31fc620ead892f3d054ee6da88d91f&h=e79b3c6ff199&sub=F463603705869725841E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M9",
-          "source": "kayak",
-          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n9:40 pm \u2013 1:00 am+1\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$333\nEconomy Cabin\nSelect"
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GRU",
-              "depart_dt": "2026-06-05",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GRU",
-              "dest": "SCL",
-              "depart_dt": "2026-06-07",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 333.0,
-          "price_display": "$333",
-          "price_currency": "USD",
-          "total_duration_min": 235,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.33297.640036f4689e502b539a028b2552b50f&h=692f79ffcf8c&sub=F-6960774297705054954E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M10",
-          "source": "kayak",
-          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n8:10 pm \u2013 11:30 pm\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$333\nEconomy Cabin\nSelect"
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GRU",
-              "depart_dt": "2026-06-05",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GRU",
-              "dest": "SCL",
-              "depart_dt": "2026-06-07",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 333.0,
-          "price_display": "$333",
-          "price_currency": "USD",
-          "total_duration_min": 235,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.33297.632c7f70b2ad8bad9f0c0328eac10ced&h=7a104cf87ffe&sub=F-6960774300621643349E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M12",
-          "source": "kayak",
-          "raw_text": "1:00 pm \u2013 5:55 pm\nJetSMART\nnonstop\n3h 55m\nSCL\n-\nGRU\n11:30 pm \u2013 2:50 am+1\nLATAM Airlines\nnonstop\n4h 20m\nGRU\n-\nSCL\n0\n0\n$333\nEconomy Cabin\nSelect"
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GRU",
-              "depart_dt": "2026-06-05",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GRU",
-              "dest": "SCL",
-              "depart_dt": "2026-06-07",
-              "arrive_dt": "",
-              "airline": "",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 334.0,
-          "price_display": "$334",
-          "price_currency": "USD",
-          "total_duration_min": 245,
-          "n_stops": 0,
-          "booking_url": "https://www.kayak.com/book/flight?code=zlCiEAkVan.6We7wBYoN-cNUvH8T-y68A.33397.8fb9caf30dd1dfb785dfa19d7faa5a39&h=0b35c1774aec&sub=F8171849192489436359E02cad90dcbe&viewId=e9a8b2d2-161b-4b72-920e-ed363cbafb8d&bucket=e&pageOrigin=F..RP.FE.M13",
-          "source": "kayak",
-          "raw_text": "7:10 am \u2013 12:15 pm\nLATAM Airlines\nnonstop\n4h 05m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$334\nEconomy Cabin\nSelect"
+          "raw_text": "10:15 am \u2013 3:00 pm\nTurkish Airlines\nnonstop\n3h 45m\nSCL\n-\nGRU\n6:55 pm \u2013 10:24 pm\nJetSMART\nnonstop\n4h 29m\nGRU\n-\nSCL\n0\n0\n$341\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2614,
+            "min_nonstop_minutes": 221
+          }
         }
       ]
     }
@@ -498,6 +599,110 @@
           "url": "https://jetsmart.com/cl/es/?from=GRU&to=SCL&departure=2026-06-07&adults=1"
         }
       ]
+    }
+  ],
+  "unique_segments": [
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-05",
+      "airline": "JetSMART",
+      "airline_key": "jetsmart",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "https://jetsmart.com/cl/es/?from=SCL&to=GRU&departure=2026-06-05&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-05",
+      "airline": "LATAM",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GRU&outbound=2026-06-05&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-05",
+      "airline": "Turkish Airlines",
+      "airline_key": "",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "SCL",
+      "date": "2026-06-07",
+      "airline": "JetSMART",
+      "airline_key": "jetsmart",
+      "dep_time": "18:55",
+      "arr_time": "22:24",
+      "source": "kayak",
+      "url": "https://jetsmart.com/cl/es/?from=GRU&to=SCL&departure=2026-06-07&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "SCL",
+      "date": "2026-06-07",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "17:55",
+      "arr_time": "21:15",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=SCL&outbound=2026-06-07&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-05",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "20:15",
+      "arr_time": "01:10",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GRU&outbound=2026-06-05&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
     }
   ]
 }

@@ -29,6 +29,7 @@ sys.path.insert(0, str(ROOT))
 from trips import all_trips, Trip  # noqa: E402
 from backend.scrapers import google_flights, booking, kayak, airlines  # noqa: E402
 from backend import segments as seg_extractor  # noqa: E402
+from backend import sanity  # noqa: E402
 
 OUT_DIR = ROOT / "data" / "snapshots"
 
@@ -175,11 +176,23 @@ def snapshot_trip(trip: Trip, fetch_airline_prices: bool = False,
     try:
         t0 = time.time()
         ky = kayak.search(legs_tuples, headless=True)
+        # Strip ephemeral booking_url tokens (expire in <24h, return 403).
+        # Frontend should use search_url as canonical "ver en Kayak" link.
+        ky_dicts = []
+        for q in ky[:10]:
+            d = asdict(q)
+            # Token-style /book/flight?code=... links expire fast; drop them.
+            bu = d.get("booking_url", "")
+            if "/book/flight?code=" in bu or bu == "":
+                d["booking_url"] = kayak.build_url(legs_tuples)
+                d["booking_url_note"] = "search_link (specific token expired/missing)"
+            ky_dicts.append(d)
         result["sources"]["kayak"] = {
             "ok": True,
             "duration_s": round(time.time() - t0, 1),
             "search_url": kayak.build_url(legs_tuples),
-            "quotes": [asdict(q) for q in ky[:10]],
+            "pack_url": kayak.build_url(legs_tuples),
+            "quotes": ky_dicts,
         }
         print(f"  [Kayak] {len(ky)} quotes in {time.time()-t0:.1f}s", file=sys.stderr)
     except kayak.KayakBlocked as e:
@@ -278,6 +291,18 @@ def snapshot_trip(trip: Trip, fetch_airline_prices: bool = False,
     except Exception as e:
         result["unique_segments"] = []
         print(f"  [segments] error: {e}", file=sys.stderr)
+
+    # --- Sanity-annotate all source quotes (flag impossible "nonstops") ---
+    n_suspect = 0
+    for src in ("google_flights", "kayak", "booking"):
+        block = result["sources"].get(src)
+        if not isinstance(block, dict):
+            continue
+        quotes = block.get("quotes") or []
+        sanity.annotate_quotes(quotes)
+        n_suspect += sum(1 for q in quotes if q.get("sanity", {}).get("suspect"))
+    if n_suspect:
+        print(f"  [sanity] {n_suspect} suspect quotes flagged", file=sys.stderr)
 
     return result
 
