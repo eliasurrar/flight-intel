@@ -13,7 +13,7 @@
       "date": "2026-06-28"
     }
   ],
-  "snapshot_at": "2026-05-29T13:23:19.585162Z",
+  "snapshot_at": "2026-05-30T01:23:46.845222Z",
   "sources": {
     "google_flights": {
       "ok": true,
@@ -31,71 +31,13 @@
               "arrival": "6:50 PM on Thu, Jun 18",
               "duration_min": 578,
               "stops": 1,
-              "price_value": 317352.0,
+              "price_value": 276855.0,
               "price_currency": "CLP",
-              "price_display": "CLP 317352",
+              "price_display": "CLP 276855",
               "is_best": true
             }
           ],
-          "total_price_value": 317352.0,
-          "total_price_currency": "CLP",
-          "composition": "round-trip",
-          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "leg_date": "2026-06-18",
-              "airline": "JetSMART",
-              "departure": "3:37 AM on Thu, Jun 18",
-              "arrival": "8:45 AM on Thu, Jun 18",
-              "duration_min": 248,
-              "stops": 0,
-              "price_value": 328978.0,
-              "price_currency": "CLP",
-              "price_display": "CLP 328978",
-              "is_best": true
-            }
-          ],
-          "total_price_value": 328978.0,
-          "total_price_currency": "CLP",
-          "composition": "round-trip",
-          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
-          "source": "google_flights",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "leg_date": "2026-06-18",
-              "airline": "JetSMART",
-              "departure": "4:52 AM on Thu, Jun 18",
-              "arrival": "10:00 AM on Thu, Jun 18",
-              "duration_min": 248,
-              "stops": 0,
-              "price_value": 349563.0,
-              "price_currency": "CLP",
-              "price_display": "CLP 349563",
-              "is_best": true
-            }
-          ],
-          "total_price_value": 349563.0,
+          "total_price_value": 276855.0,
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
@@ -142,18 +84,78 @@
               "origin": "SCL",
               "dest": "GIG",
               "leg_date": "2026-06-18",
-              "airline": "LATAM",
-              "departure": "12:20 PM on Thu, Jun 18",
-              "arrival": "5:25 PM on Thu, Jun 18",
-              "duration_min": 245,
+              "airline": "JetSMART",
+              "departure": "3:37 AM on Thu, Jun 18",
+              "arrival": "8:45 AM on Thu, Jun 18",
+              "duration_min": 248,
               "stops": 0,
-              "price_value": 430546.0,
+              "price_value": 384094.0,
               "price_currency": "CLP",
-              "price_display": "CLP 430546",
+              "price_display": "CLP 384094",
               "is_best": true
             }
           ],
-          "total_price_value": 430546.0,
+          "total_price_value": 384094.0,
+          "total_price_currency": "CLP",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-18",
+              "airline": "Sky Airline",
+              "departure": "5:15 AM on Thu, Jun 18",
+              "arrival": "10:15 AM on Thu, Jun 18",
+              "duration_min": 240,
+              "stops": 0,
+              "price_value": null,
+              "price_currency": "USD",
+              "price_display": "Price unavailable",
+              "is_best": true
+            }
+          ],
+          "total_price_value": null,
+          "total_price_currency": "USD",
+          "composition": "round-trip",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "Sky Airline does not serve BR (GIG)"
+            ],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "leg_date": "2026-06-18",
+              "airline": "LATAM",
+              "departure": "8:30 AM on Thu, Jun 18",
+              "arrival": "5:45 PM on Thu, Jun 18",
+              "duration_min": 495,
+              "stops": 1,
+              "price_value": 371834.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 371834",
+              "is_best": false
+            }
+          ],
+          "total_price_value": 371834.0,
           "total_price_currency": "CLP",
           "composition": "round-trip",
           "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMDYtMTgoAmoFEgNTQ0xyBRIDR0lHGhwSCjIwMjYtMDYtMjgoAmoFEgNHSUdyBRIDU0NMQgEBSAGYAQE=&hl=en&curr=USD",
@@ -169,14 +171,14 @@
     },
     "booking": {
       "ok": true,
-      "duration_s": 26.8,
+      "duration_s": 27.0,
       "search_url": "https://flights.booking.com/flights/SCL.AIRPORT-GIG.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=SCL.AIRPORT&to=GIG.AIRPORT&depart=2026-06-18&return=2026-06-28",
       "quotes": [],
       "note": "no_results_use_link"
     },
     "kayak": {
       "ok": true,
-      "duration_s": 7.0,
+      "duration_s": 7.9,
       "search_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
       "pack_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
       "quotes": [
@@ -187,6 +189,267 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 534.0,
+          "price_display": "$534",
+          "price_currency": "USD",
+          "total_duration_min": 205,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "8:30 am \u2013 5:45 pm\nLATAM Airlines\n1 stop\nEZE-AEP\n\u00a03h 25m layover, Airport change EZE-AEP\n8h 15m\nSCL\n-\nGIG\n11:00 am \u2013 9:35 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a05h 55m layover, Porto Alegre Salgado Filho\n11h 35m\nGIG\n-\nSCL\n1\n0\n$534\nBasic\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 539.0,
+          "price_display": "$539",
+          "price_currency": "USD",
+          "total_duration_min": 310,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "5:00 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nGRU\n\u00a05h 10m layover, Sao Paulo Guarulhos Intl\n10h 20m\nSCL\n-\nGIG\n11:00 am \u2013 9:35 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a05h 55m layover, Porto Alegre Salgado Filho\n11h 35m\nGIG\n-\nSCL\n1\n0\n$539\nBasic\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 539.0,
+          "price_display": "$539",
+          "price_currency": "USD",
+          "total_duration_min": 580,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "12:30 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nGRU\n\u00a09h 40m layover, Sao Paulo Guarulhos Intl\n14h 50m\nSCL\n-\nGIG\n11:00 am \u2013 9:35 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a05h 55m layover, Porto Alegre Salgado Filho\n11h 35m\nGIG\n-\nSCL\n1\n0\n$539\nBasic\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 570.0,
+          "price_display": "$570",
+          "price_currency": "USD",
+          "total_duration_min": 185,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "4:35 am \u2013 4:20 pm\nLATAM Airlines\n2 stops\nFLN\n\u00a03h 05m layover, Florianopolis Hercilio Luz\n, GRU\n\u00a02h 05m layover, Sao Paulo Guarulhos Intl\n10h 45m\nSCL\n-\nGIG\n11:00 am \u2013 9:35 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a05h 55m layover, Porto Alegre Salgado Filho\n11h 35m\nGIG\n-\nSCL\n1\n0\n$570\nBasic\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 570.0,
+          "price_display": "$570",
+          "price_currency": "USD",
+          "total_duration_min": 185,
+          "n_stops": 2,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "4:35 am \u2013 8:55 pm\nLATAM Airlines\n2 stops\nFLN\n\u00a03h 05m layover, Florianopolis Hercilio Luz\n, GRU\n\u00a06h 40m layover, Sao Paulo Guarulhos Intl\n15h 20m\nSCL\n-\nGIG\n11:00 am \u2013 9:35 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a05h 55m layover, Porto Alegre Salgado Filho\n11h 35m\nGIG\n-\nSCL\n1\n0\n$570\nBasic\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
+              "airline": "Sky",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "Sky",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 574.0,
+          "price_display": "$574",
+          "price_currency": "USD",
+          "total_duration_min": 240,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "5:15 am \u2013 10:15 am\nSky Airline\nnonstop\n4h 00m\nSCL\n-\nGIG\n2:55 pm \u2013 8:50 pm\nSky Airline\n1 stop\nMVD\n\u00a01h 00m layover, Montevideo Carrasco\n6h 55m\nGIG\n-\nSCL\n0\n0\n$574\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "Sky does not serve BR (GIG)"
+            ],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "depart_dt": "2026-06-28",
+              "arrive_dt": "",
+              "airline": "LATAM",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 590.0,
+          "price_display": "$590",
+          "price_currency": "USD",
+          "total_duration_min": 185,
+          "n_stops": 1,
+          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
+          "source": "kayak",
+          "raw_text": "7:10 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nGRU\n\u00a03h 05m layover, Sao Paulo Guarulhos Intl\n8h 10m\nSCL\n-\nGIG\n11:00 am \u2013 9:35 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a05h 55m layover, Porto Alegre Salgado Filho\n11h 35m\nGIG\n-\nSCL\n1\n0\n$590\nBasic\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": false,
+            "reasons": [],
+            "distance_km": 2934,
+            "min_nonstop_minutes": 245
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "depart_dt": "2026-06-18",
+              "arrive_dt": "",
               "airline": "Turkish Airlines",
               "flight_no": "",
               "duration_min": 0
@@ -201,14 +464,14 @@
               "duration_min": 0
             }
           ],
-          "price_value": 571.0,
-          "price_display": "$571",
+          "price_value": 592.0,
+          "price_display": "$592",
           "price_currency": "USD",
           "total_duration_min": 295,
           "n_stops": 1,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 pm\nTurkish Airlines\n1 stop\nGRU\n\u00a04h 55m layover, Sao Paulo Guarulhos Intl\n9h 40m\nSCL\n-\nGIG\n7:35 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a08h 20m layover, Sao Paulo Guarulhos Intl\n13h 55m\nGIG\n-\nSCL\n1\n2\n$571\nEconomy Cabin\nSelect",
+          "raw_text": "10:15 am \u2013 8:55 pm\nTurkish Airlines\n1 stop\nGRU\n\u00a04h 55m layover, Sao Paulo Guarulhos Intl\n9h 40m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$592\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": false,
@@ -238,51 +501,14 @@
               "duration_min": 0
             }
           ],
-          "price_value": 571.0,
-          "price_display": "$571",
-          "price_currency": "USD",
-          "total_duration_min": 295,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 pm\nTurkish Airlines\n1 stop\nGRU\n\u00a04h 55m layover, Sao Paulo Guarulhos Intl\n9h 40m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$571\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 571.0,
-          "price_display": "$571",
+          "price_value": 592.0,
+          "price_display": "$592",
           "price_currency": "USD",
           "total_duration_min": 1015,
           "n_stops": 1,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 55m layover, Sao Paulo Guarulhos Intl\n21h 40m\nSCL\n-\nGIG\n7:35 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a08h 20m layover, Sao Paulo Guarulhos Intl\n13h 55m\nGIG\n-\nSCL\n1\n2\n$571\nEconomy Cabin\nSelect",
+          "raw_text": "10:15 am \u2013 8:55 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 55m layover, Sao Paulo Guarulhos Intl\n21h 40m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$592\nEconomy Cabin\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
             "suspect": false,
@@ -298,7 +524,7 @@
               "dest": "GIG",
               "depart_dt": "2026-06-18",
               "arrive_dt": "",
-              "airline": "Turkish Airlines",
+              "airline": "LATAM",
               "flight_no": "",
               "duration_min": 0
             },
@@ -307,245 +533,25 @@
               "dest": "SCL",
               "depart_dt": "2026-06-28",
               "arrive_dt": "",
-              "airline": "Turkish Airlines",
+              "airline": "LATAM",
               "flight_no": "",
               "duration_min": 0
             }
           ],
-          "price_value": 571.0,
-          "price_display": "$571",
+          "price_value": 603.0,
+          "price_display": "$603",
           "price_currency": "USD",
-          "total_duration_min": 1015,
-          "n_stops": 1,
+          "total_duration_min": 205,
+          "n_stops": 0,
           "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
           "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 55m layover, Sao Paulo Guarulhos Intl\n21h 40m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$571\nEconomy Cabin\nSelect",
+          "raw_text": "8:30 am \u2013 5:45 pm\nLATAM Airlines\n1 stop\nEZE-AEP\n\u00a03h 25m layover, Airport change EZE-AEP\n8h 15m\nSCL\n-\nGIG\n2:50 am \u2013 6:40 am\nLATAM Airlines\nnonstop\n4h 50m\nGIG\n-\nSCL\n1\n0\n$603\nBasic\nSelect",
           "booking_url_note": "search_link (specific token expired/missing)",
           "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines / LATAM",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines / LATAM",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 608.0,
-          "price_display": "$608",
-          "price_currency": "USD",
-          "total_duration_min": 165,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 6:45 pm\nTurkish Airlines, LATAM Airlines\n1 stop\nGRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n7h 30m\nSCL\n-\nGIG\n7:35 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a08h 20m layover, Sao Paulo Guarulhos Intl\n13h 55m\nGIG\n-\nSCL\n1\n2\n$608\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines / LATAM",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines / LATAM",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 608.0,
-          "price_display": "$608",
-          "price_currency": "USD",
-          "total_duration_min": 165,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 6:45 pm\nTurkish Airlines, LATAM Airlines\n1 stop\nGRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n7h 30m\nSCL\n-\nGIG\n11:10 am \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 40m layover, Sao Paulo Guarulhos Intl\n22h 20m\nGIG\n-\nSCL\n1\n2\n$608\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 616.0,
-          "price_display": "$616",
-          "price_currency": "USD",
-          "total_duration_min": 295,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 pm\nTurkish Airlines\n1 stop\nGRU\n\u00a04h 55m layover, Sao Paulo Guarulhos Intl\n9h 40m\nSCL\n-\nGIG\n3:10 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a012h 45m layover, Sao Paulo Guarulhos Intl\n18h 20m\nGIG\n-\nSCL\n1\n2\n$616\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 616.0,
-          "price_display": "$616",
-          "price_currency": "USD",
-          "total_duration_min": 1015,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 8:55 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a016h 55m layover, Sao Paulo Guarulhos Intl\n21h 40m\nSCL\n-\nGIG\n3:10 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a012h 45m layover, Sao Paulo Guarulhos Intl\n18h 20m\nGIG\n-\nSCL\n1\n2\n$616\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines / LATAM",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines / LATAM",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 654.0,
-          "price_display": "$654",
-          "price_currency": "USD",
-          "total_duration_min": 165,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 6:45 pm\nTurkish Airlines, LATAM Airlines\n1 stop\nGRU\n\u00a02h 45m layover, Sao Paulo Guarulhos Intl\n7h 30m\nSCL\n-\nGIG\n3:10 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a012h 45m layover, Sao Paulo Guarulhos Intl\n18h 20m\nGIG\n-\nSCL\n1\n2\n$654\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
-            "distance_km": 2934,
-            "min_nonstop_minutes": 245
-          }
-        },
-        {
-          "legs": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "depart_dt": "2026-06-18",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            },
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "depart_dt": "2026-06-28",
-              "arrive_dt": "",
-              "airline": "Turkish Airlines",
-              "flight_no": "",
-              "duration_min": 0
-            }
-          ],
-          "price_value": 694.0,
-          "price_display": "$694",
-          "price_currency": "USD",
-          "total_duration_min": 1095,
-          "n_stops": 1,
-          "booking_url": "https://www.kayak.com/flights/SCL-GIG/2026-06-18/GIG-SCL/2026-06-28?sort=price_a",
-          "source": "kayak",
-          "raw_text": "10:15 am \u2013 10:20 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a018h 15m layover, Sao Paulo Guarulhos Intl\n23h 05m\nSCL\n-\nGIG\n7:35 pm \u2013 8:30 am+1\nTurkish Airlines\n1 stop\nGRU\n\u00a08h 20m layover, Sao Paulo Guarulhos Intl\n13h 55m\nGIG\n-\nSCL\n1\n2\n$694\nEconomy Cabin\nSelect",
-          "booking_url_note": "search_link (specific token expired/missing)",
-          "sanity": {
-            "suspect": false,
-            "reasons": [],
+            "suspect": true,
+            "reasons": [
+              "duration 205min < physical min 245min"
+            ],
             "distance_km": 2934,
             "min_nonstop_minutes": 245
           }
@@ -623,23 +629,6 @@
       "origin": "SCL",
       "dest": "GIG",
       "date": "2026-06-18",
-      "airline": "JetSMART",
-      "airline_key": "jetsmart",
-      "dep_time": "",
-      "arr_time": "",
-      "source": "google_flights",
-      "url": "https://jetsmart.com/cl/es/?from=SCL&to=GIG&departure=2026-06-18&adults=1",
-      "price_value": null,
-      "price_currency": "",
-      "price_display": "",
-      "scrape_status": "pending",
-      "screenshot_path": "",
-      "error": ""
-    },
-    {
-      "origin": "SCL",
-      "dest": "GIG",
-      "date": "2026-06-18",
       "airline": "LATAM (1 esc)",
       "airline_key": "latam",
       "dep_time": "",
@@ -657,12 +646,182 @@
       "origin": "SCL",
       "dest": "GIG",
       "date": "2026-06-18",
-      "airline": "LATAM",
-      "airline_key": "latam",
+      "airline": "JetSMART",
+      "airline_key": "jetsmart",
       "dep_time": "",
       "arr_time": "",
       "source": "google_flights",
+      "url": "https://jetsmart.com/cl/es/?from=SCL&to=GIG&departure=2026-06-18&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "https://www.skyairline.com/booking/select?o=SCL&d=GIG&dep=2026-06-18&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "08:30",
+      "arr_time": "17:45",
+      "source": "kayak",
       "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "POA",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "11:00",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=POA&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "POA",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "21:35",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=POA&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "GRU",
+      "date": "2026-06-18",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "05:00",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GRU&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GRU",
+      "dest": "GIG",
+      "date": "2026-06-18",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "16:20",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "SCL",
+      "dest": "FLN",
+      "date": "2026-06-18",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "04:35",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=FLN&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "FLN",
+      "dest": "GRU",
+      "date": "2026-06-18",
+      "airline": "LATAM Airlines",
+      "airline_key": "latam",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=GRU&outbound=2026-06-18&adt=1&trip=OW",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "MVD",
+      "date": "2026-06-28",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "14:55",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=GIG&d=MVD&dep=2026-06-28&adults=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "MVD",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "Sky Airline",
+      "airline_key": "skyairline",
+      "dep_time": "",
+      "arr_time": "20:50",
+      "source": "kayak",
+      "url": "https://www.skyairline.com/booking/select?o=MVD&d=SCL&dep=2026-06-28&adults=1",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
@@ -710,7 +869,7 @@
       "date": "2026-06-28",
       "airline": "Turkish Airlines",
       "airline_key": "",
-      "dep_time": "19:35",
+      "dep_time": "11:10",
       "arr_time": "",
       "source": "kayak",
       "url": "",
@@ -739,32 +898,15 @@
       "error": ""
     },
     {
-      "origin": "SCL",
-      "dest": "GRU",
-      "date": "2026-06-18",
-      "airline": "Turkish Airlines, LATAM Airlines",
+      "origin": "GIG",
+      "dest": "SCL",
+      "date": "2026-06-28",
+      "airline": "LATAM Airlines",
       "airline_key": "latam",
-      "dep_time": "10:15",
-      "arr_time": "",
+      "dep_time": "02:50",
+      "arr_time": "06:40",
       "source": "kayak",
-      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GRU&outbound=2026-06-18&adt=1&trip=OW",
-      "price_value": null,
-      "price_currency": "",
-      "price_display": "",
-      "scrape_status": "pending",
-      "screenshot_path": "",
-      "error": ""
-    },
-    {
-      "origin": "GRU",
-      "dest": "GIG",
-      "date": "2026-06-18",
-      "airline": "Turkish Airlines, LATAM Airlines",
-      "airline_key": "latam",
-      "dep_time": "",
-      "arr_time": "18:45",
-      "source": "kayak",
-      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
+      "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
       "price_value": null,
       "price_currency": "",
       "price_display": "",
@@ -780,9 +922,9 @@
       "date": "2026-06-18",
       "itineraries": [
         {
-          "price_value": 180.0,
+          "price_value": 139.0,
           "price_currency": "USD",
-          "price_display": "180 d\u00f3lares",
+          "price_display": "139 d\u00f3lares",
           "total_duration_min": 578,
           "n_stops": 1,
           "headline_airline": "JetSMART",
@@ -830,9 +972,9 @@
           "scraped_complete": false
         },
         {
-          "price_value": 191.0,
+          "price_value": 192.0,
           "price_currency": "USD",
-          "price_display": "191 d\u00f3lares",
+          "price_display": "192 d\u00f3lares",
           "total_duration_min": 248,
           "n_stops": 0,
           "headline_airline": "",
@@ -994,9 +1136,9 @@
           "scraped_complete": false
         },
         {
-          "price_value": 214.0,
+          "price_value": 215.0,
           "price_currency": "USD",
-          "price_display": "214 d\u00f3lares",
+          "price_display": "215 d\u00f3lares",
           "total_duration_min": 248,
           "n_stops": 0,
           "headline_airline": "",
@@ -1012,74 +1154,6 @@
               "layover_min": 0,
               "operated_by": "",
               "url": "",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            }
-          ],
-          "scraped_total_usd": null,
-          "scraped_n_priced": 0,
-          "scraped_complete": false
-        },
-        {
-          "price_value": 214.0,
-          "price_currency": "USD",
-          "price_display": "214 d\u00f3lares",
-          "total_duration_min": 785,
-          "n_stops": 2,
-          "headline_airline": "LATAM",
-          "operated_by": "Latam Airlines Group, Latam Airlines Brasil, Latam Airlines Brasil",
-          "segments": [
-            {
-              "origin": "SCL",
-              "dest": "",
-              "airline": "Latam Airlines Group",
-              "airline_key": "latam",
-              "depart_time": "10:00",
-              "arrive_time": "",
-              "layover_min": 291,
-              "operated_by": "Latam Airlines Group",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=&outbound=2026-06-18&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            },
-            {
-              "origin": "",
-              "dest": "GRU",
-              "airline": "Latam Airlines Brasil",
-              "airline_key": "latam",
-              "depart_time": "",
-              "arrive_time": "",
-              "layover_min": 150,
-              "operated_by": "Latam Airlines Brasil",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=&destination=GRU&outbound=2026-06-18&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            },
-            {
-              "origin": "GRU",
-              "dest": "GIG",
-              "airline": "Latam Airlines Brasil",
-              "airline_key": "latam",
-              "depart_time": "",
-              "arrive_time": "0:05",
-              "layover_min": 0,
-              "operated_by": "Latam Airlines Brasil",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
               "price_value": null,
               "price_currency": "",
               "price_display": "",
@@ -1144,42 +1218,10 @@
           "scraped_complete": false
         },
         {
-          "price_value": 233.0,
+          "price_value": 236.0,
           "price_currency": "USD",
-          "price_display": "233 d\u00f3lares",
-          "total_duration_min": 665,
-          "n_stops": 1,
-          "headline_airline": "",
-          "operated_by": "",
-          "segments": [
-            {
-              "origin": "SCL",
-              "dest": "GIG",
-              "airline": "",
-              "airline_key": "",
-              "depart_time": "20:50",
-              "arrive_time": "8:55",
-              "layover_min": 0,
-              "operated_by": "",
-              "url": "",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            }
-          ],
-          "scraped_total_usd": null,
-          "scraped_n_priced": 0,
-          "scraped_complete": false
-        },
-        {
-          "price_value": 259.0,
-          "price_currency": "USD",
-          "price_display": "259 d\u00f3lares",
-          "total_duration_min": 490,
+          "price_display": "236 d\u00f3lares",
+          "total_duration_min": 425,
           "n_stops": 1,
           "headline_airline": "LATAM",
           "operated_by": "Latam Airlines Group, Latam Airlines Brasil",
@@ -1189,9 +1231,9 @@
               "dest": "GRU",
               "airline": "Latam Airlines Group",
               "airline_key": "latam",
-              "depart_time": "7:10",
+              "depart_time": "8:15",
               "arrive_time": "",
-              "layover_min": 185,
+              "layover_min": 130,
               "operated_by": "Latam Airlines Group",
               "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GRU&outbound=2026-06-18&adt=1&trip=OW",
               "price_value": null,
@@ -1224,9 +1266,73 @@
           "scraped_total_usd": null,
           "scraped_n_priced": 0,
           "scraped_complete": false
+        },
+        {
+          "price_value": 275.0,
+          "price_currency": "USD",
+          "price_display": "275 d\u00f3lares",
+          "total_duration_min": 255,
+          "n_stops": 0,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Group",
+          "segments": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "airline": "Latam Airlines Group",
+              "airline_key": "latam",
+              "depart_time": "7:35",
+              "arrive_time": "12:50",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Group",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 311.0,
+          "price_currency": "USD",
+          "price_display": "311 d\u00f3lares",
+          "total_duration_min": 250,
+          "n_stops": 0,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Group",
+          "segments": [
+            {
+              "origin": "SCL",
+              "dest": "GIG",
+              "airline": "Latam Airlines Group",
+              "airline_key": "latam",
+              "depart_time": "20:55",
+              "arrive_time": "2:05",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Group",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=SCL&destination=GIG&outbound=2026-06-18&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
         }
       ],
-      "duration_s": 1.4
+      "duration_s": 1.6
     },
     {
       "origin": "GIG",
@@ -1234,241 +1340,9 @@
       "date": "2026-06-28",
       "itineraries": [
         {
-          "price_value": 177.0,
+          "price_value": 210.0,
           "price_currency": "USD",
-          "price_display": "177 d\u00f3lares",
-          "total_duration_min": 379,
-          "n_stops": 1,
-          "headline_airline": "",
-          "operated_by": "",
-          "segments": [
-            {
-              "origin": "GIG",
-              "dest": "",
-              "airline": "",
-              "airline_key": "",
-              "depart_time": "13:15",
-              "arrive_time": "",
-              "layover_min": 45,
-              "operated_by": "",
-              "url": "",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            },
-            {
-              "origin": "",
-              "dest": "SCL",
-              "airline": "",
-              "airline_key": "",
-              "depart_time": "",
-              "arrive_time": "18:34",
-              "layover_min": 0,
-              "operated_by": "",
-              "url": "",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            }
-          ],
-          "scraped_total_usd": null,
-          "scraped_n_priced": 0,
-          "scraped_complete": false
-        },
-        {
-          "price_value": 209.0,
-          "price_currency": "USD",
-          "price_display": "209 d\u00f3lares",
-          "total_duration_min": 820,
-          "n_stops": 2,
-          "headline_airline": "LATAM",
-          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil, Latam Airlines Group",
-          "segments": [
-            {
-              "origin": "GIG",
-              "dest": "GRU",
-              "airline": "Latam Airlines Brasil",
-              "airline_key": "latam",
-              "depart_time": "8:55",
-              "arrive_time": "",
-              "layover_min": 310,
-              "operated_by": "Latam Airlines Brasil",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-06-28&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            },
-            {
-              "origin": "GRU",
-              "dest": "POA",
-              "airline": "Latam Airlines Brasil",
-              "airline_key": "latam",
-              "depart_time": "",
-              "arrive_time": "",
-              "layover_min": 125,
-              "operated_by": "Latam Airlines Brasil",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=POA&outbound=2026-06-28&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            },
-            {
-              "origin": "POA",
-              "dest": "SCL",
-              "airline": "Latam Airlines Group",
-              "airline_key": "latam",
-              "depart_time": "",
-              "arrive_time": "21:35",
-              "layover_min": 0,
-              "operated_by": "Latam Airlines Group",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=POA&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            }
-          ],
-          "scraped_total_usd": null,
-          "scraped_n_priced": 0,
-          "scraped_complete": false
-        },
-        {
-          "price_value": 219.0,
-          "price_currency": "USD",
-          "price_display": "219 d\u00f3lares",
-          "total_duration_min": 695,
-          "n_stops": 1,
-          "headline_airline": "LATAM",
-          "operated_by": "Latam Airlines Brasil, Latam Airlines Group",
-          "segments": [
-            {
-              "origin": "GIG",
-              "dest": "POA",
-              "airline": "Latam Airlines Brasil",
-              "airline_key": "latam",
-              "depart_time": "11:00",
-              "arrive_time": "",
-              "layover_min": 355,
-              "operated_by": "Latam Airlines Brasil",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=POA&outbound=2026-06-28&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            },
-            {
-              "origin": "POA",
-              "dest": "SCL",
-              "airline": "Latam Airlines Group",
-              "airline_key": "latam",
-              "depart_time": "",
-              "arrive_time": "21:35",
-              "layover_min": 0,
-              "operated_by": "Latam Airlines Group",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=POA&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            }
-          ],
-          "scraped_total_usd": null,
-          "scraped_n_priced": 0,
-          "scraped_complete": false
-        },
-        {
-          "price_value": 327.0,
-          "price_currency": "USD",
-          "price_display": "327 d\u00f3lares",
-          "total_duration_min": 300,
-          "n_stops": 0,
-          "headline_airline": "",
-          "operated_by": "",
-          "segments": [
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "airline": "",
-              "airline_key": "",
-              "depart_time": "18:50",
-              "arrive_time": "22:50",
-              "layover_min": 0,
-              "operated_by": "",
-              "url": "",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            }
-          ],
-          "scraped_total_usd": null,
-          "scraped_n_priced": 0,
-          "scraped_complete": false
-        },
-        {
-          "price_value": 393.0,
-          "price_currency": "USD",
-          "price_display": "393 d\u00f3lares",
-          "total_duration_min": 289,
-          "n_stops": 0,
-          "headline_airline": "LATAM",
-          "operated_by": "Latam Airlines Group",
-          "segments": [
-            {
-              "origin": "GIG",
-              "dest": "SCL",
-              "airline": "Latam Airlines Group",
-              "airline_key": "latam",
-              "depart_time": "18:10",
-              "arrive_time": "21:59",
-              "layover_min": 0,
-              "operated_by": "Latam Airlines Group",
-              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
-              "price_value": null,
-              "price_currency": "",
-              "price_display": "",
-              "price_usd": null,
-              "scrape_status": "skipped",
-              "error": "",
-              "cache_age_s": 0
-            }
-          ],
-          "scraped_total_usd": null,
-          "scraped_n_priced": 0,
-          "scraped_complete": false
-        },
-        {
-          "price_value": 209.0,
-          "price_currency": "USD",
-          "price_display": "209 d\u00f3lares",
+          "price_display": "210 d\u00f3lares",
           "total_duration_min": 820,
           "n_stops": 2,
           "headline_airline": "LATAM",
@@ -1534,9 +1408,227 @@
           "scraped_complete": false
         },
         {
-          "price_value": 335.0,
+          "price_value": 255.0,
           "price_currency": "USD",
-          "price_display": "335 d\u00f3lares",
+          "price_display": "255 d\u00f3lares",
+          "total_duration_min": 695,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Group",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "POA",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "11:00",
+              "arrive_time": "",
+              "layover_min": 355,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=POA&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "POA",
+              "dest": "SCL",
+              "airline": "Latam Airlines Group",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "21:35",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Group",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=POA&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 398.0,
+          "price_currency": "USD",
+          "price_display": "398 d\u00f3lares",
+          "total_duration_min": 289,
+          "n_stops": 0,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Group",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "airline": "Latam Airlines Group",
+              "airline_key": "latam",
+              "depart_time": "18:10",
+              "arrive_time": "21:59",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Group",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 173.0,
+          "price_currency": "USD",
+          "price_display": "173 d\u00f3lares",
+          "total_duration_min": 895,
+          "n_stops": 2,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil, Latam Airlines Group",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "7:40",
+              "arrive_time": "",
+              "layover_min": 245,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "POA",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "",
+              "layover_min": 265,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=POA&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "POA",
+              "dest": "SCL",
+              "airline": "Latam Airlines Group",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "21:35",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Group",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=POA&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 240.0,
+          "price_currency": "USD",
+          "price_display": "240 d\u00f3lares",
+          "total_duration_min": 899,
+          "n_stops": 2,
+          "headline_airline": "JetSMART",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "AEP",
+              "airline": "JetSMART",
+              "airline_key": "jetsmart",
+              "depart_time": "8:05",
+              "arrive_time": "",
+              "layover_min": 385,
+              "operated_by": "JetSMART",
+              "url": "https://jetsmart.com/cl/es/?from=GIG&to=AEP&departure=2026-06-28&adults=1",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "AEP",
+              "dest": "",
+              "airline": "JetSMART",
+              "airline_key": "jetsmart",
+              "depart_time": "",
+              "arrive_time": "",
+              "layover_min": 126,
+              "operated_by": "JetSMART",
+              "url": "https://jetsmart.com/cl/es/?from=AEP&to=&departure=2026-06-28&adults=1",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "",
+              "dest": "SCL",
+              "airline": "JetSMART",
+              "airline_key": "jetsmart",
+              "depart_time": "",
+              "arrive_time": "22:04",
+              "layover_min": 0,
+              "operated_by": "JetSMART",
+              "url": "https://jetsmart.com/cl/es/?from=&to=SCL&departure=2026-06-28&adults=1",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 316.0,
+          "price_currency": "USD",
+          "price_display": "316 d\u00f3lares",
           "total_duration_min": 290,
           "n_stops": 0,
           "headline_airline": "LATAM",
@@ -1566,24 +1658,42 @@
           "scraped_complete": false
         },
         {
-          "price_value": 376.0,
+          "price_value": 331.0,
           "price_currency": "USD",
-          "price_display": "376 d\u00f3lares",
-          "total_duration_min": 1340,
+          "price_display": "331 d\u00f3lares",
+          "total_duration_min": 450,
           "n_stops": 1,
-          "headline_airline": "",
-          "operated_by": "",
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Group",
           "segments": [
             {
               "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "4:50",
+              "arrive_time": "",
+              "layover_min": 115,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
               "dest": "SCL",
-              "airline": "",
-              "airline_key": "",
-              "depart_time": "11:10",
-              "arrive_time": "8:30",
+              "airline": "Latam Airlines Group",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "11:20",
               "layover_min": 0,
-              "operated_by": "",
-              "url": "",
+              "operated_by": "Latam Airlines Group",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
               "price_value": null,
               "price_currency": "",
               "price_display": "",
@@ -1598,9 +1708,41 @@
           "scraped_complete": false
         },
         {
-          "price_value": 409.0,
+          "price_value": 408.0,
           "price_currency": "USD",
-          "price_display": "409 d\u00f3lares",
+          "price_display": "408 d\u00f3lares",
+          "total_duration_min": 1100,
+          "n_stops": 1,
+          "headline_airline": "LATAM y Turkish Airlines",
+          "operated_by": "Latam Airlines Group",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "airline": "Latam Airlines Group",
+              "airline_key": "latam",
+              "depart_time": "15:10",
+              "arrive_time": "8:30",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Group",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=SCL&outbound=2026-06-28&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 411.0,
+          "price_currency": "USD",
+          "price_display": "411 d\u00f3lares",
           "total_duration_min": 290,
           "n_stops": 0,
           "headline_airline": "LATAM",
@@ -1628,9 +1770,41 @@
           "scraped_total_usd": null,
           "scraped_n_priced": 0,
           "scraped_complete": false
+        },
+        {
+          "price_value": 482.0,
+          "price_currency": "USD",
+          "price_display": "482 d\u00f3lares",
+          "total_duration_min": 300,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "SCL",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "18:50",
+              "arrive_time": "22:50",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
         }
       ],
-      "duration_s": 1.4
+      "duration_s": 1.5
     }
   ]
 }
