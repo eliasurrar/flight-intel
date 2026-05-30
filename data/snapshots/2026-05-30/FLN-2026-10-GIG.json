@@ -1,0 +1,1557 @@
+{
+  "trip_key": "FLN-2026-10-GIG",
+  "trip_name": "GIG\u2194FLN 29-oct\u21922-nov 2026",
+  "legs": [
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-10-29"
+    },
+    {
+      "origin": "FLN",
+      "dest": "GIG",
+      "date": "2026-11-02"
+    }
+  ],
+  "snapshot_at": "2026-05-30T13:15:41.317162Z",
+  "sources": {
+    "google_flights": {
+      "ok": true,
+      "duration_s": 0.0,
+      "search_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 76654.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 76654",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "leg_date": "2026-11-02",
+              "airline": "Gol",
+              "departure": "5:25 AM on Mon, Nov 2",
+              "arrival": "6:55 AM on Mon, Nov 2",
+              "duration_min": 90,
+              "stops": 0,
+              "price_value": 113946.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 113946",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 190600.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 76654.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 76654",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "leg_date": "2026-11-02",
+              "airline": "Gol",
+              "departure": "7:30 AM on Mon, Nov 2",
+              "arrival": "9:05 AM on Mon, Nov 2",
+              "duration_min": 95,
+              "stops": 0,
+              "price_value": 113946.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 113946",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 190600.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 76654.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 76654",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "leg_date": "2026-11-02",
+              "airline": "Gol",
+              "departure": "10:50 AM on Mon, Nov 2",
+              "arrival": "12:20 PM on Mon, Nov 2",
+              "duration_min": 90,
+              "stops": 0,
+              "price_value": 113946.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 113946",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 190600.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 131607.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 131607",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "leg_date": "2026-11-02",
+              "airline": "Gol",
+              "departure": "5:25 AM on Mon, Nov 2",
+              "arrival": "6:55 AM on Mon, Nov 2",
+              "duration_min": 90,
+              "stops": 0,
+              "price_value": 113946.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 113946",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 245553.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "leg_date": "2026-10-29",
+              "airline": "",
+              "departure": "",
+              "arrival": "",
+              "duration_min": 0,
+              "stops": 0,
+              "price_value": 131607.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 131607",
+              "is_best": true
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "leg_date": "2026-11-02",
+              "airline": "Gol",
+              "departure": "7:30 AM on Mon, Nov 2",
+              "arrival": "9:05 AM on Mon, Nov 2",
+              "duration_min": 95,
+              "stops": 0,
+              "price_value": 113946.0,
+              "price_currency": "CLP",
+              "price_display": "CLP 113946",
+              "is_best": true
+            }
+          ],
+          "total_price_value": 245553.0,
+          "total_price_currency": "CLP",
+          "composition": "multi-city-sum",
+          "booking_url": "https://www.google.com/travel/flights?tfs=GhwSCjIwMjYtMTAtMjkoAmoFEgNHSUdyBRIDRkxOGhwSCjIwMjYtMTEtMDIoAmoFEgNGTE5yBRIDR0lHQgEBSAGYAQE=&hl=en&curr=USD",
+          "source": "google_flights",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        }
+      ]
+    },
+    "booking": {
+      "ok": true,
+      "duration_s": 27.3,
+      "search_url": "https://flights.booking.com/flights/GIG.AIRPORT-FLN.AIRPORT/?type=ROUNDTRIP&adults=1&cabinClass=ECONOMY&sort=BEST&from=GIG.AIRPORT&to=FLN.AIRPORT&depart=2026-10-29&return=2026-11-02",
+      "quotes": [],
+      "note": "no_results_use_link"
+    },
+    "kayak": {
+      "ok": true,
+      "duration_s": 7.7,
+      "search_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+      "pack_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+      "quotes": [
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 243.0,
+          "price_display": "$243",
+          "price_currency": "USD",
+          "total_duration_min": 140,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n11:00 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a02h 20m layover, self-transfer at Porto Alegre Salgado Filho (POA)\n5h 20m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n0\n0\n$243\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 243.0,
+          "price_display": "$243",
+          "price_currency": "USD",
+          "total_duration_min": 140,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n11:00 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a02h 20m layover, self-transfer at Porto Alegre Salgado Filho (POA)\n5h 20m\nGIG\n-\nFLN\n5:25 am \u2013 6:55 am\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n0\n0\n$243\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 243.0,
+          "price_display": "$243",
+          "price_currency": "USD",
+          "total_duration_min": 140,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n11:00 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a02h 20m layover, self-transfer at Porto Alegre Salgado Filho (POA)\n5h 20m\nGIG\n-\nFLN\n7:05 pm \u2013 8:40 pm\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n0\n0\n$243\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 243.0,
+          "price_display": "$243",
+          "price_currency": "USD",
+          "total_duration_min": 140,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n11:00 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a02h 20m layover, self-transfer at Porto Alegre Salgado Filho (POA)\n5h 20m\nGIG\n-\nFLN\n7:30 am \u2013 9:05 am\nGOL\nnonstop\n1h 35m\nFLN\n-\nGIG\n0\n0\n$243\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "LATAM / GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 269.0,
+          "price_display": "$269",
+          "price_currency": "USD",
+          "total_duration_min": 140,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "Self-transfer hack\n11:00 am \u2013 4:20 pm\nLATAM Airlines\n1 stop\nPOA\n\u00a02h 20m layover, self-transfer at Porto Alegre Salgado Filho (POA)\n5h 20m\nGIG\n-\nFLN\n3:00 pm \u2013 4:30 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n0\n0\n$269\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 274.0,
+          "price_display": "$274",
+          "price_currency": "USD",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "7:30 pm \u2013 9:10 pm\nGOL\nnonstop\n1h 40m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$274\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 274.0,
+          "price_display": "$274",
+          "price_currency": "USD",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "10:15 pm \u2013 11:55 pm\nGOL\nnonstop\n1h 40m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$274\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 274.0,
+          "price_display": "$274",
+          "price_currency": "USD",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "10:15 pm \u2013 11:55 pm\nGOL\nnonstop\n1h 40m\nGIG\n-\nFLN\n5:25 am \u2013 6:55 am\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$274\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 274.0,
+          "price_display": "$274",
+          "price_currency": "USD",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "7:30 pm \u2013 9:10 pm\nGOL\nnonstop\n1h 40m\nGIG\n-\nFLN\n5:25 am \u2013 6:55 am\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$274\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        },
+        {
+          "legs": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "depart_dt": "2026-10-29",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            },
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "depart_dt": "2026-11-02",
+              "arrive_dt": "",
+              "airline": "GOL",
+              "flight_no": "",
+              "duration_min": 0
+            }
+          ],
+          "price_value": 274.0,
+          "price_display": "$274",
+          "price_currency": "USD",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "booking_url": "https://www.kayak.com/flights/GIG-FLN/2026-10-29/FLN-GIG/2026-11-02?sort=price_a",
+          "source": "kayak",
+          "raw_text": "4:45 pm \u2013 6:25 pm\nGOL\nnonstop\n1h 40m\nGIG\n-\nFLN\n10:50 am \u2013 12:20 pm\nGOL\nnonstop\n1h 30m\nFLN\n-\nGIG\n1\n0\n$274\nEconomy Cabin\nSelect",
+          "booking_url_note": "search_link (specific token expired/missing)",
+          "sanity": {
+            "suspect": true,
+            "reasons": [
+              "no carrier operates this route nonstop"
+            ],
+            "distance_km": 758,
+            "min_nonstop_minutes": 86
+          }
+        }
+      ]
+    }
+  },
+  "per_leg_airlines": [
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-10-29",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=FLN&outbound=2026-10-29&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GIG&para=FLN&ida=2026-10-29&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=GIG&Destination=FLN&DepartureDate=2026-10-29&Cabin=Y&Adults=1"
+        }
+      ]
+    },
+    {
+      "origin": "FLN",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "airlines": [
+        {
+          "airline": "latam",
+          "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=GIG&outbound=2026-11-02&adt=1&trip=OW"
+        },
+        {
+          "airline": "gol",
+          "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=FLN&para=GIG&ida=2026-11-02&adultos=1"
+        },
+        {
+          "airline": "azul",
+          "url": "https://www.voeazul.com.br/br/pt/home/compra/busca?TripType=1&Origin=FLN&Destination=GIG&DepartureDate=2026-11-02&Cabin=Y&Adults=1"
+        }
+      ]
+    }
+  ],
+  "unique_segments": [
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-10-29",
+      "airline": "",
+      "airline_key": "",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "FLN",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "airline": "Gol",
+      "airline_key": "gol",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "google_flights",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=FLN&para=GIG&ida=2026-11-02&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "POA",
+      "date": "2026-10-29",
+      "airline": "11:00 am \u2013 4:20 pm",
+      "airline_key": "",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "POA",
+      "dest": "FLN",
+      "date": "2026-10-29",
+      "airline": "11:00 am \u2013 4:20 pm",
+      "airline_key": "",
+      "dep_time": "",
+      "arr_time": "",
+      "source": "kayak",
+      "url": "",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "no_url",
+      "screenshot_path": "",
+      "error": ""
+    },
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-10-29",
+      "airline": "GOL",
+      "airline_key": "gol",
+      "dep_time": "19:30",
+      "arr_time": "21:10",
+      "source": "kayak",
+      "url": "https://b2c.voegol.com.br/compra/busca-parceiros?pv=br&tipo=OW&de=GIG&para=FLN&ida=2026-10-29&adultos=1",
+      "price_value": null,
+      "price_currency": "",
+      "price_display": "",
+      "scrape_status": "pending",
+      "screenshot_path": "",
+      "error": ""
+    }
+  ],
+  "gf_detail_per_leg": [
+    {
+      "origin": "GIG",
+      "dest": "FLN",
+      "date": "2026-10-29",
+      "itineraries": [
+        {
+          "price_value": 87.0,
+          "price_currency": "USD",
+          "price_display": "87 d\u00f3lares",
+          "total_duration_min": 220,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "15:00",
+              "arrive_time": "",
+              "layover_min": 75,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "FLN",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "18:40",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 148.0,
+          "price_currency": "USD",
+          "price_display": "148 d\u00f3lares",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "12:35",
+              "arrive_time": "14:15",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 148.0,
+          "price_currency": "USD",
+          "price_display": "148 d\u00f3lares",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "16:45",
+              "arrive_time": "18:25",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 87.0,
+          "price_currency": "USD",
+          "price_display": "87 d\u00f3lares",
+          "total_duration_min": 265,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "5:00",
+              "arrive_time": "",
+              "layover_min": 115,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "FLN",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "9:25",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 87.0,
+          "price_currency": "USD",
+          "price_display": "87 d\u00f3lares",
+          "total_duration_min": 205,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "7:40",
+              "arrive_time": "",
+              "layover_min": 55,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "FLN",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "11:05",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 87.0,
+          "price_currency": "USD",
+          "price_display": "87 d\u00f3lares",
+          "total_duration_min": 335,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "8:55",
+              "arrive_time": "",
+              "layover_min": 190,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "FLN",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "14:30",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 87.0,
+          "price_currency": "USD",
+          "price_display": "87 d\u00f3lares",
+          "total_duration_min": 285,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "12:05",
+              "arrive_time": "",
+              "layover_min": 140,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "FLN",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "16:50",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 87.0,
+          "price_currency": "USD",
+          "price_display": "87 d\u00f3lares",
+          "total_duration_min": 260,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "19:35",
+              "arrive_time": "",
+              "layover_min": 115,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GIG&destination=GRU&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "FLN",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "23:55",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=FLN&outbound=2026-10-29&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 124.0,
+          "price_currency": "USD",
+          "price_display": "124 d\u00f3lares",
+          "total_duration_min": 545,
+          "n_stops": 1,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "GRU",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "14:50",
+              "arrive_time": "",
+              "layover_min": 395,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "FLN",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "",
+              "arrive_time": "23:55",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 148.0,
+          "price_currency": "USD",
+          "price_display": "148 d\u00f3lares",
+          "total_duration_min": 100,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "GIG",
+              "dest": "FLN",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "8:30",
+              "arrive_time": "10:10",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        }
+      ],
+      "duration_s": 1.2
+    },
+    {
+      "origin": "FLN",
+      "dest": "GIG",
+      "date": "2026-11-02",
+      "itineraries": [
+        {
+          "price_value": 129.0,
+          "price_currency": "USD",
+          "price_display": "129 d\u00f3lares",
+          "total_duration_min": 90,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "5:25",
+              "arrive_time": "6:55",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 129.0,
+          "price_currency": "USD",
+          "price_display": "129 d\u00f3lares",
+          "total_duration_min": 95,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "7:30",
+              "arrive_time": "9:05",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 129.0,
+          "price_currency": "USD",
+          "price_display": "129 d\u00f3lares",
+          "total_duration_min": 90,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "10:50",
+              "arrive_time": "12:20",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 129.0,
+          "price_currency": "USD",
+          "price_display": "129 d\u00f3lares",
+          "total_duration_min": 95,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "19:05",
+              "arrive_time": "20:40",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 152.0,
+          "price_currency": "USD",
+          "price_display": "152 d\u00f3lares",
+          "total_duration_min": 90,
+          "n_stops": 0,
+          "headline_airline": "",
+          "operated_by": "",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "GIG",
+              "airline": "",
+              "airline_key": "",
+              "depart_time": "15:00",
+              "arrive_time": "16:30",
+              "layover_min": 0,
+              "operated_by": "",
+              "url": "",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 185.0,
+          "price_currency": "USD",
+          "price_display": "185 d\u00f3lares",
+          "total_duration_min": 285,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "BSB",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "14:40",
+              "arrive_time": "",
+              "layover_min": 45,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=BSB&outbound=2026-11-02&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "BSB",
+              "dest": "GIG",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "19:25",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=BSB&destination=GIG&outbound=2026-11-02&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 204.0,
+          "price_currency": "USD",
+          "price_display": "204 d\u00f3lares",
+          "total_duration_min": 210,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "10:15",
+              "arrive_time": "",
+              "layover_min": 70,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=GRU&outbound=2026-11-02&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "GIG",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "13:45",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=GIG&outbound=2026-11-02&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        },
+        {
+          "price_value": 204.0,
+          "price_currency": "USD",
+          "price_display": "204 d\u00f3lares",
+          "total_duration_min": 210,
+          "n_stops": 1,
+          "headline_airline": "LATAM",
+          "operated_by": "Latam Airlines Brasil, Latam Airlines Brasil",
+          "segments": [
+            {
+              "origin": "FLN",
+              "dest": "GRU",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "15:15",
+              "arrive_time": "",
+              "layover_min": 60,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=FLN&destination=GRU&outbound=2026-11-02&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            },
+            {
+              "origin": "GRU",
+              "dest": "GIG",
+              "airline": "Latam Airlines Brasil",
+              "airline_key": "latam",
+              "depart_time": "",
+              "arrive_time": "18:45",
+              "layover_min": 0,
+              "operated_by": "Latam Airlines Brasil",
+              "url": "https://www.latamairlines.com/cl/es/ofertas-vuelos?origin=GRU&destination=GIG&outbound=2026-11-02&adt=1&trip=OW",
+              "price_value": null,
+              "price_currency": "",
+              "price_display": "",
+              "price_usd": null,
+              "scrape_status": "skipped",
+              "error": "",
+              "cache_age_s": 0
+            }
+          ],
+          "scraped_total_usd": null,
+          "scraped_n_priced": 0,
+          "scraped_complete": false
+        }
+      ],
+      "duration_s": 1.2
+    }
+  ]
+}

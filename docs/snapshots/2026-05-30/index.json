@@ -1,0 +1,328 @@
+{
+  "snapshot_at": "2026-05-30T13:27:28.603415Z",
+  "trips": [
+    {
+      "key": "FLN-2026-10-SCL",
+      "name": "SCL\u2194FLN 29-oct\u21922-nov 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "FLN",
+          "date": "2026-10-29"
+        },
+        {
+          "origin": "FLN",
+          "dest": "SCL",
+          "date": "2026-11-02"
+        }
+      ],
+      "file": "FLN-2026-10-SCL.json"
+    },
+    {
+      "key": "FLN-2026-10-GIG",
+      "name": "GIG\u2194FLN 29-oct\u21922-nov 2026",
+      "legs": [
+        {
+          "origin": "GIG",
+          "dest": "FLN",
+          "date": "2026-10-29"
+        },
+        {
+          "origin": "FLN",
+          "dest": "GIG",
+          "date": "2026-11-02"
+        }
+      ],
+      "file": "FLN-2026-10-GIG.json"
+    },
+    {
+      "key": "GRU-2026-06",
+      "name": "SCL\u2194GRU 18\u219229 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-18"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-29"
+        }
+      ],
+      "file": "GRU-2026-06.json"
+    },
+    {
+      "key": "GRU-0603-0607",
+      "name": "SCL\u2194GRU 3\u21927 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-03"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-07"
+        }
+      ],
+      "file": "GRU-0603-0607.json"
+    },
+    {
+      "key": "GRU-0603-0608",
+      "name": "SCL\u2194GRU 3\u21928 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-03"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-08"
+        }
+      ],
+      "file": "GRU-0603-0608.json"
+    },
+    {
+      "key": "GRU-0604-0607",
+      "name": "SCL\u2194GRU 4\u21927 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-04"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-07"
+        }
+      ],
+      "file": "GRU-0604-0607.json"
+    },
+    {
+      "key": "GRU-0604-0608",
+      "name": "SCL\u2194GRU 4\u21928 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-04"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-08"
+        }
+      ],
+      "file": "GRU-0604-0608.json"
+    },
+    {
+      "key": "GRU-0604-0609",
+      "name": "SCL\u2194GRU 4\u21929 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-04"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-09"
+        }
+      ],
+      "file": "GRU-0604-0609.json"
+    },
+    {
+      "key": "GRU-0605-0607",
+      "name": "SCL\u2194GRU 5\u21927 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-05"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-07"
+        }
+      ],
+      "file": "GRU-0605-0607.json"
+    },
+    {
+      "key": "GRU-0605-0608",
+      "name": "SCL\u2194GRU 5\u21928 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-05"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-08"
+        }
+      ],
+      "file": "GRU-0605-0608.json"
+    },
+    {
+      "key": "GRU-0605-0609",
+      "name": "SCL\u2194GRU 5\u21929 jun 2026",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GRU",
+          "date": "2026-06-05"
+        },
+        {
+          "origin": "GRU",
+          "dest": "SCL",
+          "date": "2026-06-09"
+        }
+      ],
+      "file": "GRU-0605-0609.json"
+    },
+    {
+      "key": "PAT-A-2026-06-04",
+      "name": "Jue\u2192Dom (10 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-04\u21922026-06-14",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-04"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-06-14"
+        }
+      ],
+      "file": "PAT-A-2026-06-04.json"
+    },
+    {
+      "key": "PAT-A-2026-06-11",
+      "name": "Jue\u2192Dom (10 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-11\u21922026-06-21",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-11"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-06-21"
+        }
+      ],
+      "file": "PAT-A-2026-06-11.json"
+    },
+    {
+      "key": "PAT-A-2026-06-18",
+      "name": "Jue\u2192Dom (10 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-18\u21922026-06-28",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-18"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-06-28"
+        }
+      ],
+      "file": "PAT-A-2026-06-18.json"
+    },
+    {
+      "key": "PAT-A-2026-06-25",
+      "name": "Jue\u2192Dom (10 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-25\u21922026-07-05",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-25"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-07-05"
+        }
+      ],
+      "file": "PAT-A-2026-06-25.json"
+    },
+    {
+      "key": "PAT-B-2026-06-03",
+      "name": "Mi\u00e9\u2192Lun (12 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-03\u21922026-06-15",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-03"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-06-15"
+        }
+      ],
+      "file": "PAT-B-2026-06-03.json"
+    },
+    {
+      "key": "PAT-B-2026-06-10",
+      "name": "Mi\u00e9\u2192Lun (12 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-10\u21922026-06-22",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-10"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-06-22"
+        }
+      ],
+      "file": "PAT-B-2026-06-10.json"
+    },
+    {
+      "key": "PAT-B-2026-06-17",
+      "name": "Mi\u00e9\u2192Lun (12 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-17\u21922026-06-29",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-17"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-06-29"
+        }
+      ],
+      "file": "PAT-B-2026-06-17.json"
+    },
+    {
+      "key": "PAT-B-2026-06-24",
+      "name": "Mi\u00e9\u2192Lun (12 d\u00edas) \u00b7 SCL\u2194GIG 2026-06-24\u21922026-07-06",
+      "legs": [
+        {
+          "origin": "SCL",
+          "dest": "GIG",
+          "date": "2026-06-24"
+        },
+        {
+          "origin": "GIG",
+          "dest": "SCL",
+          "date": "2026-07-06"
+        }
+      ],
+      "file": "PAT-B-2026-06-24.json"
+    }
+  ]
+}
